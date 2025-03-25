@@ -1,0 +1,257 @@
+2024-11-17 07:33:37.086 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-17 07:33:37.087 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-17 07:33:37.088 | INFO     | sc2.controller:create_game:38 - Map:     Equilibrium513AIE
+2024-11-17 07:33:37.089 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Zerg, RandomBuild)
+2024-11-17 07:33:37.092 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-17 07:33:49.728 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2024-11-17 07:33:49.730 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2024-11-17 07:33:50.561 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.13.92440
+2024-11-17 07:33:50.562 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2024-11-17 07:33:50.701 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: Equilibrium AIE and hash: 3540971.
+2024-11-17 07:33:52.106 | 00:00    0ms    0M    0G  12/ 15U [Build] Att at 40
+2024-11-17 07:33:52.163 | [Start] My race: Terran
+2024-11-17 07:33:52.164 | [Start] Opponent race: Zerg
+2024-11-17 07:33:52.165 | [Start] OpponentId: None
+2024-11-17 07:33:52.553 | 00:00   15ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:33:52.727 | 00:01   16ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:33:56.196 | 00:14   16ms   35M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:33:56.256 | 00:14   19ms   45M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:33:56.314 | 00:15   16ms    5M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-17 07:34:04.314 | 00:24   16ms  115M    0G  14/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:34:04.375 | 00:25   17ms  125M    0G  14/ 15U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:34:05.046 | 00:27   16ms   95M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-17 07:34:06.737 | 00:33   19ms  170M    0G  15/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:34:06.794 | 00:34   17ms  175M    0G  15/ 15U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:34:07.778 | 00:37   16ms    0M    0G  15/ 23U [BuildGas] Building REFINERY to (50.5, 126.5)
+2024-11-17 07:34:08.668 | 00:41   18ms   30M    0G  15/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:34:08.726 | 00:41   21ms   30M    0G  15/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:34:08.900 | 00:41   20ms    0M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-17 07:34:12.273 | 00:54   19ms   85M    0G  16/ 23U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-17 07:34:12.344 | 00:54   21ms   85M    0G  17/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:34:12.406 | 00:54   23ms   95M    0G  17/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:34:14.368 | 00:59  666ms  155M    0G  17/ 23U [BuildDetector] POSSIBLE RUSH: PoolFirst.
+2024-11-17 07:34:14.370 | 00:59  666ms  155M    0G  17/ 23U [BuildDetector] POSSIBLE RUSH: PoolFirst.
+2024-11-17 07:34:14.530 | 00:59   28ms  160M    0G  17/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-17 07:34:14.679 | 01:00   32ms  170M    0G  17/ 23U [ChatManager] Tag:E_overlord
+2024-11-17 07:34:14.791 | 01:00   30ms  170M    0G  17/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:34:15.073 | 01:00   30ms  170M    0G  17/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:34:15.221 | 01:01   31ms  175M    0G  17/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:34:15.369 | 01:01   26ms  185M    0G  17/ 23U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -215
+2024-11-17 07:34:15.841 | 01:02   25ms  195M    0G  17/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:34:15.990 | 01:03   28ms  200M    0G  17/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:34:17.059 | 01:06   25ms  185M    8G  17/ 23U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-17 07:34:17.137 | 01:06   31ms  195M    8G  18/ 23U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-17 07:34:21.457 | 01:18   29ms  290M   40G  18/ 23U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-17 07:34:30.808 | 01:44   32ms  400M  108G  19/ 23U [Expand] Expanding to (39.5, 91.5)
+2024-11-17 07:34:32.047 | 01:47   26ms    5M   70G  19/ 23U [TerranUnit] REAPER from BARRACKS at (45.5, 113.5)
+2024-11-17 07:34:33.808 | 01:52   33ms   70M   82G  20/ 31U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-17 07:34:33.911 | 01:52   38ms   70M   82G  20/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-17 07:34:34.226 | 01:53   44ms    0M   86G  20/ 31U [BuildGas] Building REFINERY to (39.5, 116.5)
+2024-11-17 07:34:35.935 | 01:57   38ms    0M   94G  20/ 31U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-17 07:34:36.045 | 01:57   50ms    5M   94G  21/ 31U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-17 07:34:36.055 | 01:57   50ms    5M   94G  21/ 31U [DodgeRampAttack] Supply is 21 -> attack!
+2024-11-17 07:34:36.056 | 01:57   50ms    5M   94G  21/ 31U [DodgeRampAttack] Attack started at 0.00 power.
+2024-11-17 07:34:36.149 | 01:57   41ms    5M   94G  21/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-17 07:34:36.158 | 01:57   41ms    5M   94G  21/ 31U [DodgeRampAttack] No attacking units, starting retreat
+2024-11-17 07:34:40.565 | 02:08   33ms  175M  126G  21/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:34:40.748 | 02:09   38ms  185M  126G  21/ 31U [ChatManager] Tag:E_zergling
+2024-11-17 07:34:41.019 | 02:09   36ms  145M  126G  21/ 31U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-17 07:34:41.124 | 02:09   36ms  150M  130G  22/ 31U [ChatManager] Tag:E_queen
+2024-11-17 07:34:42.656 | 02:13   35ms  220M  138G  21/ 31U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-17 07:34:42.657 | 02:13   35ms  220M  138G  21/ 31U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-17 07:34:44.367 | 02:17   31ms  290M  150G  21/ 31U [DodgeRampAttack] Retreat stopped.
+2024-11-17 07:34:44.440 | 02:18   32ms  295M  150G  21/ 31U [DodgeRampAttack] Supply is 21 -> attack!
+2024-11-17 07:34:44.441 | 02:18   32ms  295M  150G  21/ 31U [DodgeRampAttack] Attack started at 0.00 power.
+2024-11-17 07:34:44.520 | 02:18   34ms  295M  150G  21/ 31U [DodgeRampAttack] No attacking units, starting retreat
+2024-11-17 07:34:45.118 | 02:19   31ms  340M  154G  21/ 31U [BuildAddon] UnitTypeId.BARRACKSREACTOR to (48.0, 113.0)
+2024-11-17 07:34:45.863 | 02:21   32ms  110M   16G  21/ 31U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-17 07:34:50.950 | 02:34   42ms  265M   64G  22/ 31U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-17 07:34:52.779 | 02:38   40ms  315M   80G  23/ 31U [DodgeRampAttack] Retreat stopped.
+2024-11-17 07:34:52.868 | 02:38   42ms  320M   80G  23/ 31U [DodgeRampAttack] Supply is 23 -> attack!
+2024-11-17 07:34:52.869 | 02:38   42ms  320M   80G  23/ 31U [DodgeRampAttack] Attack started at 1.00 power.
+2024-11-17 07:34:56.200 | 02:46   39ms  400M  116G  23/ 31U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-17 07:35:00.414 | 02:55   52ms  525M  160G  24/ 31U [ActUnit] MARINE from BARRACKS at (45.5, 113.5)
+2024-11-17 07:35:00.538 | 02:55   70ms  375M  160G  25/ 31U [ActUnit] MARINE from BARRACKS at (45.5, 113.5)
+2024-11-17 07:35:01.739 | 02:58   36ms  365M  176G  26/ 31U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-17 07:35:04.732 | 03:05   41ms  185M  116G  27/ 46U [BuildAddon] UnitTypeId.FACTORYREACTOR to (55.0, 117.0)
+2024-11-17 07:35:05.333 | 03:07   36ms   10M   74G  27/ 46U [DodgeRampAttack] Retreat started at 1.00 own local power against 2.00 enemy local power.
+2024-11-17 07:35:06.348 | 03:09   39ms   55M   86G  27/ 46U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-17 07:35:06.611 | 03:10   39ms    0M   86G  27/ 46U [BuildGas] Building REFINERY to (32.5, 88.5)
+2024-11-17 07:35:07.924 | ERROR    | sc2.main:run_bot_iteration:158 - Caught exception: 'NoneType' object has no attribute 'to_commmand'
+Traceback (most recent call last):
+
+  File "d:\Bots\DemonT\run.py", line 18, in <module>
+    main()
+    └ <function main at 0x0000027A3239F7E0>
+
+  File "d:\Bots\DemonT\run.py", line 13, in main
+    result, opponentid = run_ladder_game(protoss_bot)
+                         │               └ <sc2.player.Bot object at 0x0000027A323C75D0>
+                         └ <function run_ladder_game at 0x0000027A16CBE5C0>
+
+  File "d:\Bots\DemonT\ladder.py", line 39, in run_ladder_game
+    return stand_alone_game(bot), None
+           │                └ <sc2.player.Bot object at 0x0000027A323C75D0>
+           └ <function stand_alone_game at 0x0000027A2FB04400>
+
+  File "d:\Bots\DemonT\ladder.py", line 166, in stand_alone_game
+    return sc2.main.run_game(sc2.maps.get(map_name), [bot, Computer(Race.Zerg, Difficulty.VeryHard)], realtime=False,)
+           │   │    │        │   │    │   │           │    │        │    │     │          └ <Difficulty.VeryHard: 7>
+           │   │    │        │   │    │   │           │    │        │    │     └ <enum 'Difficulty'>
+           │   │    │        │   │    │   │           │    │        │    └ <Race.Zerg: 2>
+           │   │    │        │   │    │   │           │    │        └ <enum 'Race'>
+           │   │    │        │   │    │   │           │    └ <class 'sc2.player.Computer'>
+           │   │    │        │   │    │   │           └ <sc2.player.Bot object at 0x0000027A323C75D0>
+           │   │    │        │   │    │   └ 'Equilibrium513AIE'
+           │   │    │        │   │    └ <function get at 0x0000027A2FB80040>
+           │   │    │        │   └ <module 'sc2.maps' from 'd:\\Bots\\DemonT\\sc2\\maps.py'>
+           │   │    │        └ <module 'sc2' from 'd:\\Bots\\DemonT\\sc2\\__init__.py'>
+           │   │    └ <function run_game at 0x0000027A2FCC05E0>
+           │   └ <module 'sc2.main' from 'd:\\Bots\\DemonT\\sc2\\main.py'>
+           └ <module 'sc2' from 'd:\\Bots\\DemonT\\sc2\\__init__.py'>
+
+  File "d:\Bots\DemonT\sc2\main.py", line 496, in run_game
+    result: Result = asyncio.run(_host_game(map_settings, players, **kwargs))
+                     │       │   │          │             │          └ {'realtime': False}
+                     │       │   │          │             └ [<sc2.player.Bot object at 0x0000027A323C75D0>, <sc2.player.Computer object at 0x0000027A30DCD550>]
+                     │       │   │          └ Map(D:\StarCraft II\maps\Equilibrium513AIE.SC2Map)
+                     │       │   └ <function _host_game at 0x0000027A2FCC0180>
+                     │       └ <function run at 0x0000027A189160C0>
+                     └ <module 'asyncio' from 'C:\\Users\\Lena\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           │      │   └ <coroutine object _host_game at 0x0000027A3231CF60>
+           │      └ <function Runner.run at 0x0000027A189960C0>
+           └ <asyncio.runners.Runner object at 0x0000027A30DFB6D0>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<_host_game() running at d:\Bots\DemonT\sc2\main.py:369> cb=[_run_until_complete_cb() at C:\...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000027A1898FBA0>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000027A30DFB6D0>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x0000027A18E8FBA0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000027A18995940>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000027A188DAF20>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "d:\Bots\DemonT\sc2\main.py", line 369, in _host_game
+    result = await _play_game(players[0], client, realtime, portconfig, game_time_limit, rgb_render_config)
+                   │          │           │       │         │           │                └ None
+                   │          │           │       │         │           └ None
+                   │          │           │       │         └ None
+                   │          │           │       └ False
+                   │          │           └ <sc2.client.Client object at 0x0000027A30DFAC10>
+                   │          └ [<sc2.player.Bot object at 0x0000027A323C75D0>, <sc2.player.Computer object at 0x0000027A30DCD550>]
+                   └ <function _play_game at 0x0000027A2FC97F60>
+
+  File "d:\Bots\DemonT\sc2\main.py", line 226, in _play_game
+    result = await _play_game_ai(client, player_id, player.ai, realtime, game_time_limit)
+                   │             │       │          │      │   │         └ None
+                   │             │       │          │      │   └ False
+                   │             │       │          │      └ <dummy.dummy.LadderBot object at 0x0000027A30F7A950>
+                   │             │       │          └ <sc2.player.Bot object at 0x0000027A323C75D0>
+                   │             │       └ 1
+                   │             └ <sc2.client.Client object at 0x0000027A30DFAC10>
+                   └ <function _play_game_ai at 0x0000027A2FC97E20>
+
+  File "d:\Bots\DemonT\sc2\main.py", line 196, in _play_game_ai
+    await run_bot_iteration(iteration)  # Main bot loop
+          │                 └ 867
+          └ <function _play_game_ai.<locals>.run_bot_iteration at 0x0000027A323DC540>
+
+> File "d:\Bots\DemonT\sc2\main.py", line 156, in run_bot_iteration
+    await ai.on_step(iteration)
+          │  │       └ 867
+          │  └ <function SkeletonBot.on_step at 0x0000027A2FDDC2C0>
+          └ <dummy.dummy.LadderBot object at 0x0000027A30F7A950>
+
+  File "d:\Bots\DemonT\sharpy\knowledges\skeleton_bot.py", line 64, in on_step
+    await self.knowledge.update(iteration)
+          │    │         │      └ 867
+          │    │         └ <function Knowledge.update at 0x0000027A2FDAF100>
+          │    └ <sharpy.knowledges.knowledge.Knowledge object at 0x0000027A169DDF90>
+          └ <dummy.dummy.LadderBot object at 0x0000027A30F7A950>
+
+  File "d:\Bots\DemonT\sharpy\knowledges\knowledge.py", line 161, in update
+    await manager.update()
+          │       └ <function ActManager.update at 0x0000027A2FB05E40>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x0000027A3242FAD0>
+
+  File "d:\Bots\DemonT\sharpy\managers\core\act_manager.py", line 32, in update
+    await self._act.execute()
+          │    │    └ <function BuildOrder.execute at 0x0000027A3228FCE0>
+          │    └ <sharpy.plans.build_order.BuildOrder object at 0x0000027A32E4B0D0>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x0000027A3242FAD0>
+
+  File "d:\Bots\DemonT\sharpy\plans\build_order.py", line 290, in execute
+    if not await order.execute():
+                 │     └ <function SequentialList.execute at 0x0000027A3228F380>
+                 └ <sharpy.plans.sequential_list.SequentialList object at 0x0000027A32E4B090>
+
+  File "d:\Bots\DemonT\sharpy\plans\sequential_list.py", line 27, in execute
+    result = await order.execute()
+                   │     └ <function PlanZoneDefense.execute at 0x0000027A322E0900>
+                   └ <sharpy.plans.tactics.zone_defense.PlanZoneDefense object at 0x0000027A32E41190>
+
+  File "d:\Bots\DemonT\sharpy\plans\tactics\zone_defense.py", line 125, in execute
+    self.combat.execute(enemy_center, MoveType.SearchAndDestroy)
+    │    │      │       │             │        └ <MoveType.SearchAndDestroy: 0>
+    │    │      │       │             └ <enum 'MoveType'>
+    │    │      │       └ (42.679931640625, 104.719970703125)
+    │    │      └ <function GroupCombatManager.execute at 0x0000027A3227D3A0>
+    │    └ <sharpy.combat.group_combat_manager.GroupCombatManager object at 0x0000027A323C4250>
+    └ <sharpy.plans.tactics.zone_defense.PlanZoneDefense object at 0x0000027A32E41190>
+
+  File "d:\Bots\DemonT\sharpy\combat\group_combat_manager.py", line 109, in execute
+    self.rules.handle_groups_func(self, target, move_type)
+    │    │     │                  │     │       └ <MoveType.SearchAndDestroy: 0>
+    │    │     │                  │     └ (42.679931640625, 104.719970703125)
+    │    │     │                  └ <sharpy.combat.group_combat_manager.GroupCombatManager object at 0x0000027A323C4250>
+    │    │     └ <function DefaultMicroMethods.handle_groups at 0x0000027A2FE08400>
+    │    └ <sharpy.combat.micro_rules.MicroRules object at 0x0000027A323C42D0>
+    └ <sharpy.combat.group_combat_manager.GroupCombatManager object at 0x0000027A323C4250>
+
+  File "d:\Bots\DemonT\sharpy\combat\default_micro_methods.py", line 86, in handle_groups
+    combat.attack_to(group, closest_enemies.center, move_type)
+    │      │         │      │               │       └ <MoveType.SearchAndDestroy: 0>
+    │      │         │      │               └ (42.679931640625, 104.719970703125)
+    │      │         │      └ <sharpy.combat.combat_units.CombatUnits object at 0x0000027A32C6D690>
+    │      │         └ <sharpy.combat.combat_units.CombatUnits object at 0x0000027A32EB2FD0>
+    │      └ <function GroupCombatManager.attack_to at 0x0000027A3227D620>
+    └ <sharpy.combat.group_combat_manager.GroupCombatManager object at 0x0000027A323C4250>
+
+  File "d:\Bots\DemonT\sharpy\combat\group_combat_manager.py", line 132, in attack_to
+    self.action_to(group, target, move_type, True)
+    │    │         │      │       └ <MoveType.SearchAndDestroy: 0>
+    │    │         │      └ (42.679931640625, 104.719970703125)
+    │    │         └ <sharpy.combat.combat_units.CombatUnits object at 0x0000027A32EB2FD0>
+    │    └ <function GroupCombatManager.action_to at 0x0000027A3227D6C0>
+    └ <sharpy.combat.group_combat_manager.GroupCombatManager object at 0x0000027A323C4250>
+
+  File "d:\Bots\DemonT\sharpy\combat\group_combat_manager.py", line 159, in action_to
+    final_action.to_commmand(unit)
+    │                        └ Unit(name='Marine', tag=4369416193)
+    └ None
+
+AttributeError: 'NoneType' object has no attribute 'to_commmand'
+2024-11-17 07:35:07.990 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 52819...
+2024-11-17 07:35:07.992 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

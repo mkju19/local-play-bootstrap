@@ -1,0 +1,79 @@
+2024-11-14 11:14:08.886 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-14 11:14:08.887 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-14 11:14:08.888 | INFO     | sc2.controller:create_game:38 - Map:     Equilibrium513AIE
+2024-11-14 11:14:08.888 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Zerg, RandomBuild)
+2024-11-14 11:14:08.891 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-14 11:14:20.540 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2024-11-14 11:14:20.541 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2024-11-14 11:14:21.328 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.13.92440
+2024-11-14 11:14:21.329 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2024-11-14 11:14:21.460 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: Equilibrium AIE and hash: 3540971.
+2024-11-14 11:14:22.763 | [Start] My race: Terran
+2024-11-14 11:14:22.764 | [Start] Opponent race: Zerg
+2024-11-14 11:14:22.765 | [Start] OpponentId: None
+2024-11-14 11:14:36.874 | 00:56   12ms    0M    0G  13/ 23U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-14 11:14:43.965 | 01:25   13ms  245M    0G  14/ 23U [ActUnit] MARINE from BARRACKS at (175.5, 113.5)
+2024-11-14 11:14:44.024 | 01:25   17ms  200M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-14 11:14:45.216 | 01:30   17ms   45M    0G  16/ 23U [ActUnit] MARINE from BARRACKS at (170.5, 114.5)
+2024-11-14 11:14:47.777 | 01:40   19ms    0M    0G  17/ 23U [ActUnit] MARINE from BARRACKS at (182.5, 112.5)
+2024-11-14 11:14:48.490 | 01:43   15ms   35M    0G  18/ 23U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:14:48.490 | 01:43   15ms   35M    0G  18/ 23U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-14 11:14:48.772 | 01:44   14ms    0M    0G  18/ 23U [ActUnit] MARINE from BARRACKS at (175.5, 113.5)
+2024-11-14 11:14:49.742 | 01:48   15ms    0M    0G  19/ 23U [ActUnit] MARINE from BARRACKS at (170.5, 114.5)
+2024-11-14 11:14:53.057 | 01:58   20ms   60M    0G  20/ 23U [ActUnit] MARINE from BARRACKS at (182.5, 112.5)
+2024-11-14 11:14:54.244 | 02:02   16ms   60M    0G  21/ 23U [ActUnit] MARINE from BARRACKS at (175.5, 113.5)
+2024-11-14 11:14:55.278 | 02:06   17ms   45M    0G  22/ 31U [ActUnit] MARINE from BARRACKS at (170.5, 114.5)
+2024-11-14 11:14:57.734 | 02:15   16ms    0M    0G  23/ 31U [ActUnit] MARINE from BARRACKS at (177.5, 110.5)
+2024-11-14 11:14:58.019 | 02:16   15ms   15M    0G  24/ 31U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:14:58.020 | 02:16   15ms   15M    0G  24/ 31U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-14 11:14:58.833 | 02:19   18ms    0M    0G  24/ 31U [ActUnit] MARINE from BARRACKS at (182.5, 112.5)
+2024-11-14 11:15:00.013 | 02:23   20ms    0M    0G  25/ 31U [ActUnit] MARINE from BARRACKS at (175.5, 113.5)
+2024-11-14 11:15:01.360 | 02:27   16ms    0M    0G  26/ 31U [ActUnit] MARINE from BARRACKS at (170.5, 114.5)
+2024-11-14 11:15:02.808 | 02:33   16ms    0M    0G  27/ 31U [ActUnit] MARINE from BARRACKS at (177.5, 110.5)
+2024-11-14 11:15:03.991 | 02:37   18ms    5M    0G  28/ 39U [ActUnit] MARINE from BARRACKS at (182.5, 112.5)
+2024-11-14 11:15:05.171 | 02:41   18ms   50M    0G  29/ 39U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:15:05.172 | 02:41   18ms   50M    0G  29/ 39U [GameAnalyzer] Predicted army advantage is now ClearAdvantage
+2024-11-14 11:15:05.174 | 02:41   18ms    0M    0G  29/ 39U [ActUnit] MARINE from BARRACKS at (175.5, 113.5)
+2024-11-14 11:15:06.470 | 02:45   18ms    5M    0G  30/ 39U [ActUnit] MARINE from BARRACKS at (170.5, 114.5)
+2024-11-14 11:15:07.978 | 02:50   20ms   15M    0G  31/ 39U [ActUnit] MARINE from BARRACKS at (177.5, 110.5)
+2024-11-14 11:15:09.255 | 02:55   20ms   10M    0G  32/ 39U [ActUnit] MARINE from BARRACKS at (182.5, 112.5)
+2024-11-14 11:15:10.498 | 02:59   20ms    5M    0G  33/ 39U [ActUnit] MARINE from BARRACKS at (175.5, 113.5)
+2024-11-14 11:15:11.851 | 03:03   21ms    5M    0G  34/ 39U [ActUnit] MARINE from BARRACKS at (170.5, 114.5)
+2024-11-14 11:15:13.409 | 03:08   18ms   15M    0G  35/ 39U [ActUnit] MARINE from BARRACKS at (177.5, 110.5)
+2024-11-14 11:15:14.777 | 03:13   21ms   20M    0G  36/ 39U [ActUnit] MARINE from BARRACKS at (182.5, 112.5)
+2024-11-14 11:15:16.061 | 03:17   22ms   20M    0G  37/ 39U [ActUnit] MARINE from BARRACKS at (175.5, 113.5)
+2024-11-14 11:15:17.415 | 03:21   20ms   10M    0G  38/ 39U [ActUnit] MARINE from BARRACKS at (170.5, 114.5)
+2024-11-14 11:15:19.116 | 03:26   21ms   65M    0G  39/ 39U [GameAnalyzer] Known army advantage is now OverwhelmingAdvantage
+2024-11-14 11:15:19.117 | 03:26   21ms   65M    0G  39/ 39U [GameAnalyzer] Predicted army advantage is now OverwhelmingAdvantage
+2024-11-14 11:15:29.549 | 03:57   31ms  175M    0G  39/ 47U [ActUnit] MARINE from BARRACKS at (177.5, 110.5)
+2024-11-14 11:15:29.638 | 03:57   36ms  125M    0G  40/ 47U [ActUnit] MARINE from BARRACKS at (170.5, 114.5)
+2024-11-14 11:15:29.812 | 03:57   30ms   75M    0G  41/ 47U [ActUnit] MARINE from BARRACKS at (182.5, 112.5)
+2024-11-14 11:15:29.939 | 03:57  118ms   30M    0G  42/ 47U [ActUnit] MARINE from BARRACKS at (175.5, 113.5)
+2024-11-14 11:15:36.203 | 04:15   21ms  170M    0G  43/ 55U [ActUnit] MARINE from BARRACKS at (177.5, 110.5)
+2024-11-14 11:15:36.286 | 04:15   26ms   25M    0G  44/ 55U [ActUnit] MARINE from BARRACKS at (170.5, 114.5)
+2024-11-14 11:15:36.769 | 04:16   23ms    0M    0G  45/ 55U [ActUnit] MARINE from BARRACKS at (175.5, 113.5)
+2024-11-14 11:15:38.362 | 04:21   22ms    0M    0G  46/ 55U [ActUnit] MARINE from BARRACKS at (182.5, 112.5)
+2024-11-14 11:15:39.632 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2024-11-14 11:15:39.633 | Result: Defeat
+2024-11-14 11:15:39.633 | Duration: 04:24
+2024-11-14 11:15:39.634 | Step time min: 11
+2024-11-14 11:15:39.634 | Step time avg: 20
+2024-11-14 11:15:39.634 | Step time max: 741
+2024-11-14 11:15:39.635 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2024-11-14 11:15:39.636 | [LostUnitsContents] My lost units minerals by score: 0.0
+2024-11-14 11:15:39.636 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2024-11-14 11:15:39.637 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2024-11-14 11:15:39.638 | [GameAnalyzerEnd] Own units:
+2024-11-14 11:15:39.639 | [GameAnalyzerEnd] MARINE            total:  28 alive:  28 dead:   0 
+2024-11-14 11:15:39.639 | [GameAnalyzerEnd] SCV               total:  15 alive:  15 dead:   0 
+2024-11-14 11:15:39.640 | [GameAnalyzerEnd] SUPPLYDEPOT       total:   6 alive:   6 dead:   0 
+2024-11-14 11:15:39.640 | [GameAnalyzerEnd] BARRACKS          total:   4 alive:   4 dead:   0 
+2024-11-14 11:15:39.641 | [GameAnalyzerEnd] COMMANDCENTER     total:   1 alive:   1 dead:   0 
+2024-11-14 11:15:39.642 | [GameAnalyzerEnd] Enemy units:
+2024-11-14 11:15:39.643 | [GameAnalyzerEnd] DRONE             total:   1 alive:   1 dead:   0 
+2024-11-14 11:15:39.644 | [GameAnalyzerEnd] Minerals max 280 Average 75
+2024-11-14 11:15:39.644 | [GameAnalyzerEnd] Vespene max 0 Average 0
+2024-11-14 11:15:39.645 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot LadderBot(Terran): Defeat
+2024-11-14 11:15:41.684 | INFO     | sc2.protocol:__request:48 - Cannot receive: Game has already ended.
+2024-11-14 11:15:41.685 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 49811...
+2024-11-14 11:15:41.686 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

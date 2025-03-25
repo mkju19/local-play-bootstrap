@@ -1,0 +1,1693 @@
+2024-11-14 11:38:51.646 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-14 11:38:51.647 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-14 11:38:51.648 | INFO     | sc2.controller:create_game:38 - Map:     Gresvan513AIE
+2024-11-14 11:38:51.649 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Zerg, RandomBuild)
+2024-11-14 11:38:51.651 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-14 11:39:04.495 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2024-11-14 11:39:04.496 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2024-11-14 11:39:05.328 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.13.92440
+2024-11-14 11:39:05.329 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2024-11-14 11:39:05.468 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: GresvanAIE and hash: 3547936.
+2024-11-14 11:39:07.009 | [DataManager] No BuildDetector found, enemy build data cannot be saved
+2024-11-14 11:39:07.011 | 00:00    0ms    0M    0G  12/ 15U [Build] Att at 70
+2024-11-14 11:39:07.076 | [Start] My race: Terran
+2024-11-14 11:39:07.077 | [Start] Opponent race: Zerg
+2024-11-14 11:39:07.078 | [Start] OpponentId: None
+2024-11-14 11:39:09.709 | 00:16   16ms   10M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:11.666 | 00:29   17ms  100M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:13.365 | 00:39   16ms    5M    0G  15/ 23U [BuildGas] Building REFINERY to (45.5, 124.5)
+2024-11-14 11:39:14.155 | 00:44   21ms    0M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:16.298 | 00:56   21ms   85M    0G  16/ 23U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:18.526 | 01:09   21ms  190M    8G  17/ 23U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:19.813 | 01:11   23ms  200M   16G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-14 11:39:20.891 | 01:17   30ms  270M   32G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-14 11:39:21.190 | 01:18   29ms  290M   36G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-14 11:39:21.555 | 01:20   25ms  310M   40G  18/ 23U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:39:21.830 | 01:21   27ms  275M   44G  18/ 23U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:23.182 | 01:27   33ms  245M   60G  19/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2024-11-14 11:39:23.290 | 01:27   32ms  245M   60G  19/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-14 11:39:23.865 | 01:30   30ms  275M   68G  19/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2024-11-14 11:39:24.644 | 01:34   32ms  325M   76G  19/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-14 11:39:25.008 | 01:35   30ms  190M   80G  19/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2024-11-14 11:39:28.145 | 01:50   28ms  400M  120G  19/ 23U [Expand] Expanding to (36.5, 89.5)
+2024-11-14 11:39:29.115 | 01:55  116ms    0M  132G  19/ 31U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:39:29.898 | 01:59   33ms    0M  144G  20/ 31U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:30.025 | 01:59   29ms   10M  144G  21/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-14 11:39:30.032 | 01:59   29ms   10M  144G  21/ 31U [DodgeRampAttack] Supply is 21 -> attack!
+2024-11-14 11:39:30.033 | 01:59   29ms   10M  144G  21/ 31U [DodgeRampAttack] Attack started at 0.00 power.
+2024-11-14 11:39:30.126 | 02:00   34ms   15M  148G  21/ 31U [DodgeRampAttack] No attacking units, starting retreat
+2024-11-14 11:39:30.992 | 02:04   31ms    0M  160G  21/ 31U [BuildGas] Building REFINERY to (42.5, 128.5)
+2024-11-14 11:39:32.495 | 02:11   31ms   60M  180G  21/ 31U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:32.770 | 02:13   29ms   80M  184G  22/ 31U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:39:32.776 | 02:13   29ms   30M  184G  22/ 31U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:39:34.212 | 02:19   35ms  135M  200G  23/ 31U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:39:34.418 | 02:20   35ms  145M  200G  23/ 31U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:39:34.516 | 02:20   36ms  145M  204G  23/ 31U [DodgeRampAttack] Supply is 23 -> attack!
+2024-11-14 11:39:34.517 | 02:20   36ms  145M  204G  23/ 31U [DodgeRampAttack] Attack started at 1.00 power.
+2024-11-14 11:39:35.385 | 02:24   39ms   20M  112G  23/ 31U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:35.507 | 02:24   37ms   30M  112G  24/ 31U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:39:37.020 | 02:30   35ms  125M  132G  23/ 31U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:39:37.030 | 02:30   35ms   75M  132G  23/ 31U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:39:38.356 | 02:36   39ms  120M  152G  24/ 31U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:41.389 | 02:48   37ms  235M  204G  25/ 31U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:39:41.512 | 02:49   43ms  190M  204G  26/ 31U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:42.064 | 02:51   38ms  155M  212G  27/ 31U [GameAnalyzer] Predicted army advantage is now OverwhelmingDisadvantage
+2024-11-14 11:39:43.238 | 02:55   42ms  200M  228G  27/ 31U [DodgeRampAttack] Retreat started at 1.00 own local power against 2.48 enemy local power.
+2024-11-14 11:39:43.533 | 02:56   40ms  205M  232G  27/ 31U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:39:44.823 | 03:01   42ms  245M  252G  27/ 31U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:45.165 | 03:03   38ms  260M  256G  28/ 31U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:39:46.168 | 03:06   40ms  330M  272G  27/ 31U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:39:46.174 | 03:06   40ms  280M  272G  27/ 31U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:39:46.537 | 03:07   46ms  155M  180G  28/ 31U [DefensiveBuilding] Building BUNKER to (41.43196961916072, 90.32199493652679)
+2024-11-14 11:39:46.887 | 03:09   40ms   75M  184G  28/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-14 11:39:47.338 | 03:11   41ms   90M  192G  28/ 46U [GameAnalyzer] Income advantage is now Even
+2024-11-14 11:39:48.693 | 03:15   45ms   20M  212G  28/ 54U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:39:48.807 | 03:16   42ms   25M  216G  28/ 54U [DodgeRampAttack] Supply is 28 -> attack!
+2024-11-14 11:39:48.808 | 03:16   42ms   25M  216G  28/ 54U [DodgeRampAttack] Attack started at 3.00 power.
+2024-11-14 11:39:49.245 | 03:18   39ms   10M  224G  28/ 54U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:50.921 | 03:24   39ms   85M  256G  29/ 54U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:39:50.927 | 03:24   39ms   35M  256G  29/ 54U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:39:52.630 | 03:30   44ms  105M  288G  30/ 54U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:54.048 | 03:35   44ms   55M  316G  31/ 54U [BuildAddon] UnitTypeId.FACTORYTECHLAB to (49.0, 117.0)
+2024-11-14 11:39:55.217 | 03:39   45ms   80M  311G  30/ 54U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:39:55.219 | 03:39   45ms   30M  311G  30/ 54U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:39:56.189 | 03:42   50ms  100M  331G  31/ 54U [DodgeRampAttack] Retreat started at 2.00 own local power against 2.97 enemy local power.
+2024-11-14 11:39:56.304 | 03:43   48ms   55M  335G  31/ 54U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:39:56.549 | 03:44   40ms   60M  335G  32/ 54U [BuildAddon] UnitTypeId.STARPORTTECHLAB to (35.0, 113.0)
+2024-11-14 11:39:56.796 | 03:45   39ms    0M  318G  32/ 54U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:39:58.811 | 03:52   42ms  125M  358G  33/ 54U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:39:59.811 | 03:55   48ms  190M  374G  34/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-14 11:39:59.813 | 03:55   48ms  140M  374G  34/ 54U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:40:01.639 | 04:01   44ms  165M  310G  35/ 54U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:40:01.901 | 04:02   46ms  175M  314G  38/ 54U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:40:02.021 | 04:03   51ms  160M  314G  38/ 54U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:40:02.027 | 04:03   51ms  160M  314G  38/ 54U [DodgeRampAttack] Supply is 38 -> attack!
+2024-11-14 11:40:02.027 | 04:03   51ms  160M  314G  38/ 54U [DodgeRampAttack] Attack started at 1.00 power.
+2024-11-14 11:40:02.488 | 04:04   47ms  170M  322G  39/ 54U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:40:03.029 | 04:06   49ms  195M  334G  40/ 54U [DodgeRampAttack] No attacking units, starting retreat
+2024-11-14 11:40:03.541 | 04:08   46ms  185M  346G  40/ 54U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:40:06.023 | 04:16   43ms  265M  261G  41/ 54U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:40:06.284 | 04:17   47ms  125M  269G  44/ 54U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:40:07.306 | 04:20   46ms  190M  285G  45/ 54U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:40:07.705 | 04:22   50ms  155M  293G  46/ 54U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:40:08.046 | 04:22   51ms  160M  301G  47/ 54U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:40:09.127 | 04:26   52ms  260M  317G  48/ 54U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:40:09.271 | 04:26   53ms  275M  321G  48/ 54U [DodgeRampAttack] Supply is 48 -> attack!
+2024-11-14 11:40:09.274 | 04:26   53ms  275M  321G  48/ 54U [DodgeRampAttack] Attack started at 2.00 power.
+2024-11-14 11:40:10.214 | 04:29   51ms  295M  333G  48/ 54U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:40:10.378 | 04:30   61ms  335M  337G  49/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-14 11:40:10.536 | 04:30   63ms  240M  341G  49/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-14 11:40:11.424 | 04:33   53ms  165M  353G  49/ 54U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:40:12.475 | 04:36   55ms  340M  373G  50/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-14 11:40:12.621 | 04:36   57ms  275M  373G  50/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-14 11:40:12.766 | 04:37   55ms  395M  373G  50/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-14 11:40:13.629 | 04:39   58ms  430M  389G  50/ 54U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:40:14.006 | 04:40   57ms  390M  397G  51/ 54U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:40:14.441 | 04:42   52ms  375M  405G  52/ 54U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:40:15.309 | 04:44   55ms  465M  417G  53/ 62U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:40:15.311 | 04:44   55ms  465M  417G  53/ 62U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:40:15.317 | 04:44   55ms  165M  317G  53/ 62U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:40:15.624 | 04:45   55ms  140M  321G  56/ 62U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:40:16.590 | 04:48   53ms   40M  337G  57/ 62U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:40:18.742 | 04:54   59ms  270M  369G  57/ 62U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:40:19.691 | 04:57   71ms  350M  385G  58/ 62U [DodgeRampAttack] Retreat started at 2.00 own local power against 2.88 enemy local power.
+2024-11-14 11:40:19.849 | 04:57   65ms  365M  385G  58/ 62U [BuildAddon] UnitTypeId.BARRACKSTECHLAB to (42.0, 113.0)
+2024-11-14 11:40:20.095 | 04:58   62ms  295M  364G  57/ 62U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:40:20.272 | 04:58   64ms  330M  368G  58/ 70U [BuildAddon] UnitTypeId.BARRACKSREACTOR to (44.0, 110.0)
+2024-11-14 11:40:20.777 | 05:00   55ms  160M  226G  57/ 70U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:40:23.357 | 05:07   56ms  355M  266G  57/ 70U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:40:24.590 | 05:10   69ms  430M  282G  58/ 70U [GameAnalyzer] Income advantage is now Even
+2024-11-14 11:40:24.769 | 05:10   71ms  440M  282G  58/ 78U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:40:24.770 | 05:10   71ms  440M  282G  58/ 78U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:40:24.772 | 05:10   71ms  390M  282G  58/ 78U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:40:26.776 | 05:16   62ms  545M  314G  59/ 78U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:40:27.255 | 05:17   64ms  585M  318G  60/ 78U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:40:27.497 | 05:17   67ms  595M  322G  60/ 78U [DodgeRampAttack] Supply is 60 -> attack!
+2024-11-14 11:40:27.498 | 05:17   67ms  595M  322G  60/ 78U [DodgeRampAttack] Attack started at 10.00 power.
+2024-11-14 11:40:28.148 | 05:19   70ms  615M  330G  60/ 78U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:40:29.634 | 05:23  158ms  675M  350G  61/ 78U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:40:31.427 | 05:27   72ms  825M  374G  62/ 78U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:40:31.428 | 05:27   72ms  825M  374G  62/ 78U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:40:31.435 | 05:27   72ms  725M  224G  62/ 78U [ActUnit] RAVEN from STARPORT at (32.5, 113.5)
+2024-11-14 11:40:33.612 | 05:32   83ms  825M  252G  64/ 78U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:40:34.698 | 05:33   73ms  730M  260G  65/ 78U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:40:34.896 | 05:34   80ms  690M  260G  66/ 78U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:40:35.097 | 05:34   85ms  660M  264G  67/ 78U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:40:35.291 | 05:35   78ms  620M  268G  68/ 78U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:40:35.481 | 05:35   78ms  485M  268G  69/ 78U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:40:37.293 | 05:39   82ms  525M  292G  70/ 78U [BuildAddon] UnitTypeId.STARPORTTECHLAB to (50.0, 129.0)
+2024-11-14 11:40:37.503 | 05:40   85ms  480M  267G  70/ 78U [Expand] Expanding to (36.5, 64.5)
+2024-11-14 11:40:39.989 | 05:45  129ms   10M  199G  70/ 78U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:40:41.341 | 05:48   81ms  190M  261G  69/ 78U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:40:42.597 | 05:50   75ms  120M  223G  68/ 78U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-14 11:40:43.896 | 05:53   77ms   30M  189G  68/ 78U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:40:43.897 | 05:53   77ms   30M  189G  68/ 78U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:40:44.118 | 05:54   91ms   50M  193G  68/ 78U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:40:44.119 | 05:54   91ms   50M  193G  68/ 78U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:40:44.133 | 05:54   91ms    0M  193G  68/ 78U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:40:44.542 | 05:54   84ms  115M  247G  69/ 78U [BuildGas] Building REFINERY to (33.5, 82.5)
+2024-11-14 11:40:45.149 | 05:56   73ms  105M  255G  69/ 78U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:40:45.774 | 05:57   87ms   45M  113G  70/ 78U [ActUnit] RAVEN from STARPORT at (47.5, 129.5)
+2024-11-14 11:40:45.971 | 05:58   88ms    5M  113G  72/ 86U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:40:46.479 | 05:58   87ms   25M  121G  70/ 86U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:40:46.880 | 05:59   75ms    5M  125G  70/ 86U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:40:47.447 | 06:01   91ms    5M  129G  71/ 86U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:40:47.891 | 06:02   93ms   25M  137G  72/ 86U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:40:47.892 | 06:02   93ms   25M  137G  72/ 86U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:40:49.066 | 06:04  163ms   90M  149G  72/ 94U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:40:49.067 | 06:04  163ms   90M  149G  72/ 94U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:40:49.984 | 06:06  128ms    5M   61G  72/ 94U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:40:50.834 | 06:07   80ms    5M   69G  75/ 94U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:40:51.899 | 06:10   79ms    0M   81G  76/ 94U [BuildGas] Building REFINERY to (29.5, 86.5)
+2024-11-14 11:40:52.111 | 06:10   73ms   15M   85G  76/ 94U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-14 11:40:52.744 | 06:11   85ms   60M   89G  75/ 94U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-14 11:40:52.750 | 06:11   85ms   10M   89G  75/ 94U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:40:53.557 | 06:13   84ms    5M  101G  76/ 94U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:40:54.429 | 06:15  128ms   50M  109G  77/ 94U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:40:54.448 | 06:15  128ms    0M  109G  77/ 94U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:40:55.357 | 06:16   91ms   10M  117G  78/ 94U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:40:56.179 | 06:18  117ms    0M  125G  79/ 94U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:40:57.553 | 06:20  106ms   75M  133G  80/ 94U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:40:59.832 | 06:24   94ms   60M  157G  77/ 94U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:41:00.514 | 06:25   85ms   55M  165G  78/ 94U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:41:00.784 | 06:26  129ms   20M  165G  79/ 94U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:41:03.760 | 06:31  104ms  180M  197G  78/ 94U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:41:04.241 | 06:31   95ms  220M  197G  78/ 94U [Tech] Started TERRANSHIPWEAPONSLEVEL1
+2024-11-14 11:41:04.248 | 06:31   95ms   70M   97G  78/ 94U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:41:04.671 | 06:32   84ms  140M  105G  78/ 94U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:41:04.994 | 06:33   94ms    0M    5G  78/ 94U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:41:05.970 | 06:35  108ms   20M   17G  80/ 94U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:41:06.675 | 06:36   94ms   45M   25G  81/ 94U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:41:06.676 | 06:36   94ms   45M   25G  81/ 94U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:41:06.899 | 06:36   97ms   20M   29G  81/ 94U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:41:07.340 | 06:37   85ms    0M   45G  82/ 94U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:41:08.432 | 06:39  186ms   10M   57G  83/ 94U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:41:09.082 | 06:40   85ms   55M   61G  83/ 94U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:41:09.741 | 06:41  119ms   75M   77G  83/ 94U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:41:10.933 | 06:43   88ms   45M   93G  83/ 94U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:41:12.343 | 06:45  151ms  125M  113G  83/ 94U [DodgeRampAttack] Retreat started at 3.31 own local power against 12.70 enemy local power.
+2024-11-14 11:41:12.955 | 06:47   81ms  150M  129G  83/102U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:41:13.278 | 06:47   94ms  180M  137G  81/102U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:41:13.967 | 06:48  102ms  225M  153G  81/102U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:41:13.968 | 06:48  102ms  225M  153G  81/102U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:41:14.256 | 06:49  103ms  190M  157G  81/102U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:41:15.482 | 06:51  199ms  265M  177G  82/102U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:15.483 | 06:51  199ms  165M   27G  82/102U [ActUnit] RAVEN from STARPORT at (32.5, 113.5)
+2024-11-14 11:41:15.685 | 06:52  107ms  130M   35G  84/102U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:41:16.918 | 06:54   91ms  180M   67G  85/102U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:41:17.647 | 06:56   88ms  180M   75G  86/102U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:41:18.524 | 06:57   93ms  195M   99G  87/102U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:41:19.142 | 06:59   89ms  180M  115G  88/102U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:41:20.531 | 07:01   97ms  215M  139G  89/102U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:41:20.811 | 07:02  118ms  225M  147G  90/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-14 11:41:20.830 | 07:02  118ms    0M  147G  90/117U [BuildGas] Building REFINERY to (35.5, 71.5)
+2024-11-14 11:41:21.994 | 07:04   90ms   15M  167G  90/117U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:41:22.649 | 07:05   84ms   65M  183G  91/125U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:41:22.843 | 07:06   88ms    0M  187G  91/125U [BuildGas] Building REFINERY to (39.5, 71.5)
+2024-11-14 11:41:22.860 | 07:06   88ms    0M  187G  91/125U [DodgeRampAttack] Supply is 91 -> attack!
+2024-11-14 11:41:22.861 | 07:06   88ms    0M  187G  91/125U [DodgeRampAttack] Attack started at 17.16 power.
+2024-11-14 11:41:27.031 | 07:13   93ms   60M  175G  91/125U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:41:27.338 | 07:14  112ms   35M  179G  91/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:41:28.350 | 07:16  116ms  100M  195G  92/125U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:41:28.982 | 07:17  105ms  145M  207G  92/125U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:41:28.984 | 07:17  105ms   95M  207G  92/125U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:41:30.185 | 07:19  106ms  145M  227G  93/125U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:41:33.259 | 07:25  101ms   80M   91G  93/125U [GameAnalyzer] Income advantage is now Even
+2024-11-14 11:41:34.368 | 07:26  157ms  125M  111G  92/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:41:34.657 | 07:27  121ms  100M  119G  90/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 64.5)
+2024-11-14 11:41:36.007 | 07:29  115ms  115M  139G  89/125U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:41:37.581 | 07:32  116ms  255M  175G  89/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:37.583 | 07:32  116ms  105M   75G  89/125U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:41:37.585 | 07:32  116ms   55M   75G  89/125U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:41:41.400 | 07:39   98ms  325M  163G  87/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:41:41.718 | 07:39  102ms  290M  163G  88/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 64.5)
+2024-11-14 11:41:42.212 | 07:40  101ms  305M  179G  89/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:42.214 | 07:40  101ms  155M   79G  89/125U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:41:42.217 | 07:40  101ms  105M   79G  89/125U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:41:42.902 | 07:42  115ms  185M   99G  93/125U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-14 11:41:42.905 | 07:42  115ms  135M   99G  93/125U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:41:45.872 | 07:47  104ms  370M  175G  93/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:45.875 | 07:47  104ms  320M  175G  93/125U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:41:46.123 | 07:47  109ms  335M  183G  93/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:46.125 | 07:47  109ms  285M  183G  93/125U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:41:46.357 | 07:48  104ms  285M  187G  94/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:46.594 | 07:48   98ms  315M  191G  94/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:46.825 | 07:49  104ms  335M  199G  93/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:47.055 | 07:49   98ms  365M  203G  93/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:47.276 | 07:50  104ms  380M  211G  92/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:47.278 | 07:50  104ms  330M  211G  92/125U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:41:47.496 | 07:50  101ms  340M  215G  90/125U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:41:47.497 | 07:50  101ms  340M  215G  90/125U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:41:47.512 | 07:50  101ms  340M  215G  90/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:47.819 | 07:50  108ms  365M  227G  90/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:47.823 | 07:50  108ms  215M  102G  90/125U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:41:48.260 | 07:51  100ms  200M  114G  93/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:41:48.484 | 07:52   99ms  155M  122G  94/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 64.5)
+2024-11-14 11:41:49.744 | 07:54  200ms  235M  150G  95/125U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:41:50.201 | 07:55  109ms  280M  166G  96/125U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-14 11:41:50.441 | 07:55  104ms  295M  178G  96/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:50.672 | 07:56  104ms  330M  182G  96/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:50.676 | 07:56  104ms  180M  107G  96/125U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:41:52.383 | 07:59   99ms  300M  155G  98/125U [BuildAddon] UnitTypeId.STARPORTTECHLAB to (56.0, 122.0)
+2024-11-14 11:41:53.675 | 08:01  111ms  330M  162G  98/125U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:41:53.904 | 08:02  111ms  335M  170G  99/125U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:41:53.905 | 08:02  111ms  335M  170G  99/125U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:41:54.160 | 08:02  113ms  360M  178G  99/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:54.397 | 08:03  103ms  365M  186G  99/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:54.635 | 08:03  106ms  390M  194G  99/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:54.876 | 08:03  108ms  420M  202G  99/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:55.200 | 08:04  114ms  290M  206G  99/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:41:55.214 | 08:04  114ms  290M  206G  99/125U [BuildAddon] UnitTypeId.STARPORTTECHLAB to (56.0, 117.0)
+2024-11-14 11:41:55.216 | 08:04  114ms  290M  206G  99/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:55.446 | 08:04  205ms  205M  189G 100/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 64.5)
+2024-11-14 11:41:55.458 | 08:04  205ms  205M  189G 100/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:55.700 | 08:05  111ms  210M  197G 101/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:55.703 | 08:05  111ms  160M  197G 101/125U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:41:55.938 | 08:05  112ms  200M  205G 102/125U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-14 11:41:55.939 | 08:05  112ms  200M  205G 102/125U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:41:55.953 | 08:05  112ms  200M  205G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:55.959 | 08:05  112ms  150M  205G 102/125U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:41:56.193 | 08:06  124ms  165M  213G 100/125U [GameAnalyzer] Known army advantage is now OverwhelmingDisadvantage
+2024-11-14 11:41:56.194 | 08:06  124ms  165M  213G 100/125U [GameAnalyzer] Predicted army advantage is now OverwhelmingDisadvantage
+2024-11-14 11:41:56.231 | 08:06  124ms  165M  213G 100/125U [DodgeRampAttack] Retreat started at 3.31 own local power against 22.80 enemy local power.
+2024-11-14 11:41:56.451 | 08:06  108ms  185M  217G 100/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:56.675 | 08:07  104ms  170M  229G 100/125U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:41:56.994 | 08:07  103ms  200M  233G 101/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:57.226 | 08:07  198ms  215M  241G 101/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:57.229 | 08:07  198ms  165M  241G 101/125U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:41:57.467 | 08:08  108ms  190M  253G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:57.691 | 08:08  105ms  200M  253G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:57.918 | 08:09  107ms  220M  261G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:58.145 | 08:09  110ms  245M  269G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:58.370 | 08:10  106ms  255M  277G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:58.691 | 08:10  113ms  285M  285G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:58.924 | 08:11  195ms  290M  289G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:59.142 | 08:11  108ms  320M  301G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:59.374 | 08:11  103ms  345M  305G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:59.590 | 08:12  105ms  355M  313G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:41:59.820 | 08:12  102ms  365M  325G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:00.057 | 08:13  110ms  400M  329G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:00.286 | 08:13  109ms  420M  333G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:00.613 | 08:14  114ms  465M  341G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:00.847 | 08:14  199ms  485M  349G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:01.065 | 08:15  110ms  485M  357G 102/125U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:42:01.066 | 08:15  110ms  485M  357G 102/125U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:42:01.082 | 08:15  110ms  485M  357G 102/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:01.084 | 08:15  110ms  335M  257G 102/125U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:42:01.329 | 08:15  108ms  380M  261G 105/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:01.566 | 08:15  110ms  405M  273G 105/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:01.805 | 08:16  110ms  410M  277G 105/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:02.033 | 08:16  113ms  385M  285G 105/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:42:02.048 | 08:16  113ms  385M  285G 105/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:02.362 | 08:17  110ms  340M  297G 106/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 64.5)
+2024-11-14 11:42:02.380 | 08:17  110ms  340M  297G 106/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:02.634 | 08:17  207ms  275M  301G 107/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:02.638 | 08:17  207ms  125M  201G 107/125U [ActUnit] BANSHEE from STARPORT at (53.5, 122.5)
+2024-11-14 11:42:03.552 | 08:19  104ms   50M  229G 110/125U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:42:04.858 | 08:21  112ms  175M  269G 111/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:05.106 | 08:22  127ms  195M  273G 111/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:05.108 | 08:22  127ms   45M  173G 111/125U [ActUnit] BANSHEE from STARPORT at (53.5, 117.5)
+2024-11-14 11:42:05.805 | 08:23  101ms  200M  197G 114/125U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:42:05.807 | 08:23  101ms  200M  197G 114/125U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:42:06.657 | 08:24  202ms  265M  217G 114/125U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:06.659 | 08:24  202ms  115M  117G 114/125U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:42:06.660 | 08:24  202ms   65M  117G 114/125U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:42:07.410 | 08:26  103ms   45M  141G 118/125U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:42:07.633 | 08:26  112ms   55M  145G 118/125U [BuildAddon] UnitTypeId.STARPORTREACTOR to (50.0, 109.0)
+2024-11-14 11:42:07.653 | 08:26  112ms   55M  145G 118/125U [DodgeRampAttack] Supply is 118 -> attack!
+2024-11-14 11:42:07.657 | 08:26  112ms   55M  145G 118/125U [DodgeRampAttack] Attack started at 22.14 power.
+2024-11-14 11:42:08.978 | 08:28  203ms  100M  135G 118/125U [Tech] Started SHIELDWALL
+2024-11-14 11:42:09.775 | 08:30  116ms   25M   51G 118/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 64.5)
+2024-11-14 11:42:10.286 | 08:31  109ms   10M   67G 119/125U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:42:11.187 | 08:32  144ms   30M   91G 120/125U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:42:16.255 | 08:40  121ms  440M  219G 121/133U [Expand] Expanding to (62.5, 99.5)
+2024-11-14 11:42:17.666 | 08:42  124ms  105M  259G 121/133U [ActUnit] SCV from COMMANDCENTER at (36.5, 64.5)
+2024-11-14 11:42:18.196 | 08:43  115ms   60M  275G 122/133U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:42:19.108 | 08:45  220ms   15M  291G 123/133U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:42:19.620 | 08:45  112ms   25M  307G 124/141U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-14 11:42:24.361 | 08:53  129ms  405M  423G 124/149U [Expand] Expanding to (65.5, 72.5)
+2024-11-14 11:42:25.898 | 08:55  141ms  100M  459G 124/149U [ActUnit] SCV from COMMANDCENTER at (36.5, 64.5)
+2024-11-14 11:42:26.212 | 08:55  148ms  105M  471G 125/149U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:42:26.213 | 08:55  148ms  105M  471G 125/149U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:42:26.516 | 08:56  144ms   75M  475G 124/149U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:42:27.539 | 08:57  140ms  115M  499G 123/149U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:42:28.481 | 08:58  140ms  175M  519G 122/149U [Tech] Started TERRANSHIPWEAPONSLEVEL2
+2024-11-14 11:42:28.483 | 08:58  140ms   25M  419G 122/149U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:42:30.017 | 09:01  126ms  110M  380G 115/149U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:42:30.018 | 09:01  126ms  110M  380G 115/149U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:42:31.575 | 09:03  231ms  250M  416G 114/149U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:31.577 | 09:03  231ms  100M  316G 114/149U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:42:31.579 | 09:03  231ms   50M  316G 114/149U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:42:32.412 | 09:04  114ms  100M  340G 118/149U [DodgeRampAttack] Retreat started at 6.88 own local power against 23.92 enemy local power.
+2024-11-14 11:42:34.142 | 09:07  127ms  255M  388G 112/149U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:34.144 | 09:07  127ms  105M  288G 112/149U [ActUnit] BANSHEE from STARPORT at (53.5, 122.5)
+2024-11-14 11:42:34.145 | 09:07  127ms   55M  288G 112/149U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:42:34.388 | 09:07  134ms   35M  292G 116/149U [ActUnit] SCV from COMMANDCENTER at (36.5, 64.5)
+2024-11-14 11:42:34.892 | 09:08  111ms   25M  304G 117/149U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:42:35.761 | 09:10  122ms   70M  324G 118/157U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:42:38.053 | 09:13  126ms  255M  384G 119/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:38.055 | 09:13  126ms  105M  284G 119/157U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:42:38.058 | 09:13  126ms   55M  284G 119/157U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:42:40.360 | 09:17  127ms  260M  340G 123/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:40.362 | 09:17  127ms  110M  240G 123/157U [ActUnit] BANSHEE from STARPORT at (53.5, 117.5)
+2024-11-14 11:42:40.364 | 09:17  127ms   60M  240G 123/157U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:42:42.362 | 09:20  122ms  210M  292G 127/157U [ActUnit] SCV from COMMANDCENTER at (36.5, 64.5)
+2024-11-14 11:42:43.052 | 09:21  217ms  250M  308G 127/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:43.058 | 09:21  217ms  200M  308G 127/157U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:42:43.341 | 09:21  144ms  215M  316G 128/157U [GameAnalyzer] Income advantage is now OverwhelmingAdvantage
+2024-11-14 11:42:43.643 | 09:22  140ms  250M  328G 127/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:43.964 | 09:22  129ms  270M  328G 127/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:44.242 | 09:22  151ms  280M  336G 127/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:44.732 | 09:23  173ms  305M  344G 127/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:44.735 | 09:23  173ms  155M  269G 127/157U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:42:45.619 | 09:24  125ms  155M  289G 129/157U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:42:45.915 | 09:25  142ms  175M  301G 129/157U [DodgeRampAttack] Supply is 129 -> attack!
+2024-11-14 11:42:45.916 | 09:25  142ms  175M  301G 129/157U [DodgeRampAttack] Attack started at 17.14 power.
+2024-11-14 11:42:46.703 | 09:26  197ms  265M  313G 129/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:46.707 | 09:26  197ms  215M  313G 129/157U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:42:47.462 | 09:26  175ms  250M  329G 130/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:47.899 | 09:27  227ms  260M  333G 130/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:48.263 | 09:27  178ms  275M  345G 130/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:48.814 | 09:28  174ms  325M  349G 130/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:48.818 | 09:28  174ms  175M  274G 130/157U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:42:50.777 | 09:30  157ms  290M  310G 132/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:51.311 | 09:30  184ms  300M  322G 132/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:51.314 | 09:30  184ms  150M  197G 132/157U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:42:53.231 | 09:33  186ms  295M  229G 135/157U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:42:54.286 | 09:34  162ms  365M  253G 136/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:54.584 | 09:35  162ms  385M  257G 136/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:54.589 | 09:35  162ms  335M  257G 136/157U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:42:54.885 | 09:35  149ms  255M  269G 137/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:55.545 | 09:36  148ms  195M  281G 137/157U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-14 11:42:56.160 | 09:37  142ms  255M  293G 137/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:56.448 | 09:37  149ms  265M  301G 137/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:56.727 | 09:38  141ms  280M  309G 137/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:57.026 | 09:38  134ms  355M  317G 137/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:57.423 | 09:39  150ms  365M  325G 137/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:57.426 | 09:39  150ms  315M  325G 137/157U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:42:57.739 | 09:39  243ms  430M  329G 138/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:58.036 | 09:39  141ms  455M  341G 138/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:58.350 | 09:40  145ms  490M  345G 138/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:58.667 | 09:40  146ms  540M  353G 138/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:59.090 | 09:41  147ms  560M  365G 138/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:59.388 | 09:41  243ms  570M  369G 138/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:42:59.692 | 09:42  140ms  590M  373G 138/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:00.013 | 09:42  150ms  620M  381G 138/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:00.327 | 09:43  162ms  640M  389G 138/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:00.628 | 09:43  153ms  655M  397G 138/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:01.014 | 09:43  150ms  680M  401G 138/157U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:43:01.015 | 09:43  150ms  680M  401G 138/157U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:43:01.042 | 09:43  150ms  680M  401G 138/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:01.045 | 09:43  150ms  630M  401G 138/157U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:43:01.365 | 09:44  163ms  640M  413G 139/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:01.687 | 09:44  154ms  685M  417G 139/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:01.989 | 09:45  153ms  720M  425G 139/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:02.316 | 09:45  154ms  730M  437G 139/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:02.697 | 09:46  154ms  755M  441G 139/157U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:43:02.698 | 09:46  154ms  755M  441G 139/157U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:43:02.730 | 09:46  154ms  755M  441G 139/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:02.732 | 09:46  154ms  605M  341G 139/157U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:43:03.061 | 09:46  263ms  630M  345G 142/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:03.376 | 09:47  152ms  655M  357G 142/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:03.659 | 09:47  151ms  700M  361G 142/157U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:43:03.660 | 09:47  151ms  700M  361G 142/157U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:43:03.692 | 09:47  151ms  700M  361G 142/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:03.997 | 09:47  156ms  715M  369G 139/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:04.030 | 09:47  156ms  715M  369G 139/157U [DodgeRampAttack] Retreat started at 11.73 own local power against 33.26 enemy local power.
+2024-11-14 11:43:04.306 | 09:48  146ms  735M  377G 139/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:04.667 | 09:48  195ms  755M  385G 139/157U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:05.058 | 09:49  136ms  775M  393G 139/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:05.360 | 09:49  239ms  795M  397G 139/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:05.639 | 09:50  147ms  820M  409G 139/165U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:43:05.640 | 09:50  147ms  820M  409G 139/165U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:43:05.665 | 09:50  147ms  820M  409G 139/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:05.668 | 09:50  147ms  670M  309G 139/165U [ActUnit] BANSHEE from STARPORT at (53.5, 122.5)
+2024-11-14 11:43:05.949 | 09:50  150ms  690M  313G 142/165U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:43:05.950 | 09:50  150ms  690M  313G 142/165U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:43:05.978 | 09:50  150ms  690M  313G 142/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:06.287 | 09:51  145ms  725M  321G 139/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:06.295 | 09:51  145ms  675M  321G 139/165U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:43:06.688 | 09:51  154ms  685M  333G 140/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:06.969 | 09:51  234ms  730M  337G 137/165U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:43:06.972 | 09:51  234ms  730M  337G 137/165U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:43:06.998 | 09:51  234ms  730M  337G 137/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:07.288 | 09:52  149ms  745M  341G 137/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:07.588 | 09:52  138ms  775M  349G 137/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:07.592 | 09:52  138ms  725M  349G 137/165U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:43:07.883 | 09:53  145ms  750M  357G 138/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:08.148 | 09:53  137ms  775M  365G 138/165U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:43:08.149 | 09:53  137ms  775M  365G 138/165U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:43:08.176 | 09:53  137ms  775M  365G 138/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:08.178 | 09:53  137ms  625M  290G 138/165U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:43:08.565 | 09:54  146ms  640M  294G 140/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:08.857 | 09:54  141ms  655M  306G 140/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:09.159 | 09:55  142ms  705M  310G 140/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:09.448 | 09:55  141ms  725M  318G 140/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:09.746 | 09:55  143ms  740M  330G 140/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:10.140 | 09:56  146ms  770M  334G 140/165U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:43:10.141 | 09:56  146ms  770M  334G 140/165U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:43:10.170 | 09:56  146ms  770M  334G 140/165U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:10.175 | 09:56  146ms  620M  234G 140/165U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:43:10.479 | 09:56  265ms  590M  238G 143/165U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:43:10.756 | 09:57  147ms  605M  250G 144/180U [GameAnalyzer] Income advantage is now OverwhelmingAdvantage
+2024-11-14 11:43:10.788 | 09:57  147ms  380M  250G 144/180U [BuildGas] Building REFINERY to (55.5, 96.5)
+2024-11-14 11:43:10.790 | 09:57  147ms  380M  250G 144/180U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:11.119 | 09:57  151ms  405M  254G 144/180U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:11.564 | 09:58  188ms  445M  262G 144/180U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:12.007 | 09:58  227ms  470M  266G 144/180U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:12.010 | 09:58  227ms  320M  191G 144/180U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:43:12.645 | 09:59  147ms  275M  207G 146/180U [BuildGas] Building REFINERY to (65.5, 106.5)
+2024-11-14 11:43:14.626 | 10:02  147ms  415M  251G 145/188U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:14.629 | 10:02  147ms  265M  151G 145/188U [ActUnit] BANSHEE from STARPORT at (53.5, 117.5)
+2024-11-14 11:43:14.631 | 10:02  147ms  215M  151G 145/188U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:43:19.024 | 10:08  148ms  460M  247G 149/188U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:43:19.312 | 10:08  158ms  480M  255G 149/188U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:19.315 | 10:08  158ms  330M  130G 149/188U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:43:19.336 | 10:08  158ms  330M  130G 149/188U [DodgeRampAttack] Supply is 149 -> attack!
+2024-11-14 11:43:19.339 | 10:08  158ms  330M  130G 149/188U [DodgeRampAttack] Attack started at 33.03 power.
+2024-11-14 11:43:19.722 | 10:08  155ms  300M  134G 152/188U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:43:21.086 | 10:10  151ms  385M  170G 153/188U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:43:22.882 | 10:12  305ms  245M  194G 151/200U [BuildGas] Building REFINERY to (72.5, 70.5)
+2024-11-14 11:43:24.507 | 10:14  177ms  255M  222G 148/200U [BuildGas] Building REFINERY to (63.5, 79.5)
+2024-11-14 11:43:25.200 | 10:15  180ms  260M  242G 148/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:43:25.958 | 10:16  155ms  305M  250G 149/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:43:25.959 | 10:16  155ms  305M  250G 149/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:43:25.985 | 10:16  155ms  305M  250G 149/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:26.314 | 10:16  265ms  335M  262G 149/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:26.725 | 10:16  167ms  355M  266G 149/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:27.091 | 10:17  228ms  410M  274G 149/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:27.422 | 10:17  177ms  435M  282G 149/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:27.835 | 10:18  156ms  450M  290G 149/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:28.160 | 10:18  245ms  480M  298G 149/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:28.469 | 10:19  156ms  510M  302G 149/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:28.780 | 10:19  150ms  540M  314G 149/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:29.093 | 10:20  150ms  560M  318G 149/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:29.096 | 10:20  150ms  510M  318G 149/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:43:29.506 | 10:20  150ms  525M  326G 150/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:29.818 | 10:20  254ms  550M  338G 150/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:30.145 | 10:21  144ms  585M  338G 150/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:30.457 | 10:21  150ms  610M  346G 150/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:30.777 | 10:22  154ms  635M  354G 150/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:31.097 | 10:22  150ms  650M  362G 150/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:31.525 | 10:23  155ms  670M  370G 150/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:31.843 | 10:23  261ms  725M  374G 150/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:32.136 | 10:24  147ms  750M  386G 150/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:43:32.138 | 10:24  147ms  750M  386G 150/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:43:32.165 | 10:24  147ms  750M  386G 150/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:32.168 | 10:24  147ms  600M  311G 150/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:43:32.492 | 10:24  163ms  655M  315G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:32.796 | 10:25  145ms  670M  327G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:33.193 | 10:25  139ms  695M  339G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:33.493 | 10:25  239ms  715M  343G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:33.797 | 10:26  148ms  735M  347G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:34.130 | 10:26  150ms  775M  355G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:34.133 | 10:26  150ms  725M  355G 152/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:43:34.475 | 10:27  168ms  760M  363G 153/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:35.010 | 10:27  178ms  775M  375G 153/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:35.414 | 10:28  300ms  790M  379G 151/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:35.758 | 10:28  185ms  825M  391G 151/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:43:35.759 | 10:28  185ms  825M  391G 151/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:43:35.785 | 10:28  185ms  825M  391G 151/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:35.791 | 10:28  185ms  775M  391G 151/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:43:36.145 | 10:29  180ms  815M  399G 149/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:43:36.146 | 10:29  180ms  815M  399G 149/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:43:36.177 | 10:29  180ms  815M  399G 149/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:36.179 | 10:29  180ms  715M  249G 149/200U [ActUnit] RAVEN from STARPORT at (32.5, 113.5)
+2024-11-14 11:43:36.517 | 10:29  183ms  745M  257G 151/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:36.519 | 10:29  183ms  595M  182G 151/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:43:36.557 | 10:29  183ms  595M  182G 151/200U [DodgeRampAttack] Retreat started at 22.69 own local power against 51.56 enemy local power.
+2024-11-14 11:43:37.787 | 10:31  136ms  740M  214G 147/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:43:37.788 | 10:31  136ms  740M  214G 147/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:43:39.065 | 10:33  219ms  840M  250G 143/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:39.067 | 10:33  219ms  690M  150G 143/200U [ActUnit] BANSHEE from STARPORT at (53.5, 122.5)
+2024-11-14 11:43:39.069 | 10:33  219ms  640M  150G 143/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:43:41.656 | 10:37  131ms  920M  226G 141/200U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-14 11:43:41.657 | 10:37  131ms  920M  226G 141/200U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:43:42.350 | 10:37  131ms  925M  246G 141/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:43:42.637 | 10:38  131ms  985M  254G 142/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:42.912 | 10:38  132ms 1015M  266G 141/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:43.166 | 10:39  128ms 1025M  274G 141/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:43:43.166 | 10:39  128ms 1025M  274G 141/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:43:43.190 | 10:39  128ms 1025M  274G 141/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:43.192 | 10:39  128ms  875M  174G 141/200U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:43:45.526 | 10:42  208ms 1110M  258G 144/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:45.529 | 10:42  208ms  960M  133G 144/200U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:43:46.734 | 10:44  126ms 1005M  177G 147/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:43:47.858 | 10:46  128ms 1105M  213G 147/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:43:48.751 | 10:47  128ms 1185M  257G 148/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:48.753 | 10:47  128ms 1035M  157G 148/200U [ActUnit] BANSHEE from STARPORT at (53.5, 117.5)
+2024-11-14 11:43:49.835 | 10:49  127ms 1140M  197G 151/200U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:43:50.739 | 10:50  122ms 1205M  237G 151/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:43:51.277 | 10:51  120ms 1250M  261G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:51.551 | 10:52  127ms 1280M  277G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:51.909 | 10:52  125ms 1330M  285G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:52.175 | 10:53  215ms 1350M  293G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:52.464 | 10:53  123ms 1400M  309G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:52.737 | 10:54  131ms 1440M  321G 151/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:52.988 | 10:54  125ms 1465M  333G 151/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:43:52.989 | 10:54  125ms 1465M  333G 151/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:43:53.012 | 10:54  125ms 1465M  333G 151/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:53.014 | 10:54  125ms 1315M  258G 151/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:43:53.037 | 10:54  125ms 1315M  258G 151/200U [DodgeRampAttack] Supply is 151 -> attack!
+2024-11-14 11:43:53.039 | 10:54  125ms 1315M  258G 151/200U [DodgeRampAttack] Attack started at 36.57 power.
+2024-11-14 11:43:53.374 | 10:54  135ms 1330M  274G 153/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:53.667 | 10:55  218ms 1350M  286G 153/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:53.950 | 10:55  135ms 1375M  294G 153/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:53.953 | 10:55  135ms 1325M  294G 153/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:43:54.240 | 10:56  136ms 1355M  310G 154/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:54.500 | 10:56  135ms 1415M  322G 152/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:43:54.501 | 10:56  135ms 1415M  322G 152/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:43:54.525 | 10:56  135ms 1415M  322G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:54.817 | 10:57  132ms 1445M  330G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:55.186 | 10:57  142ms 1470M  338G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:55.478 | 10:58  209ms 1485M  358G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:55.753 | 10:58  139ms 1515M  366G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:56.032 | 10:58  128ms 1540M  378G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:56.302 | 10:59  134ms 1585M  394G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:56.651 | 10:59  130ms 1625M  406G 152/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:43:56.652 | 10:59  130ms 1625M  406G 152/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:43:56.677 | 10:59  130ms 1625M  406G 152/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:56.680 | 10:59  130ms 1475M  331G 152/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:43:56.957 | 11:00  228ms 1515M  339G 154/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:57.231 | 11:00  132ms 1530M  355G 154/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:57.512 | 11:01  131ms 1560M  367G 154/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:57.782 | 11:01  128ms 1595M  379G 154/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:58.140 | 11:02  133ms 1625M  387G 154/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:58.414 | 11:02  217ms 1650M  403G 154/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:58.417 | 11:02  217ms 1600M  403G 154/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:43:58.694 | 11:02  137ms 1610M  415G 155/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:58.977 | 11:03  131ms 1655M  423G 155/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:58.977 | 11:03  131ms 1505M  323G 155/200U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:43:59.257 | 11:03  138ms 1535M  339G 158/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:59.539 | 11:04  131ms 1580M  351G 158/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:43:59.542 | 11:04  131ms 1530M  351G 158/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:43:59.902 | 11:04  138ms 1560M  363G 159/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:00.191 | 11:05  133ms 1575M  379G 159/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:00.471 | 11:05  136ms 1585M  387G 159/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:00.744 | 11:06  132ms 1605M  399G 159/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:01.021 | 11:06  134ms 1650M  411G 159/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:01.386 | 11:06  133ms 1720M  423G 159/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:01.653 | 11:07  219ms 1745M  435G 159/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:01.931 | 11:07  130ms 1755M  443G 159/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:02.228 | 11:08  133ms 1775M  459G 159/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:02.517 | 11:08  130ms 1820M  471G 159/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:02.520 | 11:08  130ms 1770M  471G 159/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:44:02.893 | 11:09  134ms 1800M  483G 160/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:03.184 | 11:09  216ms 1815M  499G 160/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:03.468 | 11:10  131ms 1865M  511G 160/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:03.752 | 11:10  129ms 1900M  519G 160/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:04.037 | 11:10  132ms 1930M  531G 160/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:04.403 | 11:11  128ms 1945M  547G 160/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:04.676 | 11:11  218ms 1975M  555G 160/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:04.959 | 11:12  128ms 1995M  563G 160/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:05.247 | 11:12  134ms 2020M  583G 160/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:05.539 | 11:13  134ms 2035M  591G 160/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:05.848 | 11:13  138ms 2090M  603G 160/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:05.851 | 11:13  138ms 2040M  603G 160/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:44:06.275 | 11:14  154ms 2070M  619G 161/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:06.609 | 11:14  149ms 2095M  631G 158/200U [Tech] Started TERRANSHIPWEAPONSLEVEL3
+2024-11-14 11:44:06.932 | 11:15  144ms 1875M  389G 158/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL1
+2024-11-14 11:44:06.939 | 11:15  144ms 1725M  264G 158/200U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:44:07.590 | 11:15  144ms 1690M  192G 161/200U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:44:07.591 | 11:15  144ms 1690M  192G 161/200U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:44:07.615 | 11:15  144ms 1540M   92G 161/200U [ActUnit] BANSHEE from STARPORT at (53.5, 122.5)
+2024-11-14 11:44:08.987 | 11:17  144ms 1640M  140G 160/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:44:08.988 | 11:17  144ms 1640M  140G 160/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:44:10.671 | 11:19  145ms 1800M  204G 156/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:44:10.672 | 11:19  145ms 1800M  204G 156/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:44:11.002 | 11:20  142ms 1825M  216G 153/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:44:11.003 | 11:20  142ms 1825M  216G 153/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:44:11.029 | 11:20  142ms 1775M  216G 153/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:44:11.996 | 11:21  138ms 1875M  252G 149/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:44:11.997 | 11:21  138ms 1875M  252G 149/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:44:12.296 | 11:22  139ms 1885M  260G 146/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:44:12.296 | 11:22  139ms 1885M  260G 146/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:44:12.321 | 11:22  139ms 1735M  160G 146/200U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:44:12.324 | 11:22  139ms 1685M  160G 146/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:44:12.356 | 11:22  139ms 1685M  160G 146/200U [DodgeRampAttack] Retreat started at 11.88 own local power against 30.97 enemy local power.
+2024-11-14 11:44:13.547 | 11:23  215ms 1820M  208G 149/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:44:13.548 | 11:23  215ms 1820M  208G 149/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:44:14.108 | 11:24  128ms 1875M  236G 146/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:44:14.108 | 11:24  128ms 1875M  236G 146/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:44:14.133 | 11:24  128ms 1725M  161G 146/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:44:14.389 | 11:25  136ms 1750M  169G 144/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:44:14.390 | 11:25  136ms 1750M  169G 144/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:44:15.320 | 11:26  126ms 1805M  205G 142/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:44:16.104 | 11:27  126ms 1880M  241G 140/200U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-14 11:44:16.105 | 11:27  126ms 1880M  241G 140/200U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:44:17.550 | 11:30  124ms 2000M  305G 140/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:44:17.551 | 11:30  124ms 2000M  305G 140/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:44:17.575 | 11:30  124ms 1850M  230G 140/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:44:17.931 | 11:30  129ms 1745M  142G 142/200U [ActUnit] BANSHEE from STARPORT at (53.5, 117.5)
+2024-11-14 11:44:18.479 | 11:31  127ms 1765M  162G 145/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:44:22.742 | 11:38  119ms 2160M  346G 146/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:44:23.842 | 11:40  121ms 2260M  394G 147/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:44:25.315 | 11:42  125ms 2415M  458G 144/200U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:44:26.723 | 11:44  206ms 2495M  514G 144/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:44:27.773 | 11:46  122ms 2620M  566G 145/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:44:27.774 | 11:46  122ms 2620M  566G 145/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:44:27.799 | 11:46  122ms 2470M  466G 145/200U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:44:27.818 | 11:46  122ms 2470M  466G 145/200U [DodgeRampAttack] Supply is 145 -> attack!
+2024-11-14 11:44:27.819 | 11:46  122ms 2470M  466G 145/200U [DodgeRampAttack] Attack started at 30.82 power.
+2024-11-14 11:44:28.441 | 11:47  121ms 2360M  365G 148/200U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:44:29.894 | 11:49  132ms 2490M  429G 151/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:44:33.585 | 11:55  121ms 2720M  506G 152/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:44:34.137 | 11:56  123ms 2745M  530G 154/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:44:35.348 | 11:57  130ms 2835M  578G 155/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:44:37.088 | 12:00  123ms 3015M  650G 156/200U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:44:37.089 | 12:00  123ms 3015M  650G 156/200U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:44:37.115 | 12:00  123ms 2865M  575G 156/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:44:38.384 | 12:02  135ms 2940M  623G 158/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:44:40.362 | 12:05  143ms 2970M  599G 159/200U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:44:42.084 | 12:07  153ms 3075M  659G 161/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:44:44.482 | 12:10  141ms 3265M  747G 152/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:44:44.482 | 12:10  141ms 3265M  747G 152/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:44:46.851 | 12:13  225ms 3325M  731G 149/200U [ActUnit] BANSHEE from STARPORT at (53.5, 117.5)
+2024-11-14 11:44:47.150 | 12:13  140ms 3350M  739G 152/200U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:44:47.176 | 12:13  140ms 3300M  739G 152/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:44:47.460 | 12:14  147ms 3340M  755G 151/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:44:48.483 | 12:15  137ms 3390M  787G 147/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:44:50.988 | 12:19  135ms 3525M  762G 143/200U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:44:51.274 | 12:19  144ms 3545M  774G 143/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:44:51.275 | 12:19  144ms 3545M  774G 143/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:44:51.680 | 12:20  136ms 3420M  686G 143/200U [ActUnit] BANSHEE from STARPORT at (53.5, 122.5)
+2024-11-14 11:44:51.682 | 12:20  136ms 3370M  686G 143/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:44:55.016 | 12:25  133ms 3660M  822G 145/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:44:55.312 | 12:25  221ms 3700M  830G 146/200U [Expand] Expanding to (54.5, 39.5)
+2024-11-14 11:44:55.314 | 12:25  221ms 3150M  755G 146/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:44:57.679 | 12:29  129ms 3400M  855G 146/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:44:57.680 | 12:29  129ms 3400M  855G 146/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:44:57.707 | 12:29  129ms 3250M  755G 146/200U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:44:58.959 | 12:30  132ms 3225M  728G 146/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:44:59.528 | 12:31  128ms 3265M  748G 148/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:45:00.811 | 12:33  133ms 3340M  804G 149/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:45:03.328 | 12:37  131ms 3560M  896G 150/200U [DodgeRampAttack] Retreat started at 13.14 own local power against 35.42 enemy local power.
+2024-11-14 11:45:03.859 | 12:38  123ms 3625M  924G 150/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:45:03.884 | 12:38  123ms 3575M  924G 150/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:45:05.713 | 12:40  126ms 3770M  988G 147/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:45:07.236 | 12:42  132ms 3880M 1056G 147/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:45:10.427 | 12:47  122ms 4230M 1188G 148/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:45:10.428 | 12:47  122ms 4230M 1188G 148/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:45:10.452 | 12:47  122ms 4080M 1088G 148/200U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:45:11.581 | 12:49  130ms 4135M 1136G 151/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:45:12.772 | 12:51  128ms 4255M 1184G 152/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:45:12.797 | 12:51  128ms 4105M 1059G 152/200U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:45:12.798 | 12:51  128ms 4055M 1059G 152/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:45:15.798 | 12:55  125ms 4405M 1183G 154/200U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:45:15.799 | 12:55  125ms 4405M 1183G 154/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:45:15.824 | 12:55  125ms 4255M 1108G 154/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:45:15.826 | 12:55  125ms 4205M 1108G 154/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:45:16.111 | 12:56  138ms 4095M 1016G 157/200U [ActUnit] BANSHEE from STARPORT at (53.5, 117.5)
+2024-11-14 11:45:16.793 | 12:57  135ms 4175M 1044G 160/200U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:45:17.098 | 12:57  223ms 4185M 1056G 160/200U [DodgeRampAttack] Supply is 160 -> attack!
+2024-11-14 11:45:17.099 | 12:57  223ms 4185M 1056G 160/200U [DodgeRampAttack] Attack started at 37.08 power.
+2024-11-14 11:45:19.187 | 13:00  132ms 4370M 1140G 157/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:45:19.494 | 13:01  137ms 4275M 1073G 158/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:45:20.759 | 13:03  138ms 4390M 1129G 160/200U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:45:20.784 | 13:03  138ms 4240M 1029G 160/200U [ActUnit] BANSHEE from STARPORT at (53.5, 122.5)
+2024-11-14 11:45:23.289 | 13:06  136ms 4485M 1121G 160/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:45:23.913 | 13:07  134ms 4515M 1149G 160/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:45:24.211 | 13:07  147ms 4550M 1161G 158/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:45:25.208 | 13:09  220ms 4675M 1197G 158/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:25.215 | 13:09  220ms 4625M 1197G 158/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:45:27.081 | 13:11  133ms 4645M 1094G 159/200U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:45:27.105 | 13:11  133ms 4495M  994G 159/200U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:45:28.422 | 13:13  237ms 4550M 1042G 162/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:45:30.834 | 13:16  148ms 4785M 1126G 158/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:45:30.835 | 13:16  148ms 4785M 1126G 158/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:45:30.894 | 13:16  148ms 4785M 1126G 158/200U [DodgeRampAttack] Retreat started at 28.82 own local power against 40.30 enemy local power.
+2024-11-14 11:45:31.868 | 13:18  225ms 4910M 1162G 157/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:45:32.203 | 13:18  147ms 4880M 1174G 157/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:45:35.714 | 13:23  125ms 5065M 1181G 148/200U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:45:36.277 | 13:24  125ms 5165M 1205G 151/200U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:45:36.947 | 13:25  127ms 5210M 1233G 148/200U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-14 11:45:36.972 | 13:25  127ms 5160M 1233G 148/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:45:37.530 | 13:26  126ms 5205M 1253G 149/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:45:37.556 | 13:26  126ms 5055M 1178G 149/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:45:38.144 | 13:27  129ms 5075M 1206G 151/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:45:40.567 | 13:30  125ms 5310M 1298G 152/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:45:40.591 | 13:30  125ms 5160M 1198G 152/200U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:45:41.166 | 13:31  122ms 5120M 1151G 155/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:45:41.168 | 13:31  122ms 5070M 1151G 155/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:45:44.521 | 13:36  136ms 5335M 1283G 157/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:45:44.901 | 13:36  141ms 5385M 1299G 154/200U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:45:44.947 | 13:36  141ms 5385M 1299G 154/200U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:45:46.364 | 13:39  142ms 5545M 1355G 154/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:45:46.390 | 13:39  142ms 5395M 1255G 154/200U [ActUnit] BANSHEE from STARPORT at (53.5, 117.5)
+2024-11-14 11:45:46.764 | 13:39  136ms 5445M 1263G 157/200U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:45:47.687 | 13:40  154ms 5520M 1303G 157/200U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-14 11:45:49.339 | 13:43  143ms 5615M 1367G 157/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:45:50.680 | 13:45  236ms 5695M 1415G 158/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:45:51.273 | 13:45  134ms 5620M 1439G 159/200U [GameAnalyzer] Income advantage is now OverwhelmingAdvantage
+2024-11-14 11:45:51.274 | 13:45  134ms 5620M 1439G 159/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:45:51.298 | 13:45  134ms 5470M 1339G 159/200U [ActUnit] BANSHEE from STARPORT at (53.5, 122.5)
+2024-11-14 11:45:51.581 | 13:46  149ms 5495M 1351G 162/200U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:45:53.941 | 13:49  227ms 5675M 1435G 160/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:45:55.616 | 13:51  236ms 5805M 1499G 161/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:55.928 | 13:52  144ms 5860M 1511G 161/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:56.225 | 13:52  144ms 5900M 1519G 161/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:56.531 | 13:53  140ms 5910M 1535G 161/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:56.927 | 13:53  143ms 5935M 1547G 161/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:57.237 | 13:53  238ms 5955M 1555G 159/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:57.543 | 13:54  147ms 5990M 1563G 159/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:57.546 | 13:54  147ms 5940M 1563G 159/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:45:57.856 | 13:54  140ms 5955M 1583G 160/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:57.858 | 13:54  140ms 5805M 1483G 160/200U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:45:58.156 | 13:55  143ms 5840M 1491G 163/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:58.463 | 13:55  147ms 5895M 1503G 163/200U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:45:58.485 | 13:55  147ms 5895M 1503G 163/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:58.489 | 13:55  147ms 5745M 1378G 163/200U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:45:58.893 | 13:56  154ms 5765M 1394G 166/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:59.169 | 13:56  226ms 5820M 1406G 166/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:45:59.192 | 13:56  226ms 5820M 1406G 166/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:59.195 | 13:56  226ms 5670M 1331G 166/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:45:59.501 | 13:57  143ms 5725M 1339G 168/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:45:59.814 | 13:57  146ms 5755M 1355G 168/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:00.125 | 13:57  148ms 5770M 1367G 168/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:00.509 | 13:58  136ms 5795M 1379G 168/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:00.814 | 13:58  239ms 5820M 1391G 168/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:01.168 | 13:59  181ms 5860M 1403G 168/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:01.464 | 13:59  139ms 5880M 1415G 168/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:01.763 | 14:00  137ms 5895M 1423G 168/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:02.046 | 14:00  138ms 5930M 1439G 168/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:02.407 | 14:01  130ms 5960M 1451G 168/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:46:02.432 | 14:01  130ms 5960M 1451G 168/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:02.435 | 14:01  130ms 5910M 1451G 168/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:46:02.721 | 14:01  144ms 5930M 1463G 169/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:02.998 | 14:01  144ms 5965M 1479G 169/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:46:03.022 | 14:01  144ms 5965M 1479G 169/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:03.024 | 14:01  144ms 5815M 1404G 169/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:46:03.314 | 14:02  138ms 5870M 1412G 171/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:03.603 | 14:02  138ms 5885M 1424G 171/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:03.606 | 14:02  138ms 5835M 1424G 171/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:46:03.980 | 14:03  139ms 5855M 1436G 172/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:04.286 | 14:03  230ms 5930M 1448G 172/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:04.574 | 14:04  137ms 5955M 1460G 172/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:04.862 | 14:04  134ms 5995M 1468G 172/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:05.157 | 14:05  144ms 6015M 1484G 172/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:05.538 | 14:05  133ms 6040M 1496G 172/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:05.818 | 14:05  224ms 6065M 1508G 172/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:06.118 | 14:06  145ms 6100M 1524G 172/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:06.409 | 14:06  148ms 6130M 1536G 172/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:06.687 | 14:07  129ms 6145M 1544G 172/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:06.691 | 14:07  129ms 6095M 1544G 172/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:46:07.059 | 14:07  135ms 6120M 1556G 173/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:07.342 | 14:08  217ms 6145M 1572G 173/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:07.621 | 14:08  134ms 6170M 1580G 173/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:07.898 | 14:09  129ms 6200M 1588G 173/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:08.176 | 14:09  135ms 6245M 1608G 173/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:08.550 | 14:10  131ms 6260M 1616G 173/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:08.839 | 14:10  221ms 6325M 1628G 173/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:09.123 | 14:10  138ms 6370M 1644G 173/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:09.411 | 14:11  135ms 6395M 1656G 173/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:09.695 | 14:11  130ms 6435M 1664G 173/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:10.047 | 14:12  138ms 6445M 1680G 170/200U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:46:10.072 | 14:12  138ms 6445M 1680G 170/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:10.075 | 14:12  138ms 6395M 1680G 170/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:46:10.356 | 14:12  225ms 6415M 1692G 171/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:10.639 | 14:13  133ms 6445M 1700G 171/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:10.908 | 14:13  130ms 6485M 1712G 171/200U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:46:10.932 | 14:13  130ms 6485M 1712G 171/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:10.934 | 14:13  130ms 6335M 1612G 171/200U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:46:11.221 | 14:14  137ms 6355M 1628G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:11.594 | 14:14  131ms 6375M 1640G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:11.878 | 14:14  223ms 6395M 1648G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:12.164 | 14:15  128ms 6425M 1664G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:12.446 | 14:15  133ms 6470M 1676G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:12.726 | 14:16  129ms 6485M 1688G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:13.005 | 14:16  132ms 6555M 1704G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:13.387 | 14:17  129ms 6570M 1716G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:13.664 | 14:17  135ms 6605M 1724G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:13.944 | 14:18  131ms 6650M 1736G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:14.227 | 14:18  131ms 6690M 1752G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:14.508 | 14:18  127ms 6715M 1760G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:14.511 | 14:18  127ms 6665M 1760G 174/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:46:14.880 | 14:19  133ms 6685M 1768G 175/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:15.161 | 14:19  130ms 6700M 1784G 175/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:15.441 | 14:20  134ms 6725M 1796G 175/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:15.721 | 14:20  133ms 6775M 1808G 175/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:15.724 | 14:20  133ms 6725M 1808G 175/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:46:16.020 | 14:21  135ms 6745M 1824G 176/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:16.397 | 14:21  132ms 6765M 1836G 176/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:16.680 | 14:22  137ms 6780M 1844G 176/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:16.681 | 14:22  137ms 6630M 1744G 176/200U [ActUnit] BANSHEE from STARPORT at (53.5, 117.5)
+2024-11-14 11:46:16.972 | 14:22  132ms 6645M 1760G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:17.256 | 14:22  134ms 6690M 1772G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:17.540 | 14:23  131ms 6760M 1780G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:17.912 | 14:23  134ms 6795M 1788G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:18.199 | 14:24  220ms 6805M 1808G 179/200U [Expand] Expanding to (80.5, 124.5)
+2024-11-14 11:46:18.200 | 14:24  220ms 6405M 1808G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:18.499 | 14:24  143ms 6435M 1816G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:18.796 | 14:25  138ms 6485M 1828G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:18.800 | 14:25  138ms 6435M 1828G 179/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:46:19.111 | 14:25  148ms 6475M 1844G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:19.500 | 14:26  140ms 6500M 1856G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:19.795 | 14:26  231ms 6515M 1864G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:20.107 | 14:26  141ms 6535M 1880G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:20.110 | 14:26  141ms 6385M 1805G 180/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:46:20.410 | 14:27  147ms 6410M 1817G 182/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:20.723 | 14:27  143ms 6450M 1825G 182/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:20.726 | 14:27  143ms 6300M 1700G 182/200U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:46:21.125 | 14:28  149ms 6330M 1712G 185/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:21.409 | 14:28  143ms 6345M 1728G 185/200U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:46:21.410 | 14:28  143ms 6345M 1728G 185/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:46:21.438 | 14:28  143ms 6270M 1728G 185/200U [BuildGas] Building REFINERY to (50.5, 32.5)
+2024-11-14 11:46:21.439 | 14:28  143ms 6270M 1728G 185/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:21.441 | 14:28  143ms 6120M 1628G 185/200U [ActUnit] BANSHEE from STARPORT at (53.5, 122.5)
+2024-11-14 11:46:21.472 | 14:28  143ms 6120M 1628G 185/200U [DodgeRampAttack] Supply is 185 -> attack!
+2024-11-14 11:46:21.473 | 14:28  143ms 6120M 1628G 185/200U [DodgeRampAttack] Attack started at 68.40 power.
+2024-11-14 11:46:21.765 | 14:29  153ms 6140M 1640G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:22.079 | 14:29  154ms 6165M 1648G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:22.398 | 14:30  148ms 6215M 1664G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:22.401 | 14:30  148ms 6165M 1664G 188/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:46:22.821 | 14:30  153ms 6195M 1676G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:23.112 | 14:30  164ms 6240M 1688G 189/200U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-14 11:46:23.139 | 14:30  164ms 6240M 1688G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:23.443 | 14:31  149ms 6270M 1704G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:23.793 | 14:31  174ms 6290M 1712G 189/200U [GameAnalyzer] Income advantage is now OverwhelmingAdvantage
+2024-11-14 11:46:23.818 | 14:31  174ms 6290M 1712G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:24.229 | 14:32  145ms 6300M 1724G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:24.232 | 14:32  145ms 6150M 1649G 189/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:46:24.556 | 14:32  249ms 6235M 1661G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:24.868 | 14:33  144ms 6255M 1673G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:25.178 | 14:33  150ms 6270M 1685G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:25.498 | 14:34  145ms 6290M 1693G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:25.902 | 14:34  148ms 6325M 1709G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:26.227 | 14:35  236ms 6345M 1721G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:26.533 | 14:35  149ms 6370M 1733G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:26.845 | 14:35  145ms 6395M 1749G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:27.150 | 14:36  149ms 6435M 1761G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:27.544 | 14:36  143ms 6460M 1769G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:27.548 | 14:36  143ms 6410M 1769G 191/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:46:27.851 | 14:37  240ms 6450M 1785G 192/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:28.161 | 14:37  149ms 6485M 1797G 192/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:28.163 | 14:37  149ms 6335M 1697G 192/200U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:46:28.476 | 14:38  152ms 6380M 1705G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:28.796 | 14:38  147ms 6385M 1713G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:28.798 | 14:38  147ms 6335M 1713G 195/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:46:29.204 | 14:39  154ms 6355M 1733G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:29.524 | 14:39  147ms 6395M 1741G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:29.854 | 14:39  149ms 6450M 1753G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:30.177 | 14:40  148ms 6480M 1769G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:30.489 | 14:40  149ms 6490M 1781G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:30.905 | 14:41  235ms 6505M 1789G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:31.230 | 14:41  149ms 6515M 1805G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:31.555 | 14:42  147ms 6580M 1817G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:31.876 | 14:42  149ms 6615M 1829G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:32.281 | 14:43  146ms 6645M 1841G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:32.285 | 14:43  146ms 6595M 1841G 196/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:46:32.620 | 14:43  245ms 6605M 1853G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:32.966 | 14:43  150ms 6630M 1865G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:33.301 | 14:44  157ms 6665M 1873G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:33.652 | 14:44  151ms 6685M 1889G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:34.110 | 14:45  159ms 6785M 1901G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:34.476 | 14:45  166ms 6795M 1913G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:34.848 | 14:46  170ms 6810M 1929G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:35.218 | 14:46  163ms 6830M 1937G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:35.650 | 14:47  157ms 6875M 1949G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:35.996 | 14:47  244ms 6900M 1961G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:36.348 | 14:47  164ms 6935M 1973G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:36.352 | 14:47  164ms 6885M 1973G 197/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:46:36.692 | 14:48  156ms 6895M 1985G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:37.038 | 14:48  167ms 6910M 1993G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:37.489 | 14:49  174ms 6935M 2009G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:37.841 | 14:49  171ms 7010M 2021G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:38.179 | 14:50  158ms 7030M 2033G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:38.524 | 14:50  157ms 7070M 2049G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:38.980 | 14:51  156ms 7095M 2061G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:39.334 | 14:51  252ms 7125M 2069G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:39.707 | 14:51  161ms 7155M 2081G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:40.078 | 14:52  162ms 7205M 2097G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:40.452 | 14:52  163ms 7210M 2105G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:40.895 | 14:53  162ms 7240M 2113G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:41.261 | 14:53  160ms 7270M 2133G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:41.627 | 14:54  169ms 7295M 2141G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:42.030 | 14:54  176ms 7320M 2153G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:42.034 | 14:54  176ms 7270M 2153G 198/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:46:42.527 | 14:55  191ms 7280M 2169G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:42.920 | 14:55  268ms 7305M 2181G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:43.306 | 14:55  177ms 7330M 2189G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:43.701 | 14:56  173ms 7365M 2205G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:43.705 | 14:56  173ms 7315M 2205G 199/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:46:44.241 | 14:56  228ms 7335M 2221G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:44.665 | 14:57  301ms 7340M 2229G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:45.037 | 14:57  179ms 7375M 2241G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:45.448 | 14:58  181ms 7405M 2257G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:45.857 | 14:58  201ms 7430M 2269G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:46.357 | 14:59  203ms 7470M 2277G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:46.765 | 14:59  189ms 7515M 2293G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:47.174 | 15:00  201ms 7520M 2305G 198/200U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:46:47.201 | 15:00  201ms 7520M 2305G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:47.203 | 15:00  201ms 7370M 2230G 198/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 129.5)
+2024-11-14 11:46:47.600 | 15:00  189ms 7415M 2242G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:48.089 | 15:00  194ms 7455M 2258G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:48.092 | 15:00  194ms 7305M 2183G 198/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:46:48.094 | 15:00  194ms 7255M 2183G 198/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:46:48.478 | 15:01  268ms 7360M 2199G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:48.915 | 15:01  210ms 7385M 2207G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:49.298 | 15:02  172ms 7390M 2219G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:49.679 | 15:02  171ms 7410M 2235G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:49.682 | 15:02  171ms 7260M 2160G 198/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:46:49.683 | 15:02  171ms 7210M 2160G 198/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:46:50.152 | 15:03  178ms 7275M 2168G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:50.156 | 15:03  178ms 7225M 2168G 199/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:46:50.546 | 15:03  181ms 7245M 2176G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:50.549 | 15:03  181ms 7095M 2051G 195/200U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:46:50.939 | 15:04  191ms 7125M 2067G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:51.307 | 15:04  185ms 7160M 2079G 196/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:46:51.332 | 15:04  185ms 7160M 2079G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:51.806 | 15:04  196ms 7170M 2091G 192/200U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:46:51.830 | 15:04  196ms 7170M 2091G 192/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:51.832 | 15:04  196ms 7020M 1991G 192/200U [ActUnit] BANSHEE from STARPORT at (53.5, 117.5)
+2024-11-14 11:46:52.207 | 15:05  266ms 7075M 2007G 192/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:52.587 | 15:05  175ms 7095M 2023G 192/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:52.591 | 15:05  175ms 7045M 2023G 192/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:46:52.987 | 15:06  192ms 7070M 2031G 193/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:53.363 | 15:06  183ms 7110M 2045G 193/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:53.828 | 15:07  175ms 7165M 2057G 193/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:54.196 | 15:07  268ms 7185M 2065G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:54.558 | 15:08  166ms 7195M 2073G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:54.930 | 15:08  184ms 7235M 2089G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:55.302 | 15:08  175ms 7255M 2097G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:55.771 | 15:09  195ms 7295M 2109G 186/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:56.137 | 15:09  174ms 7305M 2125G 186/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:56.488 | 15:10  178ms 7295M 2137G 185/200U [ActUnit] SCV from COMMANDCENTER at (62.5, 99.5)
+2024-11-14 11:46:56.511 | 15:10  178ms 7295M 2137G 185/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:56.851 | 15:10  164ms 7260M 2145G 185/200U [ActUnit] SCV from COMMANDCENTER at (65.5, 72.5)
+2024-11-14 11:46:56.875 | 15:10  164ms 7260M 2145G 185/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:57.324 | 15:11  179ms 7275M 2153G 181/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:57.663 | 15:11  243ms 7285M 2161G 181/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:57.665 | 15:11  243ms 7135M 2061G 181/200U [ActUnit] BANSHEE from STARPORT at (53.5, 122.5)
+2024-11-14 11:46:57.997 | 15:12  159ms 7155M 2069G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:58.332 | 15:12  152ms 7200M 2085G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:58.335 | 15:12  152ms 7150M 2085G 180/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:46:58.673 | 15:12  159ms 7165M 2093G 181/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:59.106 | 15:13  151ms 7194M 2101G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:59.440 | 15:13  247ms 7258M 2109G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:59.752 | 15:14  150ms 7228M 2121G 179/200U [ActUnit] SCV from COMMANDCENTER at (36.5, 89.5)
+2024-11-14 11:46:59.775 | 15:14  150ms 7228M 2121G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:46:59.778 | 15:14  150ms 7178M 2121G 179/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:47:00.084 | 15:14  157ms 7142M 2129G 180/200U [ActUnit] SCV from COMMANDCENTER at (36.5, 64.5)
+2024-11-14 11:47:00.108 | 15:14  157ms 7142M 2129G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:00.447 | 15:15  153ms 7177M 2141G 181/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:00.868 | 15:15  153ms 7181M 2153G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:01.193 | 15:16  243ms 7180M 2157G 179/200U [ActUnit] SCV from COMMANDCENTER at (38.5, 121.5)
+2024-11-14 11:47:01.216 | 15:16  243ms 7180M 2157G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:01.521 | 15:16  152ms 7135M 2169G 179/200U [ActUnit] SCV from COMMANDCENTER at (54.5, 39.5)
+2024-11-14 11:47:01.543 | 15:16  152ms 7135M 2169G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:01.908 | 15:16  169ms 7169M 2177G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:02.239 | 15:17  148ms 7168M 2185G 178/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:02.674 | 15:17  157ms 7178M 2193G 178/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:03.001 | 15:18  238ms 7207M 2205G 177/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:03.344 | 15:18  169ms 7221M 2213G 177/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:03.660 | 15:19  144ms 7241M 2221G 177/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:03.965 | 15:19  141ms 7280M 2233G 177/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:04.360 | 15:20  140ms 7295M 2245G 177/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:04.689 | 15:20  228ms 7359M 2253G 176/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:04.691 | 15:20  228ms 7209M 2153G 176/200U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:47:05.016 | 15:20  150ms 7223M 2161G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:05.019 | 15:20  150ms 7173M 2161G 179/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:47:05.345 | 15:21  149ms 7198M 2173G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:05.666 | 15:21  152ms 7218M 2181G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:06.074 | 15:22  142ms 7228M 2189G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:06.396 | 15:22  241ms 7248M 2201G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:06.714 | 15:23  140ms 7333M 2213G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:07.036 | 15:23  154ms 7333M 2217G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:07.039 | 15:23  154ms 7283M 2217G 179/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:47:07.366 | 15:24  145ms 7308M 2229G 177/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:07.776 | 15:24  152ms 7328M 2241G 177/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL2
+2024-11-14 11:47:08.110 | 15:25  246ms 7338M 2249G 177/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:08.400 | 15:25  146ms 7103M 2007G 174/200U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:47:08.423 | 15:25  146ms 7103M 2007G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:08.745 | 15:25  152ms 7133M 2019G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:09.055 | 15:26  143ms 7158M 2031G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:09.438 | 15:26  139ms 7203M 2047G 174/200U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:47:09.462 | 15:26  139ms 7203M 2047G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:09.780 | 15:27  234ms 7248M 2055G 174/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:10.095 | 15:27  140ms 7288M 2067G 171/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:10.405 | 15:28  142ms 7328M 2075G 171/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:10.719 | 15:28  139ms 7338M 2087G 171/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:11.128 | 15:29  153ms 7358M 2099G 171/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:11.451 | 15:29  232ms 7373M 2107G 171/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:11.763 | 15:29  145ms 7388M 2123G 171/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:12.063 | 15:30  134ms 7468M 2131G 171/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:12.065 | 15:30  134ms 7318M 2031G 171/200U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:47:12.066 | 15:30  134ms 7268M 2031G 171/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:47:12.378 | 15:30  143ms 7288M 2043G 175/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:12.768 | 15:31  135ms 7323M 2055G 175/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:12.771 | 15:31  135ms 7173M 1980G 175/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:47:13.077 | 15:31  228ms 7193M 1988G 177/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:13.367 | 15:32  134ms 7208M 2000G 177/200U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:47:13.391 | 15:32  134ms 7208M 2000G 177/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:13.394 | 15:32  134ms 7158M 2000G 177/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:47:13.696 | 15:32  146ms 7178M 2012G 178/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:13.995 | 15:33  133ms 7198M 2020G 178/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:13.997 | 15:33  133ms 7048M 1945G 178/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:47:14.408 | 15:33  160ms 7088M 1957G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:14.719 | 15:33  231ms 7138M 1973G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:15.014 | 15:34  135ms 7183M 1985G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:15.322 | 15:34  133ms 7223M 1997G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:15.625 | 15:35  138ms 7233M 2009G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:16.032 | 15:35  133ms 7278M 2021G 180/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:16.035 | 15:35  133ms 7128M 1896G 180/200U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:47:16.355 | 15:36  229ms 7168M 1904G 183/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:16.670 | 15:36  140ms 7208M 1920G 183/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:16.983 | 15:37  144ms 7223M 1932G 183/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:17.280 | 15:37  143ms 7228M 1940G 183/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1592
+2024-11-14 11:47:17.282 | 15:37  143ms 7228M 1940G 183/200U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-14 11:47:17.307 | 15:37  143ms 7228M 1940G 183/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:17.708 | 15:37  149ms 7288M 1960G 183/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:18.019 | 15:38  142ms 7323M 1968G 183/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:18.330 | 15:38  144ms 7353M 1980G 183/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:18.333 | 15:38  144ms 7303M 1980G 183/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:47:18.654 | 15:39  149ms 7328M 1992G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:19.134 | 15:39  154ms 7348M 2008G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:19.473 | 15:40  305ms 7363M 2016G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:19.795 | 15:40  149ms 7423M 2028G 181/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:20.113 | 15:41  142ms 7448M 2036G 181/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:20.430 | 15:41  143ms 7513M 2052G 181/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:20.433 | 15:41  143ms 7463M 2052G 181/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:47:20.852 | 15:41  156ms 7503M 2064G 182/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:21.164 | 15:42  235ms 7518M 2076G 182/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:21.464 | 15:42  142ms 7538M 2092G 182/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1758
+2024-11-14 11:47:21.490 | 15:42  142ms 7538M 2092G 182/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:21.814 | 15:43  153ms 7453M 2100G 182/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:22.143 | 15:43  145ms 7483M 2112G 182/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:22.563 | 15:44  155ms 7513M 2128G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:22.878 | 15:44  231ms 7533M 2140G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:23.197 | 15:45  148ms 7583M 2152G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:23.524 | 15:45  145ms 7613M 2168G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:23.855 | 15:45  157ms 7628M 2176G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:24.265 | 15:46  145ms 7648M 2184G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:24.583 | 15:46  246ms 7688M 2196G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:24.905 | 15:47  145ms 7743M 2212G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:25.223 | 15:47  148ms 7763M 2220G 179/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:25.225 | 15:47  148ms 7613M 2120G 179/200U [ActUnit] BANSHEE from STARPORT at (53.5, 117.5)
+2024-11-14 11:47:25.544 | 15:48  159ms 7643M 2132G 182/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1354
+2024-11-14 11:47:25.571 | 15:48  159ms 7643M 2132G 182/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:25.574 | 15:48  159ms 7593M 2132G 182/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:47:25.988 | 15:48  156ms 7633M 2148G 183/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:26.307 | 15:49  147ms 7653M 2160G 183/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:26.626 | 15:49  149ms 7688M 2172G 183/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:26.949 | 15:50  147ms 7743M 2188G 183/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:26.954 | 15:50  147ms 7693M 2188G 183/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:47:27.374 | 15:50  162ms 7728M 2196G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:27.680 | 15:50  236ms 7748M 2204G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:28.005 | 15:51  156ms 7753M 2216G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:28.319 | 15:51  146ms 7773M 2232G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:28.638 | 15:52  156ms 7848M 2240G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:29.041 | 15:52  143ms 7873M 2256G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:29.356 | 15:53  235ms 7913M 2268G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:29.652 | 15:53  144ms 7948M 2280G 184/200U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:47:29.681 | 15:53  144ms 7873M 2280G 184/200U [BuildGas] Building REFINERY to (73.5, 121.5)
+2024-11-14 11:47:29.682 | 15:53  144ms 7873M 2280G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:30.002 | 15:54  156ms 7908M 2292G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:30.372 | 15:54  191ms 7933M 2308G 184/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:30.374 | 15:54  191ms 7783M 2208G 184/200U [ActUnit] BANSHEE from STARPORT at (53.5, 122.5)
+2024-11-14 11:47:30.791 | 15:54  161ms 7828M 2216G 187/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:31.107 | 15:55  240ms 7858M 2228G 187/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:31.417 | 15:55  148ms 7908M 2236G 187/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:31.737 | 15:56  145ms 7933M 2252G 187/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:32.053 | 15:56  149ms 7958M 2264G 187/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:32.056 | 15:56  149ms 7908M 2264G 187/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:47:32.462 | 15:57  149ms 7933M 2276G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:32.777 | 15:57  145ms 7973M 2292G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:33.091 | 15:58  145ms 8013M 2300G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:33.398 | 15:58  145ms 8028M 2312G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:33.714 | 15:58  142ms 8043M 2328G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:34.120 | 15:59  232ms 8068M 2340G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:34.123 | 15:59  232ms 8018M 2340G 188/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:47:34.433 | 15:59  148ms 8048M 2352G 187/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:34.737 | 16:00  142ms 8068M 2360G 187/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:35.048 | 16:00  142ms 8143M 2376G 187/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:35.446 | 16:01  142ms 8148M 2384G 187/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:35.752 | 16:01  229ms 8168M 2396G 187/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:35.755 | 16:01  229ms 8018M 2321G 187/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:47:36.069 | 16:02  146ms 8048M 2337G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:36.390 | 16:02  144ms 8063M 2345G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:36.746 | 16:02  155ms 8153M 2357G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:37.142 | 16:03  148ms 8188M 2373G 189/200U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:47:37.170 | 16:03  148ms 8188M 2373G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:37.172 | 16:03  148ms 8038M 2273G 189/200U [ActUnit] BANSHEE from STARPORT at (32.5, 113.5)
+2024-11-14 11:47:37.174 | 16:03  148ms 7888M 2198G 189/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:47:37.515 | 16:03  253ms 7903M 2210G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:37.844 | 16:04  154ms 7918M 2222G 194/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -216
+2024-11-14 11:47:37.846 | 16:04  154ms 7918M 2222G 194/200U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:47:37.847 | 16:04  154ms 7918M 2222G 194/200U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-14 11:47:37.877 | 16:04  154ms 7918M 2222G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:38.228 | 16:04  169ms 7953M 2238G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:38.575 | 16:05  162ms 7983M 2246G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:38.998 | 16:05  154ms 7998M 2254G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:39.338 | 16:06  155ms 8018M 2266G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:39.342 | 16:06  155ms 7968M 2266G 194/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:47:39.676 | 16:06  165ms 7993M 2282G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:40.026 | 16:06  156ms 8008M 2290G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:40.454 | 16:07  158ms 8018M 2306G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:40.798 | 16:07  242ms 8063M 2318G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:40.801 | 16:07  242ms 7913M 2193G 195/200U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:47:40.803 | 16:07  242ms 7863M 2193G 195/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:47:41.177 | 16:08  160ms 7888M 2205G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:41.551 | 16:08  174ms 7918M 2217G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:41.893 | 16:09  168ms 7943M 2233G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:42.293 | 16:09  153ms 7983M 2241G 195/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -420
+2024-11-14 11:47:42.319 | 16:09  153ms 7983M 2241G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:42.648 | 16:10  156ms 8013M 2253G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:42.988 | 16:10  152ms 8018M 2261G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:43.336 | 16:10  166ms 8033M 2281G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:43.809 | 16:11  180ms 8053M 2289G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:44.339 | 16:11  277ms 8083M 2301G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:44.684 | 16:12  215ms 8123M 2317G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:45.010 | 16:12  160ms 8133M 2325G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:45.333 | 16:13  151ms 8158M 2337G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:45.335 | 16:13  151ms 8008M 2237G 195/200U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:47:45.755 | 16:13  161ms 8028M 2253G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:46.122 | 16:14  270ms 8058M 2265G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:46.431 | 16:14  147ms 8078M 2277G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:46.434 | 16:14  147ms 8028M 2277G 197/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:47:46.761 | 16:15  175ms 8063M 2281G 198/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -631
+2024-11-14 11:47:46.763 | 16:15  175ms 8063M 2281G 198/200U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:47:46.764 | 16:15  175ms 8063M 2281G 198/200U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-14 11:47:46.789 | 16:15  175ms 8063M 2281G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:47.206 | 16:15  158ms 8068M 2301G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:47.519 | 16:15  233ms 8083M 2309G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:47.820 | 16:16  143ms 8133M 2321G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:48.129 | 16:16  143ms 8178M 2337G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:48.438 | 16:17  143ms 8193M 2345G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:48.441 | 16:17  143ms 8143M 2345G 198/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:47:48.842 | 16:17  146ms 8163M 2357G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:49.142 | 16:18  233ms 8183M 2373G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:49.458 | 16:18  140ms 8198M 2385G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:49.773 | 16:19  148ms 8238M 2397G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:50.091 | 16:19  146ms 8288M 2413G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:50.496 | 16:19  149ms 8303M 2421G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:50.785 | 16:20  144ms 8308M 2429G 199/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -865
+2024-11-14 11:47:50.787 | 16:20  144ms 8308M 2429G 199/200U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:47:50.788 | 16:20  144ms 8308M 2429G 199/200U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-14 11:47:50.812 | 16:20  144ms 8308M 2429G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:51.125 | 16:20  151ms 8328M 2441G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:51.450 | 16:21  144ms 8358M 2457G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:51.850 | 16:21  148ms 8378M 2465G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:52.180 | 16:22  233ms 8418M 2481G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:52.498 | 16:22  145ms 8438M 2493G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:52.850 | 16:23  154ms 8458M 2505G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:53.216 | 16:23  194ms 8478M 2517G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:53.677 | 16:23  182ms 8533M 2533G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:53.680 | 16:23  182ms 8483M 2533G 198/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:47:54.018 | 16:24  160ms 8508M 2541G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:54.340 | 16:24  144ms 8518M 2553G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:54.657 | 16:25  146ms 8538M 2565G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:55.047 | 16:25  145ms 8558M 2581G 199/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1280
+2024-11-14 11:47:55.049 | 16:25  145ms 8558M 2581G 199/200U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:47:55.050 | 16:25  145ms 8558M 2581G 199/200U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-14 11:47:55.075 | 16:25  145ms 8558M 2581G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:55.079 | 16:25  145ms 8508M 2581G 199/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:47:55.408 | 16:26  250ms 8533M 2593G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:55.737 | 16:26  149ms 8583M 2605G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:56.076 | 16:27  153ms 8633M 2621G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:56.399 | 16:27  150ms 8648M 2629G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:56.803 | 16:27  148ms 8663M 2641G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:57.129 | 16:28  145ms 8703M 2657G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:57.444 | 16:28  152ms 8728M 2669G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:57.759 | 16:29  152ms 8773M 2685G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:58.164 | 16:29  156ms 8793M 2693G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:58.476 | 16:30  243ms 8813M 2709G 195/200U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:47:58.477 | 16:30  243ms 8813M 2709G 195/200U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-14 11:47:58.502 | 16:30  243ms 8813M 2709G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:58.814 | 16:30  158ms 8858M 2717G 195/200U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:47:58.815 | 16:30  158ms 8858M 2717G 195/200U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-14 11:47:58.839 | 16:30  158ms 8858M 2717G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:58.840 | 16:30  158ms 8758M 2567G 195/200U [ActUnit] RAVEN from STARPORT at (53.5, 117.5)
+2024-11-14 11:47:59.165 | 16:31  158ms 8823M 2579G 197/200U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:47:59.189 | 16:31  158ms 8823M 2579G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:59.517 | 16:31  157ms 8843M 2595G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:59.937 | 16:31  154ms 8878M 2601G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:47:59.939 | 16:31  154ms 8728M 2526G 194/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:48:00.285 | 16:32  249ms 8728M 2538G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:00.288 | 16:32  249ms 8678M 2538G 196/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:48:00.646 | 16:32  160ms 8698M 2554G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:00.982 | 16:33  158ms 8738M 2566G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:01.318 | 16:33  153ms 8788M 2578G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:01.321 | 16:33  153ms 8638M 2503G 197/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:48:01.751 | 16:34  159ms 8698M 2519G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:02.083 | 16:34  245ms 8703M 2527G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:02.421 | 16:35  157ms 8718M 2535G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:02.424 | 16:35  157ms 8668M 2535G 199/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:48:02.776 | 16:35  161ms 8708M 2547G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:03.203 | 16:35  160ms 8723M 2563G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:03.519 | 16:36  251ms 8798M 2567G 198/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1400
+2024-11-14 11:48:03.521 | 16:36  251ms 8798M 2567G 198/200U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:48:03.521 | 16:36  251ms 8798M 2567G 198/200U [GameAnalyzer] Predicted army advantage is now ClearAdvantage
+2024-11-14 11:48:03.547 | 16:36  251ms 8798M 2567G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:03.887 | 16:36  170ms 8823M 2583G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:04.231 | 16:37  159ms 8833M 2599G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:04.234 | 16:37  159ms 8683M 2524G 198/200U [ActUnit] VIKINGFIGHTER from STARPORT at (53.5, 122.5)
+2024-11-14 11:48:04.570 | 16:37  162ms 8708M 2532G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:05.004 | 16:38  159ms 8778M 2544G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:05.340 | 16:38  251ms 8813M 2560G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:05.671 | 16:39  157ms 8828M 2568G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:06.010 | 16:39  161ms 8843M 2580G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:06.454 | 16:40  157ms 8868M 2588G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:06.797 | 16:40  261ms 8898M 2604G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:06.800 | 16:40  261ms 8748M 2479G 196/200U [ActUnit] SIEGETANK from FACTORY at (46.5, 117.5)
+2024-11-14 11:48:07.149 | 16:40  160ms 8798M 2487G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:07.495 | 16:41  161ms 8858M 2503G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:07.815 | 16:41  157ms 8888M 2519G 197/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1406
+2024-11-14 11:48:07.817 | 16:41  157ms 8888M 2519G 197/200U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:48:07.818 | 16:41  157ms 8888M 2519G 197/200U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-14 11:48:07.844 | 16:41  157ms 8888M 2519G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:07.847 | 16:41  157ms 8838M 2519G 197/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:48:08.273 | 16:42  169ms 8863M 2523G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:08.607 | 16:42  241ms 8893M 2535G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:08.941 | 16:43  156ms 8908M 2551G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:09.288 | 16:43  153ms 8963M 2563G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:09.291 | 16:43  153ms 8913M 2563G 196/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:48:09.716 | 16:44  159ms 8928M 2575G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:10.046 | 16:44  243ms 8943M 2583G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:10.396 | 16:44  159ms 8958M 2599G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:10.742 | 16:45  158ms 9048M 2607G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:11.090 | 16:45  160ms 9078M 2619G 195/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:11.515 | 16:46  154ms 9108M 2639G 192/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:11.517 | 16:46  154ms 9008M 2489G 192/200U [ActUnit] RAVEN from STARPORT at (32.5, 113.5)
+2024-11-14 11:48:11.856 | 16:46  245ms 9023M 2493G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:12.170 | 16:47  153ms 9053M 2505G 194/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1990
+2024-11-14 11:48:12.197 | 16:47  153ms 9053M 2505G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:12.528 | 16:47  157ms 9098M 2521G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:12.942 | 16:48  150ms 9148M 2533G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:13.268 | 16:48  246ms 9163M 2545G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:13.587 | 16:48  153ms 9193M 2561G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:13.910 | 16:49  155ms 9208M 2573G 192/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:14.226 | 16:49  150ms 9238M 2577G 192/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:14.633 | 16:50  151ms 9288M 2589G 192/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:14.637 | 16:50  151ms 9238M 2589G 192/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:48:15.019 | 16:50  279ms 9283M 2609G 193/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:15.345 | 16:51  153ms 9303M 2613G 193/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:15.682 | 16:51  154ms 9328M 2629G 190/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:16.110 | 16:52  153ms 9348M 2641G 190/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:16.439 | 16:52  252ms 9378M 2653G 190/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -2325
+2024-11-14 11:48:16.464 | 16:52  252ms 9378M 2653G 190/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:16.788 | 16:52  165ms 9433M 2665G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:16.791 | 16:52  165ms 9383M 2665G 189/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:48:17.121 | 16:53  165ms 9413M 2681G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:17.428 | 16:53  151ms 9418M 2693G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:17.829 | 16:54  156ms 9438M 2701G 189/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:18.214 | 16:54  322ms 9453M 2709G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:18.530 | 16:55  147ms 9528M 2733G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:18.846 | 16:55  154ms 9563M 2737G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:19.184 | 16:56  166ms 9608M 2749G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:19.185 | 16:56  166ms 9458M 2649G 188/200U [ActUnit] BANSHEE from STARPORT at (47.5, 129.5)
+2024-11-14 11:48:19.627 | 16:56  184ms 9483M 2665G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:19.946 | 16:56  150ms 9508M 2673G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:20.270 | 16:57  163ms 9538M 2685G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:20.561 | 16:57  150ms 9563M 2701G 191/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -2411
+2024-11-14 11:48:20.587 | 16:57  150ms 9563M 2701G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:20.989 | 16:58  154ms 9583M 2713G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:21.300 | 16:58  239ms 9608M 2725G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:21.602 | 16:59  149ms 9628M 2729G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:21.915 | 16:59  146ms 9648M 2753G 190/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:21.917 | 16:59  146ms 9598M 2753G 190/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:48:22.221 | 17:00  155ms 9663M 2757G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:22.620 | 17:00  149ms 9688M 2769G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:22.938 | 17:00  234ms 9708M 2785G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:23.244 | 17:01  149ms 9733M 2793G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:23.247 | 17:01  149ms 9683M 2793G 191/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:48:23.554 | 17:01  151ms 9708M 2805G 192/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:23.865 | 17:02  146ms 9768M 2821G 192/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:23.867 | 17:02  146ms 9618M 2746G 192/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:48:24.271 | 17:02  153ms 9638M 2758G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:24.562 | 17:03  248ms 9653M 2770G 194/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1380
+2024-11-14 11:48:24.589 | 17:03  248ms 9653M 2770G 194/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:24.896 | 17:03  158ms 9673M 2786G 191/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:25.216 | 17:04  149ms 9703M 2798G 188/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:25.218 | 17:04  149ms 9553M 2723G 188/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:48:25.528 | 17:04  152ms 9588M 2727G 190/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:25.930 | 17:05  149ms 9613M 2739G 190/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:25.932 | 17:05  149ms 9463M 2639G 190/200U [ActUnit] BANSHEE from STARPORT at (53.5, 117.5)
+2024-11-14 11:48:26.247 | 17:05  159ms 9498M 2659G 193/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:26.562 | 17:05  149ms 9508M 2663G 193/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:26.876 | 17:06  149ms 9533M 2679G 193/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:27.273 | 17:06  147ms 9563M 2691G 193/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:27.576 | 17:07  234ms 9613M 2703G 193/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:27.885 | 17:07  146ms 9698M 2715G 193/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:27.887 | 17:07  146ms 9548M 2615G 193/200U [ActUnit] BANSHEE from STARPORT at (53.5, 122.5)
+2024-11-14 11:48:28.189 | 17:08  150ms 9558M 2631G 196/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:28.192 | 17:08  150ms 9508M 2631G 196/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:48:28.479 | 17:08  147ms 9528M 2643G 197/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1366
+2024-11-14 11:48:28.481 | 17:08  147ms 9528M 2643G 197/200U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:48:28.482 | 17:08  147ms 9528M 2643G 197/200U [GameAnalyzer] Predicted army advantage is now ClearAdvantage
+2024-11-14 11:48:28.506 | 17:08  147ms 9528M 2643G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:28.894 | 17:09  156ms 9538M 2651G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:29.195 | 17:09  231ms 9618M 2659G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:29.503 | 17:09  151ms 9643M 2679G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:29.819 | 17:10  157ms 9673M 2687G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:30.226 | 17:10  157ms 9688M 2699G 197/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:30.229 | 17:10  157ms 9638M 2699G 197/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:48:30.537 | 17:11  248ms 9653M 2715G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:30.829 | 17:11  153ms 9708M 2723G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:31.129 | 17:12  148ms 9718M 2735G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:31.429 | 17:12  150ms 9753M 2751G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:31.816 | 17:13  152ms 9768M 2763G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:32.110 | 17:13  239ms 9778M 2775G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:32.388 | 17:13  147ms 9828M 2783G 198/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1580
+2024-11-14 11:48:32.414 | 17:13  147ms 9828M 2783G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:32.719 | 17:14  155ms 9883M 2803G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:33.019 | 17:14  150ms 9958M 2807G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:33.402 | 17:15  151ms 9983M 2819G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:33.710 | 17:15  151ms 10003M 2835G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:34.042 | 17:16  154ms 10048M 2843G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:34.347 | 17:16  156ms 10083M 2855G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:34.732 | 17:17  152ms 10108M 2871G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:35.038 | 17:17  238ms 10123M 2883G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:35.040 | 17:17  238ms 10073M 2883G 198/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:48:35.344 | 17:17  154ms 10103M 2895G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:35.644 | 17:18  152ms 10108M 2911G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:35.943 | 17:18  151ms 10148M 2923G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:36.300 | 17:19  147ms 10173M 2927G 199/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1580
+2024-11-14 11:48:36.327 | 17:19  147ms 10173M 2927G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:36.331 | 17:19  147ms 10123M 2927G 199/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:48:36.634 | 17:19  244ms 10143M 2939G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:36.932 | 17:20  146ms 10178M 2959G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:37.228 | 17:20  149ms 10218M 2963G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:37.543 | 17:21  149ms 10268M 2979G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:37.937 | 17:21  236ms 10293M 2991G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:38.238 | 17:21  148ms 10383M 3003G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:38.525 | 17:22  148ms 10403M 3015G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:38.814 | 17:22  147ms 10443M 3031G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:39.180 | 17:23  143ms 10468M 3043G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:39.466 | 17:23  230ms 10498M 3051G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:39.754 | 17:24  144ms 10533M 3059G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:40.019 | 17:24  144ms 10558M 3079G 199/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1580
+2024-11-14 11:48:40.045 | 17:24  144ms 10558M 3079G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:40.331 | 17:25  148ms 10573M 3087G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:40.690 | 17:25  138ms 10608M 3099G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:40.957 | 17:25  222ms 10628M 3115G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:40.960 | 17:25  222ms 10578M 3115G 199/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:48:41.253 | 17:26  145ms 10608M 3123G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:41.526 | 17:26  142ms 10633M 3135G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:41.792 | 17:27  136ms 10683M 3151G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:42.151 | 17:27  223ms 10698M 3163G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:42.416 | 17:28  137ms 10723M 3175G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:42.678 | 17:28  134ms 10803M 3183G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:42.947 | 17:29  139ms 10868M 3203G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:43.298 | 17:29  139ms 10893M 3207G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:43.541 | 17:30  220ms 10908M 3219G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1580
+2024-11-14 11:48:43.566 | 17:30  220ms 10908M 3219G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:43.830 | 17:30  143ms 10938M 3235G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:44.103 | 17:30  139ms 10958M 3243G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:44.369 | 17:31  139ms 10993M 3255G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:44.714 | 17:31  138ms 11013M 3271G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:44.985 | 17:32  221ms 11053M 3283G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:45.267 | 17:32  138ms 11058M 3295G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:45.537 | 17:33  146ms 11088M 3311G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:45.813 | 17:33  139ms 11143M 3323G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:46.166 | 17:34  138ms 11168M 3327G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:46.436 | 17:34  137ms 11233M 3339G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:46.698 | 17:34  143ms 11258M 3359G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:46.949 | 17:35  135ms 11268M 3363G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1580
+2024-11-14 11:48:46.975 | 17:35  135ms 11268M 3363G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:47.334 | 17:35  149ms 11318M 3379G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:47.610 | 17:36  234ms 11373M 3391G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:47.894 | 17:36  141ms 11403M 3403G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:48.173 | 17:37  144ms 11433M 3415G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:48.455 | 17:37  149ms 11463M 3431G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:48.827 | 17:38  143ms 11473M 3443G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:49.123 | 17:38  228ms 11508M 3451G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:49.390 | 17:38  143ms 11538M 3459G 200/200U [GameAnalyzer] Known army advantage is now OverwhelmingAdvantage
+2024-11-14 11:48:49.391 | 17:38  143ms 11538M 3459G 200/200U [GameAnalyzer] Predicted army advantage is now OverwhelmingAdvantage
+2024-11-14 11:48:49.416 | 17:38  143ms 11538M 3459G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:49.718 | 17:39  151ms 11558M 3483G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:50.013 | 17:39  146ms 11588M 3487G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:50.432 | 17:40  156ms 11643M 3499G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:50.744 | 17:40  171ms 11658M 3515G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -2430
+2024-11-14 11:48:50.746 | 17:40  171ms 11658M 3515G 200/200U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:48:50.747 | 17:40  171ms 11658M 3515G 200/200U [GameAnalyzer] Predicted army advantage is now ClearAdvantage
+2024-11-14 11:48:50.771 | 17:40  171ms 11658M 3515G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:51.097 | 17:41  192ms 11693M 3523G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:51.412 | 17:41  162ms 11723M 3535G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:51.813 | 17:42  179ms 11773M 3551G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:52.121 | 17:42  244ms 11798M 3563G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:52.431 | 17:42  161ms 11818M 3575G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:52.756 | 17:43  167ms 11908M 3579G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:53.084 | 17:43  164ms 11918M 3603G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:53.551 | 17:44  209ms 11958M 3607G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:53.857 | 17:44  160ms 11983M 3619G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:54.165 | 17:45  153ms 12003M 3635G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:54.462 | 17:45  152ms 12033M 3643G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:54.844 | 17:46  161ms 12058M 3655G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -2430
+2024-11-14 11:48:54.847 | 17:46  161ms 12058M 3655G 200/200U [GameAnalyzer] Known army advantage is now OverwhelmingAdvantage
+2024-11-14 11:48:54.847 | 17:46  161ms 12058M 3655G 200/200U [GameAnalyzer] Predicted army advantage is now OverwhelmingAdvantage
+2024-11-14 11:48:54.872 | 17:46  161ms 12058M 3655G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:55.195 | 17:46  254ms 12088M 3671G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:55.523 | 17:46  158ms 12143M 3683G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:55.848 | 17:47  170ms 12148M 3695G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:56.194 | 17:47  178ms 12188M 3711G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:56.641 | 17:48  190ms 12218M 3723G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:56.954 | 17:48  153ms 12273M 3727G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:57.270 | 17:49  155ms 12298M 3739G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:57.611 | 17:49  177ms 12323M 3759G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:58.026 | 17:50  161ms 12338M 3763G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:58.362 | 17:50  256ms 12413M 3779G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:58.700 | 17:50  185ms 12453M 3791G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:59.005 | 17:51  158ms 12478M 3803G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -3105
+2024-11-14 11:48:59.032 | 17:51  158ms 12478M 3803G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:59.363 | 17:51  174ms 12503M 3815G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:48:59.816 | 17:52  180ms 12523M 3831G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:00.162 | 17:52  191ms 12553M 3843G 199/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:00.165 | 17:52  191ms 12503M 3843G 199/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:49:00.484 | 17:53  154ms 12538M 3851G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:00.798 | 17:53  158ms 12588M 3859G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:01.189 | 17:54  146ms 12613M 3879G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:01.492 | 17:54  239ms 12638M 3887G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:01.805 | 17:55  150ms 12653M 3899G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:02.137 | 17:55  162ms 12678M 3915G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:02.465 | 17:55  175ms 12728M 3923G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:02.866 | 17:56  163ms 12798M 3935G 198/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:02.868 | 17:56  163ms 12648M 3860G 198/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:49:02.870 | 17:56  163ms 12598M 3860G 198/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:49:03.177 | 17:56  160ms 12673M 3876G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -3455
+2024-11-14 11:49:03.180 | 17:56  160ms 12673M 3876G 200/200U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:49:03.180 | 17:56  160ms 12673M 3876G 200/200U [GameAnalyzer] Predicted army advantage is now ClearAdvantage
+2024-11-14 11:49:03.237 | 17:56  160ms 12673M 3876G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:03.594 | 17:57  226ms 12693M 3888G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:03.917 | 17:57  159ms 12768M 3900G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:04.326 | 17:58  162ms 12793M 3908G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:04.653 | 17:58  254ms 12818M 3928G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:04.979 | 17:59  158ms 12858M 3932G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:05.349 | 17:59  157ms 12878M 3944G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:05.754 | 17:59  170ms 12923M 3960G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:06.067 | 18:00  244ms 12948M 3968G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:06.401 | 18:00  160ms 12968M 3980G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:06.703 | 18:01  148ms 13013M 3996G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:07.027 | 18:01  157ms 13033M 4008G 200/200U [Tech] Started TERRANVEHICLEANDSHIPARMORSLEVEL3
+2024-11-14 11:49:07.414 | 18:02  154ms 13058M 4020G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -3455
+2024-11-14 11:49:07.442 | 18:02  154ms 13058M 4020G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL1
+2024-11-14 11:49:07.753 | 18:02  256ms 13013M 3936G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:08.067 | 18:03  148ms 13048M 3948G 198/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:08.069 | 18:03  148ms 12898M 3873G 198/200U [ActUnit] VIKINGFIGHTER from STARPORT at (47.5, 109.5)
+2024-11-14 11:49:08.071 | 18:03  148ms 12848M 3873G 198/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:49:08.378 | 18:03  152ms 12933M 3877G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:08.781 | 18:03  149ms 12963M 3889G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:09.081 | 18:04  241ms 12988M 3909G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:09.385 | 18:04  151ms 13038M 3913G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:09.690 | 18:05  150ms 13088M 3929G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:09.995 | 18:05  150ms 13128M 3941G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:10.404 | 18:06  159ms 13143M 3953G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:10.738 | 18:06  265ms 13168M 3965G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:11.066 | 18:07  169ms 13193M 3981G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:11.353 | 18:07  148ms 13213M 3993G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -4155
+2024-11-14 11:49:11.379 | 18:07  148ms 13213M 3993G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:11.688 | 18:07  155ms 13258M 4001G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:12.086 | 18:08  148ms 13273M 4009G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:12.396 | 18:08  149ms 13298M 4029G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:12.710 | 18:09  157ms 13313M 4037G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:13.035 | 18:09  165ms 13358M 4049G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:13.429 | 18:10  153ms 13393M 4065G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:13.723 | 18:10  235ms 13433M 4073G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:14.036 | 18:11  151ms 13513M 4085G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:14.361 | 18:11  159ms 13553M 4101G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:14.697 | 18:11  160ms 13578M 4113G 198/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:14.699 | 18:11  160ms 13428M 4038G 198/200U [ActUnit] VIKINGFIGHTER from STARPORT at (53.5, 122.5)
+2024-11-14 11:49:14.701 | 18:11  160ms 13378M 4038G 198/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:49:15.105 | 18:12  156ms 13483M 4050G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:15.386 | 18:12  147ms 13503M 4058G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -4155
+2024-11-14 11:49:15.412 | 18:12  147ms 13503M 4058G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:15.711 | 18:13  153ms 13538M 4078G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:16.015 | 18:13  143ms 13558M 4082G 198/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:16.017 | 18:13  143ms 13408M 4007G 198/200U [ActUnit] VIKINGFIGHTER from STARPORT at (53.5, 117.5)
+2024-11-14 11:49:16.019 | 18:13  143ms 13358M 4007G 198/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:49:16.397 | 18:14  145ms 13423M 4019G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:16.688 | 18:14  227ms 13433M 4035G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:16.996 | 18:15  146ms 13478M 4043G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:17.310 | 18:15  154ms 13518M 4055G 198/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:17.313 | 18:15  154ms 13368M 3980G 198/200U [ActUnit] VIKINGFIGHTER from STARPORT at (32.5, 113.5)
+2024-11-14 11:49:17.314 | 18:15  154ms 13318M 3980G 198/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:49:17.633 | 18:15  156ms 13388M 3996G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:18.029 | 18:16  149ms 13408M 4008G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:18.327 | 18:16  152ms 13443M 4020G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:18.625 | 18:17  150ms 13478M 4036G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:18.923 | 18:17  160ms 13508M 4048G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:19.294 | 18:18  142ms 13613M 4052G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -4155
+2024-11-14 11:49:19.322 | 18:18  142ms 13613M 4052G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:19.605 | 18:18  234ms 13618M 4064G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:19.897 | 18:19  141ms 13643M 4084G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:19.900 | 18:19  141ms 13593M 4084G 199/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:49:20.204 | 18:19  149ms 13643M 4088G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:20.505 | 18:20  149ms 13678M 4104G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:20.886 | 18:20  146ms 13713M 4116G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:20.889 | 18:20  146ms 13663M 4116G 199/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:49:21.168 | 18:20  224ms 13688M 4128G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:21.457 | 18:21  138ms 13703M 4140G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:21.732 | 18:21  139ms 13723M 4156G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:21.735 | 18:21  139ms 13673M 4156G 199/200U [ActUnit] MARINE from BARRACKS at (34.5, 110.5)
+2024-11-14 11:49:22.100 | 18:22  138ms 13703M 4168G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:22.104 | 18:22  138ms 13653M 4168G 199/200U [ActUnit] MARINE from BARRACKS at (39.5, 113.5)
+2024-11-14 11:49:22.406 | 18:22  234ms 13693M 4176G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:22.701 | 18:23  143ms 13718M 4184G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:22.966 | 18:23  140ms 13728M 4208G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -4155
+2024-11-14 11:49:22.968 | 18:23  140ms 13728M 4208G 200/200U [GameAnalyzer] Known army advantage is now OverwhelmingAdvantage
+2024-11-14 11:49:22.969 | 18:23  140ms 13728M 4208G 200/200U [GameAnalyzer] Predicted army advantage is now OverwhelmingAdvantage
+2024-11-14 11:49:22.996 | 18:23  140ms 13728M 4208G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:23.279 | 18:24  146ms 13773M 4212G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:23.651 | 18:24  140ms 13828M 4224G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:23.931 | 18:24  223ms 13893M 4240G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:24.222 | 18:25  138ms 13968M 4248G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:24.484 | 18:25  151ms 13998M 4260G 200/200U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:49:24.486 | 18:25  151ms 13998M 4260G 200/200U [GameAnalyzer] Predicted army advantage is now ClearAdvantage
+2024-11-14 11:49:24.513 | 18:25  151ms 13998M 4260G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:24.885 | 18:26  139ms 14008M 4276G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:25.140 | 18:26  224ms 14038M 4288G 199/200U [GameAnalyzer] Known army advantage is now OverwhelmingAdvantage
+2024-11-14 11:49:25.141 | 18:26  224ms 14038M 4288G 199/200U [GameAnalyzer] Predicted army advantage is now OverwhelmingAdvantage
+2024-11-14 11:49:25.169 | 18:26  224ms 14038M 4288G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:25.447 | 18:27  141ms 14058M 4300G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:25.710 | 18:27  135ms 14093M 4304G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:25.985 | 18:28  133ms 14133M 4328G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:26.331 | 18:28  132ms 14143M 4332G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:26.553 | 18:28  203ms 14163M 4344G 199/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -4305
+2024-11-14 11:49:26.581 | 18:28  203ms 14163M 4344G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:26.818 | 18:29  126ms 14188M 4360G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:27.036 | 18:29  110ms 14228M 4368G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:27.253 | 18:30  112ms 14263M 4380G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:27.552 | 18:30  109ms 14273M 4396G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:27.771 | 18:31  197ms 14353M 4408G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:27.990 | 18:31  111ms 14393M 4420G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:28.207 | 18:32  113ms 14413M 4436G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:28.428 | 18:32  108ms 14508M 4448G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:28.729 | 18:32  110ms 14533M 4452G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:28.951 | 18:33  198ms 14593M 4464G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:29.164 | 18:33  112ms 14613M 4484G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:29.356 | 18:34  107ms 14628M 4488G 199/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -4305
+2024-11-14 11:49:29.383 | 18:34  107ms 14628M 4488G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:29.596 | 18:34  114ms 14663M 4504G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:29.899 | 18:35  110ms 14688M 4516G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:30.118 | 18:35  199ms 14708M 4528G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:30.335 | 18:36  111ms 14733M 4540G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:30.559 | 18:36  111ms 14763M 4556G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:30.779 | 18:36  110ms 14793M 4568G 199/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:30.782 | 18:36  110ms 14743M 4568G 199/200U [ActUnit] MARINE from BARRACKS at (41.5, 110.5)
+2024-11-14 11:49:31.091 | 18:37  113ms 14773M 4576G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:31.316 | 18:37  196ms 14843M 4584G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:31.541 | 18:38  112ms 14903M 4604G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:31.764 | 18:38  111ms 14923M 4612G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:31.983 | 18:39  113ms 14958M 4624G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:32.278 | 18:39  110ms 15008M 4640G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -4305
+2024-11-14 11:49:32.304 | 18:39  110ms 15008M 4640G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:32.529 | 18:40  118ms 15033M 4648G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:32.757 | 18:40  111ms 15078M 4660G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:32.979 | 18:40  113ms 15118M 4676G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:33.202 | 18:41  110ms 15158M 4688G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:33.516 | 18:41  114ms 15183M 4700G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:33.740 | 18:42  110ms 15223M 4708G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:33.966 | 18:42  116ms 15233M 4728G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:34.190 | 18:43  109ms 15273M 4732G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:34.507 | 18:43  113ms 15288M 4744G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:34.741 | 18:44  202ms 15348M 4760G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:34.760 | 18:44  202ms 15348M 4760G 200/200U [DodgeRampAttack] Power 95.10 is larger than required attack power 70.00 -> attack!
+2024-11-14 11:49:34.761 | 18:44  202ms 15348M 4760G 200/200U [DodgeRampAttack] Attack started at 95.10 power.
+2024-11-14 11:49:34.982 | 18:44  126ms 15383M 4768G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:35.227 | 18:45  134ms 15453M 4780G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1826
+2024-11-14 11:49:35.256 | 18:45  134ms 15453M 4780G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:35.515 | 18:45  142ms 15468M 4796G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:35.869 | 18:45  138ms 15483M 4808G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:36.132 | 18:46  227ms 15508M 4820G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:36.398 | 18:46  138ms 15573M 4836G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:36.653 | 18:47  138ms 15633M 4848G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:36.918 | 18:47  138ms 15658M 4852G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:37.270 | 18:48  139ms 15708M 4864G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:37.539 | 18:48  138ms 15718M 4884G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:37.800 | 18:49  140ms 15768M 4888G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:38.073 | 18:49  140ms 15793M 4904G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:38.434 | 18:49  141ms 15818M 4916G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:38.686 | 18:50  230ms 15848M 4928G 200/200U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1762
+2024-11-14 11:49:38.716 | 18:50  230ms 15848M 4928G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:38.998 | 18:50  147ms 15883M 4940G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:39.278 | 18:51  141ms 15903M 4956G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:39.556 | 18:51  144ms 15968M 4968G 200/200U [Tech] Started TERRANVEHICLEWEAPONSLEVEL2
+2024-11-14 11:49:39.801 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2024-11-14 11:49:39.802 | Result: Victory
+2024-11-14 11:49:39.803 | Duration: 18:51
+2024-11-14 11:49:39.803 | Step time min: 14
+2024-11-14 11:49:39.804 | Step time avg: 116
+2024-11-14 11:49:39.804 | Step time max: 850
+2024-11-14 11:49:39.805 | [LostUnitsContents] My lost units minerals and gas: (19200, 8225)
+2024-11-14 11:49:39.806 | [LostUnitsContents] My lost units minerals by score: 19050.0
+2024-11-14 11:49:39.807 | [LostUnitsContents] Enemy lost units minerals and gas: (29900, 9450)
+2024-11-14 11:49:39.807 | [LostUnitsContents] Enemy lost units minerals by score: 29350.0
+2024-11-14 11:49:39.809 | [GameAnalyzerEnd] Own units:
+2024-11-14 11:49:39.809 | [GameAnalyzerEnd] MARINE            total: 155 alive:  26 dead: 129 
+2024-11-14 11:49:39.810 | [GameAnalyzerEnd] SCV               total:  87 alive:  80 dead:   7 
+2024-11-14 11:49:39.811 | [GameAnalyzerEnd] BANSHEE           total:  53 alive:  12 dead:  41 
+2024-11-14 11:49:39.812 | [GameAnalyzerEnd] VIKINGFIGHTER     total:  40 alive:   9 dead:  31 
+2024-11-14 11:49:39.812 | [GameAnalyzerEnd] SUPPLYDEPOT       total:  16 alive:  16 dead:   0 
+2024-11-14 11:49:39.813 | [GameAnalyzerEnd] SIEGETANK         total:  15 alive:   7 dead:   8 
+2024-11-14 11:49:39.814 | [GameAnalyzerEnd] REFINERY          total:  12 alive:  12 dead:   0 
+2024-11-14 11:49:39.814 | [GameAnalyzerEnd] ORBITALCOMMAND    total:   7 alive:   7 dead:   0 
+2024-11-14 11:49:39.815 | [GameAnalyzerEnd] TECHLAB           total:   6 alive:   6 dead:   0 
+2024-11-14 11:49:39.815 | [GameAnalyzerEnd] MULE              total:   6 alive:   6 dead:   0 
+2024-11-14 11:49:39.816 | [GameAnalyzerEnd] RAVEN             total:   6 alive:   2 dead:   4 
+2024-11-14 11:49:39.816 | [GameAnalyzerEnd] STARPORT          total:   5 alive:   5 dead:   0 
+2024-11-14 11:49:39.817 | [GameAnalyzerEnd] BARRACKS          total:   3 alive:   3 dead:   0 
+2024-11-14 11:49:39.818 | [GameAnalyzerEnd] REACTOR           total:   2 alive:   2 dead:   0 
+2024-11-14 11:49:39.818 | [GameAnalyzerEnd] ARMORY            total:   2 alive:   2 dead:   0 
+2024-11-14 11:49:39.820 | [GameAnalyzerEnd] BUNKER            total:   1 alive:   1 dead:   0 
+2024-11-14 11:49:39.821 | [GameAnalyzerEnd] FACTORY           total:   1 alive:   1 dead:   0 
+2024-11-14 11:49:39.822 | [GameAnalyzerEnd] Enemy units:
+2024-11-14 11:49:39.822 | [GameAnalyzerEnd] DRONE             total: 127 alive:  37 dead:  90 
+2024-11-14 11:49:39.823 | [GameAnalyzerEnd] ZERGLING          total:  81 alive:   3 dead:  78 
+2024-11-14 11:49:39.823 | [GameAnalyzerEnd] ROACH             total:  69 alive:   2 dead:  67 
+2024-11-14 11:49:39.824 | [GameAnalyzerEnd] HYDRALISK         total:  25 alive:   1 dead:  24 
+2024-11-14 11:49:39.825 | [GameAnalyzerEnd] BANELING          total:  24 alive:   0 dead:  24 
+2024-11-14 11:49:39.825 | [GameAnalyzerEnd] OVERLORD          total:  22 alive:   7 dead:  15 
+2024-11-14 11:49:39.826 | [GameAnalyzerEnd] SPINECRAWLER      total:  14 alive:   2 dead:  12 
+2024-11-14 11:49:39.826 | [GameAnalyzerEnd] INFESTOR          total:  11 alive:   0 dead:  11 
+2024-11-14 11:49:39.827 | [GameAnalyzerEnd] EXTRACTOR         total:  10 alive:   0 dead:  10 
+2024-11-14 11:49:39.828 | [GameAnalyzerEnd] SPORECRAWLER      total:   8 alive:   0 dead:   8 
+2024-11-14 11:49:39.829 | [GameAnalyzerEnd] OVERSEER          total:   7 alive:   1 dead:   6 
+2024-11-14 11:49:39.829 | [GameAnalyzerEnd] CORRUPTOR         total:   7 alive:   1 dead:   6 
+2024-11-14 11:49:39.830 | [GameAnalyzerEnd] QUEEN             total:   7 alive:   0 dead:   7 
+2024-11-14 11:49:39.831 | [GameAnalyzerEnd] HATCHERY          total:   6 alive:   2 dead:   4 
+2024-11-14 11:49:39.831 | [GameAnalyzerEnd] RAVAGER           total:   6 alive:   0 dead:   6 
+2024-11-14 11:49:39.832 | [GameAnalyzerEnd] MUTALISK          total:   6 alive:   0 dead:   6 
+2024-11-14 11:49:39.833 | [GameAnalyzerEnd] BROODLORD         total:   3 alive:   0 dead:   3 
+2024-11-14 11:49:39.833 | [GameAnalyzerEnd] EVOLUTIONCHAMBER  total:   3 alive:   0 dead:   3 
+2024-11-14 11:49:39.834 | [GameAnalyzerEnd] CREEPTUMOR        total:   2 alive:   0 dead:   2 
+2024-11-14 11:49:39.835 | [GameAnalyzerEnd] LAIR              total:   1 alive:   1 dead:   0 
+2024-11-14 11:49:39.836 | [GameAnalyzerEnd] LURKERMPEGG       total:   1 alive:   1 dead:   0 
+2024-11-14 11:49:39.836 | [GameAnalyzerEnd] SPIRE             total:   1 alive:   1 dead:   0 
+2024-11-14 11:49:39.838 | [GameAnalyzerEnd] BROODLORDCOCOON   total:   1 alive:   1 dead:   0 
+2024-11-14 11:49:39.839 | [GameAnalyzerEnd] SIEGETANK         total:   1 alive:   0 dead:   1 
+2024-11-14 11:49:39.840 | [GameAnalyzerEnd] LURKERMP          total:   1 alive:   0 dead:   1 
+2024-11-14 11:49:39.840 | [GameAnalyzerEnd] VIPER             total:   1 alive:   0 dead:   1 
+2024-11-14 11:49:39.841 | [GameAnalyzerEnd] INFESTATIONPIT    total:   1 alive:   0 dead:   1 
+2024-11-14 11:49:39.841 | [GameAnalyzerEnd] ROACHWARREN       total:   1 alive:   0 dead:   1 
+2024-11-14 11:49:39.842 | [GameAnalyzerEnd] LURKERDENMP       total:   1 alive:   0 dead:   1 
+2024-11-14 11:49:39.842 | [GameAnalyzerEnd] SPAWNINGPOOL      total:   1 alive:   0 dead:   1 
+2024-11-14 11:49:39.843 | [GameAnalyzerEnd] HYDRALISKDEN      total:   1 alive:   0 dead:   1 
+2024-11-14 11:49:39.844 | [GameAnalyzerEnd] HIVE              total:   1 alive:   0 dead:   1 
+2024-11-14 11:49:39.844 | [GameAnalyzerEnd] GREATERSPIRE      total:   1 alive:   0 dead:   1 
+2024-11-14 11:49:39.845 | [GameAnalyzerEnd] BANELINGNEST      total:   1 alive:   0 dead:   1 
+2024-11-14 11:49:39.846 | [GameAnalyzerEnd] Minerals max 15968 Average 3162
+2024-11-14 11:49:39.846 | [GameAnalyzerEnd] Vespene max 4968 Average 963
+2024-11-14 11:49:39.848 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot LadderBot(Terran): Victory
+2024-11-14 11:49:41.168 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was Status.ended)
+2024-11-14 11:49:41.186 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.quit (was Status.launched)
+2024-11-14 11:49:41.187 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 52571...
+2024-11-14 11:49:41.189 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

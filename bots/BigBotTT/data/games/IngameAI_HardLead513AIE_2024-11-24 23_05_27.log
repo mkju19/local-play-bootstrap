@@ -1,0 +1,35 @@
+2024-11-24 23:05:36.570 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-24 23:05:36.571 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-24 23:05:36.572 | INFO     | sc2.controller:create_game:38 - Map:     HardLead513AIE
+2024-11-24 23:05:36.573 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Zerg, RandomBuild)
+2024-11-24 23:05:36.576 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-24 23:05:49.367 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2024-11-24 23:05:49.368 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2024-11-24 23:05:50.143 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.13.92440
+2024-11-24 23:05:50.144 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2024-11-24 23:05:50.288 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: Hard Lead AIE and hash: 3179994.
+2024-11-24 23:05:51.725 | [Start] My race: Terran
+2024-11-24 23:05:51.726 | [Start] Opponent race: Zerg
+2024-11-24 23:05:51.727 | [Start] OpponentId: None
+2024-11-24 23:05:52.151 | 00:00   13ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-24 23:05:52.327 | 00:01   13ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2024-11-24 23:05:54.645 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2024-11-24 23:05:54.647 | Result: Defeat
+2024-11-24 23:05:54.647 | Duration: 00:10
+2024-11-24 23:05:54.648 | Step time min: 13
+2024-11-24 23:05:54.648 | Step time avg: 18
+2024-11-24 23:05:54.649 | Step time max: 142
+2024-11-24 23:05:54.649 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2024-11-24 23:05:54.650 | [LostUnitsContents] My lost units minerals by score: 0.0
+2024-11-24 23:05:54.651 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2024-11-24 23:05:54.651 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2024-11-24 23:05:54.652 | [GameAnalyzerEnd] Own units:
+2024-11-24 23:05:54.653 | [GameAnalyzerEnd] SCV               total:  12 alive:  12 dead:   0 
+2024-11-24 23:05:54.654 | [GameAnalyzerEnd] COMMANDCENTER     total:   1 alive:   1 dead:   0 
+2024-11-24 23:05:54.654 | [GameAnalyzerEnd] Enemy units:
+2024-11-24 23:05:54.655 | [GameAnalyzerEnd] Minerals max 95 Average 33
+2024-11-24 23:05:54.656 | [GameAnalyzerEnd] Vespene max 0 Average 0
+2024-11-24 23:05:54.657 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot LadderBot(Terran): Defeat
+2024-11-24 23:05:56.658 | INFO     | sc2.protocol:__request:48 - Cannot receive: Game has already ended.
+2024-11-24 23:05:56.659 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 53978...
+2024-11-24 23:05:56.660 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

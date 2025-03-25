@@ -1,0 +1,1165 @@
+2024-11-05 16:29:32.075 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-05 16:29:32.076 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-05 16:29:32.077 | INFO     | sc2.controller:create_game:38 - Map:     GoldenAura513AIE
+2024-11-05 16:29:32.078 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Zerg, RandomBuild)
+2024-11-05 16:29:32.080 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-05 16:29:44.493 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2024-11-05 16:29:44.494 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2024-11-05 16:29:45.253 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.13.92440
+2024-11-05 16:29:45.254 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2024-11-05 16:29:45.421 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: Goldenaura AIE and hash: 3781140.
+2024-11-05 16:29:47.304 | [DataManager] No BuildDetector found, enemy build data cannot be saved
+2024-11-05 16:29:47.306 | 00:00    0ms    0M    0G  12/ 15U [Build] Att at 10
+2024-11-05 16:29:47.358 | [Start] My race: Terran
+2024-11-05 16:29:47.359 | [Start] Opponent race: Zerg
+2024-11-05 16:29:47.360 | [Start] OpponentId: None
+2024-11-05 16:29:49.966 | 00:16   18ms    0M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:29:52.025 | 00:29   16ms   95M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:29:53.342 | 00:37   18ms  130M    0G  15/ 23U [BuildGas] Building REFINERY to (167.5, 60.5)
+2024-11-05 16:29:54.330 | 00:44   20ms    5M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:29:56.189 | 00:56   22ms   90M    0G  16/ 23U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:29:58.237 | 01:09   21ms   65M   12G  17/ 23U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:00.026 | 01:15   24ms  120M   24G  18/ 23U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-05 16:30:00.138 | 01:15   33ms  125M   24G  18/ 23U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-05 16:30:00.247 | 01:15   35ms  135M   24G  18/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-05 16:30:00.335 | 01:16   33ms  145M   24G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 16:30:01.138 | 01:20   29ms  185M   32G  18/ 23U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -160
+2024-11-05 16:30:01.141 | 01:20   29ms  185M   32G  18/ 23U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-05 16:30:01.432 | 01:21   27ms  150M   36G  18/ 23U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:02.281 | 01:25   27ms  190M   44G  19/ 31U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -65
+2024-11-05 16:30:02.709 | 01:27   30ms  135M   52G  19/ 31U [BuildGas] Building REFINERY to (177.5, 70.5)
+2024-11-05 16:30:02.711 | 01:27   30ms   85M    2G  19/ 31U [TerranUnit] REAPER from BARRACKS at (168.5, 73.5)
+2024-11-05 16:30:03.320 | 01:31   24ms  120M   10G  20/ 31U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-05 16:30:05.824 | 01:43   33ms  120M   42G  20/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 16:30:09.578 | 01:59   33ms  280M   94G  20/ 31U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:09.796 | 02:00   31ms  295M   98G  21/ 31U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-05 16:30:09.798 | 02:00   31ms  245M   48G  21/ 31U [TerranUnit] REAPER from BARRACKS at (168.5, 73.5)
+2024-11-05 16:30:11.965 | 02:10   28ms  400M   88G  22/ 31U [Expand] Expanding to (148.5, 59.5)
+2024-11-05 16:30:12.779 | 02:14   35ms    0M  104G  22/ 31U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:13.721 | 02:17   33ms   65M  120G  23/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-05 16:30:14.013 | 02:19   32ms   80M  124G  23/ 31U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-05 16:30:14.014 | 02:19   32ms   80M  124G  23/ 31U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-05 16:30:15.338 | 02:24   45ms   15M   44G  22/ 31U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-05 16:30:15.339 | 02:24   45ms   15M   44G  22/ 31U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-05 16:30:16.162 | 02:28   35ms    0M   60G  22/ 31U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:17.116 | 02:32   36ms   20M   26G  23/ 31U [TerranUnit] REAPER from BARRACKS at (168.5, 73.5)
+2024-11-05 16:30:19.027 | 02:40   32ms   95M   62G  24/ 31U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:21.953 | 02:53   40ms  140M  110G  24/ 31U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:22.807 | 02:56   32ms  175M  126G  25/ 31U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-05 16:30:23.989 | 03:02   34ms  260M  150G  25/ 31U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-05 16:30:24.674 | 03:04   42ms  235M  162G  25/ 31U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:30:25.106 | 03:05   41ms  220M  170G  25/ 31U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:25.829 | 03:08   34ms  255M  178G  26/ 39U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-05 16:30:26.082 | 03:09   39ms  115M   82G  26/ 39U [GameAnalyzer] Income advantage is now Even
+2024-11-05 16:30:26.091 | 03:09   39ms  115M   82G  26/ 39U [DefensiveBuilding] Building BUNKER to (145.24604313272016, 63.29628301182648)
+2024-11-05 16:30:28.925 | 03:19   36ms    0M  134G  26/ 39U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:29.996 | 03:24   41ms   50M  158G  27/ 39U [BuildAddon] UnitTypeId.FACTORYTECHLAB to (176.0, 75.0)
+2024-11-05 16:30:30.003 | 03:24   41ms    0M  158G  27/ 39U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:30:30.654 | 03:26   41ms   60M  149G  27/ 39U [BuildAddon] UnitTypeId.BARRACKSTECHLAB to (171.0, 73.0)
+2024-11-05 16:30:31.538 | 03:30   31ms   70M  144G  27/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-05 16:30:33.325 | 03:38   36ms    0M  188G  27/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:34.912 | 03:44   40ms   80M  220G  27/ 54U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:30:35.897 | 03:48   36ms   15M  119G  28/ 54U [ActUnit] SIEGETANK from FACTORY at (173.5, 75.5)
+2024-11-05 16:30:36.645 | 03:51   34ms    0M  131G  31/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:38.728 | 03:59   39ms  125M  175G  32/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:30:39.402 | 04:02   60ms  115M  191G  33/ 54U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:30:39.766 | 04:03   43ms  175M  199G  34/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-05 16:30:39.768 | 04:03   43ms  125M  199G  34/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:40.908 | 04:07   46ms  185M  223G  35/ 54U [BuildAddon] UnitTypeId.BARRACKSREACTOR to (169.0, 76.0)
+2024-11-05 16:30:41.150 | 04:08   42ms    5M   73G  35/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-05 16:30:41.288 | 04:09   36ms   50M   77G  35/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-05 16:30:42.052 | 04:12   40ms   40M   97G  35/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:30:43.088 | 04:16   38ms  115M  113G  36/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:44.250 | 04:20   41ms  145M  137G  37/ 54U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:30:44.381 | 04:20   42ms   15M   16G  38/ 54U [ActUnit] SIEGETANK from FACTORY at (173.5, 75.5)
+2024-11-05 16:30:44.955 | 04:22   51ms   45M   28G  41/ 54U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-05 16:30:45.650 | 04:24   57ms  125M   36G  41/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-05 16:30:45.829 | 04:24  145ms   85M   36G  41/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:30:47.198 | 04:28   45ms  103M   60G  33/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:48.588 | 04:33   47ms  193M   84G  33/ 54U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-05 16:30:49.098 | 04:35   44ms  130M   92G  33/ 54U [BuildGas] Building REFINERY to (144.5, 52.5)
+2024-11-05 16:30:49.713 | 04:37   40ms  122M  108G  30/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:30:49.970 | 04:38   43ms   76M  108G  31/ 54U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:30:50.105 | 04:38   43ms   86M  112G  32/ 54U [GameAnalyzer] Predicted army advantage is now OverwhelmingDisadvantage
+2024-11-05 16:30:50.885 | 04:41   64ms   71M  124G  32/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:51.740 | 04:43   45ms  141M  140G  33/ 54U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:30:51.870 | 04:44   53ms   96M  144G  34/ 54U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:30:53.266 | 04:49   42ms  128M  172G  32/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:30:54.202 | 04:52   41ms   18M   63G  33/ 54U [ActUnit] SIEGETANK from FACTORY at (173.5, 75.5)
+2024-11-05 16:30:54.571 | 04:54   45ms   11M   71G  36/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:54.697 | 04:54   43ms   31M   75G  37/ 54U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-05 16:30:55.426 | 04:57   48ms   59M   87G  36/ 54U [BuildAddon] UnitTypeId.FACTORYTECHLAB to (165.0, 60.0)
+2024-11-05 16:30:55.427 | 04:57   48ms    9M   87G  36/ 54U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:30:56.048 | 04:59   48ms    4M   78G  36/ 54U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:30:56.768 | 05:01   47ms    9M   86G  37/ 54U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:30:57.732 | 05:04   56ms    0M  106G  38/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:30:58.439 | 05:07   48ms    2M  118G  39/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:30:59.490 | 05:10   58ms    2M  134G  39/ 54U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:30:59.617 | 05:10   53ms    2M  134G  40/ 54U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-05 16:31:00.791 | 05:14   46ms   76M  158G  37/ 54U [GameAnalyzer] Income advantage is now Even
+2024-11-05 16:31:01.292 | 05:16   46ms  103M  166G  37/ 54U [DefensiveBuilding] Building BUNKER to (165.5856390653284, 68.42144267525093)
+2024-11-05 16:31:01.766 | 05:17   43ms   21M  174G  37/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-05 16:31:02.639 | 05:20   46ms    2M  190G  36/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:31:03.524 | 05:24   45ms    2M  210G  36/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:31:03.774 | 05:25   41ms    6M  214G  37/ 54U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-05 16:31:04.130 | 05:25   41ms   15M  222G  37/ 54U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-05 16:31:04.378 | 05:26   41ms   39M  222G  37/ 54U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-05 16:31:04.502 | 05:27   52ms   43M  230G  36/ 54U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-05 16:31:04.627 | 05:27   41ms    2M  230G  35/ 54U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:31:04.749 | 05:28   47ms    2M  230G  36/ 54U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-05 16:31:05.721 | 05:31   46ms    7M  254G  36/ 54U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:31:07.709 | 05:38   41ms  111M  290G  37/ 54U [DefensiveBuilding] Building BUNKER to (145.24604313272016, 63.29628301182648)
+2024-11-05 16:31:08.407 | 05:41   40ms    3M  302G  37/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:31:09.104 | 05:44   41ms    4M  318G  38/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:31:09.539 | 05:45   42ms   37M  326G  39/ 54U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-05 16:31:09.920 | 05:46   43ms   15M  334G  39/ 54U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:31:10.508 | 05:49   36ms    2M  346G  40/ 54U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:31:11.242 | 05:51   45ms   53M  358G  41/ 54U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-05 16:31:11.249 | 05:51   45ms    3M  358G  41/ 54U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:31:11.976 | 05:54   42ms    0M  374G  42/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:31:12.101 | 05:54   39ms    5M  374G  43/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-05 16:31:12.220 | 05:54   41ms   10M  374G  43/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-05 16:31:12.346 | 05:55   40ms   30M  382G  43/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-05 16:31:12.812 | 05:57   41ms    3M  390G  43/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:31:14.898 | 06:04   55ms   52M  430G  44/ 54U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-05 16:31:15.414 | 06:06   50ms   34M  438G  44/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:31:15.943 | 06:08   49ms   62M  450G  45/ 54U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-05 16:31:16.437 | 06:09   44ms   60M  454G  45/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:31:18.396 | 06:16   51ms  195M  494G  46/ 54U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-05 16:31:18.650 | 06:17   51ms  139M  498G  46/ 54U [BuildGas] Building REFINERY to (155.5, 62.5)
+2024-11-05 16:31:19.171 | 06:19   52ms  132M  510G  46/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:31:20.142 | 06:22  132ms  147M  526G  47/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:31:22.196 | 06:28   53ms  148M  558G  48/ 54U [BuildGas] Building REFINERY to (144.5, 52.5)
+2024-11-05 16:31:23.017 | 06:31   55ms  149M  574G  48/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:31:24.072 | 06:34   54ms  169M  590G  49/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:31:27.128 | 06:44   58ms  321M  646G  50/ 54U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:31:28.185 | 06:47   53ms  332M  666G  51/ 54U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:31:29.058 | 06:49   54ms  403M  690G  52/ 62U [Expand] Expanding to (123.5, 55.5)
+2024-11-05 16:31:30.827 | 06:55   52ms  130M  726G  52/ 62U [DefensiveBuilding] Building SENSORTOWER to (167.5856390653284, 66.42144267525093)
+2024-11-05 16:31:31.389 | 06:56   51ms   43M  646G  52/ 62U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-05 16:31:31.548 | 06:57   85ms    8M  654G  52/ 62U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:31:32.333 | 06:59   54ms   23M  666G  53/ 62U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:31:33.445 | 07:03   57ms  108M  710G  54/ 62U [Tech] Started TERRANINFANTRYWEAPONSLEVEL1
+2024-11-05 16:31:33.452 | 07:03   57ms   58M  710G  54/ 62U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:31:34.235 | 07:05   54ms   18M  626G  54/ 62U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:31:34.808 | 07:07   58ms   13M  646G  55/ 62U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:31:35.272 | 07:08   58ms    8M  658G  56/ 62U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:31:35.993 | 07:10   63ms   18M  690G  57/ 62U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:31:36.689 | 07:12   61ms   13M  706G  58/ 62U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:31:40.297 | 07:23   62ms   28M  818G  59/ 62U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-05 16:31:40.607 | 07:24   66ms    3M  834G  59/ 62U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:31:40.917 | 07:25   61ms   28M  842G  60/ 62U [GameAnalyzer] Known army advantage is now Even
+2024-11-05 16:31:41.344 | 07:25  152ms   28M  850G  60/ 62U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:31:41.686 | 07:26   68ms    8M  866G  61/ 62U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:31:43.149 | 07:30   58ms   58M  752G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:43.322 | 07:31   69ms   73M  764G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:43.576 | 07:31   66ms   78M  764G  62/ 62U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-05 16:31:43.589 | 07:31   66ms   78M  764G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:43.753 | 07:32   64ms  123M  768G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:43.924 | 07:32   68ms  128M  780G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:44.095 | 07:33   75ms  153M  780G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:44.274 | 07:33   68ms  168M  780G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:44.441 | 07:34   72ms  173M  788G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:44.603 | 07:34   68ms  193M  796G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:44.766 | 07:34   70ms  213M  796G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:44.938 | 07:35   71ms  213M  800G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:45.110 | 07:35   72ms  223M  812G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:45.299 | 07:36   71ms  243M  812G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:45.541 | 07:36   95ms  253M  816G  62/ 62U [DefensiveBuilding] Building BUNKER to (120.59380903140452, 59.56866735603367)
+2024-11-05 16:31:45.551 | 07:36   95ms  153M  816G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:45.727 | 07:37  159ms  158M  828G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:45.904 | 07:37   70ms  173M  828G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:46.067 | 07:38   69ms  178M  828G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:46.232 | 07:38   74ms  203M  840G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:46.412 | 07:38   68ms  238M  844G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:46.578 | 07:39   77ms  248M  844G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:46.745 | 07:39   72ms  268M  852G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:46.927 | 07:40   77ms  273M  860G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:47.101 | 07:40   71ms  288M  860G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:47.356 | 07:41   86ms  298M  864G  62/ 62U [BuildAddon] no space
+2024-11-05 16:31:47.534 | 07:41  158ms  263M  876G  62/ 70U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:31:47.543 | 07:41  158ms  263M  876G  62/ 70U [BuildAddon] no space
+2024-11-05 16:31:47.545 | 07:41  158ms  113M  751G  62/ 70U [ActUnit] SIEGETANK from FACTORY at (162.5, 60.5)
+2024-11-05 16:31:47.546 | 07:41  158ms   63M  751G  62/ 70U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:31:47.707 | 07:42   74ms   18M  751G  67/ 70U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:31:48.186 | 07:43   59ms   68M  767G  68/ 70U [BuildAddon] no space
+2024-11-05 16:31:48.188 | 07:43   59ms   18M  767G  68/ 70U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:31:48.643 | 07:44   69ms   58M  783G  69/ 70U [GameAnalyzer] Known army advantage is now Even
+2024-11-05 16:31:48.658 | 07:44   69ms   58M  783G  69/ 70U [BuildAddon] no space
+2024-11-05 16:31:48.660 | 07:44   69ms    8M  783G  69/ 70U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:31:49.011 | 07:45   70ms   58M  787G  70/ 70U [BuildAddon] no space
+2024-11-05 16:31:49.191 | 07:46   80ms   63M  799G  70/ 78U [BuildAddon] no space
+2024-11-05 16:31:49.356 | 07:46   67ms   78M  799G  70/ 78U [BuildAddon] no space
+2024-11-05 16:31:49.607 | 07:46   61ms   93M  803G  70/ 78U [BuildAddon] no space
+2024-11-05 16:31:49.768 | 07:47  148ms  108M  815G  70/ 78U [BuildAddon] no space
+2024-11-05 16:31:49.932 | 07:47   66ms  113M  815G  70/ 78U [BuildAddon] no space
+2024-11-05 16:31:50.104 | 07:48   76ms  128M  815G  70/ 78U [BuildAddon] no space
+2024-11-05 16:31:50.269 | 07:48   64ms  148M  823G  70/ 78U [BuildAddon] no space
+2024-11-05 16:31:50.444 | 07:49   73ms  163M  831G  70/ 78U [BuildAddon] no space
+2024-11-05 16:31:50.445 | 07:49   73ms   13M  706G  70/ 78U [ActUnit] SIEGETANK from FACTORY at (173.5, 75.5)
+2024-11-05 16:31:50.948 | 07:50   60ms   68M  722G  73/ 78U [BuildAddon] no space
+2024-11-05 16:31:51.125 | 07:50   64ms   68M  722G  73/ 78U [BuildAddon] no space
+2024-11-05 16:31:51.298 | 07:51   70ms   78M  726G  73/ 78U [BuildAddon] no space
+2024-11-05 16:31:51.459 | 07:51   73ms   83M  738G  73/ 78U [BuildAddon] no space
+2024-11-05 16:31:52.029 | 07:53   64ms   63M  754G  73/ 78U [BuildAddon] no space
+2024-11-05 16:31:52.206 | 07:53   71ms   78M  754G  73/ 78U [BuildAddon] no space
+2024-11-05 16:31:52.364 | 07:54   70ms   33M  754G  73/ 78U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:31:52.598 | 07:54   78ms    3M  762G  74/ 78U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:31:53.263 | 07:56   68ms   58M  786G  75/ 78U [BuildAddon] no space
+2024-11-05 16:31:53.430 | 07:56   72ms   63M  786G  75/ 78U [BuildAddon] no space
+2024-11-05 16:31:53.593 | 07:57   72ms   73M  786G  75/ 78U [BuildAddon] no space
+2024-11-05 16:31:53.813 | 07:57   71ms   88M  802G  75/ 78U [BuildAddon] no space
+2024-11-05 16:31:54.446 | 07:59   68ms   53M  810G  75/ 78U [BuildAddon] no space
+2024-11-05 16:31:54.636 | 07:59   82ms   68M  818G  75/ 78U [BuildAddon] no space
+2024-11-05 16:31:54.638 | 07:59   82ms   18M  818G  75/ 78U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:31:55.009 | 08:00   71ms   58M  822G  76/ 78U [BuildAddon] no space
+2024-11-05 16:31:55.180 | 08:00   96ms   68M  834G  76/ 78U [BuildAddon] no space
+2024-11-05 16:31:55.358 | 08:01   72ms  183M  834G  76/ 78U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-05 16:31:55.372 | 08:01   72ms   83M  834G  76/ 78U [BuildAddon] no space
+2024-11-05 16:31:55.373 | 08:01   72ms   33M  834G  76/ 78U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:31:55.743 | 08:02   69ms   53M  850G  77/ 78U [BuildAddon] no space
+2024-11-05 16:31:56.009 | 08:02   86ms  158M  850G  77/ 78U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-05 16:31:56.025 | 08:02   86ms   58M  850G  77/ 78U [BuildAddon] no space
+2024-11-05 16:31:56.027 | 08:02   86ms    8M  850G  77/ 78U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:31:56.389 | 08:03   73ms   53M  858G  78/ 78U [BuildAddon] no space
+2024-11-05 16:31:56.575 | 08:03   75ms   58M  866G  78/ 78U [BuildAddon] no space
+2024-11-05 16:31:56.758 | 08:04   84ms   68M  866G  78/ 78U [BuildAddon] no space
+2024-11-05 16:31:56.950 | 08:04   84ms   83M  870G  78/ 78U [BuildAddon] no space
+2024-11-05 16:31:57.158 | 08:05   84ms  123M  882G  78/ 78U [BuildAddon] no space
+2024-11-05 16:31:57.168 | 08:05   84ms  123M  882G  78/ 78U [DefensiveBuilding] Building MISSILETURRET to (143.24604313272016, 63.29628301182648)
+2024-11-05 16:31:57.740 | 08:06   71ms   58M  898G  78/ 78U [BuildAddon] no space
+2024-11-05 16:31:58.015 | 08:07   89ms   68M  898G  78/ 78U [BuildAddon] no space
+2024-11-05 16:31:58.191 | 08:07   78ms  178M  898G  78/ 78U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-05 16:31:58.216 | 08:07   78ms   78M  898G  78/ 78U [BuildAddon] no space
+2024-11-05 16:31:58.406 | 08:07  100ms  103M  910G  78/ 78U [BuildAddon] no space
+2024-11-05 16:31:58.423 | 08:07  100ms  103M  910G  78/ 78U [DefensiveBuilding] Building MISSILETURRET to (122.59380903140452, 59.56866735603367)
+2024-11-05 16:32:00.096 | 08:11   64ms   23M  796G  78/ 93U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:32:00.450 | 08:12   64ms   53M  812G  79/ 93U [GameAnalyzer] Known army advantage is now OverwhelmingDisadvantage
+2024-11-05 16:32:00.456 | 08:12   64ms    3M  812G  79/ 93U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:32:00.811 | 08:13   67ms   23M  820G  80/ 93U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-05 16:32:01.343 | 08:15   70ms   68M  832G  80/ 93U [BuildAddon] no space
+2024-11-05 16:32:01.525 | 08:15   67ms   73M  844G  80/ 93U [BuildAddon] no space
+2024-11-05 16:32:01.696 | 08:15   75ms   88M  844G  80/ 93U [BuildAddon] no space
+2024-11-05 16:32:01.878 | 08:16   70ms  103M  848G  80/101U [BuildAddon] no space
+2024-11-05 16:32:01.882 | 08:16   70ms  103M  848G  80/101U [DefensiveBuilding] Building MISSILETURRET to (177.54540929280498, 61.89980286982169)
+2024-11-05 16:32:02.657 | 08:18  155ms   58M  868G  80/101U [BuildAddon] no space
+2024-11-05 16:32:02.839 | 08:18   75ms   68M  876G  80/101U [BuildAddon] no space
+2024-11-05 16:32:03.022 | 08:19   70ms   78M  876G  80/101U [BuildAddon] no space
+2024-11-05 16:32:03.197 | 08:19   71ms  103M  880G  80/101U [BuildAddon] no space
+2024-11-05 16:32:03.208 | 08:19   71ms  103M  880G  80/101U [DefensiveBuilding] Building MISSILETURRET to (153.23729362155848, 55.53268279233393)
+2024-11-05 16:32:03.897 | 08:21   69ms   48M  908G  80/101U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-05 16:32:04.098 | 08:21   72ms   63M  908G  80/101U [BuildAddon] no space
+2024-11-05 16:32:04.276 | 08:22   75ms   88M  908G  80/101U [BuildAddon] no space
+2024-11-05 16:32:04.465 | 08:22   72ms   93M  920G  80/101U [BuildAddon] no space
+2024-11-05 16:32:04.645 | 08:23   79ms  113M  924G  80/101U [BuildAddon] no space
+2024-11-05 16:32:04.654 | 08:23   79ms  113M  924G  80/101U [DefensiveBuilding] Building MISSILETURRET to (128.3072685520693, 51.612632603615744)
+2024-11-05 16:32:05.284 | 08:24  160ms   53M  940G  80/101U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-05 16:32:05.288 | 08:24  160ms    3M  940G  80/101U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:32:06.212 | 08:26   71ms   13M  956G  80/101U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:32:06.960 | 08:28   74ms   58M  980G  81/101U [BuildAddon] no space
+2024-11-05 16:32:07.228 | 08:28   77ms   83M  988G  81/101U [BuildAddon] no space
+2024-11-05 16:32:07.406 | 08:29  162ms  123M  988G  81/101U [BuildAddon] no space
+2024-11-05 16:32:07.596 | 08:29   79ms  133M  992G  81/101U [BuildAddon] no space
+2024-11-05 16:32:07.792 | 08:30   81ms  138M 1004G  81/101U [BuildAddon] no space
+2024-11-05 16:32:07.987 | 08:30   77ms  148M 1004G  81/101U [BuildAddon] no space
+2024-11-05 16:32:08.173 | 08:31   82ms  178M 1008G  81/101U [BuildAddon] no space
+2024-11-05 16:32:08.371 | 08:31   82ms  198M 1020G  81/101U [BuildAddon] no space
+2024-11-05 16:32:08.558 | 08:32   92ms  128M 1020G  81/101U [BuildGas] Building REFINERY to (116.5, 52.5)
+2024-11-05 16:32:08.570 | 08:32   92ms  128M 1020G  81/101U [BuildAddon] no space
+2024-11-05 16:32:08.768 | 08:32   86ms  148M 1020G  81/101U [BuildAddon] no space
+2024-11-05 16:32:08.969 | 08:32   82ms  153M 1028G  81/101U [BuildAddon] no space
+2024-11-05 16:32:09.246 | 08:33   85ms  168M 1036G  81/101U [BuildAddon] no space
+2024-11-05 16:32:09.430 | 08:33  167ms  188M 1036G  81/101U [BuildAddon] no space
+2024-11-05 16:32:09.623 | 08:34   83ms  138M 1040G  81/101U [BuildGas] Building REFINERY to (111.5, 60.5)
+2024-11-05 16:32:09.637 | 08:34   83ms  138M 1040G  81/101U [BuildAddon] no space
+2024-11-05 16:32:09.849 | 08:34   93ms  153M 1052G  81/101U [BuildAddon] no space
+2024-11-05 16:32:10.037 | 08:35   92ms  158M 1052G  81/101U [BuildAddon] no space
+2024-11-05 16:32:10.228 | 08:35   85ms  168M 1056G  81/101U [BuildAddon] no space
+2024-11-05 16:32:10.428 | 08:36   81ms  213M 1068G  81/101U [BuildAddon] no space
+2024-11-05 16:32:10.614 | 08:36   91ms  243M 1068G  81/101U [BuildAddon] no space
+2024-11-05 16:32:10.890 | 08:36   84ms  208M 1068G  81/101U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:32:10.899 | 08:36   84ms  208M 1068G  81/101U [BuildAddon] no space
+2024-11-05 16:32:11.094 | 08:37  179ms  208M 1084G  82/101U [BuildAddon] no space
+2024-11-05 16:32:11.293 | 08:37   84ms  223M 1084G  82/101U [BuildAddon] no space
+2024-11-05 16:32:11.492 | 08:38   93ms  248M 1084G  82/101U [BuildAddon] no space
+2024-11-05 16:32:11.677 | 08:38   93ms  268M 1092G  82/101U [BuildAddon] no space
+2024-11-05 16:32:11.864 | 08:39   84ms  228M 1100G  82/101U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:32:11.874 | 08:39   84ms  228M 1100G  82/101U [BuildAddon] no space
+2024-11-05 16:32:12.068 | 08:39   90ms  243M 1100G  83/101U [BuildAddon] no space
+2024-11-05 16:32:12.255 | 08:40   88ms  258M 1104G  83/101U [BuildAddon] no space
+2024-11-05 16:32:12.565 | 08:40   91ms  268M 1116G  83/101U [BuildAddon] no space
+2024-11-05 16:32:12.769 | 08:40  204ms  223M 1116G  83/101U [BuildGas] Building REFINERY to (119.5, 48.5)
+2024-11-05 16:32:12.787 | 08:40  204ms  223M 1116G  83/101U [BuildAddon] no space
+2024-11-05 16:32:12.989 | 08:41   89ms  233M 1116G  83/101U [BuildAddon] no space
+2024-11-05 16:32:13.183 | 08:41   92ms  258M 1132G  83/101U [BuildAddon] no space
+2024-11-05 16:32:13.378 | 08:42   88ms  288M 1132G  83/101U [BuildAddon] no space
+2024-11-05 16:32:13.574 | 08:42   94ms  298M 1132G  83/101U [BuildAddon] no space
+2024-11-05 16:32:13.782 | 08:43   86ms  168M 1140G  83/101U [BuildAddon] no space
+2024-11-05 16:32:13.976 | 08:43   89ms  193M 1148G  83/101U [BuildAddon] no space
+2024-11-05 16:32:14.286 | 08:44   91ms  208M 1148G  83/101U [BuildAddon] no space
+2024-11-05 16:32:14.487 | 08:44  203ms  213M 1152G  83/101U [BuildAddon] no space
+2024-11-05 16:32:14.693 | 08:45   93ms  223M 1164G  83/101U [BuildAddon] no space
+2024-11-05 16:32:14.900 | 08:45   94ms  243M 1164G  83/101U [BuildAddon] no space
+2024-11-05 16:32:15.101 | 08:45   90ms  358M 1168G  83/101U [ActUnit] SCV from COMMANDCENTER at (123.5, 55.5)
+2024-11-05 16:32:15.111 | 08:45   90ms  358M 1168G  83/101U [BuildAddon] no space
+2024-11-05 16:32:15.307 | 08:46  102ms  378M 1180G  84/101U [BuildAddon] no space
+2024-11-05 16:32:15.504 | 08:46   88ms  388M 1180G  84/101U [BuildAddon] no space
+2024-11-05 16:32:15.704 | 08:47   91ms  398M 1180G  84/101U [BuildAddon] no space
+2024-11-05 16:32:15.986 | 08:47   90ms  418M 1188G  84/101U [BuildAddon] no space
+2024-11-05 16:32:16.193 | 08:48  178ms  438M 1196G  84/101U [BuildAddon] no space
+2024-11-05 16:32:16.395 | 08:48  104ms  458M 1196G  84/101U [BuildAddon] no space
+2024-11-05 16:32:16.398 | 08:48  104ms  408M 1196G  84/101U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:32:16.589 | 08:49   96ms  448M 1200G  85/101U [BuildAddon] no space
+2024-11-05 16:32:16.792 | 08:49   83ms  403M 1212G  85/101U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:32:16.806 | 08:49   83ms  403M 1212G  85/101U [BuildAddon] no space
+2024-11-05 16:32:17.015 | 08:49  102ms  423M 1212G  86/101U [BuildAddon] no space
+2024-11-05 16:32:17.235 | 08:50   91ms  433M 1216G  86/101U [BuildAddon] no space
+2024-11-05 16:32:17.428 | 08:50  114ms  443M 1228G  86/101U [BuildAddon] no space
+2024-11-05 16:32:17.634 | 08:51   90ms  468M 1228G  86/101U [BuildAddon] no space
+2024-11-05 16:32:17.637 | 08:51   90ms  418M 1228G  86/101U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:32:17.915 | 08:51   91ms  373M 1228G  87/101U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:32:17.925 | 08:51   91ms  373M 1228G  87/101U [BuildAddon] no space
+2024-11-05 16:32:18.140 | 08:52  173ms  378M 1240G  88/101U [BuildAddon] no space
+2024-11-05 16:32:18.361 | 08:52   96ms  398M 1244G  88/101U [BuildAddon] no space
+2024-11-05 16:32:18.576 | 08:53  101ms  433M 1244G  88/101U [BuildAddon] no space
+2024-11-05 16:32:18.782 | 08:53   98ms  448M 1252G  88/101U [BuildAddon] no space
+2024-11-05 16:32:18.987 | 08:53   94ms  453M 1260G  88/101U [BuildAddon] no space
+2024-11-05 16:32:18.991 | 08:53   94ms  403M 1260G  88/101U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:32:19.200 | 08:54   95ms  413M 1260G  89/101U [BuildAddon] no space
+2024-11-05 16:32:19.417 | 08:54   99ms  423M 1264G  89/101U [BuildAddon] no space
+2024-11-05 16:32:19.750 | 08:55  108ms  448M 1276G  89/101U [BuildAddon] no space
+2024-11-05 16:32:19.965 | 08:55  233ms  488M 1276G  89/101U [BuildAddon] no space
+2024-11-05 16:32:20.179 | 08:56   96ms  503M 1276G  89/101U [Expand] Expanding to (142.5, 89.5)
+2024-11-05 16:32:20.192 | 08:56   96ms  103M 1276G  89/101U [BuildAddon] no space
+2024-11-05 16:32:20.397 | 08:56   95ms  118M 1292G  89/101U [BuildAddon] no space
+2024-11-05 16:32:20.599 | 08:57   84ms  133M 1292G  89/101U [BuildAddon] no space
+2024-11-05 16:32:20.813 | 08:57   87ms  153M 1292G  89/101U [BuildAddon] no space
+2024-11-05 16:32:20.814 | 08:57   87ms  153M 1292G  89/101U [Tech] Started TERRANINFANTRYARMORSLEVEL1
+2024-11-05 16:32:21.008 | 08:57  103ms   78M 1200G  89/101U [BuildAddon] no space
+2024-11-05 16:32:21.212 | 08:58   77ms   43M 1208G  89/101U [ActUnit] SCV from COMMANDCENTER at (123.5, 55.5)
+2024-11-05 16:32:21.406 | 08:58   81ms   58M 1208G  90/101U [BuildAddon] no space
+2024-11-05 16:32:21.597 | 08:59   76ms   68M 1212G  90/101U [BuildAddon] no space
+2024-11-05 16:32:21.882 | 08:59   90ms   78M 1228G  90/101U [BuildAddon] no space
+2024-11-05 16:32:22.070 | 09:00  167ms  103M 1228G  90/101U [BuildAddon] no space
+2024-11-05 16:32:22.072 | 09:00  167ms  103M 1228G  90/101U [Tech] Started SHIELDWALL
+2024-11-05 16:32:22.828 | 09:01   73ms   13M 1144G  90/101U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:32:23.025 | 09:02   75ms   63M 1152G  91/101U [BuildAddon] no space
+2024-11-05 16:32:23.227 | 09:02   77ms   83M 1160G  91/101U [BuildAddon] no space
+2024-11-05 16:32:23.420 | 09:03   83ms   98M 1160G  91/101U [BuildAddon] no space
+2024-11-05 16:32:23.622 | 09:03   73ms  118M 1168G  91/101U [BuildAddon] no space
+2024-11-05 16:32:23.818 | 09:04   85ms  133M 1180G  91/101U [GameAnalyzer] Income advantage is now OverwhelmingAdvantage
+2024-11-05 16:32:23.823 | 09:04   85ms   83M 1180G  91/101U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:32:23.837 | 09:04   85ms   83M 1180G  91/101U [BuildAddon] no space
+2024-11-05 16:32:24.112 | 09:04   88ms   98M 1180G  92/101U [BuildAddon] no space
+2024-11-05 16:32:24.347 | 09:05  169ms  113M 1184G  92/101U [BuildAddon] no space
+2024-11-05 16:32:24.553 | 09:05  101ms  143M 1196G  92/101U [BuildAddon] no space
+2024-11-05 16:32:24.757 | 09:05   93ms  148M 1196G  92/101U [BuildAddon] no space
+2024-11-05 16:32:24.981 | 09:06   90ms  163M 1196G  92/101U [BuildAddon] no space
+2024-11-05 16:32:25.193 | 09:06  103ms  168M 1208G  92/101U [BuildAddon] no space
+2024-11-05 16:32:25.407 | 09:07   96ms  188M 1216G  92/101U [BuildAddon] no space
+2024-11-05 16:32:25.626 | 09:07   97ms  223M 1216G  92/101U [BuildAddon] no space
+2024-11-05 16:32:25.841 | 09:08   96ms  233M 1228G  92/101U [BuildAddon] no space
+2024-11-05 16:32:26.142 | 09:08   98ms  273M 1236G  92/101U [BuildAddon] no space
+2024-11-05 16:32:26.341 | 09:09  178ms  278M 1240G  92/101U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-05 16:32:26.358 | 09:09  178ms  278M 1240G  92/101U [BuildAddon] no space
+2024-11-05 16:32:26.583 | 09:09  102ms  293M 1244G  92/101U [BuildAddon] no space
+2024-11-05 16:32:26.795 | 09:10   94ms  328M 1260G  92/101U [BuildAddon] no space
+2024-11-05 16:32:27.012 | 09:10   96ms  348M 1260G  92/101U [BuildAddon] no space
+2024-11-05 16:32:27.226 | 09:10   96ms  313M 1260G  92/101U [ActUnit] SCV from COMMANDCENTER at (123.5, 55.5)
+2024-11-05 16:32:27.237 | 09:10   96ms  313M 1260G  92/101U [BuildAddon] no space
+2024-11-05 16:32:27.461 | 09:11   99ms  318M 1280G  93/101U [BuildAddon] no space
+2024-11-05 16:32:27.671 | 09:11   95ms  333M 1280G  93/101U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-05 16:32:27.687 | 09:11   95ms  333M 1280G  93/101U [BuildAddon] no space
+2024-11-05 16:32:27.903 | 09:12  102ms  363M 1280G  93/101U [BuildAddon] no space
+2024-11-05 16:32:28.231 | 09:12   96ms  383M 1292G  93/101U [BuildAddon] no space
+2024-11-05 16:32:28.454 | 09:13  198ms  403M 1304G  93/101U [BuildAddon] no space
+2024-11-05 16:32:28.683 | 09:13   98ms  413M 1304G  93/101U [BuildAddon] no space
+2024-11-05 16:32:28.896 | 09:14  104ms  423M 1312G  93/101U [BuildAddon] no space
+2024-11-05 16:32:29.111 | 09:14   96ms  393M 1328G  93/101U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:32:29.121 | 09:14   96ms  393M 1328G  93/101U [BuildAddon] no space
+2024-11-05 16:32:29.337 | 09:14  106ms  423M 1328G  94/101U [BuildAddon] no space
+2024-11-05 16:32:29.546 | 09:15   94ms  463M 1332G  94/101U [BuildAddon] no space
+2024-11-05 16:32:29.549 | 09:15   94ms  413M 1332G  94/101U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:32:29.778 | 09:15   99ms  338M 1348G  95/101U [BuildAddon] no space
+2024-11-05 16:32:30.097 | 09:16  100ms  338M 1348G  95/101U [BuildAddon] no space
+2024-11-05 16:32:30.330 | 09:16  199ms  308M 1348G  95/101U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:32:30.382 | 09:16  199ms  308M 1348G  95/101U [BuildAddon] no space
+2024-11-05 16:32:30.642 | 09:17  142ms  318M 1364G  96/101U [BuildAddon] no space
+2024-11-05 16:32:30.868 | 09:17  115ms  338M 1372G  96/101U [BuildAddon] no space
+2024-11-05 16:32:31.101 | 09:18  107ms  378M 1372G  96/101U [BuildAddon] no space
+2024-11-05 16:32:31.324 | 09:18  109ms  378M 1384G  96/101U [BuildAddon] no space
+2024-11-05 16:32:31.547 | 09:18   99ms  393M 1396G  96/101U [BuildAddon] no space
+2024-11-05 16:32:31.865 | 09:19  101ms  513M 1396G  96/101U [Expand] Expanding to (104.5, 61.5)
+2024-11-05 16:32:32.573 | 09:20   96ms   73M 1416G  96/101U [BuildAddon] no space
+2024-11-05 16:32:32.806 | 09:21   99ms   83M 1420G  96/101U [BuildAddon] no space
+2024-11-05 16:32:33.036 | 09:21  100ms  108M 1440G  96/101U [BuildAddon] no space
+2024-11-05 16:32:33.257 | 09:22  103ms  148M 1440G  96/101U [BuildAddon] no space
+2024-11-05 16:32:33.495 | 09:22  102ms  163M 1444G  96/101U [BuildAddon] no space
+2024-11-05 16:32:33.802 | 09:22  117ms  178M 1456G  96/101U [BuildAddon] no space
+2024-11-05 16:32:34.012 | 09:23   95ms  143M 1464G  96/101U [ActUnit] SCV from COMMANDCENTER at (123.5, 55.5)
+2024-11-05 16:32:34.031 | 09:23   95ms  143M 1464G  96/101U [BuildAddon] no space
+2024-11-05 16:32:34.249 | 09:23  107ms  153M 1464G  97/101U [BuildAddon] no space
+2024-11-05 16:32:34.465 | 09:24   96ms  183M 1472G  97/101U [BuildAddon] no space
+2024-11-05 16:32:34.690 | 09:24  100ms  193M 1488G  97/101U [BuildAddon] no space
+2024-11-05 16:32:34.917 | 09:25  103ms  203M 1488G  97/101U [BuildAddon] no space
+2024-11-05 16:32:35.136 | 09:25   98ms  228M 1492G  97/101U [BuildAddon] no space
+2024-11-05 16:32:35.444 | 09:26   94ms  253M 1512G  97/101U [BuildAddon] no space
+2024-11-05 16:32:35.667 | 09:26  188ms  273M 1512G  97/101U [DefensiveBuilding] Building BUNKER to (103.79289321881345, 66.44974746830583)
+2024-11-05 16:32:35.680 | 09:26  188ms  173M 1512G  97/101U [BuildAddon] no space
+2024-11-05 16:32:35.684 | 09:26  188ms  173M 1512G  97/101U [DefensiveBuilding] Building MISSILETURRET to (104.5, 52.5)
+2024-11-05 16:32:35.906 | 09:26  111ms   43M 1516G  97/101U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:32:36.147 | 09:27  101ms   53M 1528G  98/101U [BuildAddon] no space
+2024-11-05 16:32:36.393 | 09:27  104ms   68M 1536G  98/101U [BuildAddon] no space
+2024-11-05 16:32:36.629 | 09:28  115ms   83M 1536G  98/101U [BuildAddon] no space
+2024-11-05 16:32:36.837 | 09:28   98ms  108M 1548G  98/101U [BuildAddon] no space
+2024-11-05 16:32:37.143 | 09:29   98ms   78M 1560G  98/101U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:32:37.160 | 09:29   98ms   78M 1560G  98/101U [BuildAddon] no space
+2024-11-05 16:32:37.392 | 09:29  209ms   93M 1560G  99/101U [BuildAddon] no space
+2024-11-05 16:32:37.640 | 09:30  106ms  108M 1568G  99/101U [BuildAddon] no space
+2024-11-05 16:32:37.859 | 09:30  110ms  118M 1584G  99/101U [BuildAddon] no space
+2024-11-05 16:32:38.066 | 09:30  100ms  148M 1584G  99/101U [BuildAddon] no space
+2024-11-05 16:32:38.293 | 09:31   96ms  153M 1588G  99/101U [BuildAddon] no space
+2024-11-05 16:32:38.512 | 09:31  103ms  173M 1600G  99/101U [BuildAddon] no space
+2024-11-05 16:32:38.815 | 09:32   99ms  193M 1608G  99/101U [BuildAddon] no space
+2024-11-05 16:32:39.032 | 09:32  189ms  203M 1612G  99/101U [BuildAddon] no space
+2024-11-05 16:32:39.249 | 09:33   96ms  343M 1620G  99/101U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-05 16:32:39.270 | 09:33   96ms  243M 1620G  99/101U [BuildAddon] no space
+2024-11-05 16:32:39.490 | 09:33  117ms  353M 1632G  99/101U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-05 16:32:39.503 | 09:33  117ms  253M 1632G  99/101U [DefensiveBuilding] Building BUNKER to (137.56803038083928, 90.32199493652679)
+2024-11-05 16:32:39.514 | 09:33  117ms  153M 1632G  99/101U [BuildAddon] no space
+2024-11-05 16:32:39.741 | 09:34  111ms  168M 1632G  99/101U [BuildAddon] no space
+2024-11-05 16:32:39.966 | 09:34  102ms  208M 1640G  99/101U [BuildAddon] no space
+2024-11-05 16:32:40.188 | 09:35   96ms  213M 1656G  99/101U [BuildAddon] no space
+2024-11-05 16:32:40.512 | 09:35  100ms  238M 1656G  99/101U [BuildAddon] no space
+2024-11-05 16:32:40.525 | 09:35  100ms  238M 1656G  99/101U [DefensiveBuilding] Building MISSILETURRET to (151.42782164354057, 83.75497717364928)
+2024-11-05 16:32:40.748 | 09:35  202ms   98M 1660G  99/101U [ActUnit] SCV from COMMANDCENTER at (123.5, 55.5)
+2024-11-05 16:32:40.759 | 09:35  202ms   98M 1660G  99/101U [BuildAddon] no space
+2024-11-05 16:32:40.999 | 09:36  105ms  118M 1676G 100/101U [BuildAddon] no space
+2024-11-05 16:32:41.234 | 09:36  102ms  138M 1680G 100/101U [BuildAddon] no space
+2024-11-05 16:32:41.463 | 09:37  106ms  153M 1684G 100/101U [BuildAddon] no space
+2024-11-05 16:32:41.700 | 09:37  100ms  168M 1696G 100/101U [BuildAddon] no space
+2024-11-05 16:32:41.924 | 09:38  108ms  173M 1704G 100/101U [BuildAddon] no space
+2024-11-05 16:32:42.248 | 09:38   99ms  193M 1704G 100/101U [BuildAddon] no space
+2024-11-05 16:32:42.480 | 09:39  196ms  203M 1712G 100/101U [BuildAddon] no space
+2024-11-05 16:32:42.718 | 09:39  103ms  173M 1728G 100/101U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:32:42.729 | 09:39  103ms  173M 1728G 100/101U [BuildAddon] no space
+2024-11-05 16:32:42.965 | 09:39  115ms  193M 1732G 101/101U [BuildAddon] no space
+2024-11-05 16:32:43.197 | 09:40  104ms  233M 1736G 101/101U [BuildAddon] no space
+2024-11-05 16:32:43.426 | 09:40  103ms  258M 1756G 101/101U [BuildAddon] no space
+2024-11-05 16:32:43.684 | 09:41  105ms  268M 1756G 101/101U [BuildAddon] no space
+2024-11-05 16:32:44.061 | 09:41  141ms  278M 1760G 101/101U [BuildAddon] no space
+2024-11-05 16:32:44.295 | 09:42  188ms  403M 1772G 101/101U [GameAnalyzer] Income advantage is now OverwhelmingAdvantage
+2024-11-05 16:32:44.313 | 09:42  188ms  303M 1772G 101/101U [BuildAddon] no space
+2024-11-05 16:32:44.546 | 09:42  110ms  318M 1780G 101/101U [BuildAddon] no space
+2024-11-05 16:32:44.762 | 09:43  103ms  428M 1780G 101/101U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-05 16:32:44.781 | 09:43  103ms  328M 1780G 101/101U [BuildAddon] no space
+2024-11-05 16:32:45.029 | 09:43  109ms  338M 1788G 101/101U [BuildAddon] no space
+2024-11-05 16:32:45.269 | 09:43  110ms  458M 1808G 100/101U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-05 16:32:45.277 | 09:43  110ms  308M 1808G 100/101U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:32:45.292 | 09:43  110ms  308M 1808G 100/101U [BuildAddon] no space
+2024-11-05 16:32:45.556 | 09:44  131ms  328M 1808G 101/101U [BuildAddon] no space
+2024-11-05 16:32:45.886 | 09:44  110ms  348M 1816G 101/101U [BuildAddon] no space
+2024-11-05 16:32:46.132 | 09:45  107ms  458M 1832G 101/101U [GameAnalyzer] Income advantage is now OverwhelmingAdvantage
+2024-11-05 16:32:46.154 | 09:45  107ms  358M 1832G 101/101U [BuildAddon] no space
+2024-11-05 16:32:46.417 | 09:45  109ms  383M 1836G 101/101U [BuildAddon] no space
+2024-11-05 16:32:46.680 | 09:46  128ms  388M 1840G 100/101U [BuildAddon] no space
+2024-11-05 16:32:46.930 | 09:46  108ms  513M 1852G 100/101U [Expand] Expanding to (168.5, 114.5)
+2024-11-05 16:32:47.734 | 09:47  102ms   83M 1872G 100/101U [BuildAddon] no space
+2024-11-05 16:32:47.970 | 09:48  109ms   38M 1884G 100/101U [ActUnit] SCV from COMMANDCENTER at (123.5, 55.5)
+2024-11-05 16:32:48.229 | 09:48  122ms   68M 1884G 101/101U [BuildAddon] no space
+2024-11-05 16:32:48.463 | 09:49  107ms   88M 1892G 101/101U [BuildAddon] no space
+2024-11-05 16:32:48.703 | 09:49  108ms  103M 1908G 101/101U [BuildAddon] no space
+2024-11-05 16:32:48.945 | 09:50  101ms  113M 1908G 101/101U [BuildAddon] no space
+2024-11-05 16:32:49.286 | 09:50  109ms  128M 1916G 101/101U [BuildAddon] no space
+2024-11-05 16:32:49.544 | 09:51  192ms  158M 1932G 101/101U [BuildAddon] no space
+2024-11-05 16:32:49.789 | 09:51  118ms  168M 1936G 101/101U [BuildAddon] no space
+2024-11-05 16:32:50.030 | 09:51  103ms  198M 1936G 101/101U [BuildAddon] no space
+2024-11-05 16:32:50.279 | 09:52  109ms  203M 1952G 101/101U [BuildAddon] no space
+2024-11-05 16:32:50.562 | 09:52  112ms  218M 1960G 101/101U [BuildAddon] no space
+2024-11-05 16:32:50.812 | 09:53  121ms  228M 1960G 101/101U [BuildAddon] no space
+2024-11-05 16:32:51.045 | 09:53  114ms  208M 1968G 100/101U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:32:51.058 | 09:53  114ms  208M 1968G 100/101U [BuildAddon] no space
+2024-11-05 16:32:51.397 | 09:54  113ms  233M 1984G 101/101U [BuildAddon] no space
+2024-11-05 16:32:51.618 | 09:54  119ms  338M 1984G 101/101U [GameAnalyzer] Known army advantage is now OverwhelmingDisadvantage
+2024-11-05 16:32:51.639 | 09:54  119ms  238M 1984G 101/101U [BuildAddon] no space
+2024-11-05 16:32:51.876 | 09:55  113ms  283M 1992G 101/101U [BuildAddon] no space
+2024-11-05 16:32:52.108 | 09:55  107ms  288M 2012G 101/101U [BuildAddon] no space
+2024-11-05 16:32:52.340 | 09:55  108ms  313M 2012G 101/101U [BuildAddon] no space
+2024-11-05 16:32:52.595 | 09:56  106ms  333M 2016G 101/101U [BuildAddon] no space
+2024-11-05 16:32:52.919 | 09:56  111ms  358M 2032G 101/101U [BuildAddon] no space
+2024-11-05 16:32:53.151 | 09:57  196ms  363M 2040G 101/101U [BuildAddon] no space
+2024-11-05 16:32:53.391 | 09:57  106ms  373M 2040G 101/101U [BuildAddon] no space
+2024-11-05 16:32:53.635 | 09:58  106ms  388M 2048G 101/101U [BuildAddon] no space
+2024-11-05 16:32:53.856 | 09:58  110ms  528M 2064G 101/101U [Expand] Expanding to (168.5, 114.5)
+2024-11-05 16:32:54.315 | 09:59   98ms   53M 2072G 101/101U [BuildAddon] no space
+2024-11-05 16:32:54.664 | 10:00  102ms   73M 2088G 101/101U [BuildAddon] no space
+2024-11-05 16:32:54.893 | 10:00  204ms   83M 2088G 101/101U [BuildAddon] no space
+2024-11-05 16:32:55.134 | 10:00  102ms   98M 2088G 101/101U [BuildAddon] no space
+2024-11-05 16:32:55.375 | 10:01  109ms  123M 2104G 101/101U [BuildAddon] no space
+2024-11-05 16:32:55.628 | 10:01  105ms   93M 2116G 100/101U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:32:55.640 | 10:01  105ms   93M 2116G 100/101U [BuildAddon] no space
+2024-11-05 16:32:55.876 | 10:02  112ms  113M 2116G 101/101U [BuildAddon] no space
+2024-11-05 16:32:56.115 | 10:02  107ms  143M 2128G 101/101U [BuildAddon] no space
+2024-11-05 16:32:56.430 | 10:03  112ms  168M 2140G 101/101U [BuildAddon] no space
+2024-11-05 16:32:56.682 | 10:03  194ms  193M 2140G 101/101U [BuildAddon] no space
+2024-11-05 16:32:56.920 | 10:04  108ms  203M 2148G 101/101U [BuildAddon] no space
+2024-11-05 16:32:57.149 | 10:04  106ms  218M 2164G 101/101U [BuildAddon] no space
+2024-11-05 16:32:57.378 | 10:04  105ms  228M 2164G 101/101U [BuildAddon] no space
+2024-11-05 16:32:57.612 | 10:05  106ms  358M 2168G 101/101U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-05 16:32:57.632 | 10:05  106ms  258M 2168G 101/101U [BuildAddon] no space
+2024-11-05 16:32:57.877 | 10:05  125ms  263M 2192G 101/101U [BuildAddon] no space
+2024-11-05 16:32:58.218 | 10:06  109ms  288M 2192G 101/101U [BuildAddon] no space
+2024-11-05 16:32:58.454 | 10:06  119ms  298M 2192G 101/101U [BuildAddon] no space
+2024-11-05 16:32:58.693 | 10:07  107ms  333M 2208G 101/101U [BuildAddon] no space
+2024-11-05 16:32:58.930 | 10:07  113ms  338M 2220G 101/101U [BuildAddon] no space
+2024-11-05 16:32:59.179 | 10:08  110ms  368M 2220G 101/101U [BuildAddon] no space
+2024-11-05 16:32:59.440 | 10:08  120ms  378M 2228G 101/101U [BuildAddon] no space
+2024-11-05 16:32:59.818 | 10:08  121ms  393M 2248G 101/101U [BuildAddon] no space
+2024-11-05 16:33:00.082 | 10:09  131ms  523M 2248G 101/101U [Expand] Expanding to (168.5, 114.5)
+2024-11-05 16:33:00.375 | 10:09  136ms  553M 2252G 101/101U [Expand] Expanding to (168.5, 114.5)
+2024-11-05 16:33:00.392 | 10:09  136ms   53M 2252G 101/101U [BuildAddon] no space
+2024-11-05 16:33:00.647 | 10:10  144ms  178M 2272G 101/101U [GameAnalyzer] Income advantage is now OverwhelmingAdvantage
+2024-11-05 16:33:00.673 | 10:10  144ms   78M 2272G 101/101U [BuildAddon] no space
+2024-11-05 16:33:01.091 | 10:10  134ms   93M 2272G 101/101U [BuildAddon] no space
+2024-11-05 16:33:01.450 | 10:11  280ms  108M 2272G 101/101U [BuildAddon] no space
+2024-11-05 16:33:01.802 | 10:11  128ms  128M 2288G 101/101U [BuildAddon] no space
+2024-11-05 16:33:02.039 | 10:12  210ms  138M 2296G 101/101U [BuildAddon] no space
+2024-11-05 16:33:02.289 | 10:12  109ms  153M 2296G 101/101U [BuildAddon] no space
+2024-11-05 16:33:02.534 | 10:12  120ms  278M 2308G 101/101U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-05 16:33:02.554 | 10:12  120ms  178M 2308G 101/101U [BuildAddon] no space
+2024-11-05 16:33:02.794 | 10:13  112ms  203M 2320G 101/101U [BuildAddon] no space
+2024-11-05 16:33:03.032 | 10:13  111ms  223M 2320G 101/101U [BuildAddon] no space
+2024-11-05 16:33:03.259 | 10:14  105ms  338M 2328G 101/101U [GameAnalyzer] Income advantage is now OverwhelmingAdvantage
+2024-11-05 16:33:03.270 | 10:14  105ms  238M 2328G 101/101U [DefensiveBuilding] Building BUNKER to (163.5, 114.5)
+2024-11-05 16:33:03.283 | 10:14  105ms  138M 2328G 101/101U [BuildAddon] no space
+2024-11-05 16:33:03.287 | 10:14  105ms  138M 2328G 101/101U [DefensiveBuilding] Building MISSILETURRET to (175.67893398153788, 109.07202552615428)
+2024-11-05 16:33:03.626 | 10:14  121ms  158M 2344G 101/101U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-05 16:33:03.647 | 10:14  121ms   58M 2344G 101/101U [BuildAddon] no space
+2024-11-05 16:33:03.890 | 10:15  119ms   73M 2344G 101/101U [BuildAddon] no space
+2024-11-05 16:33:04.111 | 10:15  115ms  198M 2344G 101/116U [GameAnalyzer] Income advantage is now OverwhelmingAdvantage
+2024-11-05 16:33:04.336 | 10:16  107ms    3M 2210G 101/116U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:33:04.990 | 10:17   90ms   28M 2234G 102/116U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:33:05.588 | 10:18  125ms   23M 2250G 103/116U [ActUnit] SCV from COMMANDCENTER at (123.5, 55.5)
+2024-11-05 16:33:06.265 | 10:19   88ms  393M 2278G 104/116U [BuildGas] Building REFINERY to (140.5, 82.5)
+2024-11-05 16:33:06.280 | 10:19   88ms  243M 2278G 104/116U [BuildAddon] no space
+2024-11-05 16:33:06.527 | 10:20  121ms  258M 2282G 104/116U [BuildAddon] no space
+2024-11-05 16:33:06.770 | 10:20  112ms  283M 2298G 104/116U [BuildAddon] no space
+2024-11-05 16:33:06.998 | 10:20  110ms  373M 2302G 104/116U [BuildGas] Building REFINERY to (149.5, 90.5)
+2024-11-05 16:33:07.011 | 10:20  110ms  223M 2302G 104/116U [BuildAddon] no space
+2024-11-05 16:33:07.366 | 10:21  111ms  228M 2302G 104/116U [BuildAddon] no space
+2024-11-05 16:33:07.612 | 10:21  211ms  808M 2318G 104/116U [Expand] Expanding to (57.5, 55.5)
+2024-11-05 16:33:07.626 | 10:21  211ms  258M 2318G 104/116U [BuildAddon] no space
+2024-11-05 16:33:07.895 | 10:22  119ms  273M 2326G 104/116U [BuildAddon] no space
+2024-11-05 16:33:08.145 | 10:22  112ms  278M 2326G 104/116U [BuildAddon] no space
+2024-11-05 16:33:08.406 | 10:23  108ms  313M 2334G 104/116U [BuildAddon] no space
+2024-11-05 16:33:08.694 | 10:23  121ms  338M 2350G 104/116U [BuildAddon] no space
+2024-11-05 16:33:09.042 | 10:24  108ms  343M 2350G 104/116U [BuildAddon] no space
+2024-11-05 16:33:09.304 | 10:24  206ms  533M 2354G 104/116U [Expand] Expanding to (57.5, 55.5)
+2024-11-05 16:33:09.317 | 10:24  206ms  133M 2354G 104/116U [BuildAddon] no space
+2024-11-05 16:33:09.582 | 10:25  115ms  158M 2374G 104/116U [BuildAddon] no space
+2024-11-05 16:33:09.825 | 10:25  114ms  168M 2374G 104/116U [BuildAddon] no space
+2024-11-05 16:33:10.077 | 10:25  107ms  183M 2374G 104/116U [BuildAddon] no space
+2024-11-05 16:33:10.334 | 10:26  109ms  203M 2390G 104/116U [BuildAddon] no space
+2024-11-05 16:33:10.591 | 10:26  112ms  223M 2398G 104/116U [BuildAddon] no space
+2024-11-05 16:33:10.926 | 10:27  120ms  263M 2398G 104/116U [BuildAddon] no space
+2024-11-05 16:33:11.187 | 10:27  200ms  278M 2410G 104/116U [BuildAddon] no space
+2024-11-05 16:33:11.434 | 10:28  114ms  293M 2426G 104/116U [BuildAddon] no space
+2024-11-05 16:33:11.694 | 10:28  109ms  163M 2426G 104/116U [BuildAddon] no space
+2024-11-05 16:33:11.949 | 10:29  118ms  178M 2438G 104/116U [BuildAddon] no space
+2024-11-05 16:33:12.211 | 10:29  107ms  193M 2454G 104/116U [BuildAddon] no space
+2024-11-05 16:33:12.557 | 10:29  119ms  213M 2454G 104/116U [BuildAddon] no space
+2024-11-05 16:33:12.824 | 10:30  209ms  223M 2454G 104/116U [BuildAddon] no space
+2024-11-05 16:33:13.080 | 10:30  127ms  253M 2474G 104/116U [BuildAddon] no space
+2024-11-05 16:33:13.336 | 10:31  111ms  268M 2482G 104/116U [BuildAddon] no space
+2024-11-05 16:33:13.604 | 10:31  115ms  283M 2482G 104/116U [BuildAddon] no space
+2024-11-05 16:33:13.871 | 10:32  122ms  308M 2494G 104/116U [BuildAddon] no space
+2024-11-05 16:33:14.160 | 10:32  121ms  333M 2506G 104/116U [BuildAddon] no space
+2024-11-05 16:33:14.502 | 10:33  124ms  508M 2506G 104/116U [Expand] Expanding to (57.5, 55.5)
+2024-11-05 16:33:14.518 | 10:33  124ms  108M 2506G 104/116U [BuildAddon] no space
+2024-11-05 16:33:14.795 | 10:33  123ms  123M 2514G 104/116U [BuildAddon] no space
+2024-11-05 16:33:15.054 | 10:33  120ms  143M 2530G 104/116U [BuildAddon] no space
+2024-11-05 16:33:15.298 | 10:34  106ms  148M 2530G 104/116U [BuildAddon] no space
+2024-11-05 16:33:15.569 | 10:34  103ms  173M 2534G 104/116U [BuildAddon] no space
+2024-11-05 16:33:15.829 | 10:35  126ms  188M 2550G 104/116U [BuildAddon] no space
+2024-11-05 16:33:16.182 | 10:35  114ms  213M 2554G 104/116U [BuildAddon] no space
+2024-11-05 16:33:16.447 | 10:36  210ms  268M 2554G 104/116U [BuildAddon] no space
+2024-11-05 16:33:16.710 | 10:36  122ms  288M 2570G 104/116U [BuildAddon] no space
+2024-11-05 16:33:16.982 | 10:37  120ms  153M 2578G 104/116U [BuildAddon] no space
+2024-11-05 16:33:17.260 | 10:37  115ms  168M 2578G 104/116U [BuildAddon] no space
+2024-11-05 16:33:17.496 | 10:37  130ms  278M 2586G 104/131U [BuildGas] Building REFINERY to (97.5, 60.5)
+2024-11-05 16:33:17.510 | 10:37  130ms  128M 2436G 104/131U [BuildAddon] no space
+2024-11-05 16:33:17.773 | 10:38  119ms  148M 2456G 104/131U [BuildAddon] no space
+2024-11-05 16:33:18.127 | 10:38  117ms  163M 2456G 104/131U [BuildAddon] no space
+2024-11-05 16:33:18.420 | 10:39  207ms  173M 2460G 104/131U [BuildAddon] no space
+2024-11-05 16:33:18.710 | 10:39  138ms  188M 2484G 104/131U [BuildAddon] no space
+2024-11-05 16:33:18.990 | 10:40  120ms  208M 2484G 104/131U [BuildAddon] no space
+2024-11-05 16:33:19.256 | 10:40  126ms  233M 2484G 104/131U [BuildAddon] no space
+2024-11-05 16:33:19.561 | 10:41  129ms  258M 2500G 104/131U [BuildAddon] no space
+2024-11-05 16:33:19.929 | 10:41  128ms  278M 2512G 104/131U [BuildAddon] no space
+2024-11-05 16:33:20.198 | 10:41  220ms  298M 2512G 104/131U [DefensiveBuilding] Building BUNKER to (58.207106781186546, 60.44974746830583)
+2024-11-05 16:33:20.213 | 10:41  220ms  198M 2512G 104/131U [BuildAddon] no space
+2024-11-05 16:33:20.218 | 10:41  220ms  198M 2512G 104/131U [DefensiveBuilding] Building MISSILETURRET to (51.02538685444331, 49.248649376703895)
+2024-11-05 16:33:20.505 | 10:42  139ms  113M 2520G 104/131U [BuildAddon] no space
+2024-11-05 16:33:20.781 | 10:42  112ms  133M 2536G 104/131U [BuildAddon] no space
+2024-11-05 16:33:21.065 | 10:43  115ms  188M 2536G 104/131U [BuildAddon] no space
+2024-11-05 16:33:21.386 | 10:43  118ms  208M 2544G 101/131U [BuildAddon] no space
+2024-11-05 16:33:21.766 | 10:44  121ms  223M 2560G 101/131U [BuildAddon] no space
+2024-11-05 16:33:22.034 | 10:44  216ms  648M 2560G 101/131U [Expand] Expanding to (167.5, 165.5)
+2024-11-05 16:33:22.049 | 10:44  216ms  248M 2560G 101/131U [BuildAddon] no space
+2024-11-05 16:33:22.343 | 10:45  137ms  258M 2560G 101/131U [BuildAddon] no space
+2024-11-05 16:33:22.612 | 10:45  127ms    8M 2576G 100/131U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:33:23.167 | 10:46  121ms  363M 2584G 100/131U [BuildGas] Building REFINERY to (97.5, 60.5)
+2024-11-05 16:33:23.821 | 10:47  116ms  192M 2612G  99/131U [DefensiveBuilding] Building BUNKER to (58.207106781186546, 60.44974746830583)
+2024-11-05 16:33:23.823 | 10:47  116ms   42M 2612G  99/131U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:33:24.120 | 10:47  141ms   12M 2612G  99/131U [ActUnit] SCV from COMMANDCENTER at (123.5, 55.5)
+2024-11-05 16:33:24.712 | 10:48  114ms   52M 2636G  97/131U [BuildAddon] no space
+2024-11-05 16:33:24.994 | 10:49  122ms   77M 2636G  97/131U [BuildAddon] no space
+2024-11-05 16:33:25.297 | 10:49  119ms  102M 2640G  97/131U [BuildAddon] no space
+2024-11-05 16:33:25.307 | 10:49  119ms  102M 2640G  97/131U [DefensiveBuilding] Building MISSILETURRET to (51.02538685444331, 49.248649376703895)
+2024-11-05 16:33:25.956 | 10:50  219ms  362M 2664G  95/131U [BuildGas] Building REFINERY to (97.5, 60.5)
+2024-11-05 16:33:25.969 | 10:50  219ms   62M 2664G  95/131U [BuildAddon] no space
+2024-11-05 16:33:26.256 | 10:50  131ms   82M 2668G  95/131U [BuildAddon] no space
+2024-11-05 16:33:26.537 | 10:51  119ms  192M 2684G  94/131U [ActUnit] SCV from COMMANDCENTER at (142.5, 89.5)
+2024-11-05 16:33:26.549 | 10:51  119ms  192M 2684G  94/131U [BuildAddon] no space
+2024-11-05 16:33:26.820 | 10:51  116ms  202M 2692G  94/131U [BuildAddon] no space
+2024-11-05 16:33:27.082 | 10:52  114ms  227M 2692G  94/131U [BuildAddon] no space
+2024-11-05 16:33:27.346 | 10:52  112ms  892M 2700G  94/131U [Expand] Expanding to (167.5, 165.5)
+2024-11-05 16:33:27.360 | 10:52  112ms  342M 2700G  94/131U [BuildAddon] no space
+2024-11-05 16:33:27.730 | 10:53  124ms  912M 2716G  94/131U [Expand] Expanding to (167.5, 165.5)
+2024-11-05 16:33:27.743 | 10:53  124ms  362M 2716G  94/131U [DefensiveBuilding] Building BUNKER to (58.207106781186546, 60.44974746830583)
+2024-11-05 16:33:27.757 | 10:53  124ms  262M 2716G  94/131U [BuildAddon] no space
+2024-11-05 16:33:28.030 | 10:53  219ms  822M 2716G  94/131U [Expand] Expanding to (167.5, 165.5)
+2024-11-05 16:33:28.042 | 10:53  219ms  272M 2716G  94/131U [BuildAddon] no space
+2024-11-05 16:33:28.308 | 10:54  136ms  282M 2720G  94/131U [BuildAddon] no space
+2024-11-05 16:33:28.577 | 10:54  117ms  312M 2744G  94/131U [BuildAddon] no space
+2024-11-05 16:33:28.842 | 10:54  125ms  327M 2748G  94/131U [BuildAddon] no space
+2024-11-05 16:33:29.108 | 10:55  111ms  502M 2748G  94/131U [Expand] Expanding to (167.5, 165.5)
+2024-11-05 16:33:29.122 | 10:55  111ms  102M 2748G  94/131U [BuildAddon] no space
+2024-11-05 16:33:29.366 | 10:55  122ms  122M 2764G  94/131U [BuildAddon] no space
+2024-11-05 16:33:29.711 | 10:56  100ms  137M 2772G  94/131U [BuildAddon] no space
+2024-11-05 16:33:29.957 | 10:56  110ms  142M 2772G  94/131U [BuildAddon] no space
+2024-11-05 16:33:30.212 | 10:57  102ms  157M 2784G  94/131U [BuildAddon] no space
+2024-11-05 16:33:30.457 | 10:57  108ms  197M 2796G  91/131U [BuildAddon] no space
+2024-11-05 16:33:30.695 | 10:58  108ms  162M 2800G  91/131U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:33:30.707 | 10:58  108ms  162M 2800G  91/131U [BuildAddon] no space
+2024-11-05 16:33:30.972 | 10:58  116ms  182M 2808G  92/131U [BuildAddon] no space
+2024-11-05 16:33:31.219 | 10:58  107ms  197M 2828G  92/131U [BuildAddon] no space
+2024-11-05 16:33:31.557 | 10:59  109ms  207M 2828G  92/131U [BuildAddon] no space
+2024-11-05 16:33:31.789 | 10:59  106ms  192M 2828G  92/131U [ActUnit] SCV from COMMANDCENTER at (170.5, 67.5)
+2024-11-05 16:33:31.801 | 10:59  106ms  192M 2828G  92/131U [BuildAddon] no space
+2024-11-05 16:33:32.041 | 11:00  110ms  147M 2844G  93/131U [ActUnit] SCV from COMMANDCENTER at (123.5, 55.5)
+2024-11-05 16:33:32.053 | 11:00  110ms  147M 2844G  93/131U [BuildAddon] no space
+2024-11-05 16:33:32.297 | 11:00  104ms  167M 2852G  94/131U [BuildAddon] no space
+2024-11-05 16:33:32.551 | 11:01  105ms  182M 2852G  94/131U [BuildAddon] no space
+2024-11-05 16:33:32.795 | 11:01  105ms  187M 2864G  94/131U [BuildAddon] no space
+2024-11-05 16:33:33.139 | 11:02  110ms  207M 2880G  94/131U [BuildAddon] no space
+2024-11-05 16:33:33.378 | 11:02  205ms  222M 2884G  94/131U [BuildAddon] no space
+2024-11-05 16:33:33.623 | 11:02  109ms  227M 2892G  94/131U [BuildAddon] no space
+2024-11-05 16:33:33.858 | 11:03  107ms  247M 2908G  94/131U [BuildAddon] no space
+2024-11-05 16:33:34.097 | 11:03  107ms  212M 2908G  94/131U [ActUnit] SCV from COMMANDCENTER at (142.5, 89.5)
+2024-11-05 16:33:34.109 | 11:03  107ms  212M 2908G  94/131U [BuildAddon] no space
+2024-11-05 16:33:34.415 | 11:04  109ms  222M 2912G  95/131U [BuildAddon] no space
+2024-11-05 16:33:34.657 | 11:04  109ms  267M 2928G  95/131U [BuildAddon] no space
+2024-11-05 16:33:34.989 | 11:05  108ms  282M 2932G  95/131U [BuildAddon] no space
+2024-11-05 16:33:35.261 | 11:05  199ms  162M 2936G  95/131U [BuildAddon] no space
+2024-11-05 16:33:35.506 | 11:06  115ms  167M 2952G  95/131U [BuildAddon] no space
+2024-11-05 16:33:35.762 | 11:06  119ms  187M 2964G  95/131U [BuildAddon] no space
+2024-11-05 16:33:36.036 | 11:06  112ms  197M 2964G  95/131U [BuildAddon] no space
+2024-11-05 16:33:36.269 | 11:07  114ms  212M 2972G  95/131U [BuildAddon] no space
+2024-11-05 16:33:36.612 | 11:07  103ms  217M 2988G  95/131U [BuildAddon] no space
+2024-11-05 16:33:36.844 | 11:08  206ms  222M 2988G  95/131U [BuildAddon] no space
+2024-11-05 16:33:37.076 | 11:08  107ms  232M 2992G  95/131U [BuildAddon] no space
+2024-11-05 16:33:37.311 | 11:09  107ms  252M 3012G  95/131U [BuildAddon] no space
+2024-11-05 16:33:37.552 | 11:09  108ms  267M 3016G  95/131U [BuildAddon] no space
+2024-11-05 16:33:37.800 | 11:10  109ms  277M 3020G  95/131U [BuildAddon] no space
+2024-11-05 16:33:38.039 | 11:10  107ms  237M 3036G  95/131U [ActUnit] SCV from COMMANDCENTER at (148.5, 59.5)
+2024-11-05 16:33:38.052 | 11:10  107ms  237M 3036G  95/131U [BuildAddon] no space
+2024-11-05 16:33:38.377 | 11:10  115ms  262M 3044G  96/131U [BuildAddon] no space
+2024-11-05 16:33:38.631 | 11:11  194ms  272M 3044G  96/131U [BuildAddon] no space
+2024-11-05 16:33:38.878 | 11:11  109ms  312M 3060G  96/131U [BuildAddon] no space
+2024-11-05 16:33:39.120 | 11:12  110ms  322M 3076G  96/131U [BuildAddon] no space
+2024-11-05 16:33:39.360 | 11:12  112ms  327M 3080G  96/131U [BuildAddon] no space
+2024-11-05 16:33:39.624 | 11:13  107ms  337M 3088G  96/131U [BuildAddon] no space
+2024-11-05 16:33:40.002 | 11:13  121ms  502M 3104G  96/131U [DefensiveBuilding] Building SENSORTOWER to (118.59380903140452, 57.56866735603367)
+2024-11-05 16:33:40.015 | 11:13  121ms  377M 3004G  96/131U [BuildAddon] no space
+2024-11-05 16:33:40.258 | 11:14  220ms  782M 3012G  96/131U [Expand] Expanding to (116.5, 166.5)
+2024-11-05 16:33:40.270 | 11:14  220ms  382M 3012G  96/131U [BuildAddon] no space
+2024-11-05 16:33:40.280 | 11:14  220ms  382M 3012G  96/131U [DefensiveBuilding] Building MISSILETURRET to (174.23729362155848, 173.46731720766607)
+2024-11-05 16:33:40.524 | 11:14  123ms  702M 3012G  96/131U [Expand] Expanding to (116.5, 166.5)
+2024-11-05 16:33:40.538 | 11:14  123ms  302M 3012G  96/131U [BuildAddon] no space
+2024-11-05 16:33:40.784 | 11:15  111ms  332M 3028G  96/131U [BuildAddon] no space
+2024-11-05 16:33:41.013 | 11:15  106ms  732M 3036G  96/131U [Expand] Expanding to (116.5, 166.5)
+2024-11-05 16:33:41.025 | 11:15  106ms  332M 3036G  96/131U [BuildAddon] no space
+2024-11-05 16:33:41.269 | 11:15  111ms  337M 3044G  96/131U [BuildAddon] no space
+2024-11-05 16:33:41.499 | 11:16  106ms  362M 3056G  96/131U [BuildAddon] no space
+2024-11-05 16:33:41.843 | 11:16  104ms  372M 3072G  96/131U [BuildAddon] no space
+2024-11-05 16:33:42.088 | 11:17  202ms  377M 3076G  96/131U [BuildAddon] no space
+2024-11-05 16:33:42.338 | 11:17  106ms  397M 3088G  96/131U [DefensiveBuilding] Building BUNKER to (103.79289321881345, 66.44974746830583)
+2024-11-05 16:33:42.351 | 11:17  106ms  297M 3088G  96/131U [BuildAddon] no space
+2024-11-05 16:33:42.586 | 11:18  119ms  297M 3108G  96/131U [BuildAddon] no space
+2024-11-05 16:33:42.829 | 11:18  104ms  322M 3108G  96/131U [BuildAddon] no space
+2024-11-05 16:33:43.065 | 11:19  111ms  357M 3112G  96/131U [BuildAddon] no space
+2024-11-05 16:33:43.301 | 11:19  103ms  377M 3128G  96/131U [BuildAddon] no space
+2024-11-05 16:33:43.643 | 11:19  107ms  402M 3140G  96/131U [BuildAddon] no space
+2024-11-05 16:33:43.893 | 11:20  204ms  407M 3148G  96/131U [BuildAddon] no space
+2024-11-05 16:33:44.132 | 11:20  116ms  422M 3164G  96/131U [BuildAddon] no space
+2024-11-05 16:33:44.368 | 11:21  107ms  427M 3172G  96/131U [BuildAddon] no space
+2024-11-05 16:33:44.610 | 11:21  110ms  147M 3030G  96/146U [BuildAddon] no space
+2024-11-05 16:33:44.861 | 11:22  111ms  167M 3042G  96/146U [BuildAddon] no space
+2024-11-05 16:33:45.103 | 11:22  109ms  167M 3058G  96/146U [BuildAddon] no space
+2024-11-05 16:33:45.449 | 11:23  103ms  187M 3058G  96/146U [BuildAddon] no space
+2024-11-05 16:33:45.732 | 11:23  216ms  197M 3066G  96/146U [BuildAddon] no space
+2024-11-05 16:33:45.999 | 11:23  118ms  217M 3094G  96/146U [BuildAddon] no space
+2024-11-05 16:33:46.237 | 11:24  120ms  232M 3094G  96/146U [BuildAddon] no space
+2024-11-05 16:33:46.498 | 11:24  109ms  252M 3102G  96/146U [BuildAddon] no space
+2024-11-05 16:33:46.748 | 11:25  117ms  262M 3122G  96/146U [BuildAddon] no space
+2024-11-05 16:33:47.116 | 11:25  117ms  272M 3130G  96/146U [BuildAddon] no space
+2024-11-05 16:33:47.374 | 11:26  221ms  312M 3142G  96/146U [BuildAddon] no space
+2024-11-05 16:33:47.623 | 11:26  115ms  327M 3150G  96/146U [BuildAddon] no space
+2024-11-05 16:33:47.879 | 11:27  111ms  337M 3170G  96/146U [BuildAddon] no space
+2024-11-05 16:33:48.139 | 11:27  115ms  362M 3170G  96/146U [BuildAddon] no space
+2024-11-05 16:33:48.396 | 11:27  119ms  377M 3186G  96/146U [BuildAddon] no space
+2024-11-05 16:33:48.747 | 11:28  116ms  397M 3202G  96/146U [BuildAddon] no space
+2024-11-05 16:33:49.011 | 11:28  214ms  407M 3202G  96/146U [BuildAddon] no space
+2024-11-05 16:33:49.256 | 11:29  116ms  417M 3214G  96/146U [BuildAddon] no space
+2024-11-05 16:33:49.505 | 11:29  117ms  432M 3226G  96/146U [BuildAddon] no space
+2024-11-05 16:33:49.752 | 11:30  117ms  457M 3238G  96/146U [BuildAddon] no space
+2024-11-05 16:33:49.754 | 11:30  117ms  407M 3238G  96/146U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:33:50.007 | 11:30  119ms  417M 3250G  97/146U [BuildAddon] no space
+2024-11-05 16:33:50.347 | 11:31  122ms  422M 3262G  97/146U [BuildAddon] no space
+2024-11-05 16:33:50.597 | 11:31  209ms  422M 3274G  97/146U [BuildAddon] no space
+2024-11-05 16:33:50.894 | 11:31  117ms  442M 3282G  97/146U [BuildAddon] no space
+2024-11-05 16:33:51.157 | 11:32  120ms  462M 3290G  97/146U [BuildAddon] no space
+2024-11-05 16:33:51.159 | 11:32  120ms  412M 3290G  97/146U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:33:51.431 | 11:32  119ms  422M 3306G  98/146U [BuildAddon] no space
+2024-11-05 16:33:51.685 | 11:33  128ms  477M 3310G  98/146U [BuildAddon] no space
+2024-11-05 16:33:51.688 | 11:33  128ms  427M 3310G  98/146U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:33:52.048 | 11:33  118ms  432M 3326G  99/146U [BuildAddon] no space
+2024-11-05 16:33:52.306 | 11:34  214ms  447M 3342G  99/146U [BuildAddon] no space
+2024-11-05 16:33:52.564 | 11:34  113ms  467M 3350G  99/146U [BuildAddon] no space
+2024-11-05 16:33:52.810 | 11:35  118ms  627M 3508G  99/146U [DefensiveBuilding] Building BUNKER to (112.96446609406726, 162.96446609406726)
+2024-11-05 16:33:52.824 | 11:35  118ms  377M 3358G  99/146U [BuildAddon] no space
+2024-11-05 16:33:53.107 | 11:35  129ms  397M 3366G  99/146U [BuildAddon] no space
+2024-11-05 16:33:53.359 | 11:35  122ms  402M 3378G  99/146U [BuildAddon] no space
+2024-11-05 16:33:53.712 | 11:36  112ms  402M 3386G  99/146U [BuildAddon] no space
+2024-11-05 16:33:53.976 | 11:36  218ms  412M 3394G  99/146U [BuildAddon] no space
+2024-11-05 16:33:54.232 | 11:37  116ms  432M 3410G  99/146U [BuildAddon] no space
+2024-11-05 16:33:54.238 | 11:37  116ms  432M 3410G  99/146U [DefensiveBuilding] Building MISSILETURRET to (109.32106601846212, 171.92797447384572)
+2024-11-05 16:33:54.494 | 11:37  121ms  902M 3564G  99/146U [Expand] Expanding to (63.5, 102.5)
+2024-11-05 16:33:54.508 | 11:37  121ms  352M 3414G  99/146U [BuildAddon] no space
+2024-11-05 16:33:54.776 | 11:38  121ms  372M 3426G  99/146U [BuildAddon] no space
+2024-11-05 16:33:55.043 | 11:38  119ms  387M 3450G  99/146U [BuildAddon] no space
+2024-11-05 16:33:55.411 | 11:39  124ms  407M 3450G  99/146U [BuildAddon] no space
+2024-11-05 16:33:55.657 | 11:39  222ms  427M 3462G  99/146U [BuildAddon] no space
+2024-11-05 16:33:55.922 | 11:40  114ms  472M 3474G  99/146U [BuildAddon] no space
+2024-11-05 16:33:56.306 | 11:40  260ms  477M 3486G  99/146U [BuildAddon] no space
+2024-11-05 16:33:56.555 | 11:40  109ms  482M 3494G  99/146U [BuildAddon] no space
+2024-11-05 16:33:56.806 | 11:41  120ms  487M 3510G  99/146U [BuildAddon] no space
+2024-11-05 16:33:57.071 | 11:41  112ms  502M 3514G  99/146U [BuildAddon] no space
+2024-11-05 16:33:57.481 | 11:42  125ms  512M 3518G  99/146U [BuildAddon] no space
+2024-11-05 16:33:57.763 | 11:42  143ms  537M 3534G  99/146U [BuildAddon] no space
+2024-11-05 16:33:58.044 | 11:43  118ms  557M 3550G  99/146U [BuildAddon] no space
+2024-11-05 16:33:58.046 | 11:43  118ms  407M 3425G  99/146U [ActUnit] SIEGETANK from FACTORY at (173.5, 75.5)
+2024-11-05 16:33:58.311 | 11:43  136ms  412M 3433G 102/146U [BuildAddon] no space
+2024-11-05 16:33:58.576 | 11:44  119ms  427M 3445G 102/146U [BuildAddon] no space
+2024-11-05 16:33:58.923 | 11:44  118ms  462M 3457G 102/146U [BuildAddon] no space
+2024-11-05 16:33:59.179 | 11:44  212ms  477M 3461G 102/146U [BuildAddon] no space
+2024-11-05 16:33:59.437 | 11:45  114ms  487M 3477G 102/146U [BuildAddon] no space
+2024-11-05 16:33:59.689 | 11:45  117ms  492M 3489G 102/146U [BuildAddon] no space
+2024-11-05 16:33:59.959 | 11:46  115ms  492M 3497G 102/146U [BuildAddon] no space
+2024-11-05 16:34:00.237 | 11:46  121ms  672M 3651G 102/146U [BuildAddon] no space
+2024-11-05 16:34:00.239 | 11:46  121ms  522M 3526G 102/146U [ActUnit] SIEGETANK from FACTORY at (162.5, 60.5)
+2024-11-05 16:34:00.599 | 11:47  116ms  557M 3546G 105/146U [BuildAddon] no space
+2024-11-05 16:34:00.858 | 11:47  215ms  577M 3562G 105/146U [BuildAddon] no space
+2024-11-05 16:34:01.124 | 11:48  119ms  587M 3566G 105/146U [BuildAddon] no space
+2024-11-05 16:34:01.127 | 11:48  119ms  537M 3566G 105/146U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:34:01.396 | 11:48  123ms  547M 3574G 106/146U [BuildAddon] no space
+2024-11-05 16:34:01.658 | 11:48  113ms  577M 3586G 106/146U [BuildAddon] no space
+2024-11-05 16:34:01.927 | 11:49  116ms  597M 3598G 106/146U [BuildAddon] no space
+2024-11-05 16:34:02.300 | 11:49  116ms  617M 3602G 106/146U [BuildAddon] no space
+2024-11-05 16:34:02.567 | 11:50  222ms  622M 3610G 106/146U [BuildAddon] no space
+2024-11-05 16:34:02.570 | 11:50  222ms  572M 3610G 106/146U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:34:02.833 | 11:50  117ms  582M 3626G 107/146U [BuildAddon] no space
+2024-11-05 16:34:03.092 | 11:51  118ms  597M 3630G 107/146U [BuildAddon] no space
+2024-11-05 16:34:03.094 | 11:51  118ms  547M 3630G 107/146U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:34:03.366 | 11:51  116ms  557M 3642G 108/146U [BuildAddon] no space
+2024-11-05 16:34:03.633 | 11:52  120ms  567M 3654G 108/146U [DefensiveBuilding] Building BUNKER to (162.5970966215454, 166.48058067569093)
+2024-11-05 16:34:03.647 | 11:52  120ms  467M 3654G 108/146U [BuildAddon] no space
+2024-11-05 16:34:04.075 | 11:52  123ms  497M 3662G 108/146U [BuildAddon] no space
+2024-11-05 16:34:04.520 | 11:52  430ms  497M 3678G 108/146U [BuildAddon] no space
+2024-11-05 16:34:04.807 | 11:53  114ms  222M 3540G 108/161U [BuildAddon] no space
+2024-11-05 16:34:05.079 | 11:53  124ms  262M 3544G 108/161U [BuildAddon] no space
+2024-11-05 16:34:05.352 | 11:54  122ms  297M 3552G 108/161U [BuildAddon] no space
+2024-11-05 16:34:05.620 | 11:54  121ms  322M 3572G 108/161U [BuildAddon] no space
+2024-11-05 16:34:05.980 | 11:55  116ms  327M 3580G 108/161U [BuildAddon] no space
+2024-11-05 16:34:06.238 | 11:55  217ms  337M 3592G 108/161U [BuildAddon] no space
+2024-11-05 16:34:06.514 | 11:56  111ms  352M 3592G 108/161U [BuildAddon] no space
+2024-11-05 16:34:06.778 | 11:56  119ms  362M 3612G 108/161U [BuildAddon] no space
+2024-11-05 16:34:07.049 | 11:56  119ms  372M 3620G 108/161U [BuildAddon] no space
+2024-11-05 16:34:07.322 | 11:57  120ms  397M 3624G 108/161U [BuildAddon] no space
+2024-11-05 16:34:07.690 | 11:57  120ms  412M 3640G 108/161U [BuildAddon] no space
+2024-11-05 16:34:07.953 | 11:58  220ms  422M 3656G 108/161U [BuildAddon] no space
+2024-11-05 16:34:08.234 | 11:58  115ms  447M 3660G 108/161U [BuildAddon] no space
+2024-11-05 16:34:08.494 | 11:59  118ms  472M 3668G 108/161U [BuildAddon] no space
+2024-11-05 16:34:08.777 | 11:59  116ms  492M 3684G 108/161U [BuildAddon] no space
+2024-11-05 16:34:09.043 | 12:00  130ms  504M 3692G 108/161U [BuildAddon] no space
+2024-11-05 16:34:09.414 | 12:00  118ms  519M 3700G 108/161U [BuildAddon] no space
+2024-11-05 16:34:09.673 | 12:00  215ms  584M 3712G 108/161U [BuildAddon] no space
+2024-11-05 16:34:09.945 | 12:01  119ms  589M 3716G 108/161U [BuildAddon] no space
+2024-11-05 16:34:10.205 | 12:01  120ms  594M 3728G 108/161U [BuildAddon] no space
+2024-11-05 16:34:10.478 | 12:02  116ms  619M 3748G 108/161U [BuildAddon] no space
+2024-11-05 16:34:10.748 | 12:02  121ms  629M 3756G 108/161U [BuildAddon] no space
+2024-11-05 16:34:11.013 | 12:03  118ms  634M 3756G 108/161U [BuildAddon] no space
+2024-11-05 16:34:11.391 | 12:03  125ms  664M 3772G 108/161U [BuildAddon] no space
+2024-11-05 16:34:11.656 | 12:04  117ms  679M 3788G 108/161U [BuildAddon] no space
+2024-11-05 16:34:11.936 | 12:04  119ms  694M 3792G 108/161U [BuildAddon] no space
+2024-11-05 16:34:12.229 | 12:05  120ms  709M 3800G 108/161U [BuildAddon] no space
+2024-11-05 16:34:12.522 | 12:05  128ms  731M 3816G 108/161U [BuildAddon] no space
+2024-11-05 16:34:12.805 | 12:05  119ms  756M 3828G 108/161U [BuildAddon] no space
+2024-11-05 16:34:12.808 | 12:05  119ms  706M 3828G 108/161U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:34:13.181 | 12:06  126ms  721M 3832G 109/161U [BuildAddon] no space
+2024-11-05 16:34:13.468 | 12:06  122ms  746M 3848G 109/161U [BuildAddon] no space
+2024-11-05 16:34:13.748 | 12:07  124ms  761M 3860G 109/161U [BuildAddon] no space
+2024-11-05 16:34:14.030 | 12:07  119ms  766M 3868G 109/161U [BuildAddon] no space
+2024-11-05 16:34:14.323 | 12:08  123ms  806M 3880G 109/161U [BuildAddon] no space
+2024-11-05 16:34:14.326 | 12:08  123ms  756M 3880G 109/161U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:34:14.710 | 12:08  132ms  771M 3888G 110/161U [BuildAddon] no space
+2024-11-05 16:34:15.007 | 12:09  228ms  781M 3888G 110/161U [BuildAddon] no space
+2024-11-05 16:34:15.010 | 12:09  228ms  731M 3888G 110/161U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:34:15.305 | 12:09  127ms  751M 3900G 111/161U [BuildAddon] no space
+2024-11-05 16:34:15.603 | 12:09  148ms  776M 3920G 111/161U [BuildAddon] no space
+2024-11-05 16:34:15.884 | 12:10  129ms  796M 3928G 111/161U [BuildAddon] no space
+2024-11-05 16:34:16.164 | 12:10  130ms  818M 3932G 111/161U [BuildAddon] no space
+2024-11-05 16:34:16.549 | 12:11  125ms  833M 3960G 111/161U [BuildAddon] no space
+2024-11-05 16:34:16.825 | 12:11  229ms  853M 3964G 111/161U [BuildAddon] no space
+2024-11-05 16:34:17.110 | 12:12  117ms  883M 3972G 111/161U [BuildAddon] no space
+2024-11-05 16:34:17.390 | 12:12  125ms  888M 3984G 111/161U [BuildAddon] no space
+2024-11-05 16:34:17.678 | 12:13  122ms  903M 3992G 111/161U [BuildAddon] no space
+2024-11-05 16:34:17.949 | 12:13  128ms  913M 4000G 111/161U [BuildAddon] no space
+2024-11-05 16:34:18.338 | 12:13  117ms  923M 4012G 111/161U [BuildAddon] no space
+2024-11-05 16:34:18.621 | 12:14  221ms  923M 4032G 111/161U [BuildAddon] no space
+2024-11-05 16:34:18.946 | 12:14  134ms  953M 4036G 111/161U [BuildAddon] no space
+2024-11-05 16:34:19.224 | 12:15  156ms  998M 4052G 111/161U [BuildAddon] no space
+2024-11-05 16:34:19.227 | 12:15  156ms  848M 3927G 111/161U [ActUnit] SIEGETANK from FACTORY at (173.5, 75.5)
+2024-11-05 16:34:19.512 | 12:15  128ms  878M 3935G 114/161U [BuildAddon] no space
+2024-11-05 16:34:19.806 | 12:16  124ms  890M 3947G 114/161U [BuildAddon] no space
+2024-11-05 16:34:20.212 | 12:16  131ms  600M 3801G 114/176U [BuildAddon] no space
+2024-11-05 16:34:20.506 | 12:17  137ms  640M 3817G 114/176U [BuildAddon] no space
+2024-11-05 16:34:20.812 | 12:17  129ms  660M 3829G 114/176U [BuildAddon] no space
+2024-11-05 16:34:21.103 | 12:17  140ms  682M 3837G 114/176U [BuildAddon] no space
+2024-11-05 16:34:21.414 | 12:18  135ms  842M 3995G 114/176U [BuildAddon] no space
+2024-11-05 16:34:21.839 | 12:18  147ms  842M 4015G 114/176U [BuildAddon] no space
+2024-11-05 16:34:21.842 | 12:18  147ms  692M 3890G 114/176U [ActUnit] SIEGETANK from FACTORY at (162.5, 60.5)
+2024-11-05 16:34:22.168 | 12:19  258ms  712M 3898G 117/176U [BuildAddon] no space
+2024-11-05 16:34:22.509 | 12:19  157ms  722M 3910G 117/176U [BuildAddon] no space
+2024-11-05 16:34:22.866 | 12:20  164ms  737M 3918G 117/176U [BuildAddon] no space
+2024-11-05 16:34:23.173 | 12:20  143ms  779M 3926G 117/176U [BuildAddon] no space
+2024-11-05 16:34:23.474 | 12:21  135ms  804M 3938G 117/176U [BuildAddon] no space
+2024-11-05 16:34:23.868 | 12:21  136ms  816M 3954G 117/176U [BuildAddon] no space
+2024-11-05 16:34:24.194 | 12:21  226ms  831M 3962G 117/176U [BuildAddon] no space
+2024-11-05 16:34:24.495 | 12:22  141ms  876M 3970G 117/176U [BuildAddon] no space
+2024-11-05 16:34:24.797 | 12:22  131ms  906M 3982G 117/176U [BuildAddon] no space
+2024-11-05 16:34:25.105 | 12:23  130ms  938M 3998G 117/176U [BuildAddon] no space
+2024-11-05 16:34:25.444 | 12:23  126ms  943M 4006G 117/176U [BuildAddon] no space
+2024-11-05 16:34:25.447 | 12:23  126ms  893M 4006G 117/176U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:34:25.854 | 12:24  158ms  898M 4018G 118/176U [BuildAddon] no space
+2024-11-05 16:34:26.147 | 12:24  232ms  913M 4026G 118/176U [BuildAddon] no space
+2024-11-05 16:34:26.447 | 12:25  131ms  923M 4042G 118/176U [BuildAddon] no space
+2024-11-05 16:34:26.744 | 12:25  128ms  950M 4054G 118/176U [BuildAddon] no space
+2024-11-05 16:34:27.073 | 12:25  125ms  985M 4066G 118/176U [BuildAddon] no space
+2024-11-05 16:34:27.075 | 12:25  125ms  935M 4066G 118/176U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:34:27.448 | 12:26  137ms  950M 4078G 119/176U [BuildAddon] no space
+2024-11-05 16:34:27.872 | 12:26  173ms 1132M 4236G 119/176U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-05 16:34:27.898 | 12:26  173ms  982M 4086G 119/176U [BuildAddon] no space
+2024-11-05 16:34:27.903 | 12:26  173ms  932M 4086G 119/176U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:34:28.266 | 12:27  275ms  932M 4098G 120/176U [BuildAddon] no space
+2024-11-05 16:34:28.586 | 12:27  165ms  962M 4114G 120/176U [BuildAddon] no space
+2024-11-05 16:34:28.876 | 12:28  136ms 1137M 4264G 120/176U [GameAnalyzer] Known army advantage is now OverwhelmingDisadvantage
+2024-11-05 16:34:28.900 | 12:28  136ms  987M 4114G 120/176U [BuildAddon] no space
+2024-11-05 16:34:29.243 | 12:28  141ms 1014M 4126G 120/176U [BuildAddon] no space
+2024-11-05 16:34:29.594 | 12:29  138ms 1024M 4142G 120/176U [BuildAddon] no space
+2024-11-05 16:34:30.290 | 12:29  162ms 1054M 4154G 120/176U [BuildAddon] no space
+2024-11-05 16:34:30.676 | 12:30  468ms 1059M 4170G 120/176U [BuildAddon] no space
+2024-11-05 16:34:31.014 | 12:30  168ms 1091M 4178G 120/176U [BuildAddon] no space
+2024-11-05 16:34:31.382 | 12:30  128ms 1106M 4190G 120/176U [BuildAddon] no space
+2024-11-05 16:34:31.744 | 12:31  170ms 1146M 4202G 120/176U [BuildAddon] no space
+2024-11-05 16:34:32.158 | 12:31  154ms 1161M 4218G 120/176U [BuildAddon] no space
+2024-11-05 16:34:32.643 | 12:32  191ms 1188M 4230G 120/176U [BuildAddon] no space
+2024-11-05 16:34:32.995 | 12:32  251ms 1198M 4238G 120/176U [BuildAddon] no space
+2024-11-05 16:34:33.440 | 12:33  152ms 1218M 4250G 120/176U [BuildAddon] no space
+2024-11-05 16:34:33.829 | 12:33  169ms 1233M 4266G 120/176U [BuildAddon] no space
+2024-11-05 16:34:34.198 | 12:34  164ms 1253M 4274G 120/176U [BuildAddon] no space
+2024-11-05 16:34:34.555 | 12:34  158ms 1275M 4290G 120/176U [BuildAddon] no space
+2024-11-05 16:34:35.105 | 12:34  150ms 1280M 4302G 120/176U [BuildAddon] no space
+2024-11-05 16:34:35.423 | 12:35  130ms 1312M 4314G 120/176U [BuildAddon] no space
+2024-11-05 16:34:35.728 | 12:35  141ms 1322M 4322G 120/176U [BuildAddon] no space
+2024-11-05 16:34:36.025 | 12:36  123ms 1372M 4338G 120/176U [BuildAddon] no space
+2024-11-05 16:34:36.330 | 12:36  129ms 1412M 4350G 120/176U [BuildAddon] no space
+2024-11-05 16:34:36.741 | 12:37  130ms 1437M 4362G 120/176U [BuildAddon] no space
+2024-11-05 16:34:37.097 | 12:37  226ms 1464M 4374G 120/176U [BuildAddon] no space
+2024-11-05 16:34:37.418 | 12:38  163ms 1484M 4386G 120/176U [BuildAddon] no space
+2024-11-05 16:34:37.726 | 12:38  133ms 1499M 4394G 120/176U [BuildAddon] no space
+2024-11-05 16:34:38.034 | 12:38  130ms 1504M 4410G 120/176U [BuildAddon] no space
+2024-11-05 16:34:38.339 | 12:39  137ms 1229M 4272G 120/191U [BuildAddon] no space
+2024-11-05 16:34:38.648 | 12:39  132ms 1251M 4284G 120/191U [BuildAddon] no space
+2024-11-05 16:34:39.077 | 12:40  142ms 1283M 4292G 120/191U [BuildAddon] no space
+2024-11-05 16:34:39.421 | 12:40  139ms 1288M 4308G 120/191U [BuildAddon] no space
+2024-11-05 16:34:39.930 | 12:41  160ms 1308M 4320G 120/191U [BuildAddon] no space
+2024-11-05 16:34:40.392 | 12:41  289ms 1628M 4632G 120/191U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-05 16:34:40.439 | 12:41  289ms 1478M 4482G 120/191U [BuildAddon] no space
+2024-11-05 16:34:40.442 | 12:41  289ms 1428M 4482G 120/191U [ActUnit] MARINE from BARRACKS at (168.5, 73.5)
+2024-11-05 16:34:40.771 | 12:42  170ms 1453M 4494G 121/191U [BuildAddon] no space
+2024-11-05 16:34:41.102 | 12:42  142ms 1480M 4510G 121/191U [BuildAddon] no space
+2024-11-05 16:34:41.733 | 12:42  133ms 1505M 4514G 121/191U [BuildAddon] no space
+2024-11-05 16:34:42.091 | 12:43  156ms 1700M 4680G 121/191U [GameAnalyzer] Known army advantage is now OverwhelmingDisadvantage
+2024-11-05 16:34:42.132 | 12:43  156ms 1550M 4530G 121/191U [BuildAddon] no space
+2024-11-05 16:34:42.520 | 12:43  179ms 1715M 4692G 121/191U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-05 16:34:42.640 | 12:43  179ms 1565M 4542G 121/191U [BuildAddon] no space
+2024-11-05 16:34:42.645 | 12:43  179ms 1515M 4542G 121/191U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:34:43.139 | 12:44  261ms 1675M 4704G 122/191U [GameAnalyzer] Known army advantage is now OverwhelmingDisadvantage
+2024-11-05 16:34:43.170 | 12:44  261ms 1525M 4554G 122/191U [BuildAddon] no space
+2024-11-05 16:34:43.611 | 12:44  161ms 1717M 4720G 122/191U [GameAnalyzer] Known army advantage is now ClearDisadvantage
+2024-11-05 16:34:43.661 | 12:44  161ms 1567M 4570G 122/191U [BuildAddon] no space
+2024-11-05 16:34:43.664 | 12:44  161ms 1517M 4570G 122/191U [ActUnit] MARINE from BARRACKS at (166.5, 76.5)
+2024-11-05 16:34:44.107 | 12:45  209ms 1544M 4578G 123/191U [BuildAddon] no space
+2024-11-05 16:34:44.633 | 12:45  249ms 1564M 4594G 123/191U [BuildAddon] no space
+2024-11-05 16:34:45.010 | 12:46  173ms 1579M 4602G 123/191U [BuildAddon] no space
+2024-11-05 16:34:45.390 | 12:46  150ms 1594M 4618G 123/191U [BuildAddon] no space
+2024-11-05 16:34:45.907 | 12:46  165ms 1614M 4630G 123/191U [BuildAddon] no space
+2024-11-05 16:34:46.243 | 12:47  180ms 1651M 4634G 123/191U [BuildAddon] no space
+2024-11-05 16:34:46.247 | 12:47  180ms 1501M 4509G 123/191U [ActUnit] SIEGETANK from FACTORY at (173.5, 75.5)
+2024-11-05 16:34:46.814 | 12:47  146ms 1518M 4529G 126/191U [BuildAddon] no space
+2024-11-05 16:34:47.198 | 12:48  280ms 1538M 4537G 126/191U [BuildAddon] no space
+2024-11-05 16:34:47.707 | 12:48  168ms 1553M 4549G 126/191U [BuildAddon] no space
+2024-11-05 16:34:48.096 | 12:49  158ms 1573M 4565G 126/191U [BuildAddon] no space
+2024-11-05 16:34:48.536 | 12:49  161ms 1605M 4573G 126/191U [BuildAddon] no space
+2024-11-05 16:34:49.022 | 12:50  177ms 1655M 4589G 126/191U [BuildAddon] no space
+2024-11-05 16:34:49.543 | 12:50  151ms 1682M 4597G 126/191U [BuildAddon] no space
+2024-11-05 16:34:49.900 | 12:50  276ms 1852M 4763G 126/191U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-05 16:34:49.929 | 12:50  276ms 1702M 4613G 126/191U [BuildAddon] no space
+2024-11-05 16:34:49.932 | 12:50  276ms 1552M 4488G 126/191U [ActUnit] SIEGETANK from FACTORY at (162.5, 60.5)
+2024-11-05 16:34:50.345 | 12:51  154ms 1577M 4500G 129/191U [BuildAddon] no space
+2024-11-05 16:34:50.717 | 12:51  239ms 1582M 4512G 129/191U [BuildAddon] no space
+2024-11-05 16:34:51.041 | 12:52  156ms 1607M 4524G 129/191U [BuildAddon] no space
+2024-11-05 16:34:54.309 | ERROR    | sc2.protocol:__request:50 - Cannot receive: Connection already closed.
+2024-11-05 16:34:54.312 | 12:52  138ms 1782M 4686G 129/191U [CooldownManager] Get available abilities failed: Connection already closed.
+2024-11-05 16:34:54.390 | ERROR    | sc2.main:run_bot_iteration:161 - Caught unknown exception: Cannot write to closing transport
+Traceback (most recent call last):
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\run.py", line 18, in <module>
+    main()
+    └ <function main at 0x000001930DFC6A20>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\run.py", line 13, in main
+    result, opponentid = run_ladder_game(protoss_bot)
+                         │               └ <sc2.player.Bot object at 0x000001930CB2FF90>
+                         └ <function run_ladder_game at 0x00000193729DE660>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\ladder.py", line 39, in run_ladder_game
+    return stand_alone_game(bot), None
+           │                └ <sc2.player.Bot object at 0x000001930CB2FF90>
+           └ <function stand_alone_game at 0x000001930B7B4A40>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\ladder.py", line 166, in stand_alone_game
+    return sc2.main.run_game(sc2.maps.get(map_name), [bot, Computer(Race.Zerg, Difficulty.VeryHard)], realtime=False,)
+           │   │    │        │   │    │   │           │    │        │    │     │          └ <Difficulty.VeryHard: 7>
+           │   │    │        │   │    │   │           │    │        │    │     └ <enum 'Difficulty'>
+           │   │    │        │   │    │   │           │    │        │    └ <Race.Zerg: 2>
+           │   │    │        │   │    │   │           │    │        └ <enum 'Race'>
+           │   │    │        │   │    │   │           │    └ <class 'sc2.player.Computer'>
+           │   │    │        │   │    │   │           └ <sc2.player.Bot object at 0x000001930CB2FF90>
+           │   │    │        │   │    │   └ 'GoldenAura513AIE'
+           │   │    │        │   │    └ <function get at 0x000001930B81E160>
+           │   │    │        │   └ <module 'sc2.maps' from 'c:\\Users\\Lena\\AppData\\Local\\Bots\\DemonT\\sc2\\maps.py'>
+           │   │    │        └ <module 'sc2' from 'c:\\Users\\Lena\\AppData\\Local\\Bots\\DemonT\\sc2\\__init__.py'>
+           │   │    └ <function run_game at 0x000001930B972700>
+           │   └ <module 'sc2.main' from 'c:\\Users\\Lena\\AppData\\Local\\Bots\\DemonT\\sc2\\main.py'>
+           └ <module 'sc2' from 'c:\\Users\\Lena\\AppData\\Local\\Bots\\DemonT\\sc2\\__init__.py'>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\main.py", line 496, in run_game
+    result: Result = asyncio.run(_host_game(map_settings, players, **kwargs))
+                     │       │   │          │             │          └ {'realtime': False}
+                     │       │   │          │             └ [<sc2.player.Bot object at 0x000001930CB2FF90>, <sc2.player.Computer object at 0x000001930E008750>]
+                     │       │   │          └ Map(D:\StarCraft II\maps\GoldenAura513AIE.SC2Map)
+                     │       │   └ <function _host_game at 0x000001930B9722A0>
+                     │       └ <function run at 0x0000019374636160>
+                     └ <module 'asyncio' from 'C:\\Users\\Lena\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           │      │   └ <coroutine object _host_game at 0x00000193751C1900>
+           │      └ <function Runner.run at 0x00000193746A6160>
+           └ <asyncio.runners.Runner object at 0x000001930E008550>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<_host_game() running at c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\main.py:369> cb=[_run_u...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x000001937469FC40>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x000001930E008550>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x0000019374B6FC40>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000193746A59E0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000193745FAFC0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\main.py", line 369, in _host_game
+    result = await _play_game(players[0], client, realtime, portconfig, game_time_limit, rgb_render_config)
+                   │          │           │       │         │           │                └ None
+                   │          │           │       │         │           └ None
+                   │          │           │       │         └ None
+                   │          │           │       └ False
+                   │          │           └ <sc2.client.Client object at 0x000001930DDA9010>
+                   │          └ [<sc2.player.Bot object at 0x000001930CB2FF90>, <sc2.player.Computer object at 0x000001930E008750>]
+                   └ <function _play_game at 0x000001930B9720C0>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\main.py", line 226, in _play_game
+    result = await _play_game_ai(client, player_id, player.ai, realtime, game_time_limit)
+                   │             │       │          │      │   │         └ None
+                   │             │       │          │      │   └ False
+                   │             │       │          │      └ <dummy.dummy.LadderBot object at 0x00000193726FE090>
+                   │             │       │          └ <sc2.player.Bot object at 0x000001930CB2FF90>
+                   │             │       └ 1
+                   │             └ <sc2.client.Client object at 0x000001930DDA9010>
+                   └ <function _play_game_ai at 0x000001930B971F80>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\main.py", line 196, in _play_game_ai
+    await run_bot_iteration(iteration)  # Main bot loop
+          │                 └ 1731
+          └ <function _play_game_ai.<locals>.run_bot_iteration at 0x000001930E5E1620>
+
+> File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\main.py", line 156, in run_bot_iteration
+    await ai.on_step(iteration)
+          │  │       └ 1731
+          │  └ <function SkeletonBot.on_step at 0x000001930B9FD3A0>
+          └ <dummy.dummy.LadderBot object at 0x00000193726FE090>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\knowledges\skeleton_bot.py", line 64, in on_step
+    await self.knowledge.update(iteration)
+          │    │         │      └ 1731
+          │    │         └ <function Knowledge.update at 0x000001930B9FC0E0>
+          │    └ <sharpy.knowledges.knowledge.Knowledge object at 0x000001937274B890>
+          └ <dummy.dummy.LadderBot object at 0x00000193726FE090>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\knowledges\knowledge.py", line 161, in update
+    await manager.update()
+          │       └ <function ActManager.update at 0x000001930B7FE5C0>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x000001930DD7DB50>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\managers\core\act_manager.py", line 32, in update
+    await self._act.execute()
+          │    │    └ <function BuildOrder.execute at 0x000001930DF27E20>
+          │    └ <sharpy.plans.build_order.BuildOrder object at 0x000001930E068C10>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x000001930DD7DB50>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\plans\build_order.py", line 290, in execute
+    if not await order.execute():
+                 │     └ <function SequentialList.execute at 0x000001930DF274C0>
+                 └ <sharpy.plans.sequential_list.SequentialList object at 0x000001930EB5FA10>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\plans\sequential_list.py", line 27, in execute
+    result = await order.execute()
+                   │     └ <function Step.execute at 0x000001930DF271A0>
+                   └ <sharpy.plans.build_step.Step object at 0x000001930EB5E990>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\plans\build_step.py", line 65, in execute
+    return await self.action.execute()
+                 │    │      └ <function BuildAddon.execute at 0x000001930DF4B060>
+                 │    └ <sharpy.plans.acts.terran.build_addon.BuildAddon object at 0x000001930EB5E950>
+                 └ <sharpy.plans.build_step.Step object at 0x000001930EB5E990>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\plans\acts\terran\build_addon.py", line 54, in execute
+    if await self.ai.find_placement(UnitTypeId.SUPPLYDEPOT, center, 0, False):
+             │    │  │              │          │            └ (164.0, 68.0)
+             │    │  │              │          └ UnitTypeId.SUPPLYDEPOT
+             │    │  │              └ <enum 'UnitTypeId'>
+             │    │  └ <function BotAI.find_placement at 0x000001930B736D40>
+             │    └ <dummy.dummy.LadderBot object at 0x00000193726FE090>
+             └ <sharpy.plans.acts.terran.build_addon.BuildAddon object at 0x000001930EB5E950>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\bot_ai.py", line 683, in find_placement
+    if await self.can_place_single(
+             │    └ <function BotAI.can_place_single at 0x000001930B736C00>
+             └ <dummy.dummy.LadderBot object at 0x00000193726FE090>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\bot_ai.py", line 612, in can_place_single
+    return (await self.client._query_building_placement_fast(building, [position]))[0]
+                  │    │      │                              │          └ (164.0, 68.0)
+                  │    │      │                              └ AbilityId.TERRANBUILD_SUPPLYDEPOT
+                  │    │      └ <function Client._query_building_placement_fast at 0x000001930B7AE660>
+                  │    └ <sc2.client.Client object at 0x000001930DDA9010>
+                  └ <dummy.dummy.LadderBot object at 0x00000193726FE090>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\client.py", line 256, in _query_building_placement_fast
+    result = await self._execute(
+                   │    └ <function Protocol._execute at 0x000001930B7AD9E0>
+                   └ <sc2.client.Client object at 0x000001930DDA9010>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\protocol.py", line 68, in _execute
+    response = await self.__request(sc_pb.Request(**kwargs))
+                     │              │     │         └ {'query': placements {
+                     │              │     │             ability_id: 319
+                     │              │     │             target_pos {
+                     │              │     │               x: 164.0
+                     │              │     │               y: 68.0
+                     │              │     │             }
+                     │              │     │           }
+                     │              │     │           ignore_resource_requirements: true
+                     │              │     │           }
+                     │              │     └ <class 's2clientprotocol.sc2api_pb2.Request'>
+                     │              └ <module 's2clientprotocol.sc2api_pb2' from 'C:\\Users\\Lena\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\...
+                     └ <sc2.client.Client object at 0x000001930DDA9010>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\protocol.py", line 37, in __request
+    await self._ws.send_bytes(request.SerializeToString())
+          │    │   │          │       └ <function _AddSerializeToStringMethod.<locals>.SerializeToString at 0x0000019375CB0680>
+          │    │   │          └ query {
+          │    │   │              placements {
+          │    │   │                ability_id: 319
+          │    │   │                target_pos {
+          │    │   │                  x: 164.0
+          │    │   │                  y: 68.0
+          │    │   │                }
+          │    │   │              }
+          │    │   │              ignore_resource_requirem...
+          │    │   └ <function ClientWebSocketResponse.send_bytes at 0x0000019374EEA8E0>
+          │    └ <aiohttp.client_ws.ClientWebSocketResponse object at 0x000001930E004150>
+          └ <sc2.client.Client object at 0x000001930DDA9010>
+
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_ws.py", line 170, in send_bytes
+    await self._writer.send(data, binary=True, compress=compress)
+          │    │       │    │                           └ None
+          │    │       │    └ b'r\x13\x1a\x0f\x08\xbf\x02\x12\n\r\x00\x00$C\x15\x00\x00\x88B \x01'
+          │    │       └ <function WebSocketWriter.send at 0x0000019374E78360>
+          │    └ <aiohttp.http_websocket.WebSocketWriter object at 0x000001930DD3A3D0>
+          └ <aiohttp.client_ws.ClientWebSocketResponse object at 0x000001930E004150>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\http_websocket.py", line 727, in send
+    await self._send_frame(message, WSMsgType.BINARY, compress)
+          │    │           │        │         │       └ None
+          │    │           │        │         └ <WSMsgType.BINARY: 2>
+          │    │           │        └ <enum 'WSMsgType'>
+          │    │           └ b'r\x13\x1a\x0f\x08\xbf\x02\x12\n\r\x00\x00$C\x15\x00\x00\x88B \x01'
+          │    └ <function WebSocketWriter._send_frame at 0x0000019374E78040>
+          └ <aiohttp.http_websocket.WebSocketWriter object at 0x000001930DD3A3D0>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\http_websocket.py", line 628, in _send_frame
+    raise ConnectionResetError("Cannot write to closing transport")
+
+ConnectionResetError: Cannot write to closing transport
+2024-11-05 16:34:54.613 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 51924...
+2024-11-05 16:34:54.652 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

@@ -1,0 +1,455 @@
+2024-11-14 11:25:20.806 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-14 11:25:20.808 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-14 11:25:20.809 | INFO     | sc2.controller:create_game:38 - Map:     Oceanborn513AIE
+2024-11-14 11:25:20.811 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Zerg, RandomBuild)
+2024-11-14 11:25:20.815 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-14 11:25:33.172 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2024-11-14 11:25:33.173 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2024-11-14 11:25:34.054 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.13.92440
+2024-11-14 11:25:34.055 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2024-11-14 11:25:34.209 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: Oceanborn AIE and hash: 3562128.
+2024-11-14 11:25:35.798 | [DataManager] No BuildDetector found, enemy build data cannot be saved
+2024-11-14 11:25:35.800 | 00:00    0ms    0M    0G  12/ 15U [Build] Att at 50
+2024-11-14 11:25:35.888 | [Start] My race: Terran
+2024-11-14 11:25:35.889 | [Start] Opponent race: Zerg
+2024-11-14 11:25:35.891 | [Start] OpponentId: None
+2024-11-14 11:25:38.479 | 00:16   18ms   10M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:25:40.397 | 00:29   19ms  110M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:25:41.905 | 00:38   18ms    5M    0G  15/ 23U [BuildGas] Building REFINERY to (152.5, 39.5)
+2024-11-14 11:25:42.808 | 00:44   20ms    5M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:25:44.738 | 00:56   20ms  100M    0G  16/ 23U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:25:46.831 | 01:09   21ms  185M   12G  17/ 23U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:25:48.730 | 01:15   26ms  245M   28G  18/ 23U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-14 11:25:48.730 | 01:15   26ms  245M   28G  18/ 23U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:25:48.818 | 01:15   31ms  250M   28G  18/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-14 11:25:48.997 | 01:16   29ms  260M   32G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-14 11:25:50.064 | 01:21   28ms  275M   44G  18/ 23U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:25:53.694 | 01:38   33ms  235M   92G  19/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2024-11-14 11:25:56.023 | 01:50   29ms  400M  124G  19/ 23U [Expand] Expanding to (154.5, 75.5)
+2024-11-14 11:25:56.962 | 01:55   26ms    5M  136G  19/ 31U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:25:57.632 | 01:58   33ms   50M  144G  20/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-14 11:25:57.811 | 01:59   31ms    0M  148G  20/ 31U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:25:57.946 | 01:59   29ms    5M  148G  21/ 31U [DodgeRampAttack] Supply is 21 -> attack!
+2024-11-14 11:25:57.947 | 01:59   29ms    5M  148G  21/ 31U [DodgeRampAttack] Attack started at 0.00 power.
+2024-11-14 11:25:58.033 | 02:00   32ms   20M  148G  21/ 31U [DodgeRampAttack] No attacking units, starting retreat
+2024-11-14 11:25:58.918 | 02:04   33ms    0M  164G  21/ 31U [BuildGas] Building REFINERY to (163.5, 49.5)
+2024-11-14 11:26:00.443 | 02:11   30ms   65M  180G  21/ 31U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:00.718 | 02:13   27ms   75M  184G  22/ 31U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:26:00.722 | 02:13   27ms   25M  184G  22/ 31U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:26:02.316 | 02:20   30ms    0M  104G  23/ 31U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:26:02.416 | 02:20   35ms    0M  104G  23/ 31U [DodgeRampAttack] Supply is 23 -> attack!
+2024-11-14 11:26:02.417 | 02:20   35ms    0M  104G  23/ 31U [DodgeRampAttack] Attack started at 1.00 power.
+2024-11-14 11:26:03.222 | 02:24   35ms   30M  116G  23/ 31U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:04.597 | 02:30   39ms  120M  132G  24/ 31U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:26:04.598 | 02:30   39ms  120M  132G  24/ 31U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:26:04.908 | 02:30  116ms   85M  136G  23/ 31U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:26:06.215 | 02:36   37ms  125M  160G  24/ 31U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:08.987 | 02:48   38ms  330M  208G  25/ 31U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:26:08.991 | 02:48   38ms  280M  208G  25/ 31U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:26:09.098 | 02:49   45ms  235M  208G  26/ 31U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:11.002 | 02:56   37ms  255M  240G  27/ 31U [GameAnalyzer] Predicted army advantage is now OverwhelmingDisadvantage
+2024-11-14 11:26:11.934 | 03:00   40ms  290M  252G  27/ 31U [DodgeRampAttack] Retreat started at 1.00 own local power against 2.50 enemy local power.
+2024-11-14 11:26:12.248 | 03:01   37ms  255M  260G  27/ 31U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:13.511 | 03:06   44ms  195M  176G  28/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-14 11:26:13.512 | 03:06   44ms  195M  176G  28/ 31U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:26:13.517 | 03:06   44ms  195M  176G  28/ 31U [DefensiveBuilding] Building BUNKER to (149.56803038083928, 76.32199493652679)
+2024-11-14 11:26:13.519 | 03:06   44ms   45M  176G  28/ 31U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:26:14.431 | 03:09   41ms   75M  192G  29/ 46U [GameAnalyzer] Income advantage is now Even
+2024-11-14 11:26:16.833 | 03:19   40ms   20M  228G  29/ 54U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:17.052 | 03:20   40ms   20M  236G  30/ 54U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:26:17.157 | 03:20   35ms   30M  236G  30/ 54U [DodgeRampAttack] Supply is 30 -> attack!
+2024-11-14 11:26:17.159 | 03:20   35ms   30M  236G  30/ 54U [DodgeRampAttack] Attack started at 3.00 power.
+2024-11-14 11:26:18.035 | 03:24   38ms   90M  260G  30/ 54U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:26:18.043 | 03:24   38ms   40M  260G  30/ 54U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:26:19.904 | 03:31   44ms   20M  292G  31/ 54U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:26:20.504 | 03:33   40ms   30M  308G  30/ 54U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:20.747 | 03:34   38ms   35M  308G  31/ 54U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:26:20.995 | 03:35   41ms   50M  316G  31/ 54U [BuildAddon] UnitTypeId.FACTORYTECHLAB to (155.0, 54.0)
+2024-11-14 11:26:22.615 | 03:40   43ms   80M  323G  30/ 54U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:26:23.596 | 03:44   45ms  120M  339G  31/ 54U [BuildAddon] UnitTypeId.STARPORTTECHLAB to (149.0, 43.0)
+2024-11-14 11:26:23.803 | 03:45   44ms   30M  322G  31/ 54U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:26:24.043 | 03:45   38ms    0M  322G  32/ 54U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:24.314 | 03:46   50ms   15M  330G  33/ 54U [DodgeRampAttack] Retreat started at 2.00 own local power against 3.50 enemy local power.
+2024-11-14 11:26:26.072 | 03:53   44ms  120M  362G  33/ 54U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:26:27.500 | 03:58   43ms  215M  394G  34/ 54U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:28.563 | 04:01   45ms  165M  285G  35/ 54U [ActUnit] SIEGETANK from FACTORY at (152.5, 54.5)
+2024-11-14 11:26:28.691 | 04:02   49ms   15M  189G  38/ 54U [ActUnit] BANSHEE from STARPORT at (146.5, 43.5)
+2024-11-14 11:26:29.161 | 04:04   42ms   10M  201G  41/ 54U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:26:29.648 | 04:05   44ms   10M  209G  42/ 54U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:26:29.769 | 04:06   41ms   20M  209G  43/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-14 11:26:29.901 | 04:06   44ms   35M  213G  43/ 54U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:26:30.023 | 04:07   38ms   35M  217G  43/ 54U [DodgeRampAttack] Supply is 43 -> attack!
+2024-11-14 11:26:30.025 | 04:07   38ms   35M  217G  43/ 54U [DodgeRampAttack] Attack started at 2.00 power.
+2024-11-14 11:26:31.156 | 04:10   43ms   95M  233G  43/ 54U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:33.380 | 04:18   47ms  145M  273G  44/ 54U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:26:33.896 | 04:20   50ms  160M  285G  45/ 54U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:26:34.416 | 04:22   46ms  150M  297G  46/ 54U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:26:34.824 | 04:23   44ms  150M  305G  47/ 54U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:36.112 | 04:27   51ms  270M  321G  48/ 54U [DodgeRampAttack] Retreat started at 1.00 own local power against 3.40 enemy local power.
+2024-11-14 11:26:37.170 | 04:30   50ms  325M  345G  48/ 54U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:26:38.227 | 04:34   50ms  220M  361G  49/ 54U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:26:38.774 | 04:35   48ms  205M  369G  49/ 54U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:38.915 | 04:36   56ms  175M  248G  50/ 54U [ActUnit] SIEGETANK from FACTORY at (152.5, 54.5)
+2024-11-14 11:26:39.451 | 04:38   50ms  230M  260G  53/ 62U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:26:39.455 | 04:38   50ms  180M  260G  53/ 62U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:26:39.803 | 04:39   51ms  210M  260G  54/ 62U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-14 11:26:40.085 | 04:39   53ms  170M  268G  54/ 62U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:26:41.218 | 04:43   54ms  250M  284G  55/ 62U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:26:41.885 | 04:45   56ms  290M  296G  56/ 62U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:26:41.886 | 04:45   56ms  290M  296G  56/ 62U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:26:42.053 | 04:45   60ms    5M  200G  56/ 62U [ActUnit] BANSHEE from STARPORT at (146.5, 43.5)
+2024-11-14 11:26:42.595 | 04:47   46ms   50M  208G  59/ 62U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:26:42.731 | 04:47   51ms   60M  208G  59/ 62U [DodgeRampAttack] Supply is 59 -> attack!
+2024-11-14 11:26:42.732 | 04:47   51ms   60M  208G  59/ 62U [DodgeRampAttack] Attack started at 10.00 power.
+2024-11-14 11:26:42.873 | 04:48   47ms   40M  216G  59/ 62U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:44.852 | 04:54   52ms   35M  248G  60/ 62U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-14 11:26:45.453 | 04:55   51ms   20M  256G  60/ 62U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:26:45.614 | 04:56   56ms   30M  256G  61/ 70U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-14 11:26:45.920 | 04:57   50ms   60M  264G  61/ 70U [BuildAddon] UnitTypeId.BARRACKSTECHLAB to (160.0, 57.0)
+2024-11-14 11:26:46.162 | 04:57   56ms  145M  239G  61/ 70U [BuildAddon] UnitTypeId.BARRACKSREACTOR to (162.0, 54.0)
+2024-11-14 11:26:47.270 | 05:00   53ms    0M  105G  61/ 70U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:48.225 | 05:03   65ms    0M  121G  62/ 70U [BuildGas] Building REFINERY to (157.5, 82.5)
+2024-11-14 11:26:50.050 | 05:08   58ms  160M  145G  62/ 70U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:26:50.051 | 05:08   58ms  110M  145G  62/ 70U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:26:50.811 | 05:10  147ms  150M  157G  63/ 70U [GameAnalyzer] Income advantage is now Even
+2024-11-14 11:26:50.986 | 05:10   69ms  180M  161G  63/ 70U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:26:50.987 | 05:10   69ms  180M  161G  63/ 70U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:26:52.053 | 05:13   71ms  210M  177G  62/ 70U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:53.036 | 05:15   73ms  245M  185G  63/ 78U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:26:53.229 | 05:16   69ms  265M  189G  64/ 78U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:26:55.306 | 05:20   69ms  360M  217G  62/ 78U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:26:55.850 | 05:22   67ms  255M  100G  62/ 78U [ActUnit] SIEGETANK from FACTORY at (152.5, 54.5)
+2024-11-14 11:26:56.028 | 05:22   77ms   90M  100G  65/ 78U [BuildGas] Building REFINERY to (161.5, 79.5)
+2024-11-14 11:26:57.342 | 05:25   65ms  125M  116G  65/ 78U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:26:58.416 | 05:28   71ms  220M  132G  63/ 78U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:26:58.416 | 05:28   71ms  220M  132G  63/ 78U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:26:58.422 | 05:28   71ms   70M   32G  63/ 78U [ActUnit] BANSHEE from STARPORT at (146.5, 43.5)
+2024-11-14 11:27:00.309 | 05:33   60ms  150M   60G  64/ 78U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:27:00.818 | 05:34   58ms  165M   68G  65/ 78U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:01.560 | 05:36   59ms  165M   80G  66/ 78U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:27:01.730 | 05:37  157ms   65M   88G  67/ 78U [BuildAddon] UnitTypeId.STARPORTTECHLAB to (153.0, 57.0)
+2024-11-14 11:27:01.905 | 05:37   64ms   35M   63G  67/ 78U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:27:02.250 | 05:38   57ms   10M   71G  67/ 78U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:27:03.971 | 05:42   63ms  155M  107G  68/ 78U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:27:03.980 | 05:42   63ms  155M  107G  68/ 78U [Tech] Started SHIELDWALL
+2024-11-14 11:27:03.986 | 05:42   63ms    5M    7G  68/ 78U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:04.657 | 05:44   57ms    0M   19G  69/ 78U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:27:05.141 | 05:45   59ms    0M   31G  70/ 78U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:27:06.628 | 05:49  153ms  115M   59G  71/ 86U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-14 11:27:07.140 | 05:50   61ms  110M   71G  71/ 86U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:27:07.832 | 05:52   69ms  105M   91G  72/ 86U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:08.515 | 05:54   65ms  155M  115G  73/ 86U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:27:08.781 | 05:54   77ms   15M   19G  73/ 86U [ActUnit] BANSHEE from STARPORT at (150.5, 57.5)
+2024-11-14 11:27:09.297 | 05:56   63ms   15M   35G  76/ 86U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:27:10.167 | 05:58   71ms   25M   51G  77/ 86U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:27:10.350 | 05:58   67ms   40M   63G  78/ 86U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:27:11.136 | 06:00   65ms   35M   83G  78/ 94U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:12.582 | 06:04   64ms   55M  115G  79/ 94U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:27:12.586 | 06:04   64ms    5M  115G  79/ 94U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:27:13.621 | 06:06  168ms   15M  147G  80/ 94U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:27:14.943 | 06:09   69ms  115M  179G  81/ 94U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:27:15.337 | 06:10   71ms  140M  187G  81/ 94U [GameAnalyzer] Income advantage is now Even
+2024-11-14 11:27:15.346 | 06:10   71ms   90M  187G  81/ 94U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:15.553 | 06:10   88ms   50M  195G  82/ 94U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:27:15.838 | 06:11   79ms   65M  195G  83/ 94U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:27:18.383 | 06:16   82ms   90M  259G  79/ 94U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:27:19.200 | 06:18   85ms  140M  275G  77/ 94U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:27:19.413 | 06:19   93ms    0M  175G  77/ 94U [ActUnit] BANSHEE from STARPORT at (146.5, 43.5)
+2024-11-14 11:27:20.188 | 06:20   83ms   10M  195G  80/ 94U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:20.853 | 06:22   68ms    5M  207G  81/ 94U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:27:21.415 | 06:23   74ms    0M  223G  82/ 94U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:27:21.793 | 06:24   73ms   15M  239G  83/ 94U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:27:22.402 | 06:25   73ms   65M  255G  83/ 94U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:27:22.412 | 06:25   73ms   15M  255G  83/ 94U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:27:23.692 | 06:28   80ms  100M  283G  84/102U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:27:23.700 | 06:28   80ms   50M  283G  84/102U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:24.104 | 06:29   77ms   35M  287G  85/102U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:27:27.053 | 06:35   80ms  225M  351G  84/102U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:27:27.263 | 06:35   94ms  195M  367G  84/102U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:27:27.471 | 06:36   93ms  200M  367G  85/110U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:27:28.196 | 06:37   92ms   95M  283G  85/110U [ActUnit] BANSHEE from STARPORT at (150.5, 57.5)
+2024-11-14 11:27:28.596 | 06:38   80ms   90M  295G  88/110U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:29.249 | 06:40   75ms   75M  307G  89/110U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:27:30.145 | 06:41   83ms  130M  331G  87/110U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:27:30.147 | 06:41   83ms   80M  331G  87/110U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:27:30.954 | 06:43   82ms   95M  347G  87/110U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:27:32.843 | 06:47   86ms  175M  391G  88/110U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:33.234 | 06:48   89ms  160M  395G  89/110U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:27:33.438 | 06:48   88ms  170M  407G  90/110U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-14 11:27:35.229 | 06:52   88ms  285M  443G  90/110U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:27:35.460 | 06:52  102ms  150M  318G  90/110U [ActUnit] SIEGETANK from FACTORY at (152.5, 54.5)
+2024-11-14 11:27:35.906 | 06:53   97ms  100M  334G  90/110U [GameAnalyzer] Income advantage is now Even
+2024-11-14 11:27:36.210 | 06:54   88ms  105M  334G  90/110U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-14 11:27:36.211 | 06:54   88ms   55M  334G  90/110U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:27:37.353 | 06:56  106ms   80M  366G  91/110U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:37.606 | 06:56   98ms   95M  366G  91/110U [DodgeRampAttack] Retreat started at 5.50 own local power against 10.24 enemy local power.
+2024-11-14 11:27:38.005 | 06:57   80ms  135M  378G  90/110U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:27:38.006 | 06:57   80ms  135M  378G  90/110U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:27:38.017 | 06:57   80ms   85M  378G  90/110U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:27:39.156 | 07:00   91ms  170M  398G  91/110U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:27:39.593 | 07:00   88ms  150M  414G  90/110U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:27:40.005 | 07:01   91ms  170M  414G  91/110U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:27:40.007 | 07:01   91ms  170M  414G  91/110U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:27:40.015 | 07:01   91ms   20M  314G  91/110U [ActUnit] BANSHEE from STARPORT at (146.5, 43.5)
+2024-11-14 11:27:40.489 | 07:02   75ms    5M  330G  91/110U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:27:40.666 | 07:03  158ms   25M  330G  92/110U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:27:40.667 | 07:03  158ms   25M  330G  92/110U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:27:41.401 | 07:05   73ms   85M  350G  91/110U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:27:41.587 | 07:05   83ms  100M  362G  91/110U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:27:41.596 | 07:05   83ms   50M  362G  91/110U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:42.147 | 07:06   75ms   45M  378G  92/110U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:27:42.704 | 07:08   72ms  115M  390G  92/110U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:27:45.202 | 07:13   85ms  240M  442G  92/110U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:27:45.616 | 07:14   83ms  230M  458G  93/110U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:46.217 | 07:15   86ms  270M  474G  94/110U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:27:46.228 | 07:15   86ms  220M  474G  94/110U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:27:46.948 | 07:17   86ms  275M  486G  95/110U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:27:47.160 | 07:17   89ms  295M  490G  95/110U [DodgeRampAttack] Supply is 95 -> attack!
+2024-11-14 11:27:47.161 | 07:17   89ms  295M  490G  95/110U [DodgeRampAttack] Attack started at 17.00 power.
+2024-11-14 11:27:47.998 | 07:19   92ms  355M  506G  95/118U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:27:47.999 | 07:19   92ms  355M  506G  95/118U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:27:48.000 | 07:19   92ms  305M  506G  95/118U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:27:48.716 | 07:20   90ms  355M  522G  96/118U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:27:48.717 | 07:20   90ms  355M  522G  96/118U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:27:48.727 | 07:20   90ms  205M  422G  96/118U [ActUnit] BANSHEE from STARPORT at (150.5, 57.5)
+2024-11-14 11:27:48.728 | 07:20   90ms  155M  422G  96/118U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:27:50.703 | 07:24   94ms  165M  470G 100/118U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:51.334 | 07:25   90ms  140M  486G 101/118U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:27:53.620 | 07:30   95ms  160M  409G 102/118U [ActUnit] SIEGETANK from FACTORY at (152.5, 54.5)
+2024-11-14 11:27:54.362 | 07:31   94ms  165M  421G 105/118U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:27:55.056 | 07:33   96ms  170M  437G 106/118U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:27:55.282 | 07:33  101ms  185M  441G 107/118U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:27:55.296 | 07:33  101ms   35M  441G 107/118U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:27:55.508 | 07:34  107ms   50M  441G 108/118U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:27:56.255 | 07:35   91ms   95M  457G 107/118U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:27:57.131 | 07:37   87ms   60M  473G 107/118U [DodgeRampAttack] Retreat started at 14.89 own local power against 18.73 enemy local power.
+2024-11-14 11:27:57.509 | 07:38   78ms   95M  489G 104/118U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:27:57.812 | 07:38   84ms  150M  489G 104/118U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:27:58.517 | 07:39   93ms  155M  505G 105/118U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:27:58.966 | 07:40   94ms  185M  521G 105/118U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:28:00.000 | 07:42   99ms  200M  537G 104/118U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:28:00.448 | 07:43   92ms  250M  549G 105/126U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:28:00.904 | 07:44   91ms  270M  553G 105/126U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-14 11:28:00.907 | 07:44   91ms  220M  553G 105/126U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:28:01.129 | 07:44   99ms  235M  553G 106/126U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:28:01.130 | 07:44   99ms  235M  553G 106/126U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:28:01.139 | 07:44   99ms   85M  453G 106/126U [ActUnit] BANSHEE from STARPORT at (146.5, 43.5)
+2024-11-14 11:28:01.473 | 07:45  101ms  110M  469G 106/126U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:28:04.358 | 07:50   94ms  280M  533G 106/126U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:28:04.367 | 07:50   94ms  230M  533G 106/126U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:28:04.593 | 07:51  101ms  195M  533G 108/126U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:28:07.282 | 07:56  177ms  390M  593G 109/126U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-14 11:28:07.283 | 07:56  177ms  340M  593G 109/126U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:28:07.509 | 07:57   92ms  365M  597G 110/126U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:28:07.708 | 07:57   88ms  335M  597G 110/134U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:28:07.721 | 07:57   88ms  335M  597G 110/134U [DodgeRampAttack] Supply is 110 -> attack!
+2024-11-14 11:28:07.722 | 07:57   88ms  335M  597G 110/134U [DodgeRampAttack] Attack started at 26.00 power.
+2024-11-14 11:28:09.128 | 08:00  100ms  375M  629G 111/134U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:28:10.351 | 08:02  105ms  455M  657G 112/134U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:28:10.363 | 08:02  105ms  305M  532G 112/134U [ActUnit] SIEGETANK from FACTORY at (152.5, 54.5)
+2024-11-14 11:28:10.809 | 08:03  100ms  255M  536G 115/134U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:28:10.815 | 08:03  100ms  205M  536G 115/134U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:28:10.821 | 08:03  100ms   55M  436G 115/134U [ActUnit] BANSHEE from STARPORT at (150.5, 57.5)
+2024-11-14 11:28:13.714 | 08:08  101ms  215M  500G 119/134U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:28:13.949 | 08:09  199ms  195M  500G 120/134U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:28:14.204 | 08:09  113ms  170M  500G 121/134U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:28:14.931 | 08:11  104ms  205M  516G 122/134U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2024-11-14 11:28:17.597 | 08:15  105ms  410M  564G 122/134U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:28:17.608 | 08:15  105ms  360M  564G 122/134U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:28:17.889 | 08:15  127ms  235M  576G 123/134U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:28:18.667 | 08:17  110ms  160M  592G 124/134U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:28:19.291 | 08:18  201ms  210M  596G 124/134U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:28:19.302 | 08:18  201ms  160M  596G 124/134U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:28:19.604 | 08:18  132ms  190M  596G 125/134U [DodgeRampAttack] Retreat started at 24.89 own local power against 34.79 enemy local power.
+2024-11-14 11:28:20.089 | 08:19  110ms  220M  612G 122/134U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-14 11:28:20.091 | 08:19  110ms  220M  612G 122/134U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:28:21.502 | 08:21  107ms  405M  640G 122/134U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:28:21.504 | 08:21  107ms  355M  640G 122/134U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:28:22.946 | 08:24  116ms  435M  660G 120/134U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:28:24.655 | 08:26  113ms  515M  692G 120/134U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:28:25.171 | 08:27  109ms  535M  704G 121/142U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:28:25.183 | 08:27  109ms  485M  704G 121/142U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:28:25.800 | 08:28  108ms  480M  708G 122/142U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:28:26.065 | 08:28  209ms  490M  708G 123/142U [GameAnalyzer] Predicted army advantage is now ClearDisadvantage
+2024-11-14 11:28:28.704 | 08:33  104ms  460M  760G 123/142U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:28:29.272 | 08:34  200ms  465M  772G 124/142U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:28:29.513 | 08:34  117ms  495M  772G 125/142U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-14 11:28:29.525 | 08:34  117ms  345M  647G 125/142U [ActUnit] SIEGETANK from FACTORY at (152.5, 54.5)
+2024-11-14 11:28:30.258 | 08:36  106ms  400M  663G 128/142U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:28:30.269 | 08:36  106ms  350M  663G 128/142U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:28:31.959 | 08:38  121ms  445M  695G 129/142U [DodgeRampAttack] Retreat stopped.
+2024-11-14 11:28:32.404 | 08:39  114ms  450M  695G 129/142U [DodgeRampAttack] Supply is 129 -> attack!
+2024-11-14 11:28:32.405 | 08:39  114ms  450M  695G 129/142U [DodgeRampAttack] Attack started at 38.00 power.
+2024-11-14 11:28:33.573 | 08:40  125ms  490M  723G 129/142U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:28:35.752 | 08:44  114ms  415M  759G 130/150U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:28:36.373 | 08:45  209ms  295M  771G 131/150U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:28:36.928 | 08:46  125ms  175M  675G 132/150U [ActUnit] BANSHEE from STARPORT at (150.5, 57.5)
+2024-11-14 11:28:37.285 | 08:46  123ms  145M  687G 135/150U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:28:38.964 | 08:49  152ms  240M  707G 136/150U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:28:38.966 | 08:49  152ms  240M  707G 136/150U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-14 11:28:39.001 | 08:49  152ms   90M  607G 136/150U [ActUnit] BANSHEE from STARPORT at (146.5, 43.5)
+2024-11-14 11:28:40.525 | 08:51  114ms   30M  635G 139/150U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:28:42.027 | 08:53  118ms   40M  655G 140/150U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:28:42.521 | 08:53  132ms   20M  655G 141/150U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:28:46.115 | 08:59  116ms  165M  719G 142/150U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:28:48.636 | 09:02  137ms  220M  751G 143/150U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:28:49.352 | 09:03  157ms  235M  767G 144/150U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:28:51.392 | 09:05  143ms  255M  795G 145/150U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:28:51.734 | 09:06  134ms  260M  799G 146/150U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:28:52.070 | 09:06  184ms  280M  799G 146/150U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:28:52.686 | 09:07  174ms  150M  682G 146/150U [ActUnit] SIEGETANK from FACTORY at (152.5, 54.5)
+2024-11-14 11:28:54.176 | 09:09  168ms   40M  706G 149/150U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:28:56.384 | 09:11  151ms  155M  734G 150/158U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-14 11:28:56.385 | 09:11  151ms  105M  734G 150/158U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:28:56.401 | 09:11  151ms   55M  734G 150/158U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:28:58.859 | 09:14  136ms  135M  766G 146/166U [GameAnalyzer] Known army advantage is now Even
+2024-11-14 11:29:00.690 | 09:17  127ms  225M  786G 138/166U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:29:01.645 | 09:18  134ms  215M  802G 136/166U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:29:02.681 | 09:19  142ms  265M  818G 137/166U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:29:03.054 | 09:20  154ms  270M  818G 137/166U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:29:03.068 | 09:20  154ms  220M  818G 137/166U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:29:03.768 | 09:21  129ms  195M  834G 138/166U [ActUnit] MARINE from BARRACKS at (146.5, 38.5)
+2024-11-14 11:29:04.117 | 09:21  243ms  170M  834G 139/166U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:29:06.190 | 09:24  320ms  215M  866G 138/166U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:29:08.348 | 09:26  314ms  240M  898G 139/166U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:29:10.597 | 09:29  185ms  150M  814G 135/166U [ActUnit] BANSHEE from STARPORT at (150.5, 57.5)
+2024-11-14 11:29:11.808 | 09:30  142ms  155M  842G 137/166U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:29:12.573 | 09:31  147ms   40M  746G 137/174U [ActUnit] BANSHEE from STARPORT at (146.5, 43.5)
+2024-11-14 11:29:12.868 | 09:32  251ms    5M  746G 140/174U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:29:13.450 | 09:33  118ms   45M  762G 141/174U [GameAnalyzer] Known army advantage is now OverwhelmingAdvantage
+2024-11-14 11:29:14.877 | 09:35  106ms   55M  790G 138/174U [ActUnit] MARINE from BARRACKS at (143.5, 52.5)
+2024-11-14 11:29:15.353 | 09:36  105ms   95M  794G 139/174U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-14 11:29:15.598 | 09:36  105ms   50M  802G 139/174U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:29:16.335 | 09:38  103ms   40M  810G 140/174U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:29:16.581 | 09:38  107ms   45M  826G 138/174U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:29:16.935 | 09:39  105ms    5M  826G 138/174U [ActUnit] MARINE from BARRACKS at (146.5, 38.5)
+2024-11-14 11:29:17.174 | 09:39  207ms   15M  826G 139/174U [GameAnalyzer] Known army advantage is now OverwhelmingAdvantage
+2024-11-14 11:29:17.431 | 09:39  112ms   30M  838G 139/174U [GameAnalyzer] Income advantage is now Even
+2024-11-14 11:29:17.714 | 09:40  117ms   25M  842G 139/174U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:29:19.644 | 09:43  111ms   50M  874G 140/174U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:29:20.544 | 09:44  147ms   40M  890G 141/174U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:29:22.477 | 09:47  112ms  145M  922G 141/174U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-14 11:29:23.363 | 09:49  215ms  180M  938G 140/174U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:29:23.365 | 09:49  215ms  130M  938G 140/174U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:29:23.639 | 09:49  127ms  140M  938G 141/174U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-14 11:29:25.304 | 09:51  309ms  150M  970G 141/174U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:29:26.128 | 09:53  131ms  190M  986G 142/174U [GameAnalyzer] Known army advantage is now OverwhelmingAdvantage
+2024-11-14 11:29:26.830 | 09:54  121ms  160M  986G 142/174U [ActUnit] MARINE from BARRACKS at (143.5, 52.5)
+2024-11-14 11:29:28.281 | 09:55  147ms  180M 1014G 143/174U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:29:28.560 | 09:56  137ms  150M 1018G 144/174U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:29:30.082 | 09:58  129ms  170M 1034G 145/174U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:29:30.985 | 10:00  223ms  190M 1050G 146/174U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1379
+2024-11-14 11:29:30.987 | 10:00  223ms  190M 1050G 146/174U [GameAnalyzer] Predicted army advantage is now OverwhelmingAdvantage
+2024-11-14 11:29:31.287 | 10:00  131ms  155M 1062G 145/174U [ActUnit] MARINE from BARRACKS at (146.5, 38.5)
+2024-11-14 11:29:31.560 | 10:00  123ms  180M 1066G 146/174U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-14 11:29:32.115 | 10:01  131ms  140M 1070G 146/174U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:29:33.882 | 10:04  132ms  150M 1098G 147/174U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:29:36.995 | 10:08  141ms  235M 1146G 148/174U [ActUnit] SCV from COMMANDCENTER at (154.5, 75.5)
+2024-11-14 11:29:38.088 | 10:09  142ms  215M 1162G 149/174U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:29:38.629 | 10:10  121ms  140M 1174G 150/174U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -13
+2024-11-14 11:29:39.219 | 10:11  118ms  160M 1178G 150/174U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-14 11:29:39.642 | 10:12  170ms   20M 1078G 150/174U [ActUnit] BANSHEE from STARPORT at (150.5, 57.5)
+2024-11-14 11:29:40.471 | 10:12  121ms   45M 1094G 153/174U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-14 11:29:40.770 | 10:13  136ms   10M 1094G 153/174U [ActUnit] MARINE from BARRACKS at (143.5, 52.5)
+2024-11-14 11:29:42.055 | 10:15  144ms   25M 1122G 153/174U [ActUnit] SCV from COMMANDCENTER at (156.5, 46.5)
+2024-11-14 11:29:42.653 | 10:16  116ms   35M 1126G 153/174U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -1105
+2024-11-14 11:29:46.287 | 10:21  147ms  160M 1190G 151/174U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:29:46.288 | 10:21  147ms  160M 1190G 151/174U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-14 11:29:46.300 | 10:21  147ms   10M 1090G 151/174U [ActUnit] BANSHEE from STARPORT at (146.5, 43.5)
+2024-11-14 11:29:46.857 | 10:22  110ms    0M 1090G 154/174U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:29:48.728 | 10:25  111ms    5M 1122G 155/174U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:29:49.745 | 10:26  103ms   40M 1138G 156/174U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:29:50.035 | 10:27  119ms    0M 1154G 156/174U [ActUnit] MARINE from BARRACKS at (146.5, 38.5)
+2024-11-14 11:29:50.429 | 10:27  116ms   25M 1154G 157/174U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:29:50.969 | 10:28  108ms    5M 1166G 157/174U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:29:51.227 | 10:29  117ms   20M 1170G 158/174U [GameAnalyzer] Income advantage is now OverwhelmingAdvantage
+2024-11-14 11:29:52.083 | 10:30  124ms   50M 1186G 156/174U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:29:52.099 | 10:30  124ms    0M 1186G 156/174U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:29:52.680 | 10:31  203ms   20M 1186G 157/174U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:29:53.192 | 10:32  115ms   40M 1202G 157/174U [GameAnalyzer] Known army advantage is now OverwhelmingAdvantage
+2024-11-14 11:29:53.193 | 10:32  115ms   40M 1202G 157/174U [GameAnalyzer] Predicted army advantage is now ClearAdvantage
+2024-11-14 11:29:53.462 | 10:32  133ms    0M 1202G 157/174U [ActUnit] MARINE from BARRACKS at (143.5, 52.5)
+2024-11-14 11:29:56.446 | 10:37  206ms  105M 1266G 158/182U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -77
+2024-11-14 11:29:56.448 | 10:37  206ms  105M 1266G 158/182U [GameAnalyzer] Predicted army advantage is now OverwhelmingAdvantage
+2024-11-14 11:29:58.181 | 10:40  113ms   20M 1294G 155/182U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:29:58.756 | 10:41  144ms   30M 1298G 153/182U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:29:58.759 | 10:41  144ms   30M 1298G 153/182U [GameAnalyzer] Predicted army advantage is now ClearAdvantage
+2024-11-14 11:29:59.798 | 10:42  119ms   70M 1314G 152/182U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -13
+2024-11-14 11:29:59.800 | 10:42  119ms   70M 1314G 152/182U [GameAnalyzer] Known army advantage is now OverwhelmingAdvantage
+2024-11-14 11:29:59.800 | 10:42  119ms   70M 1314G 152/182U [GameAnalyzer] Predicted army advantage is now OverwhelmingAdvantage
+2024-11-14 11:29:59.817 | 10:42  119ms   20M 1314G 152/182U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:30:00.442 | 10:43  226ms   50M 1330G 153/182U [GameAnalyzer] Known army advantage is now ClearAdvantage
+2024-11-14 11:30:00.443 | 10:43  226ms   50M 1330G 153/182U [GameAnalyzer] Predicted army advantage is now ClearAdvantage
+2024-11-14 11:30:01.204 | 10:45  110ms   20M 1346G 149/182U [ActUnit] MARINE from BARRACKS at (146.5, 38.5)
+2024-11-14 11:30:02.201 | 10:46  132ms    5M 1362G 150/182U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:30:03.422 | 10:48  142ms   45M 1378G 148/182U [GameAnalyzer] Known army advantage is now OverwhelmingAdvantage
+2024-11-14 11:30:03.424 | 10:48  142ms   45M 1378G 148/182U [GameAnalyzer] Predicted army advantage is now OverwhelmingAdvantage
+2024-11-14 11:30:03.705 | 10:48  130ms    0M 1378G 148/182U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:30:05.575 | 10:51  114ms   10M 1410G 149/182U [ActUnit] MARINE from BARRACKS at (143.5, 52.5)
+2024-11-14 11:30:10.597 | 10:58  153ms  150M 1490G 150/182U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -70
+2024-11-14 11:30:10.614 | 10:58  153ms    0M 1390G 150/182U [ActUnit] BANSHEE from STARPORT at (150.5, 57.5)
+2024-11-14 11:30:12.782 | 11:02  257ms   10M 1422G 153/190U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:30:14.050 | 11:04  121ms   60M 1454G 154/190U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -6
+2024-11-14 11:30:17.232 | 11:09  138ms    0M 1402G 154/190U [ActUnit] BANSHEE from STARPORT at (146.5, 43.5)
+2024-11-14 11:30:19.207 | 11:12  133ms   10M 1434G 155/190U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:30:20.633 | 11:14  121ms   35M 1466G 156/190U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:30:21.452 | 11:15  116ms    0M 1482G 157/190U [ActUnit] MARINE from BARRACKS at (146.5, 38.5)
+2024-11-14 11:30:23.073 | 11:18  118ms    5M 1510G 158/190U [ActUnit] MARINE from BARRACKS at (145.5, 49.5)
+2024-11-14 11:30:24.583 | 11:20  162ms   10M 1530G 159/190U [ActUnit] MARINE from BARRACKS at (143.5, 52.5)
+2024-11-14 11:30:25.812 | 11:22  135ms    5M 1546G 160/190U [ActUnit] MARINE from BARRACKS at (157.5, 57.5)
+2024-11-14 11:30:32.005 | 11:31  140ms  155M 1642G 161/190U [ActUnit] MARINE from BARRACKS at (159.5, 54.5)
+2024-11-14 11:30:38.336 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2024-11-14 11:30:38.337 | Result: Defeat
+2024-11-14 11:30:38.338 | Duration: 11:39
+2024-11-14 11:30:38.339 | Step time min: 14
+2024-11-14 11:30:38.340 | Step time avg: 82
+2024-11-14 11:30:38.341 | Step time max: 758
+2024-11-14 11:30:38.341 | [LostUnitsContents] My lost units minerals and gas: (5350, 1575)
+2024-11-14 11:30:38.342 | [LostUnitsContents] My lost units minerals by score: 5000.0
+2024-11-14 11:30:38.344 | [LostUnitsContents] Enemy lost units minerals and gas: (12275, 3375)
+2024-11-14 11:30:38.344 | [LostUnitsContents] Enemy lost units minerals by score: 12375.0
+2024-11-14 11:30:38.346 | [GameAnalyzerEnd] Own units:
+2024-11-14 11:30:38.347 | [GameAnalyzerEnd] MARINE            total:  94 alive:  33 dead:  61 
+2024-11-14 11:30:38.347 | [GameAnalyzerEnd] SCV               total:  87 alive:  86 dead:   1 
+2024-11-14 11:30:38.348 | [GameAnalyzerEnd] SUPPLYDEPOT       total:  20 alive:  20 dead:   0 
+2024-11-14 11:30:38.349 | [GameAnalyzerEnd] BANSHEE           total:  16 alive:   4 dead:  12 
+2024-11-14 11:30:38.350 | [GameAnalyzerEnd] SIEGETANK         total:   8 alive:   5 dead:   3 
+2024-11-14 11:30:38.351 | [GameAnalyzerEnd] BARRACKS          total:   5 alive:   5 dead:   0 
+2024-11-14 11:30:38.352 | [GameAnalyzerEnd] REFINERY          total:   4 alive:   4 dead:   0 
+2024-11-14 11:30:38.352 | [GameAnalyzerEnd] TECHLAB           total:   4 alive:   4 dead:   0 
+2024-11-14 11:30:38.353 | [GameAnalyzerEnd] ORBITALCOMMAND    total:   2 alive:   2 dead:   0 
+2024-11-14 11:30:38.353 | [GameAnalyzerEnd] MULE              total:   2 alive:   2 dead:   0 
+2024-11-14 11:30:38.354 | [GameAnalyzerEnd] STARPORT          total:   2 alive:   2 dead:   0 
+2024-11-14 11:30:38.355 | [GameAnalyzerEnd] BUNKER            total:   1 alive:   1 dead:   0 
+2024-11-14 11:30:38.359 | [GameAnalyzerEnd] FACTORY           total:   1 alive:   1 dead:   0 
+2024-11-14 11:30:38.361 | [GameAnalyzerEnd] REACTOR           total:   1 alive:   1 dead:   0 
+2024-11-14 11:30:38.362 | [GameAnalyzerEnd] Enemy units:
+2024-11-14 11:30:38.363 | [GameAnalyzerEnd] DRONE             total:  89 alive:  25 dead:  64 
+2024-11-14 11:30:38.363 | [GameAnalyzerEnd] ZERGLING          total:  45 alive:   2 dead:  43 
+2024-11-14 11:30:38.363 | [GameAnalyzerEnd] ROACH             total:  27 alive:   1 dead:  26 
+2024-11-14 11:30:38.364 | [GameAnalyzerEnd] BANELING          total:  25 alive:   0 dead:  25 
+2024-11-14 11:30:38.364 | [GameAnalyzerEnd] OVERLORD          total:  13 alive:  10 dead:   3 
+2024-11-14 11:30:38.365 | [GameAnalyzerEnd] HYDRALISK         total:   7 alive:   0 dead:   7 
+2024-11-14 11:30:38.366 | [GameAnalyzerEnd] EXTRACTOR         total:   6 alive:   2 dead:   4 
+2024-11-14 11:30:38.366 | [GameAnalyzerEnd] INFESTOR          total:   5 alive:   0 dead:   5 
+2024-11-14 11:30:38.367 | [GameAnalyzerEnd] RAVAGER           total:   4 alive:   0 dead:   4 
+2024-11-14 11:30:38.368 | [GameAnalyzerEnd] HATCHERY          total:   3 alive:   1 dead:   2 
+2024-11-14 11:30:38.369 | [GameAnalyzerEnd] QUEEN             total:   3 alive:   0 dead:   3 
+2024-11-14 11:30:38.370 | [GameAnalyzerEnd] EVOLUTIONCHAMBER  total:   2 alive:   1 dead:   1 
+2024-11-14 11:30:38.371 | [GameAnalyzerEnd] OVERSEER          total:   2 alive:   0 dead:   2 
+2024-11-14 11:30:38.371 | [GameAnalyzerEnd] SPINECRAWLER      total:   2 alive:   0 dead:   2 
+2024-11-14 11:30:38.372 | [GameAnalyzerEnd] SPORECRAWLER      total:   2 alive:   0 dead:   2 
+2024-11-14 11:30:38.378 | [GameAnalyzerEnd] LAIR              total:   1 alive:   1 dead:   0 
+2024-11-14 11:30:38.379 | [GameAnalyzerEnd] BANELINGNEST      total:   1 alive:   1 dead:   0 
+2024-11-14 11:30:38.379 | [GameAnalyzerEnd] HYDRALISKDEN      total:   1 alive:   0 dead:   1 
+2024-11-14 11:30:38.380 | [GameAnalyzerEnd] INFESTATIONPIT    total:   1 alive:   0 dead:   1 
+2024-11-14 11:30:38.381 | [GameAnalyzerEnd] LURKERMPEGG       total:   1 alive:   0 dead:   1 
+2024-11-14 11:30:38.381 | [GameAnalyzerEnd] ROACHWARREN       total:   1 alive:   0 dead:   1 
+2024-11-14 11:30:38.382 | [GameAnalyzerEnd] LURKERDENMP       total:   1 alive:   0 dead:   1 
+2024-11-14 11:30:38.383 | [GameAnalyzerEnd] SPAWNINGPOOL      total:   1 alive:   0 dead:   1 
+2024-11-14 11:30:38.383 | [GameAnalyzerEnd] Minerals max 605 Average 156
+2024-11-14 11:30:38.384 | [GameAnalyzerEnd] Vespene max 1734 Average 464
+2024-11-14 11:30:38.386 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot LadderBot(Terran): Defeat
+2024-11-14 11:30:40.542 | INFO     | sc2.protocol:__request:48 - Cannot receive: Game has already ended.
+2024-11-14 11:30:40.543 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 51094...
+2024-11-14 11:30:40.544 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

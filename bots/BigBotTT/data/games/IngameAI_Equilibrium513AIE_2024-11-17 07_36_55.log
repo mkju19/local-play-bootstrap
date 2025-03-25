@@ -1,0 +1,342 @@
+2024-11-17 07:37:05.244 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-17 07:37:05.245 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-17 07:37:05.246 | INFO     | sc2.controller:create_game:38 - Map:     Equilibrium513AIE
+2024-11-17 07:37:05.247 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Zerg, RandomBuild)
+2024-11-17 07:37:05.250 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-17 07:37:16.927 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2024-11-17 07:37:16.928 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2024-11-17 07:37:17.706 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.13.92440
+2024-11-17 07:37:17.707 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2024-11-17 07:37:17.840 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: Equilibrium AIE and hash: 3540971.
+2024-11-17 07:37:19.176 | 00:00    0ms    0M    0G  12/ 15U [Build] Att at 50
+2024-11-17 07:37:19.232 | [Start] My race: Terran
+2024-11-17 07:37:19.232 | [Start] Opponent race: Zerg
+2024-11-17 07:37:19.233 | [Start] OpponentId: None
+2024-11-17 07:37:19.602 | 00:00   15ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:19.727 | 00:01   15ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:23.085 | 00:14   17ms    0M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:37:26.057 | 00:26   16ms  125M    0G  14/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:26.115 | 00:26   16ms  140M    0G  14/ 15U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:26.231 | 00:27   15ms   95M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:37:27.384 | 00:31   16ms  135M    0G  15/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:27.441 | 00:31   20ms  150M    0G  15/ 15U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:29.438 | 00:39   16ms    0M    0G  15/ 23U [BuildGas] Building REFINERY to (173.5, 126.5)
+2024-11-17 07:37:30.710 | 00:43   20ms    0M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:37:34.170 | 00:56   19ms  105M    0G  16/ 23U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:37:35.627 | 00:58   20ms  145M    0G  17/ 23U [ChatManager] Tag:E_overlord
+2024-11-17 07:37:36.519 | 01:01   27ms  185M    0G  17/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-17 07:37:36.598 | 01:01   28ms  185M    0G  17/ 23U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-17 07:37:36.827 | 01:02   28ms  190M    0G  17/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:38.284 | 01:06   27ms  240M    0G  17/ 23U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -210
+2024-11-17 07:37:38.285 | 01:06   27ms  240M    0G  17/ 23U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-17 07:37:38.795 | 01:08   25ms  255M    4G  17/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:38.877 | 01:08   28ms  265M    8G  17/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:38.879 | 01:08   28ms  215M    8G  17/ 23U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:37:39.184 | 01:09   29ms  220M    8G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:39.255 | 01:09   26ms  230M    8G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:40.073 | 01:11   27ms  250M   16G  18/ 23U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-17 07:37:40.230 | 01:12   26ms  255M   16G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:40.300 | 01:12   32ms  260M   16G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:40.682 | 01:13   26ms  275M   20G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:40.759 | 01:13   29ms  275M   20G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:42.658 | 01:19   27ms  350M   36G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:42.729 | 01:19   30ms  350M   36G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:43.174 | 01:20   27ms  315M   40G  18/ 23U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:37:43.614 | 01:21   28ms  335M   44G  19/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2024-11-17 07:37:50.086 | 01:40   28ms  340M   92G  19/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:50.156 | 01:40   33ms  340M   92G  19/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2024-11-17 07:37:51.573 | 01:44   33ms  400M  104G  19/ 23U [Expand] Expanding to (184.5, 91.5)
+2024-11-17 07:37:52.671 | 01:48   29ms    0M   62G  19/ 23U [TerranUnit] REAPER from BARRACKS at (175.5, 113.5)
+2024-11-17 07:37:54.354 | 01:52   27ms   70M   78G  20/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:54.583 | 01:53   27ms    0M   78G  20/ 31U [BuildGas] Building REFINERY to (184.5, 116.5)
+2024-11-17 07:37:54.807 | 01:54   27ms    5M   82G  20/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:54.958 | 01:54   32ms   20M   82G  20/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:55.253 | 01:55   27ms   25M   82G  20/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:55.334 | 01:55   29ms   25M   86G  20/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:56.080 | 01:57   26ms    5M   90G  20/ 31U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:37:56.189 | 01:58   31ms   10M   90G  21/ 31U [DodgeRampAttack] Supply is 21 -> attack!
+2024-11-17 07:37:56.189 | 01:58   31ms   10M   90G  21/ 31U [DodgeRampAttack] Attack started at 0.00 power.
+2024-11-17 07:37:56.270 | 01:58   28ms   10M   90G  21/ 31U [DodgeRampAttack] No attacking units, starting retreat
+2024-11-17 07:37:56.498 | 01:58   27ms   15M   94G  21/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:56.578 | 01:59   27ms   25M   94G  21/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:57.949 | 02:02   28ms   75M  102G  21/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:58.026 | 02:03   30ms   75M  106G  21/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:58.329 | 02:04   33ms   90M  106G  21/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:58.409 | 02:04   29ms   95M  106G  21/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:58.800 | 02:05   31ms  110M  110G  21/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:58.872 | 02:05   29ms  115M  110G  21/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:59.115 | 02:06   29ms  140M  114G  21/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:59.198 | 02:06   31ms  150M  114G  21/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:37:59.498 | 02:07   32ms  160M  114G  21/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:37:59.724 | 02:07   30ms  165M  118G  21/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:00.031 | 02:08   33ms  180M  118G  21/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:00.106 | 02:09   32ms  185M  122G  21/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:00.486 | 02:10   31ms  155M  122G  21/ 31U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:38:01.271 | 02:12   30ms  180M  130G  22/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:01.429 | 02:12   32ms  185M  130G  22/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:01.670 | 02:13   32ms  215M  130G  22/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:01.831 | 02:13   32ms  225M  134G  22/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:01.915 | 02:13   33ms  225M  134G  22/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:02.835 | 02:16   32ms  255M  142G  22/ 31U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2024-11-17 07:38:02.918 | 02:16   34ms  270M  142G  22/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:03.083 | 02:17   31ms  280M  142G  22/ 31U [ChatManager] Tag:E_zergling
+2024-11-17 07:38:03.646 | 02:18   31ms  290M  146G  22/ 31U [DodgeRampAttack] Retreat stopped.
+2024-11-17 07:38:03.722 | 02:18   33ms  295M  146G  22/ 31U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-17 07:38:03.729 | 02:18   33ms  295M  146G  22/ 31U [DodgeRampAttack] Supply is 22 -> attack!
+2024-11-17 07:38:03.731 | 02:18   33ms  295M  146G  22/ 31U [DodgeRampAttack] Attack started at 0.00 power.
+2024-11-17 07:38:03.812 | 02:18   36ms  300M  146G  22/ 31U [DodgeRampAttack] No attacking units, starting retreat
+2024-11-17 07:38:04.287 | 02:20   34ms  335M  150G  22/ 31U [GameAnalyzer] Known army advantage is now Even
+2024-11-17 07:38:04.296 | 02:20   34ms  335M  150G  22/ 31U [BuildAddon] UnitTypeId.BARRACKSREACTOR to (178.0, 113.0)
+2024-11-17 07:38:05.219 | 02:22   33ms  115M   12G  22/ 31U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:38:05.599 | 02:23   33ms  130M   12G  23/ 31U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2024-11-17 07:38:05.690 | 02:23   38ms  135M   16G  23/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:06.010 | 02:24   33ms  150M   16G  23/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:06.101 | 02:24   34ms  150M   20G  23/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:06.907 | 02:26   34ms  200M   28G  23/ 31U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2024-11-17 07:38:06.983 | 02:27   35ms  200M   28G  23/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:08.087 | 02:30   32ms  235M   40G  23/ 31U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2024-11-17 07:38:08.167 | 02:30   37ms  235M   44G  23/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:09.193 | 02:32   38ms  265M   52G  23/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:09.363 | 02:33   33ms  290M   52G  23/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:09.837 | 02:34   32ms  260M   60G  23/ 31U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:38:10.003 | 02:35   33ms  270M   60G  24/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:10.176 | 02:35   36ms  270M   60G  24/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:10.839 | 02:37  109ms  300M   68G  24/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:10.930 | 02:37   38ms  300M   68G  24/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:11.008 | 02:37   39ms  300M   68G  24/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:11.092 | 02:37   35ms  300M   68G  24/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:11.420 | 02:38   34ms  315M   76G  24/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:11.501 | 02:38   38ms  315M   76G  24/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:11.512 | 02:38   38ms  315M   76G  24/ 31U [DodgeRampAttack] Retreat stopped.
+2024-11-17 07:38:11.599 | 02:39   37ms  315M   76G  24/ 31U [DodgeRampAttack] Supply is 24 -> attack!
+2024-11-17 07:38:11.600 | 02:39   37ms  315M   76G  24/ 31U [DodgeRampAttack] Attack started at 0.96 power.
+2024-11-17 07:38:11.761 | 02:39   40ms  325M   76G  24/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:11.850 | 02:39   39ms  350M   76G  24/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:12.546 | 02:41   40ms  375M   84G  24/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:12.798 | 02:42   41ms  375M   92G  24/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:13.145 | 02:42   40ms  395M   92G  24/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:13.234 | 02:43   39ms  395M   96G  24/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:13.574 | 02:44   38ms  405M   96G  24/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:13.663 | 02:44   41ms  405M   96G  24/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:14.271 | 02:45   39ms  435M  104G  24/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:14.523 | 02:46   40ms  435M  112G  24/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:14.786 | 02:46   41ms  415M  112G  24/ 31U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:38:14.960 | 02:47   38ms  430M  112G  25/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:15.139 | 02:47   37ms  430M  116G  25/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:15.399 | 02:48   38ms  440M  116G  25/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:15.496 | 02:48   40ms  440M  120G  25/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:15.752 | 02:49   38ms  455M  124G  25/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:15.921 | 02:49   38ms  455M  124G  25/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:16.264 | 02:50   36ms  470M  128G  25/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:16.612 | 02:51   39ms  470M  132G  25/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:16.695 | 02:51   42ms  475M  132G  25/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:17.291 | 02:53   35ms  525M  144G  25/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:17.467 | 02:53   39ms  530M  144G  25/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:18.140 | 02:55   37ms  555M  152G  25/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:18.309 | 02:55   39ms  565M  156G  25/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:18.399 | 02:55   37ms  415M  156G  25/ 31U [ActUnit] MARINE from BARRACKS at (175.5, 113.5)
+2024-11-17 07:38:18.485 | 02:56   38ms  420M  156G  26/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:18.491 | 02:56   38ms  370M  156G  26/ 31U [ActUnit] MARINE from BARRACKS at (175.5, 113.5)
+2024-11-17 07:38:18.831 | 02:57   37ms  385M  164G  27/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:19.084 | 02:57   38ms  390M  168G  27/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:19.430 | 02:58   38ms  410M  172G  27/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:19.762 | 02:59   37ms  360M  176G  27/ 31U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:38:20.451 | 03:01   39ms  405M  180G  28/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:20.719 | 03:01   41ms  415M  180G  28/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:20.810 | 03:01   38ms  420M  184G  28/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:20.900 | 03:02   37ms  425M  188G  28/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:20.987 | 03:02   41ms  425M  188G  28/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:21.073 | 03:02   38ms  430M  188G  28/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:21.768 | 03:04   37ms  445M  196G  28/ 31U [ChatManager] Tag:E_queen
+2024-11-17 07:38:21.956 | 03:04   38ms  295M  196G  28/ 46U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:22.052 | 03:04   39ms  305M  200G  28/ 46U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:22.053 | 03:04   39ms  305M  200G  28/ 46U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-17 07:38:22.054 | 03:04   39ms  305M  200G  28/ 46U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-17 07:38:22.264 | 03:05   42ms  310M  204G  28/ 46U [DodgeRampAttack] Retreat started at 1.00 own local power against 2.50 enemy local power.
+2024-11-17 07:38:22.917 | 03:06   39ms  340M  212G  28/ 46U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:23.108 | 03:07   44ms  195M  112G  28/ 46U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:23.114 | 03:07   44ms  195M  112G  28/ 46U [BuildAddon] UnitTypeId.FACTORYREACTOR to (173.0, 114.0)
+2024-11-17 07:38:23.963 | 03:09   40ms   10M   70G  28/ 46U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:24.058 | 03:09   39ms  170M   70G  28/ 46U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:24.440 | 03:10   38ms   25M   78G  28/ 46U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:24.622 | 03:10   37ms   60M   78G  28/ 46U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:24.818 | 03:11   39ms   60M   82G  28/ 46U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:25.094 | 03:11   40ms   20M   82G  28/ 46U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-17 07:38:25.540 | 03:12   35ms   20M   86G  28/ 46U [GameAnalyzer] Income advantage is now Even
+2024-11-17 07:38:25.632 | 03:12   37ms   20M   90G  28/ 46U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-17 07:38:26.012 | ERROR    | sc2.main:run_bot_iteration:158 - Caught exception: 'NoneType' object has no attribute 'to_commmand'
+Traceback (most recent call last):
+
+  File "d:\Bots\DemonT\run.py", line 18, in <module>
+    main()
+    └ <function main at 0x0000015CE04CF6A0>
+
+  File "d:\Bots\DemonT\run.py", line 13, in main
+    result, opponentid = run_ladder_game(protoss_bot)
+                         │               └ <sc2.player.Bot object at 0x0000015CDF148390>
+                         └ <function run_ladder_game at 0x0000015CC4D8E5C0>
+
+  File "d:\Bots\DemonT\ladder.py", line 39, in run_ladder_game
+    return stand_alone_game(bot), None
+           │                └ <sc2.player.Bot object at 0x0000015CDF148390>
+           └ <function stand_alone_game at 0x0000015CDDC14400>
+
+  File "d:\Bots\DemonT\ladder.py", line 166, in stand_alone_game
+    return sc2.main.run_game(sc2.maps.get(map_name), [bot, Computer(Race.Zerg, Difficulty.VeryHard)], realtime=False,)
+           │   │    │        │   │    │   │           │    │        │    │     │          └ <Difficulty.VeryHard: 7>
+           │   │    │        │   │    │   │           │    │        │    │     └ <enum 'Difficulty'>
+           │   │    │        │   │    │   │           │    │        │    └ <Race.Zerg: 2>
+           │   │    │        │   │    │   │           │    │        └ <enum 'Race'>
+           │   │    │        │   │    │   │           │    └ <class 'sc2.player.Computer'>
+           │   │    │        │   │    │   │           └ <sc2.player.Bot object at 0x0000015CDF148390>
+           │   │    │        │   │    │   └ 'Equilibrium513AIE'
+           │   │    │        │   │    └ <function get at 0x0000015CDDC90040>
+           │   │    │        │   └ <module 'sc2.maps' from 'd:\\Bots\\DemonT\\sc2\\maps.py'>
+           │   │    │        └ <module 'sc2' from 'd:\\Bots\\DemonT\\sc2\\__init__.py'>
+           │   │    └ <function run_game at 0x0000015CDDDCC5E0>
+           │   └ <module 'sc2.main' from 'd:\\Bots\\DemonT\\sc2\\main.py'>
+           └ <module 'sc2' from 'd:\\Bots\\DemonT\\sc2\\__init__.py'>
+
+  File "d:\Bots\DemonT\sc2\main.py", line 496, in run_game
+    result: Result = asyncio.run(_host_game(map_settings, players, **kwargs))
+                     │       │   │          │             │          └ {'realtime': False}
+                     │       │   │          │             └ [<sc2.player.Bot object at 0x0000015CDF148390>, <sc2.player.Computer object at 0x0000015CDEEC6750>]
+                     │       │   │          └ Map(D:\StarCraft II\maps\Equilibrium513AIE.SC2Map)
+                     │       │   └ <function _host_game at 0x0000015CDDDCC180>
+                     │       └ <function run at 0x0000015CC6A360C0>
+                     └ <module 'asyncio' from 'C:\\Users\\Lena\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           │      │   └ <coroutine object _host_game at 0x0000015CE0448F60>
+           │      └ <function Runner.run at 0x0000015CC6AB60C0>
+           └ <asyncio.runners.Runner object at 0x0000015CDF0CC210>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<_host_game() running at d:\Bots\DemonT\sc2\main.py:369> cb=[_run_until_complete_cb() at C:\...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000015CC6AAFBA0>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000015CDF0CC210>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x0000015CC6FAFBA0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000015CC6AB5940>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000015CC69FAF20>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "d:\Bots\DemonT\sc2\main.py", line 369, in _host_game
+    result = await _play_game(players[0], client, realtime, portconfig, game_time_limit, rgb_render_config)
+                   │          │           │       │         │           │                └ None
+                   │          │           │       │         │           └ None
+                   │          │           │       │         └ None
+                   │          │           │       └ False
+                   │          │           └ <sc2.client.Client object at 0x0000015CDEF2AC10>
+                   │          └ [<sc2.player.Bot object at 0x0000015CDF148390>, <sc2.player.Computer object at 0x0000015CDEEC6750>]
+                   └ <function _play_game at 0x0000015CDDDA7F60>
+
+  File "d:\Bots\DemonT\sc2\main.py", line 226, in _play_game
+    result = await _play_game_ai(client, player_id, player.ai, realtime, game_time_limit)
+                   │             │       │          │      │   │         └ None
+                   │             │       │          │      │   └ False
+                   │             │       │          │      └ <dummy.dummy.LadderBot object at 0x0000015CC4AADF90>
+                   │             │       │          └ <sc2.player.Bot object at 0x0000015CDF148390>
+                   │             │       └ 1
+                   │             └ <sc2.client.Client object at 0x0000015CDEF2AC10>
+                   └ <function _play_game_ai at 0x0000015CDDDA7E20>
+
+  File "d:\Bots\DemonT\sc2\main.py", line 196, in _play_game_ai
+    await run_bot_iteration(iteration)  # Main bot loop
+          │                 └ 868
+          └ <function _play_game_ai.<locals>.run_bot_iteration at 0x0000015CE050C540>
+
+> File "d:\Bots\DemonT\sc2\main.py", line 156, in run_bot_iteration
+    await ai.on_step(iteration)
+          │  │       └ 868
+          │  └ <function SkeletonBot.on_step at 0x0000015CDDEEC2C0>
+          └ <dummy.dummy.LadderBot object at 0x0000015CC4AADF90>
+
+  File "d:\Bots\DemonT\sharpy\knowledges\skeleton_bot.py", line 64, in on_step
+    await self.knowledge.update(iteration)
+          │    │         │      └ 868
+          │    │         └ <function Knowledge.update at 0x0000015CDDEBF100>
+          │    └ <sharpy.knowledges.knowledge.Knowledge object at 0x0000015CC4AFB7D0>
+          └ <dummy.dummy.LadderBot object at 0x0000015CC4AADF90>
+
+  File "d:\Bots\DemonT\sharpy\knowledges\knowledge.py", line 161, in update
+    await manager.update()
+          │       └ <function ActManager.update at 0x0000015CDDC15E40>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x0000015CE055C650>
+
+  File "d:\Bots\DemonT\sharpy\managers\core\act_manager.py", line 32, in update
+    await self._act.execute()
+          │    │    └ <function BuildOrder.execute at 0x0000015CE03BFCE0>
+          │    └ <sharpy.plans.build_order.BuildOrder object at 0x0000015CE0259F90>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x0000015CE055C650>
+
+  File "d:\Bots\DemonT\sharpy\plans\build_order.py", line 290, in execute
+    if not await order.execute():
+                 │     └ <function SequentialList.execute at 0x0000015CE03BF380>
+                 └ <sharpy.plans.sequential_list.SequentialList object at 0x0000015CE0F7F410>
+
+  File "d:\Bots\DemonT\sharpy\plans\sequential_list.py", line 27, in execute
+    result = await order.execute()
+                   │     └ <function PlanZoneGatherTerran.execute at 0x0000015CE0461BC0>
+                   └ <sharpy.plans.tactics.terran.zone_gather_terran.PlanZoneGatherTerran object at 0x0000015CE0F77150>
+
+  File "d:\Bots\DemonT\sharpy\plans\tactics\terran\zone_gather_terran.py", line 63, in execute
+    self.combat.execute(self.gather_point)
+    │    │      │       │    └ (178.5, 92.5)
+    │    │      │       └ <sharpy.plans.tactics.terran.zone_gather_terran.PlanZoneGatherTerran object at 0x0000015CE0F77150>
+    │    │      └ <function GroupCombatManager.execute at 0x0000015CE03A93A0>
+    │    └ <sharpy.combat.group_combat_manager.GroupCombatManager object at 0x0000015CE04F4890>
+    └ <sharpy.plans.tactics.terran.zone_gather_terran.PlanZoneGatherTerran object at 0x0000015CE0F77150>
+
+  File "d:\Bots\DemonT\sharpy\combat\group_combat_manager.py", line 109, in execute
+    self.rules.handle_groups_func(self, target, move_type)
+    │    │     │                  │     │       └ <MoveType.Assault: 1>
+    │    │     │                  │     └ (178.5, 92.5)
+    │    │     │                  └ <sharpy.combat.group_combat_manager.GroupCombatManager object at 0x0000015CE04F4890>
+    │    │     └ <function DefaultMicroMethods.handle_groups at 0x0000015CDDF14400>
+    │    └ <sharpy.combat.micro_rules.MicroRules object at 0x0000015CE04F4910>
+    └ <sharpy.combat.group_combat_manager.GroupCombatManager object at 0x0000015CE04F4890>
+
+  File "d:\Bots\DemonT\sharpy\combat\default_micro_methods.py", line 53, in handle_groups
+    combat.attack_to(group, target, move_type)
+    │      │         │      │       └ <MoveType.Assault: 1>
+    │      │         │      └ (178.5, 92.5)
+    │      │         └ <sharpy.combat.combat_units.CombatUnits object at 0x0000015CE10ADFD0>
+    │      └ <function GroupCombatManager.attack_to at 0x0000015CE03A9620>
+    └ <sharpy.combat.group_combat_manager.GroupCombatManager object at 0x0000015CE04F4890>
+
+  File "d:\Bots\DemonT\sharpy\combat\group_combat_manager.py", line 132, in attack_to
+    self.action_to(group, target, move_type, True)
+    │    │         │      │       └ <MoveType.Assault: 1>
+    │    │         │      └ (178.5, 92.5)
+    │    │         └ <sharpy.combat.combat_units.CombatUnits object at 0x0000015CE10ADFD0>
+    │    └ <function GroupCombatManager.action_to at 0x0000015CE03A96C0>
+    └ <sharpy.combat.group_combat_manager.GroupCombatManager object at 0x0000015CE04F4890>
+
+  File "d:\Bots\DemonT\sharpy\combat\group_combat_manager.py", line 159, in action_to
+    final_action.to_commmand(unit)
+    │                        └ Unit(name='Marine', tag=4349231106)
+    └ None
+
+AttributeError: 'NoneType' object has no attribute 'to_commmand'
+2024-11-17 07:38:26.073 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 53177...
+2024-11-17 07:38:26.074 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

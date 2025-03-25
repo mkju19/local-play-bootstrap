@@ -1,0 +1,8 @@
+2024-11-14 11:57:25.808 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-14 11:57:25.809 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-14 11:57:25.810 | INFO     | sc2.controller:create_game:38 - Map:     SiteDelta513AIE
+2024-11-14 11:57:25.811 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Zerg, RandomBuild)
+2024-11-14 11:57:25.814 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-14 11:57:33.004 | ERROR    | sc2.protocol:__request:50 - Cannot receive: Connection already closed.
+2024-11-14 11:57:33.005 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 54548...
+2024-11-14 11:57:33.006 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

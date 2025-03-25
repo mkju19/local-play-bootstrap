@@ -1,0 +1,52 @@
+2024-11-14 11:15:56.698 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-14 11:15:56.701 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-14 11:15:56.703 | INFO     | sc2.controller:create_game:38 - Map:     HardLead513AIE
+2024-11-14 11:15:56.704 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Zerg, RandomBuild)
+2024-11-14 11:15:56.711 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-14 11:16:12.755 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2024-11-14 11:16:12.756 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2024-11-14 11:16:13.706 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.13.92440
+2024-11-14 11:16:13.706 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2024-11-14 11:16:13.863 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: Hard Lead AIE and hash: 3179994.
+2024-11-14 11:16:15.154 | [Start] My race: Terran
+2024-11-14 11:16:15.155 | [Start] Opponent race: Zerg
+2024-11-14 11:16:15.155 | [Start] OpponentId: None
+2024-11-14 11:16:28.669 | 00:56   13ms    0M    0G  13/ 23U [ActUnit] SCV from COMMANDCENTER at (130.5, 34.5)
+2024-11-14 11:16:36.834 | 01:27   16ms  270M    0G  14/ 23U [ActUnit] MARINE from BARRACKS at (127.5, 39.5)
+2024-11-14 11:16:36.897 | 01:28   16ms  225M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (130.5, 34.5)
+2024-11-14 11:16:37.194 | 01:29   18ms   40M    0G  16/ 23U [ActUnit] MARINE from BARRACKS at (125.5, 42.5)
+2024-11-14 11:16:41.372 | 01:40   23ms    5M    0G  17/ 23U [ActUnit] MARINE from BARRACKS at (120.5, 35.5)
+2024-11-14 11:16:42.934 | 01:45   20ms   50M    0G  18/ 23U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-14 11:16:42.935 | 01:45   20ms   50M    0G  18/ 23U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-14 11:16:42.937 | 01:45   20ms    0M    0G  18/ 23U [ActUnit] MARINE from BARRACKS at (127.5, 39.5)
+2024-11-14 11:16:44.403 | 01:50   20ms    0M    0G  19/ 23U [ActUnit] MARINE from BARRACKS at (125.5, 42.5)
+2024-11-14 11:16:46.870 | 01:58   16ms   40M    0G  20/ 23U [ActUnit] MARINE from BARRACKS at (120.5, 35.5)
+2024-11-14 11:16:48.325 | 02:03   15ms   45M    0G  21/ 31U [ActUnit] MARINE from BARRACKS at (127.5, 39.5)
+2024-11-14 11:16:49.617 | 02:08   21ms   40M    0G  22/ 31U [ActUnit] MARINE from BARRACKS at (125.5, 42.5)
+2024-11-14 11:16:52.129 | 02:16   16ms   35M    0G  23/ 31U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-14 11:16:52.130 | 02:16   16ms   35M    0G  23/ 31U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-14 11:16:52.863 | 02:18   19ms   15M    0G  23/ 31U [ActUnit] MARINE from BARRACKS at (120.5, 35.5)
+2024-11-14 11:16:53.779 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2024-11-14 11:16:53.780 | Result: Defeat
+2024-11-14 11:16:53.781 | Duration: 02:21
+2024-11-14 11:16:53.781 | Step time min: 12
+2024-11-14 11:16:53.782 | Step time avg: 18
+2024-11-14 11:16:53.782 | Step time max: 737
+2024-11-14 11:16:53.783 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2024-11-14 11:16:53.784 | [LostUnitsContents] My lost units minerals by score: 0.0
+2024-11-14 11:16:53.784 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2024-11-14 11:16:53.785 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2024-11-14 11:16:53.786 | [GameAnalyzerEnd] Own units:
+2024-11-14 11:16:53.787 | [GameAnalyzerEnd] SCV               total:  15 alive:  15 dead:   0 
+2024-11-14 11:16:53.787 | [GameAnalyzerEnd] MARINE            total:   6 alive:   6 dead:   0 
+2024-11-14 11:16:53.788 | [GameAnalyzerEnd] BARRACKS          total:   4 alive:   4 dead:   0 
+2024-11-14 11:16:53.789 | [GameAnalyzerEnd] SUPPLYDEPOT       total:   3 alive:   3 dead:   0 
+2024-11-14 11:16:53.789 | [GameAnalyzerEnd] COMMANDCENTER     total:   1 alive:   1 dead:   0 
+2024-11-14 11:16:53.790 | [GameAnalyzerEnd] Enemy units:
+2024-11-14 11:16:53.791 | [GameAnalyzerEnd] DRONE             total:   1 alive:   1 dead:   0 
+2024-11-14 11:16:53.792 | [GameAnalyzerEnd] Minerals max 315 Average 96
+2024-11-14 11:16:53.793 | [GameAnalyzerEnd] Vespene max 0 Average 0
+2024-11-14 11:16:53.795 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot LadderBot(Terran): Defeat
+2024-11-14 11:16:56.037 | INFO     | sc2.protocol:__request:48 - Cannot receive: Game has already ended.
+2024-11-14 11:16:56.038 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 50049...
+2024-11-14 11:16:56.039 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

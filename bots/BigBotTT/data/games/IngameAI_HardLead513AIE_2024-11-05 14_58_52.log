@@ -1,0 +1,175 @@
+2024-11-05 14:59:06.576 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-05 14:59:06.577 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-05 14:59:06.578 | INFO     | sc2.controller:create_game:38 - Map:     HardLead513AIE
+2024-11-05 14:59:06.579 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Random, RandomBuild)
+2024-11-05 14:59:06.582 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-05 14:59:25.468 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2024-11-05 14:59:25.471 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2024-11-05 14:59:26.419 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.13.92440
+2024-11-05 14:59:26.421 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2024-11-05 14:59:26.579 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: Hard Lead AIE and hash: 3179994.
+2024-11-05 14:59:28.334 | 00:00    0ms    0M    0G  12/ 15U [Build] Jump, att at 27
+2024-11-05 14:59:28.343 | ERROR    | sc2.main:initialize_first_step:140 - Caught unknown exception in AI on_start: 
+Traceback (most recent call last):
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\run.py", line 18, in <module>
+    main()
+    └ <function main at 0x00000226326FEB60>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\run.py", line 13, in main
+    result, opponentid = run_ladder_game(protoss_bot)
+                         │               └ <sc2.player.Bot object at 0x0000022632729E50>
+                         └ <function run_ladder_game at 0x00000226170AE660>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\ladder.py", line 39, in run_ladder_game
+    return stand_alone_game(bot), None
+           │                └ <sc2.player.Bot object at 0x0000022632729E50>
+           └ <function stand_alone_game at 0x000002262FE94A40>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\ladder.py", line 166, in stand_alone_game
+    return sc2.main.run_game(sc2.maps.get(map_name), [bot, Computer(Race.Random, Difficulty.VeryHard)], realtime=False,)
+           │   │    │        │   │    │   │           │    │        │    │       │          └ <Difficulty.VeryHard: 7>
+           │   │    │        │   │    │   │           │    │        │    │       └ <enum 'Difficulty'>
+           │   │    │        │   │    │   │           │    │        │    └ <Race.Random: 4>
+           │   │    │        │   │    │   │           │    │        └ <enum 'Race'>
+           │   │    │        │   │    │   │           │    └ <class 'sc2.player.Computer'>
+           │   │    │        │   │    │   │           └ <sc2.player.Bot object at 0x0000022632729E50>
+           │   │    │        │   │    │   └ 'HardLead513AIE'
+           │   │    │        │   │    └ <function get at 0x000002262FEFE160>
+           │   │    │        │   └ <module 'sc2.maps' from 'c:\\Users\\Lena\\AppData\\Local\\Bots\\DemonT\\sc2\\maps.py'>
+           │   │    │        └ <module 'sc2' from 'c:\\Users\\Lena\\AppData\\Local\\Bots\\DemonT\\sc2\\__init__.py'>
+           │   │    └ <function run_game at 0x0000022630052700>
+           │   └ <module 'sc2.main' from 'c:\\Users\\Lena\\AppData\\Local\\Bots\\DemonT\\sc2\\main.py'>
+           └ <module 'sc2' from 'c:\\Users\\Lena\\AppData\\Local\\Bots\\DemonT\\sc2\\__init__.py'>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\main.py", line 496, in run_game
+    result: Result = asyncio.run(_host_game(map_settings, players, **kwargs))
+                     │       │   │          │             │          └ {'realtime': False}
+                     │       │   │          │             └ [<sc2.player.Bot object at 0x0000022632729E50>, <sc2.player.Computer object at 0x00000226305A7550>]
+                     │       │   │          └ Map(D:\StarCraft II\maps\HardLead513AIE.SC2Map)
+                     │       │   └ <function _host_game at 0x00000226300522A0>
+                     │       └ <function run at 0x0000022618D06160>
+                     └ <module 'asyncio' from 'C:\\Users\\Lena\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           │      │   └ <coroutine object _host_game at 0x0000022619901900>
+           │      └ <function Runner.run at 0x0000022618D76160>
+           └ <asyncio.runners.Runner object at 0x0000022630FAE5D0>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<_host_game() running at c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\main.py:369> cb=[_run_u...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000022618D6FC40>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000022630FAE5D0>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x000002261923FC40>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000022618D759E0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000022618CCAFC0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\main.py", line 369, in _host_game
+    result = await _play_game(players[0], client, realtime, portconfig, game_time_limit, rgb_render_config)
+                   │          │           │       │         │           │                └ None
+                   │          │           │       │         │           └ None
+                   │          │           │       │         └ None
+                   │          │           │       └ False
+                   │          │           └ <sc2.client.Client object at 0x0000022631278890>
+                   │          └ [<sc2.player.Bot object at 0x0000022632729E50>, <sc2.player.Computer object at 0x00000226305A7550>]
+                   └ <function _play_game at 0x00000226300520C0>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\main.py", line 226, in _play_game
+    result = await _play_game_ai(client, player_id, player.ai, realtime, game_time_limit)
+                   │             │       │          │      │   │         └ None
+                   │             │       │          │      │   └ False
+                   │             │       │          │      └ <dummy.dummy.LadderBot object at 0x0000022624C5BD50>
+                   │             │       │          └ <sc2.player.Bot object at 0x0000022632729E50>
+                   │             │       └ 1
+                   │             └ <sc2.client.Client object at 0x0000022631278890>
+                   └ <function _play_game_ai at 0x0000022630051F80>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\main.py", line 145, in _play_game_ai
+    result = await initialize_first_step()
+                   └ <function _play_game_ai.<locals>.initialize_first_step at 0x00000226326FF740>
+
+> File "c:\Users\Lena\AppData\Local\Bots\DemonT\sc2\main.py", line 136, in initialize_first_step
+    await ai.on_start()
+          │  └ <function KnowledgeBot.on_start at 0x00000226324F6A20>
+          └ <dummy.dummy.LadderBot object at 0x0000022624C5BD50>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\knowledges\knowledge_bot.py", line 71, in on_start
+    await self.knowledge.start()
+          │    │         └ <function Knowledge.start at 0x00000226300DC040>
+          │    └ <sharpy.knowledges.knowledge.Knowledge object at 0x0000022616E1B890>
+          └ <dummy.dummy.LadderBot object at 0x0000022624C5BD50>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\knowledges\knowledge.py", line 151, in start
+    await manager.post_start()
+          │       └ <function ActManager.post_start at 0x000002262FEDE480>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x00000226327A8490>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\managers\core\act_manager.py", line 25, in post_start
+    self._act = await self._act_or_func()
+    │                 │    └ <bound method BattleCruisers.create_plan of <dummy.dummy.LadderBot object at 0x0000022624C5BD50>>
+    │                 └ <sharpy.managers.core.act_manager.ActManager object at 0x00000226327A8490>
+    └ <sharpy.managers.core.act_manager.ActManager object at 0x00000226327A8490>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\dummy\dummy.py", line 173, in create_plan
+    SequentialList(tactics),
+    │              └ [<sharpy.plans.acts.mine_open_blocked_base.MineOpenBlockedBase object at 0x0000022633090B10>, <sharpy.plans.tactics.cancel_bu...
+    └ <class 'sharpy.plans.sequential_list.SequentialList'>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\plans\sequential_list.py", line 23, in __init__
+    super().__init__(orders, *argv)
+                     │        └ ()
+                     └ [<sharpy.plans.acts.mine_open_blocked_base.MineOpenBlockedBase object at 0x0000022633090B10>, <sharpy.plans.tactics.cancel_bu...
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\plans\sub_acts.py", line 31, in __init__
+    self.orders.append(merge_to_act(order))
+    │    │      │      │            └ (<sharpy.plans.build_step.Step object at 0x00000226327B68D0>,)
+    │    │      │      └ <function merge_to_act at 0x000002263263ADE0>
+    │    │      └ <method 'append' of 'list' objects>
+    │    └ [<sharpy.plans.acts.mine_open_blocked_base.MineOpenBlockedBase object at 0x0000022633090B10>, <sharpy.plans.tactics.cancel_bu...
+    └ <sharpy.plans.sequential_list.SequentialList object at 0x00000226330EFA10>
+
+  File "c:\Users\Lena\AppData\Local\Bots\DemonT\sharpy\plans\acts\methods.py", line 16, in merge_to_act
+    assert isinstance(obj, Callable)
+                      │    └ typing.Callable
+                      └ (<sharpy.plans.build_step.Step object at 0x00000226327B68D0>,)
+
+AssertionError: assert isinstance(obj, Callable)
+2024-11-05 14:59:28.445 | ERROR    | sc2.main:initialize_first_step:141 - Resigning due to previous error
+2024-11-05 14:59:28.446 | Result: Defeat
+2024-11-05 14:59:28.448 | Duration: 00:00
+2024-11-05 14:59:28.449 | Step time avg: 0
+2024-11-05 14:59:28.449 | Step time max: 0
+2024-11-05 14:59:28.450 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2024-11-05 14:59:28.451 | [LostUnitsContents] My lost units minerals by score: 0.0
+2024-11-05 14:59:28.451 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2024-11-05 14:59:28.466 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2024-11-05 14:59:28.468 | [GameAnalyzerEnd] Own units:
+2024-11-05 14:59:28.471 | [GameAnalyzerEnd] Enemy units:
+2024-11-05 14:59:28.483 | [GameAnalyzerEnd] Minerals max 0 Average 0
+2024-11-05 14:59:28.492 | [GameAnalyzerEnd] Vespene max 0 Average 0
+2024-11-05 14:59:28.495 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot LadderBot(Terran): Defeat
+2024-11-05 14:59:30.215 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was Status.in_game)
+2024-11-05 14:59:30.228 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.quit (was Status.launched)
+2024-11-05 14:59:30.230 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 57521...
+2024-11-05 14:59:30.231 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

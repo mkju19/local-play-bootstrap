@@ -1,0 +1,61 @@
+2024-11-05 16:35:10.612 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-05 16:35:10.613 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-05 16:35:10.614 | INFO     | sc2.controller:create_game:38 - Map:     Equilibrium513AIE
+2024-11-05 16:35:10.615 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Zerg, RandomBuild)
+2024-11-05 16:35:10.618 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-05 16:35:23.509 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2024-11-05 16:35:23.511 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2024-11-05 16:35:24.340 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.13.92440
+2024-11-05 16:35:24.341 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2024-11-05 16:35:24.492 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: Equilibrium AIE and hash: 3540971.
+2024-11-05 16:35:25.999 | [DataManager] No BuildDetector found, enemy build data cannot be saved
+2024-11-05 16:35:26.001 | 00:00    0ms    0M    0G  12/ 15U [Build] Jump, att at 40
+2024-11-05 16:35:26.070 | [Start] My race: Terran
+2024-11-05 16:35:26.072 | [Start] Opponent race: Zerg
+2024-11-05 16:35:26.073 | [Start] OpponentId: None
+2024-11-05 16:35:28.727 | 00:16   18ms    5M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-05 16:35:30.559 | 00:29   18ms   85M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-05 16:35:32.406 | 00:41   17ms    5M    0G  15/ 23U [BuildGas] Building REFINERY to (184.5, 116.5)
+2024-11-05 16:35:33.197 | 00:45   19ms    0M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-05 16:35:35.214 | 00:58   20ms   85M    0G  16/ 23U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-05 16:35:35.936 | 00:58   20ms   90M    0G  17/ 23U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-05 16:35:36.357 | 01:00   26ms   10M    0G  17/ 23U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-05 16:35:36.460 | 01:01   38ms   15M    0G  17/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 16:35:37.091 | 01:04   27ms   50M    0G  17/ 23U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -285
+2024-11-05 16:35:37.092 | 01:04   27ms   50M    0G  17/ 23U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-05 16:35:38.137 | 01:09   26ms  105M    4G  17/ 23U [EnemyArmyPredicter] Predicting negative free minerals for enemy: -221
+2024-11-05 16:35:38.412 | 01:10   30ms   70M    8G  17/ 23U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-05 16:35:39.552 | 01:15   36ms  105M   16G  18/ 23U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-05 16:35:41.360 | 01:23   38ms  190M   32G  18/ 23U [GameAnalyzer] Income advantage is now SmallDisadvantage
+2024-11-05 16:35:41.450 | 01:23   30ms  150M   36G  18/ 23U [ActUnit] SCV from COMMANDCENTER at (177.5, 119.5)
+2024-11-05 16:35:42.164 | 01:26   30ms  170M   40G  19/ 31U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 16:35:42.612 | 01:28   28ms  130M   44G  19/ 31U [BuildGas] Building REFINERY to (173.5, 126.5)
+2024-11-05 16:35:43.062 | 01:30   30ms   95M    2G  19/ 31U [TerranUnit] REAPER from BARRACKS at (175.5, 113.5)
+2024-11-05 16:35:44.322 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2024-11-05 16:35:44.323 | Result: Defeat
+2024-11-05 16:35:44.324 | Duration: 01:36
+2024-11-05 16:35:44.324 | Step time min: 13
+2024-11-05 16:35:44.325 | Step time avg: 27
+2024-11-05 16:35:44.325 | Step time max: 665
+2024-11-05 16:35:44.326 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2024-11-05 16:35:44.327 | [LostUnitsContents] My lost units minerals by score: 0.0
+2024-11-05 16:35:44.328 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2024-11-05 16:35:44.329 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2024-11-05 16:35:44.330 | [GameAnalyzerEnd] Own units:
+2024-11-05 16:35:44.331 | [GameAnalyzerEnd] SCV               total:  18 alive:  18 dead:   0 
+2024-11-05 16:35:44.331 | [GameAnalyzerEnd] SUPPLYDEPOT       total:   2 alive:   2 dead:   0 
+2024-11-05 16:35:44.333 | [GameAnalyzerEnd] REFINERY          total:   2 alive:   2 dead:   0 
+2024-11-05 16:35:44.339 | [GameAnalyzerEnd] COMMANDCENTER     total:   1 alive:   1 dead:   0 
+2024-11-05 16:35:44.340 | [GameAnalyzerEnd] BARRACKS          total:   1 alive:   1 dead:   0 
+2024-11-05 16:35:44.341 | [GameAnalyzerEnd] Enemy units:
+2024-11-05 16:35:44.342 | [GameAnalyzerEnd] DRONE             total:  16 alive:  16 dead:   0 
+2024-11-05 16:35:44.343 | [GameAnalyzerEnd] HATCHERY          total:   2 alive:   2 dead:   0 
+2024-11-05 16:35:44.343 | [GameAnalyzerEnd] OVERLORD          total:   2 alive:   2 dead:   0 
+2024-11-05 16:35:44.344 | [GameAnalyzerEnd] SPAWNINGPOOL      total:   1 alive:   1 dead:   0 
+2024-11-05 16:35:44.345 | [GameAnalyzerEnd] EXTRACTOR         total:   1 alive:   1 dead:   0 
+2024-11-05 16:35:44.345 | [GameAnalyzerEnd] Minerals max 195 Average 81
+2024-11-05 16:35:44.346 | [GameAnalyzerEnd] Vespene max 48 Average 6
+2024-11-05 16:35:44.347 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot LadderBot(Terran): Defeat
+2024-11-05 16:35:46.855 | INFO     | sc2.protocol:__request:48 - Cannot receive: Game has already ended.
+2024-11-05 16:35:46.861 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 52768...
+2024-11-05 16:35:46.862 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

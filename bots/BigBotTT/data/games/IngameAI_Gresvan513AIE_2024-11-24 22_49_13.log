@@ -1,0 +1,516 @@
+2024-11-24 22:49:22.241 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-24 22:49:22.242 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-24 22:49:22.243 | INFO     | sc2.controller:create_game:38 - Map:     Gresvan513AIE
+2024-11-24 22:49:22.244 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Protoss, RandomBuild)
+2024-11-24 22:49:22.247 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-24 22:49:35.039 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2024-11-24 22:49:35.040 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2024-11-24 22:49:35.868 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.13.92440
+2024-11-24 22:49:35.868 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2024-11-24 22:49:35.988 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: GresvanAIE and hash: 3547936.
+2024-11-24 22:49:37.471 | [Start] My race: Terran
+2024-11-24 22:49:37.472 | [Start] Opponent race: Protoss
+2024-11-24 22:49:37.472 | [Start] OpponentId: None
+2024-11-24 22:49:37.806 | 00:00   15ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-24 22:49:37.985 | 00:01   14ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:49:40.648 | 00:12   16ms   70M    0G  13/ 15U [TerranUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:49:42.489 | 00:19   14ms    0M    0G  14/ 15U [BuildGas] Building REFINERY to (157.5, 35.5)
+2024-11-24 22:49:43.658 | 00:24   16ms    0M    0G  14/ 15U [TerranUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:49:48.074 | 00:41   20ms  150M    0G  15/ 23U [TerranUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:49:51.432 | 00:53   18ms   80M   20G  16/ 23U [TerranUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:49:54.545 | 01:04   17ms    0M   52G  17/ 23U [BuildGas] Building REFINERY to (154.5, 39.5)
+2024-11-24 22:49:55.960 | 01:09   21ms    0M   64G  17/ 23U [TerranUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:49:59.605 | 01:21   19ms   85M   96G  18/ 23U [TerranUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:50:03.354 | 01:33   19ms  230M  132G  19/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:03.429 | 01:33   22ms   80M  132G  19/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:04.070 | 01:35   20ms  110M  140G  19/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:04.144 | 01:35   23ms  110M  140G  19/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:06.498 | 01:42   21ms    0M   18G  19/ 23U [TerranUnit] REAPER from BARRACKS at (165.5, 45.5)
+2024-11-24 22:50:08.931 | 01:50   19ms   50M    0G  20/ 23U [TerranUnit] REAPER from BARRACKS at (160.5, 50.5)
+2024-11-24 22:50:09.001 | 01:50   24ms   50M    0G  21/ 23U [DodgeRampAttack] Supply is 21 -> attack!
+2024-11-24 22:50:09.002 | 01:50   24ms   50M    0G  21/ 23U [DodgeRampAttack] Attack started at 0.00 power.
+2024-11-24 22:50:09.071 | 01:50   23ms   55M    0G  21/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:09.076 | 01:50   23ms   55M    0G  21/ 23U [DodgeRampAttack] No attacking units, starting retreat
+2024-11-24 22:50:09.142 | 01:51   20ms   55M    0G  21/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:10.250 | 01:54   22ms  100M   12G  21/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:10.325 | 01:54   21ms    0M   16G  21/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:11.600 | 01:58   24ms    5M   32G  21/ 23U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:50:16.336 | 02:11   27ms  145M   80G  22/ 23U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:50:17.860 | 02:15   28ms  230M   96G  23/ 23U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-24 22:50:17.861 | 02:15   28ms  230M   96G  23/ 23U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-24 22:50:19.848 | 02:19  103ms  295M  116G  23/ 23U [DodgeRampAttack] Retreat stopped.
+2024-11-24 22:50:19.917 | 02:20   34ms  255M   66G  23/ 31U [TerranUnit] REAPER from BARRACKS at (165.5, 45.5)
+2024-11-24 22:50:19.925 | 02:20   34ms  255M   66G  23/ 31U [DodgeRampAttack] Supply is 23 -> attack!
+2024-11-24 22:50:19.925 | 02:20   34ms  255M   66G  23/ 31U [DodgeRampAttack] Attack started at 1.00 power.
+2024-11-24 22:50:20.377 | 02:21   30ms  275M   70G  24/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:20.454 | 02:21   33ms  275M   70G  24/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:20.849 | 02:22   35ms  300M   78G  24/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:20.935 | 02:23   34ms  300M   78G  24/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:21.049 | 02:23   43ms  300M   78G  24/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:21.052 | 02:23   43ms  250M   78G  24/ 31U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:50:21.142 | 02:23   46ms  255M   82G  25/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:21.232 | 02:23   40ms  255M   82G  25/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:21.406 | 02:24   37ms  280M   82G  25/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:21.708 | 02:24   38ms  295M   82G  25/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:21.789 | 02:24  112ms  295M   82G  25/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:22.154 | 02:25   34ms  215M   86G  25/ 31U [TerranUnit] HELLION from FACTORY at (153.5, 44.5)
+2024-11-24 22:50:22.244 | 02:25   38ms  215M   90G  27/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:22.331 | 02:26   40ms  220M   90G  27/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:22.490 | 02:26   33ms  225M   90G  27/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:22.724 | 02:27   34ms  230M   98G  27/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:22.802 | 02:27   36ms  240M   98G  27/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:23.107 | 02:28   30ms  250M   98G  27/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:23.260 | 02:28   32ms  260M   98G  27/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:23.556 | 02:29  101ms  270M   98G  27/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:23.714 | 02:30   31ms  280M  106G  27/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:23.949 | 02:30   32ms  285M  106G  27/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:24.032 | 02:30   35ms  290M  106G  27/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:24.441 | 02:32   29ms  330M  114G  27/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:24.588 | 02:32   29ms  330M  114G  27/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:24.745 | 02:32   31ms  330M  114G  27/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:24.820 | 02:33   31ms  340M  114G  27/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:25.044 | 02:33   30ms  355M  114G  27/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:25.456 | 02:34   30ms  370M  122G  27/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:25.531 | 02:34   34ms  370M  122G  27/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:25.765 | 02:35   30ms  330M  130G  27/ 31U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:50:25.925 | 02:36   34ms  335M  130G  28/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:26.088 | 02:36   31ms  340M  130G  28/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:26.202 | 02:36   32ms  345M  130G  28/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:26.455 | 02:37   29ms  345M  130G  28/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:26.614 | 02:37   32ms  355M  134G  28/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:26.956 | 02:38   38ms  365M  138G  28/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:27.119 | 02:38   34ms  390M  138G  28/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:27.294 | 02:39   32ms  390M  142G  28/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:27.472 | 02:39   37ms  400M  146G  28/ 31U [Expand] Expanding to (163.5, 74.5)
+2024-11-24 22:50:27.547 | 02:39   36ms    5M  146G  28/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:27.639 | 02:40   34ms    5M  146G  28/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:28.065 | 02:41   30ms   25M  146G  28/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:28.234 | 02:41   33ms   25M  150G  28/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:28.413 | 02:42   33ms   30M  150G  28/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:28.504 | 02:42   41ms   30M  150G  28/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:28.821 | 02:42   35ms   45M  154G  28/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:29.066 | 02:43   36ms   50M  158G  28/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:29.778 | 02:45   36ms   85M  162G  28/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:29.962 | 02:45   37ms   10M  166G  28/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:30.217 | 02:46   33ms   20M  170G  28/ 31U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:50:31.183 | 02:48   34ms    0M  178G  28/ 31U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:50:31.592 | 02:50   30ms   15M  182G  29/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:31.772 | 02:50   38ms   20M  182G  29/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:32.131 | 02:51   34ms   35M  190G  29/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:32.220 | 02:51   40ms   40M  190G  29/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:32.569 | 02:52   37ms   40M  190G  29/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:32.570 | 02:52   37ms   40M  190G  29/ 31U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-24 22:50:32.571 | 02:52   37ms   40M  190G  29/ 31U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-24 22:50:32.665 | 02:52  106ms   50M  194G  29/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:32.675 | 02:52  106ms   50M  194G  29/ 31U [BuildAddon] UnitTypeId.BARRACKSTECHLAB to (163.0, 50.0)
+2024-11-24 22:50:32.683 | 02:52  106ms   50M  194G  29/ 31U [BuildAddon] UnitTypeId.BARRACKSTECHLAB to (168.0, 45.0)
+2024-11-24 22:50:33.057 | 02:53   37ms   40M  173G  29/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:33.243 | 02:53   35ms   50M  177G  29/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:33.252 | 02:53   35ms   50M  177G  29/ 31U [BuildAddon] UnitTypeId.BARRACKSTECHLAB to (168.0, 45.0)
+2024-11-24 22:50:33.651 | 02:54   41ms    5M  156G  29/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:33.743 | 02:55   39ms   10M  156G  29/ 31U [ChatManager] Tag:E_zealot
+2024-11-24 22:50:33.935 | 02:55   37ms   20M  160G  29/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:34.120 | 02:55   36ms   25M  164G  29/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:34.315 | 02:56   42ms   30M  164G  29/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:34.329 | 02:56   42ms   30M  164G  29/ 31U [DodgeRampAttack] Retreat started at 2.00 own local power against 4.00 enemy local power.
+2024-11-24 22:50:34.740 | 02:57   39ms   40M  168G  29/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:34.924 | 02:57   41ms   55M  172G  29/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:35.110 | 02:58   37ms   55M  172G  29/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:35.209 | 02:58   40ms   65M  176G  29/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:35.572 | 02:59   37ms   75M  180G  29/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:35.660 | 02:59   36ms   75M  180G  29/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:35.751 | 02:59   39ms   80M  184G  29/ 31U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-24 22:50:35.752 | 02:59   39ms   80M  184G  29/ 31U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-24 22:50:35.938 | 03:00   38ms   90M  184G  29/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:36.026 | 03:00   38ms  120M  188G  29/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:36.031 | 03:00   38ms   20M  188G  29/ 31U [TerranUnit] HELLION from FACTORY at (153.5, 44.5)
+2024-11-24 22:50:36.835 | 03:02   35ms   45M  196G  31/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:37.025 | 03:02   36ms   55M  196G  31/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:37.122 | 03:02   38ms   55M  200G  31/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:37.212 | 03:03   41ms   60M  200G  31/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:37.834 | 03:04   39ms   80M  208G  31/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:38.193 | 03:05   38ms   95M  212G  31/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:38.442 | 03:05  101ms  100M  216G  31/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:38.639 | 03:06   39ms  110M  220G  31/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:38.826 | 03:06   38ms  115M  220G  31/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:39.007 | 03:07   36ms  120M  224G  31/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:39.880 | 03:09   40ms    0M  136G  31/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:40.136 | 03:09   41ms    5M  136G  31/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:40.409 | 03:10   40ms   10M  140G  31/ 31U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:40.588 | 03:10   37ms   25M  144G  31/ 31U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:40.857 | 03:11   36ms   10M  144G  31/ 39U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:50:42.957 | 03:16   37ms   80M  172G  32/ 39U [DodgeRampAttack] Retreat stopped.
+2024-11-24 22:50:43.048 | 03:16   35ms   80M  176G  32/ 39U [DodgeRampAttack] Supply is 32 -> attack!
+2024-11-24 22:50:43.050 | 03:16   35ms   80M  176G  32/ 39U [DodgeRampAttack] Attack started at 5.00 power.
+2024-11-24 22:50:43.319 | 03:17   35ms   80M  176G  32/ 39U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:43.515 | 03:17   40ms  100M  180G  32/ 39U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:43.520 | 03:17   40ms    0M  155G  32/ 39U [TerranUnit] MARAUDER from BARRACKS at (160.5, 50.5)
+2024-11-24 22:50:44.622 | 03:20   37ms   65M  167G  34/ 39U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:44.714 | 03:20   42ms   70M  167G  34/ 39U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:45.283 | 03:21   44ms   90M  175G  34/ 39U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-24 22:50:45.285 | 03:21   44ms   90M  175G  34/ 39U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-24 22:50:45.621 | 03:22   45ms  100M  183G  34/ 39U [BuildAddon] UnitTypeId.BARRACKSTECHLAB to (168.0, 54.0)
+2024-11-24 22:50:46.248 | 03:23   42ms   15M  162G  34/ 39U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:50:51.926 | 03:36   42ms  235M  230G  35/ 39U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:50:52.537 | 03:37  114ms  255M  238G  36/ 39U [ChatManager] Tag:E_adept
+2024-11-24 22:50:52.865 | 03:37   45ms  275M  238G  36/ 39U [DodgeRampAttack] Retreat started at 5.00 own local power against 8.00 enemy local power.
+2024-11-24 22:50:54.220 | 03:40   51ms  240M  229G  36/ 39U [TerranUnit] MARAUDER from BARRACKS at (165.5, 54.5)
+2024-11-24 22:50:54.333 | 03:40   47ms  240M  229G  38/ 39U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-24 22:50:54.334 | 03:40   47ms  240M  229G  38/ 39U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-24 22:50:56.698 | 03:45   44ms  320M  253G  38/ 39U [BuildAddon] UnitTypeId.BARRACKSTECHLAB to (161.0, 53.0)
+2024-11-24 22:50:58.210 | 03:48   43ms  295M  244G  38/ 39U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:50:59.062 | 03:49  122ms  325M  252G  39/ 39U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:50:59.177 | 03:50   46ms  325M  256G  39/ 39U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:50:59.287 | 03:50   45ms  325M  260G  39/ 39U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:50:59.396 | 03:50   50ms  340M  260G  39/ 39U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:00.034 | 03:51   47ms  360M  268G  39/ 39U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:51:00.243 | 03:52   44ms  370M  268G  39/ 39U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:00.512 | 03:52   43ms  375M  268G  39/ 39U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:51:00.826 | 03:53   44ms  415M  276G  39/ 39U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:01.149 | 03:54   47ms  415M  276G  39/ 39U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:51:01.357 | 03:54   47ms  420M  280G  39/ 39U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:01.464 | 03:54   48ms  420M  284G  39/ 39U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:51:01.565 | 03:55   48ms  430M  284G  39/ 39U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:01.771 | 03:55   44ms  435M  284G  39/ 39U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:51:02.047 | 03:55   44ms  440M  288G  39/ 39U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:02.261 | 03:56   41ms  445M  292G  39/ 39U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:51:02.455 | 03:56   43ms  455M  292G  39/ 39U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:02.648 | 03:57   44ms  465M  292G  39/ 39U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:51:02.952 | 03:57   49ms  475M  300G  39/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:02.961 | 03:57   49ms  200M  250G  39/ 54U [TerranUnit] CYCLONE from FACTORY at (160.5, 50.5)
+2024-11-24 22:51:02.963 | 03:57   49ms  100M  100G  39/ 54U [TerranUnit] RAVEN from STARPORT at (165.5, 45.5)
+2024-11-24 22:51:02.969 | 03:57   49ms   25M  100G  39/ 54U [BuildGas] Building REFINERY to (166.5, 81.5)
+2024-11-24 22:51:02.973 | 03:57   49ms   25M  100G  39/ 54U [DodgeRampAttack] Retreat stopped.
+2024-11-24 22:51:03.076 | 03:58   54ms   30M  100G  43/ 54U [DodgeRampAttack] Supply is 43 -> attack!
+2024-11-24 22:51:03.077 | 03:58   54ms   30M  100G  43/ 54U [DodgeRampAttack] Attack started at 9.00 power.
+2024-11-24 22:51:03.160 | 03:58   38ms   35M  100G  43/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:03.341 | 03:58   38ms   35M  104G  43/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:03.687 | 03:59   37ms   50M  108G  43/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:03.874 | 03:59   40ms   55M  108G  43/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:04.159 | 04:00   40ms   60M  112G  43/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:04.160 | 04:00   40ms   10M  112G  43/ 54U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:51:04.260 | 04:00   44ms   10M  116G  44/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:04.561 | 04:01   42ms   35M  116G  44/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:04.770 | 04:01   44ms   65M  120G  44/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:04.980 | 04:02   42ms   70M  124G  44/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:05.089 | 04:02   46ms   70M  124G  44/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:05.192 | 04:02   45ms   70M  124G  44/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:05.607 | 04:03   42ms   80M  128G  44/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:05.709 | 04:03   43ms   95M  132G  44/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:05.810 | 04:03   44ms   95M  132G  44/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:05.913 | 04:04   43ms  100M  132G  44/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:05.918 | 04:04   43ms    0M  107G  44/ 54U [TerranUnit] MARAUDER from BARRACKS at (158.5, 53.5)
+2024-11-24 22:51:06.027 | 04:04   48ms    5M  107G  46/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:06.225 | 04:04   41ms   10M  111G  46/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:06.440 | 04:05   41ms   15M  115G  46/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:06.538 | 04:05   47ms   20M  115G  46/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:06.644 | 04:05   44ms   20M  115G  46/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:06.747 | 04:05   45ms   30M  115G  46/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:06.851 | 04:06   46ms   35M  119G  46/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:07.121 | 04:06   44ms   55M  123G  46/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:07.430 | 04:07   44ms   60M  123G  46/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:08.036 | 04:08   45ms  125M  131G  46/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:08.041 | 04:08   45ms   25M  106G  46/ 54U [TerranUnit] MARAUDER from BARRACKS at (165.5, 54.5)
+2024-11-24 22:51:08.138 | 04:08   49ms   25M  106G  48/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:08.339 | 04:09   44ms   35M  110G  48/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:08.637 | 04:10   43ms   35M  114G  48/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:08.898 | 04:10   41ms   50M  114G  48/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:09.006 | 04:10   43ms   50M  118G  48/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:09.938 | 04:12   44ms  105M  130G  48/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:10.048 | 04:12   48ms   60M  130G  48/ 54U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:51:10.168 | 04:13   45ms   65M  130G  49/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:10.382 | 04:13   41ms   75M  134G  49/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:10.877 | 04:14   42ms   85M  138G  49/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:10.986 | 04:14   54ms  120M  138G  49/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:11.107 | 04:14   45ms  120M  138G  49/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:11.318 | 04:15   45ms  135M  142G  49/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:12.001 | 04:16   52ms  155M  150G  49/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:12.403 | 04:17   48ms  180M  154G  49/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:12.727 | 04:18   47ms  190M  158G  49/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:12.837 | 04:18   46ms  190M  158G  49/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:13.067 | 04:18   49ms  200M  162G  49/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:13.290 | 04:19   46ms  220M  162G  49/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:14.046 | 04:20   52ms  240M  170G  49/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:14.513 | 04:21   48ms  265M  178G  49/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:14.630 | 04:21   47ms  270M  178G  49/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:14.738 | 04:21   50ms  295M  178G  49/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:15.358 | 04:22   45ms  270M  186G  49/ 54U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:51:15.816 | 04:23   46ms  285M  190G  50/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:15.929 | 04:24   52ms  300M  190G  50/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:16.518 | 04:25   50ms  315M  194G  50/ 54U [ChatManager] Tag:E_stalker
+2024-11-24 22:51:16.520 | 04:25   50ms  265M  194G  50/ 54U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:51:16.845 | 04:25   50ms  280M  198G  51/ 54U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-24 22:51:16.846 | 04:25   50ms  280M  198G  51/ 54U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-24 22:51:17.601 | 04:26   54ms  305M  206G  51/ 54U [GameAnalyzer] Known army advantage is now Even
+2024-11-24 22:51:17.602 | 04:26   54ms  305M  206G  51/ 54U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-24 22:51:19.336 | 04:29   54ms  400M  226G  51/ 54U [Expand] Expanding to (137.5, 64.5)
+2024-11-24 22:51:19.452 | 04:30   57ms    0M  226G  51/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:19.453 | 04:30   57ms    0M  226G  51/ 54U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-24 22:51:19.453 | 04:30   57ms    0M  226G  51/ 54U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-24 22:51:19.701 | 04:30   47ms   15M  230G  51/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:19.702 | 04:30   47ms   15M  230G  51/ 54U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-24 22:51:19.703 | 04:30   47ms   15M  230G  51/ 54U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-24 22:51:20.387 | 04:31  118ms   25M  238G  51/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:20.516 | 04:31   56ms   30M  238G  51/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:20.633 | 04:32   54ms   30M  238G  51/ 54U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-24 22:51:20.634 | 04:32   54ms   30M  238G  51/ 54U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-24 22:51:21.011 | 04:32   51ms   70M  242G  51/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:21.136 | 04:32   53ms   80M  246G  51/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:21.518 | 04:33   50ms   95M  250G  51/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:21.650 | 04:33   51ms    0M  100G  51/ 54U [TerranUnit] RAVEN from STARPORT at (165.5, 45.5)
+2024-11-24 22:51:21.770 | 04:34   55ms   10M  100G  53/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:22.204 | 04:34   51ms   25M  108G  53/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:22.326 | 04:35  119ms   30M  108G  53/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:22.942 | 04:36   51ms   20M  116G  53/ 54U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:51:24.128 | 04:38   52ms   60M  128G  54/ 54U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:51:24.393 | 04:38   51ms   70M  132G  54/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:24.782 | 04:39   53ms   45M  140G  53/ 54U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:51:25.402 | 04:40   51ms   80M  148G  54/ 54U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:51:26.838 | 04:42   54ms   30M  164G  54/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:26.983 | 04:43   53ms   50M  168G  54/ 54U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:51:28.221 | 04:45  124ms   10M  188G  53/ 54U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-24 22:51:28.222 | 04:45  124ms   10M  188G  53/ 54U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-24 22:51:29.566 | 04:47   51ms   90M  204G  52/ 54U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-24 22:51:29.567 | 04:47   51ms   90M  204G  52/ 54U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-24 22:51:29.694 | 04:47   53ms   90M  208G  52/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:29.936 | 04:48   50ms  110M  212G  52/ 54U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:51:30.386 | 04:48   48ms   20M  212G  52/ 54U [DodgeRampAttack] Retreat started at 5.38 own local power against 6.97 enemy local power.
+2024-11-24 22:51:30.850 | 04:49   47ms   85M  224G  52/ 54U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:51:31.909 | 04:51   51ms    0M  236G  53/ 54U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:51:32.452 | 04:52   47ms   20M  248G  54/ 54U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-24 22:51:32.453 | 04:52   47ms   20M  248G  54/ 54U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-24 22:51:33.179 | 04:53   49ms  145M  260G  54/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:33.303 | 04:54   55ms  180M  260G  54/ 54U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:51:33.644 | 04:54   50ms   45M  264G  54/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:33.755 | 04:55   48ms   55M  268G  54/ 54U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:51:35.208 | 04:57   48ms  120M  288G  54/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:35.329 | 04:57   48ms  125M  292G  54/ 54U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:51:36.019 | 04:59   56ms  160M  296G  54/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:36.147 | 04:59   56ms  170M  300G  54/ 54U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:51:36.627 | 05:00   55ms  185M  308G  54/ 54U [ChatManager] Tag:E_Macro
+2024-11-24 22:51:37.187 | 05:01   53ms  200M  320G  54/ 54U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:51:37.310 | 05:01  125ms  230M  320G  54/ 54U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:51:41.153 | 05:08   54ms  360M  372G  54/ 62U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:51:41.158 | 05:08   54ms  210M  247G  54/ 62U [TerranUnit] SIEGETANK from FACTORY at (160.5, 50.5)
+2024-11-24 22:51:41.288 | 05:08   60ms  165M  251G  58/ 62U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:51:41.294 | 05:08   60ms  115M  251G  58/ 62U [TerranUnit] MARINE from BARRACKS at (165.5, 54.5)
+2024-11-24 22:51:41.295 | 05:08   60ms   15M  226G  58/ 62U [TerranUnit] MARAUDER from BARRACKS at (158.5, 53.5)
+2024-11-24 22:51:41.669 | 05:08   52ms   50M  230G  62/ 62U [DodgeRampAttack] Retreat stopped.
+2024-11-24 22:51:41.790 | 05:09   48ms   65M  230G  62/ 62U [DodgeRampAttack] Supply is 62 -> attack!
+2024-11-24 22:51:41.791 | 05:09   48ms   65M  230G  62/ 62U [DodgeRampAttack] Attack started at 16.03 power.
+2024-11-24 22:51:45.645 | 05:15   56ms  165M  186G  62/ 70U [TerranUnit] MEDIVAC from STARPORT at (165.5, 45.5)
+2024-11-24 22:51:48.486 | 05:20   60ms  255M  226G  64/ 70U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:51:48.633 | 05:20  131ms  210M  226G  65/ 70U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:51:52.158 | 05:26   62ms  265M  274G  66/ 70U [TerranUnit] MARINE from BARRACKS at (165.5, 54.5)
+2024-11-24 22:51:54.415 | 05:29   61ms  360M  298G  67/ 70U [GameAnalyzer] Known army advantage is now SmallAdvantage
+2024-11-24 22:51:54.416 | 05:29   61ms  360M  298G  67/ 70U [GameAnalyzer] Predicted army advantage is now SmallAdvantage
+2024-11-24 22:51:54.422 | 05:29   61ms  310M  298G  67/ 70U [TerranUnit] MARINE from BARRACKS at (158.5, 53.5)
+2024-11-24 22:51:56.342 | 05:32   61ms  290M  322G  68/ 70U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:51:56.497 | 05:32   64ms  245M  322G  69/ 70U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:51:57.084 | 05:33   66ms  275M  334G  70/ 70U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-24 22:51:57.085 | 05:33   66ms  275M  334G  70/ 70U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-24 22:51:57.900 | 05:34   67ms  395M  342G  70/ 70U [ChatManager] Tag:E_immortal
+2024-11-24 22:51:59.538 | 05:37   70ms  375M  358G  66/ 70U [GameAnalyzer] Known army advantage is now Even
+2024-11-24 22:51:59.538 | 05:37   70ms  375M  358G  66/ 70U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-24 22:52:00.150 | 05:37   68ms  305M  370G  66/ 70U [DodgeRampAttack] Retreat started at 11.74 own local power against 15.05 enemy local power.
+2024-11-24 22:52:00.770 | 05:38   61ms  325M  370G  66/ 70U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-24 22:52:00.771 | 05:38   61ms  325M  370G  66/ 70U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-24 22:52:01.585 | 05:40   60ms  380M  382G  66/ 70U [GameAnalyzer] Known army advantage is now Even
+2024-11-24 22:52:01.586 | 05:40   60ms  380M  382G  66/ 70U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-24 22:52:01.593 | 05:40   60ms  230M  257G  66/ 70U [TerranUnit] SIEGETANK from FACTORY at (160.5, 50.5)
+2024-11-24 22:52:02.339 | 05:41   61ms  255M  269G  69/ 70U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-24 22:52:02.340 | 05:41   61ms  255M  269G  69/ 70U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-24 22:52:02.890 | 05:42   59ms  285M  277G  67/ 70U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:03.313 | 05:42   62ms  405M  281G  67/ 70U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:03.320 | 05:42   62ms  405M  281G  67/ 70U [BuildAddon] UnitTypeId.BARRACKSREACTOR to (156.0, 44.0)
+2024-11-24 22:52:03.962 | 05:43   69ms  410M  239G  67/ 70U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:04.115 | 05:43   66ms  360M  243G  67/ 70U [TerranUnit] MARINE from BARRACKS at (165.5, 54.5)
+2024-11-24 22:52:04.260 | 05:44   68ms  360M  243G  68/ 70U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:04.681 | 05:44   61ms  375M  247G  68/ 70U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:04.683 | 05:44   61ms  325M  247G  68/ 70U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:52:04.825 | 05:45   68ms  280M  251G  69/ 70U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:52:05.361 | 05:45  161ms  295M  255G  70/ 70U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:05.937 | 05:46   63ms  360M  263G  70/ 70U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:06.089 | 05:46   70ms  365M  267G  70/ 70U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:06.236 | 05:47   72ms  370M  267G  70/ 70U [GameAnalyzer] Income advantage is now Even
+2024-11-24 22:52:06.376 | 05:47   67ms  375M  267G  70/ 70U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:06.516 | 05:47   67ms  385M  267G  70/ 70U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:06.880 | 05:47  136ms  395M  275G  70/ 70U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:07.451 | 05:48   65ms  420M  279G  70/ 70U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:07.893 | 05:49   65ms  425M  287G  70/ 70U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:08.037 | 05:49   72ms  430M  291G  70/ 70U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:08.694 | 05:50   67ms  485M  291G  70/ 70U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:09.300 | 05:51   70ms  520M  303G  70/ 70U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:09.448 | 05:51   78ms  320M  303G  70/ 85U [TerranUnit] MARINE from BARRACKS at (158.5, 53.5)
+2024-11-24 22:52:09.450 | 05:51   78ms  220M  203G  70/ 85U [TerranUnit] MEDIVAC from STARPORT at (165.5, 45.5)
+2024-11-24 22:52:09.608 | 05:52   72ms  230M  203G  73/ 85U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:09.970 | 05:52   68ms  250M  211G  73/ 85U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:10.267 | 05:52   66ms  255M  215G  73/ 93U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:10.409 | 05:53   71ms  290M  215G  73/ 93U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:11.223 | 05:54   72ms  310M  227G  73/ 93U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:11.224 | 05:54   72ms  310M  227G  73/ 93U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-24 22:52:11.225 | 05:54   72ms  310M  227G  73/ 93U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-24 22:52:11.511 | 05:54   65ms  330M  227G  73/ 93U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:12.214 | 05:55   75ms  350M  239G  73/ 93U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:12.356 | 05:56   71ms  360M  239G  73/ 93U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:13.129 | 05:57   75ms  390M  251G  73/ 93U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:52:13.271 | 05:57   71ms  345M  251G  74/ 93U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:52:13.701 | 05:58   65ms  355M  251G  75/ 93U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:13.725 | 05:58   65ms  355M  251G  75/ 93U [DodgeRampAttack] Retreat stopped.
+2024-11-24 22:52:13.849 | 05:58   71ms  370M  259G  75/ 93U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:13.872 | 05:58   71ms  370M  259G  75/ 93U [DodgeRampAttack] Supply is 75 -> attack!
+2024-11-24 22:52:13.873 | 05:58   71ms  370M  259G  75/ 93U [DodgeRampAttack] Attack started at 18.61 power.
+2024-11-24 22:52:16.299 | 06:01   70ms  505M  287G  75/101U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-24 22:52:16.300 | 06:01   70ms  505M  287G  75/101U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-24 22:52:16.306 | 06:01   70ms  455M  287G  75/101U [TerranUnit] MARINE from BARRACKS at (165.5, 54.5)
+2024-11-24 22:52:19.185 | 06:05   75ms  590M  319G  76/101U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:19.339 | 06:06   77ms  610M  323G  76/101U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:20.659 | 06:07   77ms  700M  335G  76/101U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:20.974 | 06:08   78ms  730M  335G  76/101U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:21.798 | 06:09   74ms  730M  347G  76/101U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:52:21.962 | 06:09   77ms  680M  347G  77/101U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:52:21.968 | 06:09   77ms  630M  347G  77/101U [TerranUnit] MARINE from BARRACKS at (158.5, 53.5)
+2024-11-24 22:52:24.010 | 06:12   76ms  595M  246G  79/101U [TerranUnit] SIEGETANK from FACTORY at (160.5, 50.5)
+2024-11-24 22:52:27.542 | 06:16  151ms  760M  282G  82/101U [ActUnit] SCV from COMMANDCENTER at (137.5, 64.5)
+2024-11-24 22:52:29.150 | 06:18   74ms  770M  298G  81/101U [TerranUnit] MARINE from BARRACKS at (153.5, 44.5)
+2024-11-24 22:52:29.326 | 06:19   83ms  725M  302G  82/101U [TerranUnit] MARINE from BARRACKS at (153.5, 44.5)
+2024-11-24 22:52:29.827 | 06:19   78ms  605M  306G  83/101U [TerranUnit] MARINE from BARRACKS at (165.5, 54.5)
+2024-11-24 22:52:31.435 | 06:21   78ms  665M  322G  84/101U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:52:31.624 | 06:21   92ms  615M  326G  85/101U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:52:33.406 | 06:23   85ms  715M  342G  86/101U [DodgeRampAttack] Retreat started at 15.36 own local power against 19.51 enemy local power.
+2024-11-24 22:52:36.185 | 06:27   77ms  815M  366G  86/101U [TerranUnit] MARINE from BARRACKS at (158.5, 53.5)
+2024-11-24 22:52:37.372 | 06:29   84ms  855M  382G  87/101U [ActUnit] SCV from COMMANDCENTER at (137.5, 64.5)
+2024-11-24 22:52:38.308 | 06:30   79ms  925M  390G  83/101U [GameAnalyzer] Known army advantage is now SmallDisadvantage
+2024-11-24 22:52:38.309 | 06:30   79ms  925M  390G  83/101U [GameAnalyzer] Predicted army advantage is now SmallDisadvantage
+2024-11-24 22:52:38.814 | 06:30   79ms  940M  398G  83/101U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-24 22:52:38.982 | 06:31   82ms  950M  402G  83/101U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:41.352 | 06:33   83ms 1055M  426G  83/101U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:52:41.515 | 06:34   84ms 1010M  426G  84/101U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:52:43.504 | 06:36   83ms 1085M  446G  85/101U [TerranUnit] MARINE from BARRACKS at (153.5, 44.5)
+2024-11-24 22:52:43.673 | 06:36   80ms 1045M  450G  86/101U [TerranUnit] MARINE from BARRACKS at (153.5, 44.5)
+2024-11-24 22:52:44.174 | 06:37   84ms 1055M  450G  87/101U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-24 22:52:44.175 | 06:37   84ms 1055M  450G  87/101U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-24 22:52:44.182 | 06:37   84ms 1005M  450G  87/101U [TerranUnit] MARINE from BARRACKS at (165.5, 54.5)
+2024-11-24 22:52:47.236 | 06:41   83ms 1170M  486G  88/101U [ActUnit] SCV from COMMANDCENTER at (137.5, 64.5)
+2024-11-24 22:52:49.441 | 06:44   85ms 1300M  506G  89/101U [DodgeRampAttack] Retreat stopped.
+2024-11-24 22:52:49.607 | 06:44   80ms 1300M  510G  89/101U [DodgeRampAttack] Supply is 89 -> attack!
+2024-11-24 22:52:49.609 | 06:44   80ms 1300M  510G  89/101U [DodgeRampAttack] Attack started at 24.08 power.
+2024-11-24 22:52:49.756 | 06:44   84ms 1170M  385G  89/109U [TerranUnit] SIEGETANK from FACTORY at (160.5, 50.5)
+2024-11-24 22:52:50.575 | 06:45  169ms 1090M  389G  92/109U [TerranUnit] MARINE from BARRACKS at (158.5, 53.5)
+2024-11-24 22:52:51.298 | 06:46   89ms 1070M  397G  93/109U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:52:51.492 | 06:46   91ms 1050M  397G  94/109U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:52:54.509 | 06:50   87ms 1230M  429G  93/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:52:54.764 | 06:50   90ms 1240M  433G  93/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:55.984 | 06:51   90ms 1335M  445G  93/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:52:56.238 | 06:52   92ms 1335M  445G  93/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:56.768 | 06:52   90ms 1380M  449G  93/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:52:56.950 | 06:52   93ms 1390M  453G  93/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:57.538 | 06:53   86ms 1390M  457G  93/109U [ActUnit] SCV from COMMANDCENTER at (137.5, 64.5)
+2024-11-24 22:52:58.045 | 06:54   86ms 1415M  465G  94/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:52:58.232 | 06:54   89ms 1370M  469G  94/109U [TerranUnit] MARINE from BARRACKS at (153.5, 44.5)
+2024-11-24 22:52:58.408 | 06:54   92ms 1375M  469G  95/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:58.408 | 06:54   92ms 1375M  469G  95/109U [GameAnalyzer] Known army advantage is now Even
+2024-11-24 22:52:58.409 | 06:54   92ms 1375M  469G  95/109U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-24 22:52:58.416 | 06:54   92ms 1325M  469G  95/109U [TerranUnit] MARINE from BARRACKS at (153.5, 44.5)
+2024-11-24 22:52:58.768 | 06:55   88ms 1385M  469G  96/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:52:59.024 | 06:55   92ms 1385M  469G  96/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:52:59.034 | 06:55   92ms 1335M  469G  96/109U [TerranUnit] MARINE from BARRACKS at (165.5, 54.5)
+2024-11-24 22:53:01.261 | 06:58   88ms 1485M  493G  97/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:01.446 | 06:58   88ms 1490M  493G  97/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:01.708 | 06:58   88ms 1455M  497G  97/109U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:53:01.882 | 06:58  164ms 1405M  501G  98/109U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:53:02.072 | 06:58   89ms 1425M  505G  99/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:02.255 | 06:59   90ms 1325M  505G  99/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:03.452 | 07:00   85ms 1310M  517G  99/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:03.646 | 07:00   90ms 1320M  517G  99/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:04.464 | 07:01   88ms 1365M  525G  99/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:04.655 | 07:01   87ms 1370M  529G  99/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:05.211 | 07:02   86ms 1420M  529G  99/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:05.395 | 07:02   89ms 1430M  529G  99/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:05.815 | 07:03   83ms 1445M  537G  99/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:05.823 | 07:03   83ms 1395M  537G  99/109U [TerranUnit] MARINE from BARRACKS at (158.5, 53.5)
+2024-11-24 22:53:06.014 | 07:03   92ms 1410M  541G 100/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:07.401 | 07:05   87ms 1515M  553G 100/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:07.592 | 07:05   89ms 1515M  553G 100/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:07.779 | 07:05   88ms 1520M  553G 100/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:07.964 | 07:05   88ms 1535M  553G 100/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:08.151 | 07:05   87ms 1490M  557G 100/109U [ActUnit] SCV from COMMANDCENTER at (137.5, 64.5)
+2024-11-24 22:53:08.416 | 07:06   90ms 1510M  561G 101/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:08.601 | 07:06  164ms 1520M  565G 101/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:08.965 | 07:06   88ms 1540M  565G 101/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:09.515 | 07:07   89ms 1585M  569G 101/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:10.356 | 07:08   87ms 1635M  577G 101/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:10.544 | 07:08   90ms 1665M  577G 101/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:10.991 | 07:09   85ms 1690M  585G 101/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:11.366 | 07:09   87ms 1700M  589G 101/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:11.551 | 07:09   88ms 1715M  589G 101/109U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:11.744 | 07:09   86ms 1730M  589G 101/109U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:12.522 | 07:10  166ms 1775M  601G 101/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:12.524 | 07:10  166ms 1725M  601G 101/117U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:53:12.712 | 07:11   93ms 1735M  601G 102/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:12.714 | 07:11   93ms 1685M  601G 102/117U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:53:13.070 | 07:11   93ms 1700M  601G 103/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:13.886 | 07:12  168ms 1700M  613G 103/117U [TerranUnit] MARINE from BARRACKS at (153.5, 44.5)
+2024-11-24 22:53:14.090 | 07:12   98ms 1665M  613G 104/117U [TerranUnit] MARINE from BARRACKS at (153.5, 44.5)
+2024-11-24 22:53:14.703 | 07:13   96ms 1745M  617G 105/117U [TerranUnit] MARINE from BARRACKS at (165.5, 54.5)
+2024-11-24 22:53:15.206 | 07:13  176ms 1765M  625G 104/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:15.422 | 07:13  103ms 1775M  625G 104/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:16.122 | 07:14  100ms 1830M  625G 104/117U [DodgeRampAttack] Retreat started at 21.94 own local power against 30.52 enemy local power.
+2024-11-24 22:53:16.963 | 07:15   99ms 1905M  637G 102/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:17.162 | 07:15  100ms 1920M  637G 102/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:18.003 | 07:16  173ms 1800M  524G 102/117U [TerranUnit] SIEGETANK from FACTORY at (160.5, 50.5)
+2024-11-24 22:53:19.286 | 07:17   96ms 1865M  532G 105/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:19.485 | 07:18   99ms 1820M  536G 102/117U [ActUnit] SCV from COMMANDCENTER at (137.5, 64.5)
+2024-11-24 22:53:19.679 | 07:18   95ms 1830M  536G 103/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:20.283 | 07:19   92ms 1870M  536G 103/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:20.742 | 07:19  172ms 1910M  544G 103/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:21.325 | 07:20   95ms 1930M  548G 103/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:21.708 | 07:20   92ms 1960M  552G 100/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:21.709 | 07:20   92ms 1960M  552G 100/117U [GameAnalyzer] Known army advantage is now SlightDisadvantage
+2024-11-24 22:53:21.710 | 07:20   92ms 1960M  552G 100/117U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-24 22:53:22.167 | 07:21   93ms 1915M  560G 100/117U [TerranUnit] MARINE from BARRACKS at (158.5, 53.5)
+2024-11-24 22:53:22.548 | 07:21   95ms 1955M  560G 101/117U [GameAnalyzer] Known army advantage is now Even
+2024-11-24 22:53:22.548 | 07:21   95ms 1955M  560G 101/117U [GameAnalyzer] Predicted army advantage is now Even
+2024-11-24 22:53:23.952 | 07:23   92ms 1980M  572G 101/117U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:53:24.143 | 07:23   92ms 1940M  572G 102/117U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:53:24.796 | 07:23   91ms 1955M  584G 103/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:24.982 | 07:24   98ms 1975M  584G 103/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:25.833 | 07:25   91ms 2035M  588G 103/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:26.028 | 07:25  170ms 2045M  592G 103/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:27.457 | 07:26  106ms 2140M  604G 103/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:27.651 | 07:27   94ms 2150M  608G 103/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:28.309 | 07:27   90ms 2185M  608G 103/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:28.500 | 07:27  174ms 2200M  612G 103/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:30.673 | 07:30  125ms 2325M  632G 103/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:30.682 | 07:30  125ms 2275M  632G 103/117U [TerranUnit] MARINE from BARRACKS at (153.5, 44.5)
+2024-11-24 22:53:30.881 | 07:30   99ms 2290M  632G 104/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:30.883 | 07:30   99ms 2240M  632G 104/117U [ActUnit] SCV from COMMANDCENTER at (137.5, 64.5)
+2024-11-24 22:53:30.892 | 07:30   99ms 2190M  632G 104/117U [TerranUnit] MARINE from BARRACKS at (153.5, 44.5)
+2024-11-24 22:53:31.572 | 07:31   95ms 2215M  640G 106/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:31.582 | 07:31   95ms 2165M  640G 106/117U [TerranUnit] MARINE from BARRACKS at (165.5, 54.5)
+2024-11-24 22:53:31.782 | 07:31  100ms 2170M  644G 107/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:32.568 | 07:32  112ms 2060M  644G 107/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:32.793 | 07:32  230ms 2075M  644G 107/117U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:33.214 | 07:32  100ms 2095M  652G 107/117U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:34.794 | 07:34  101ms 2150M  664G 107/125U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:35.296 | 07:34   97ms 2165M  668G 107/125U [DodgeRampAttack] Retreat stopped.
+2024-11-24 22:53:35.466 | 07:34  176ms 2170M  668G 107/125U [GameAnalyzer] Income advantage is now SmallAdvantage
+2024-11-24 22:53:35.498 | 07:34  176ms 2170M  668G 107/125U [DodgeRampAttack] Supply is 107 -> attack!
+2024-11-24 22:53:35.499 | 07:34  176ms 2170M  668G 107/125U [DodgeRampAttack] Attack started at 31.91 power.
+2024-11-24 22:53:35.871 | 07:35   97ms 2210M  672G 107/125U [GameAnalyzer] Income advantage is now ClearAdvantage
+2024-11-24 22:53:35.872 | 07:35   97ms 2160M  672G 107/125U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:53:36.102 | 07:35   99ms 2120M  676G 108/125U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:53:39.457 | 07:38  101ms 2230M  704G 109/125U [TerranUnit] MARINE from BARRACKS at (158.5, 53.5)
+2024-11-24 22:53:43.297 | 07:42   99ms 2370M  732G 110/125U [ActUnit] SCV from COMMANDCENTER at (137.5, 64.5)
+2024-11-24 22:53:47.929 | 07:47  110ms 2725M  776G 111/125U [ActUnit] SCV from COMMANDCENTER at (161.5, 42.5)
+2024-11-24 22:53:48.149 | 07:47  113ms 2685M  776G 112/125U [ActUnit] SCV from COMMANDCENTER at (163.5, 74.5)
+2024-11-24 22:53:48.406 | 07:48  130ms 2640M  776G 113/125U [TerranUnit] MARINE from BARRACKS at (153.5, 44.5)
+2024-11-24 22:53:48.813 | 07:48  134ms 2595M  776G 114/125U [TerranUnit] MARINE from BARRACKS at (153.5, 44.5)
+2024-11-24 22:53:49.380 | 07:48  222ms 2525M  784G 115/125U [GameAnalyzer] Known army advantage is now SlightAdvantage
+2024-11-24 22:53:49.383 | 07:48  222ms 2525M  784G 115/125U [GameAnalyzer] Predicted army advantage is now SlightAdvantage
+2024-11-24 22:53:49.396 | 07:48  222ms 2375M  659G 115/125U [TerranUnit] SIEGETANK from FACTORY at (160.5, 50.5)
+2024-11-24 22:53:49.671 | 07:48  143ms 2245M  659G 118/125U [TerranUnit] MARINE from BARRACKS at (165.5, 54.5)
+2024-11-24 22:53:56.197 | ERROR    | sc2.protocol:__request:50 - Cannot receive: Connection already closed.
+2024-11-24 22:53:56.199 | 07:52   97ms 2460M  687G 119/125U [CooldownManager] Get available abilities failed: Connection already closed.
+2024-11-24 22:53:56.252 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 52142...
+2024-11-24 22:53:56.253 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

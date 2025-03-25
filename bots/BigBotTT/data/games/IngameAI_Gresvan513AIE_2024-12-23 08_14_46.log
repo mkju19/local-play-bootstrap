@@ -1,0 +1,10 @@
+2024-12-23 08:14:56.839 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-12-23 08:14:56.842 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-12-23 08:14:56.844 | INFO     | sc2.controller:create_game:38 - Map:     Gresvan513AIE
+2024-12-23 08:14:56.846 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Zerg, RandomBuild)
+2024-12-23 08:14:56.852 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-12-23 08:15:10.063 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-12-23 08:15:10.064 | INFO     | sc2.main:_play_game:221 - Player 0 - Bot LadderBot(Terran)
+2024-12-23 08:15:11.783 | ERROR    | sc2.protocol:__request:50 - Cannot receive: Connection already closed.
+2024-12-23 08:15:11.784 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 51683...
+2024-12-23 08:15:11.785 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

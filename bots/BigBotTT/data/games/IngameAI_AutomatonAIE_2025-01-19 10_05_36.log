@@ -1,0 +1,182 @@
+2025-01-19 10:05:45.729 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2025-01-19 10:05:45.731 | INFO     | sc2.controller:create_game:37 - Creating new game
+2025-01-19 10:05:45.732 | INFO     | sc2.controller:create_game:38 - Map:     AutomatonAIE
+2025-01-19 10:05:45.733 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer CheatVision(Zerg, Macro)
+2025-01-19 10:05:45.734 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2025-01-19 10:05:57.511 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2025-01-19 10:05:57.512 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2025-01-19 10:05:58.288 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.14.93333
+2025-01-19 10:05:58.434 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: Автоматон РВ and hash: 4358626.
+2025-01-19 10:05:59.873 | ERROR    | sc2.main:initialize_first_step:140 - Caught unknown exception in AI on_start: 
+Traceback (most recent call last):
+
+  File "d:\Bots\Banshee\run.py", line 18, in <module>
+    main()
+    └ <function main at 0x00000280EBEFFB00>
+
+  File "d:\Bots\Banshee\run.py", line 13, in main
+    result, opponentid = run_ladder_game(protoss_bot)
+                         │               └ <sc2.player.Bot object at 0x00000280EBF3A210>
+                         └ <function run_ladder_game at 0x00000280D08EE700>
+
+  File "d:\Bots\Banshee\ladder.py", line 39, in run_ladder_game
+    return stand_alone_game(bot), None
+           │                └ <sc2.player.Bot object at 0x00000280EBF3A210>
+           └ <function stand_alone_game at 0x00000280E9664540>
+
+  File "d:\Bots\Banshee\ladder.py", line 166, in stand_alone_game
+    return sc2.main.run_game(sc2.maps.get(map_name), [bot, Computer(Race.Zerg, Difficulty.CheatVision, AIBuild.Macro)], realtime=False,)
+           │   │    │        │   │    │   │           │    │        │    │     │          │            │       └ <AIBuild.Macro: 5>
+           │   │    │        │   │    │   │           │    │        │    │     │          │            └ <enum 'AIBuild'>
+           │   │    │        │   │    │   │           │    │        │    │     │          └ <Difficulty.CheatVision: 8>
+           │   │    │        │   │    │   │           │    │        │    │     └ <enum 'Difficulty'>
+           │   │    │        │   │    │   │           │    │        │    └ <Race.Zerg: 2>
+           │   │    │        │   │    │   │           │    │        └ <enum 'Race'>
+           │   │    │        │   │    │   │           │    └ <class 'sc2.player.Computer'>
+           │   │    │        │   │    │   │           └ <sc2.player.Bot object at 0x00000280EBF3A210>
+           │   │    │        │   │    │   └ 'AutomatonAIE'
+           │   │    │        │   │    └ <function get at 0x00000280E96ECA40>
+           │   │    │        │   └ <module 'sc2.maps' from 'd:\\Bots\\Banshee\\sc2\\maps.py'>
+           │   │    │        └ <module 'sc2' from 'd:\\Bots\\Banshee\\sc2\\__init__.py'>
+           │   │    └ <function run_game at 0x00000280E9838FE0>
+           │   └ <module 'sc2.main' from 'd:\\Bots\\Banshee\\sc2\\main.py'>
+           └ <module 'sc2' from 'd:\\Bots\\Banshee\\sc2\\__init__.py'>
+
+  File "d:\Bots\Banshee\sc2\main.py", line 496, in run_game
+    result: Result = asyncio.run(_host_game(map_settings, players, **kwargs))
+                     │       │   │          │             │          └ {'realtime': False}
+                     │       │   │          │             └ [<sc2.player.Bot object at 0x00000280EBF3A210>, <sc2.player.Computer object at 0x00000280EBF3F690>]
+                     │       │   │          └ Map(D:\StarCraft II\maps\AutomatonAIE.SC2Map)
+                     │       │   └ <function _host_game at 0x00000280E9838B80>
+                     │       └ <function run at 0x00000280D2546200>
+                     └ <module 'asyncio' from 'C:\\Users\\Lena\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\__init__.py'>
+
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           │      │   └ <coroutine object _host_game at 0x00000280EBE9CF60>
+           │      └ <function Runner.run at 0x00000280D25B6200>
+           └ <asyncio.runners.Runner object at 0x00000280EA7C9390>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<_host_game() running at d:\Bots\Banshee\sc2\main.py:369> cb=[_run_until_complete_cb() at C:...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x00000280D25AFCE0>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000280EA7C9390>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x00000280D2A7FCE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000280D25B5A80>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000280D250B060>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Users\Lena\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "d:\Bots\Banshee\sc2\main.py", line 369, in _host_game
+    result = await _play_game(players[0], client, realtime, portconfig, game_time_limit, rgb_render_config)
+                   │          │           │       │         │           │                └ None
+                   │          │           │       │         │           └ None
+                   │          │           │       │         └ None
+                   │          │           │       └ False
+                   │          │           └ <sc2.client.Client object at 0x00000280EBF0E150>
+                   │          └ [<sc2.player.Bot object at 0x00000280EBF3A210>, <sc2.player.Computer object at 0x00000280EBF3F690>]
+                   └ <function _play_game at 0x00000280E98389A0>
+
+  File "d:\Bots\Banshee\sc2\main.py", line 226, in _play_game
+    result = await _play_game_ai(client, player_id, player.ai, realtime, game_time_limit)
+                   │             │       │          │      │   │         └ None
+                   │             │       │          │      │   └ False
+                   │             │       │          │      └ <dummy.dummy1.LadderBot object at 0x00000280D060DF50>
+                   │             │       │          └ <sc2.player.Bot object at 0x00000280EBF3A210>
+                   │             │       └ 1
+                   │             └ <sc2.client.Client object at 0x00000280EBF0E150>
+                   └ <function _play_game_ai at 0x00000280E9838860>
+
+  File "d:\Bots\Banshee\sc2\main.py", line 145, in _play_game_ai
+    result = await initialize_first_step()
+                   └ <function _play_game_ai.<locals>.initialize_first_step at 0x00000280EBF44EA0>
+
+> File "d:\Bots\Banshee\sc2\main.py", line 136, in initialize_first_step
+    await ai.on_start()
+          │  └ <function KnowledgeBot.on_start at 0x00000280E990E840>
+          └ <dummy.dummy1.LadderBot object at 0x00000280D060DF50>
+
+  File "d:\Bots\Banshee\sharpy\knowledges\knowledge_bot.py", line 71, in on_start
+    await self.knowledge.start()
+          │    │         └ <function Knowledge.start at 0x00000280E98C2AC0>
+          │    └ <sharpy.knowledges.knowledge.Knowledge object at 0x00000280D065B750>
+          └ <dummy.dummy1.LadderBot object at 0x00000280D060DF50>
+
+  File "d:\Bots\Banshee\sharpy\knowledges\knowledge.py", line 151, in start
+    await manager.post_start()
+          │       └ <function ActManager.post_start at 0x00000280E96BCE00>
+          └ <sharpy.managers.core.act_manager.ActManager object at 0x00000280EBF8CB10>
+
+  File "d:\Bots\Banshee\sharpy\managers\core\act_manager.py", line 25, in post_start
+    self._act = await self._act_or_func()
+    │                 │    └ <bound method Banshees.create_plan of <dummy.dummy1.LadderBot object at 0x00000280D060DF50>>
+    │                 └ <sharpy.managers.core.act_manager.ActManager object at 0x00000280EBF8CB10>
+    └ <sharpy.managers.core.act_manager.ActManager object at 0x00000280EBF8CB10>
+
+  File "d:\Bots\Banshee\dummy\dummy1.py", line 293, in create_plan
+    return BuildOrder(
+           └ <class 'sharpy.plans.build_order.BuildOrder'>
+
+  File "d:\Bots\Banshee\sharpy\plans\build_order.py", line 52, in __init__
+    self.orders.append(SequentialList(order))
+    │    │      │      │              └ [<sharpy.plans.build_step.Step object at 0x00000280EC9C1450>, <sharpy.plans.acts.build_gas.BuildGas object at 0x00000280EC9C1...
+    │    │      │      └ <class 'sharpy.plans.sequential_list.SequentialList'>
+    │    │      └ <method 'append' of 'list' objects>
+    │    └ [<sharpy.plans.sequential_list.SequentialList object at 0x00000280EC9D1710>, <sharpy.plans.sequential_list.SequentialList obj...
+    └ <sharpy.plans.build_order.BuildOrder object at 0x00000280EBFA0450>
+
+  File "d:\Bots\Banshee\sharpy\plans\sequential_list.py", line 23, in __init__
+    super().__init__(orders, *argv)
+                     │        └ ()
+                     └ [<sharpy.plans.build_step.Step object at 0x00000280EC9C1450>, <sharpy.plans.acts.build_gas.BuildGas object at 0x00000280EC9C1...
+
+  File "d:\Bots\Banshee\sharpy\plans\sub_acts.py", line 31, in __init__
+    self.orders.append(merge_to_act(order))
+    │    │      │      │            └ [<sharpy.plans.build_step.Step object at 0x00000280EC9C2950>, <sharpy.plans.build_step.Step object at 0x00000280EC9C29D0>, <s...
+    │    │      │      └ <function merge_to_act at 0x00000280EBDF3EC0>
+    │    │      └ <method 'append' of 'list' objects>
+    │    └ [<sharpy.plans.build_step.Step object at 0x00000280EC9C1450>, <sharpy.plans.acts.build_gas.BuildGas object at 0x00000280EC9C1...
+    └ <sharpy.plans.sequential_list.SequentialList object at 0x00000280EC9D1D10>
+
+  File "d:\Bots\Banshee\sharpy\plans\acts\methods.py", line 16, in merge_to_act
+    assert isinstance(obj, Callable)
+                      │    └ typing.Callable
+                      └ [<sharpy.plans.build_step.Step object at 0x00000280EC9C2950>, <sharpy.plans.build_step.Step object at 0x00000280EC9C29D0>, <s...
+
+AssertionError: assert isinstance(obj, Callable)
+2025-01-19 10:05:59.937 | ERROR    | sc2.main:initialize_first_step:141 - Resigning due to previous error
+2025-01-19 10:05:59.938 | Result: Defeat
+2025-01-19 10:05:59.938 | Duration: 00:00
+2025-01-19 10:05:59.939 | Step time avg: 0
+2025-01-19 10:05:59.939 | Step time max: 0
+2025-01-19 10:05:59.941 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2025-01-19 10:05:59.942 | [LostUnitsContents] My lost units minerals by score: 0.0
+2025-01-19 10:05:59.943 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2025-01-19 10:05:59.944 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2025-01-19 10:05:59.944 | [GameAnalyzerEnd] Own units:
+2025-01-19 10:05:59.945 | [GameAnalyzerEnd] Enemy units:
+2025-01-19 10:05:59.946 | [GameAnalyzerEnd] Minerals max 0 Average 0
+2025-01-19 10:05:59.946 | [GameAnalyzerEnd] Vespene max 0 Average 0
+2025-01-19 10:05:59.947 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot LadderBot(Terran): Defeat
+2025-01-19 10:06:01.181 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was Status.in_game)
+2025-01-19 10:06:01.199 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.quit (was Status.launched)
+2025-01-19 10:06:01.201 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 56473...
+2025-01-19 10:06:01.203 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes

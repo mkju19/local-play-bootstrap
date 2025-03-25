@@ -1,0 +1,84 @@
+2024-11-05 15:01:05.059 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.launched (was None)
+2024-11-05 15:01:05.060 | INFO     | sc2.controller:create_game:37 - Creating new game
+2024-11-05 15:01:05.061 | INFO     | sc2.controller:create_game:38 - Map:     Equilibrium513AIE
+2024-11-05 15:01:05.062 | INFO     | sc2.controller:create_game:39 - Players: Bot LadderBot(Terran), Computer VeryHard(Random, RandomBuild)
+2024-11-05 15:01:05.065 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.init_game (was Status.launched)
+2024-11-05 15:01:20.424 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.in_game (was None)
+2024-11-05 15:01:20.425 | INFO     | sc2.main:_play_game:221 - Player 1 - Bot LadderBot(Terran)
+2024-11-05 15:01:21.364 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.13.92440
+2024-11-05 15:01:21.365 | 00:00    0ms    0M    0G  12/ 15U [Version] 5.0.6 Balance mod recognized.
+2024-11-05 15:01:21.529 | 00:00    0ms    0M    0G  12/ 15U [ZoneManager] Map set to: MapName.Unknown from name: Equilibrium AIE and hash: 3540971.
+2024-11-05 15:01:23.459 | 00:00    0ms    0M    0G  12/ 15U [Build] Jump, att at 63
+2024-11-05 15:01:23.542 | [Start] My race: Terran
+2024-11-05 15:01:23.542 | [Start] Opponent race: Random
+2024-11-05 15:01:23.543 | [Start] OpponentId: None
+2024-11-05 15:01:24.030 | 00:00   15ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:24.191 | 00:01   20ms    0M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:27.579 | 00:09   21ms   85M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:27.657 | 00:09   18ms   90M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:29.379 | 00:14   20ms   45M    0G  13/ 15U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:29.449 | 00:15   17ms   50M    0G  13/ 15U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:29.450 | 00:15   17ms    0M    0G  13/ 15U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-05 15:01:33.391 | 00:27   19ms  100M    0G  14/ 15U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-05 15:01:37.354 | 00:37   20ms    0M    0G  15/ 23U [BuildGas] Building REFINERY to (50.5, 126.5)
+2024-11-05 15:01:39.559 | 00:42   25ms    0M    0G  15/ 23U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-05 15:01:44.542 | 00:54   28ms  100M    0G  16/ 23U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-05 15:01:47.813 | 00:58   48ms   35M    0G  17/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:48.077 | 00:58   46ms   40M    0G  17/ 23U [GameAnalyzer] Income advantage is now SlightAdvantage
+2024-11-05 15:01:48.343 | 00:59   65ms   45M    0G  17/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:50.800 | 01:03   34ms   95M    0G  17/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:50.926 | 01:04   34ms  105M    0G  17/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:51.171 | 01:04   45ms  105M    0G  17/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:51.587 | 01:05   32ms  110M    4G  17/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:51.916 | 01:06   37ms  115M    4G  17/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:52.285 | 01:06   46ms  130M    8G  17/ 23U [GameAnalyzer] Predicted army advantage is now SlightDisadvantage
+2024-11-05 15:01:52.750 | 01:07   38ms  135M    8G  17/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:52.763 | 01:07   38ms   85M    8G  17/ 23U [ActUnit] SCV from COMMANDCENTER at (46.5, 119.5)
+2024-11-05 15:01:53.136 | 01:07   36ms   85M   12G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:53.544 | 01:08   37ms  105M   12G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:53.841 | 01:09   35ms  105M   12G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:54.062 | 01:09   48ms  105M   16G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:54.509 | 01:10   44ms  115M   16G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:54.606 | 01:10   35ms  115M   16G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:54.947 | 01:11   36ms  125M   20G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:55.289 | 01:12   34ms  140M   20G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:55.505 | 01:12   42ms  145M   24G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:55.981 | 01:13   41ms  155M   24G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:56.194 | 01:13   37ms  160M   24G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:56.284 | 01:13   38ms  160M   28G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:56.805 | 01:15   35ms  165M   28G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:57.021 | 01:15   40ms  180M   32G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:57.317 | 01:16   38ms  180M   32G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:57.417 | 01:16   45ms  180M   32G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:57.522 | 01:16   39ms  180M   32G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:57.936 | 01:17   34ms  210M   36G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:58.119 | 01:17   38ms  210M   36G  18/ 23U [GameAnalyzer] Income advantage is now SlightDisadvantage
+2024-11-05 15:01:58.291 | 01:18   33ms  215M   36G  18/ 23U [GameAnalyzer] Income advantage is now Even
+2024-11-05 15:01:58.488 | INFO     | sc2.protocol:_execute:72 - Client status changed to Status.ended (was Status.in_game)
+2024-11-05 15:01:58.491 | Result: Defeat
+2024-11-05 15:01:58.492 | Duration: 01:18
+2024-11-05 15:01:58.493 | Step time min: 15
+2024-11-05 15:01:58.493 | Step time avg: 34
+2024-11-05 15:01:58.494 | Step time max: 1273
+2024-11-05 15:01:58.495 | [LostUnitsContents] My lost units minerals and gas: (0, 0)
+2024-11-05 15:01:58.496 | [LostUnitsContents] My lost units minerals by score: 0.0
+2024-11-05 15:01:58.497 | [LostUnitsContents] Enemy lost units minerals and gas: (0, 0)
+2024-11-05 15:01:58.498 | [LostUnitsContents] Enemy lost units minerals by score: 0.0
+2024-11-05 15:01:58.507 | [GameAnalyzerEnd] Own units:
+2024-11-05 15:01:58.511 | [GameAnalyzerEnd] SCV               total:  16 alive:  16 dead:   0 
+2024-11-05 15:01:58.512 | [GameAnalyzerEnd] SUPPLYDEPOT       total:   2 alive:   2 dead:   0 
+2024-11-05 15:01:58.513 | [GameAnalyzerEnd] BARRACKS          total:   1 alive:   1 dead:   0 
+2024-11-05 15:01:58.515 | [GameAnalyzerEnd] COMMANDCENTER     total:   1 alive:   1 dead:   0 
+2024-11-05 15:01:58.516 | [GameAnalyzerEnd] REFINERY          total:   1 alive:   1 dead:   0 
+2024-11-05 15:01:58.516 | [GameAnalyzerEnd] Enemy units:
+2024-11-05 15:01:58.517 | [GameAnalyzerEnd] SCV               total:  17 alive:  17 dead:   0 
+2024-11-05 15:01:58.526 | [GameAnalyzerEnd] BARRACKS          total:   1 alive:   1 dead:   0 
+2024-11-05 15:01:58.527 | [GameAnalyzerEnd] SUPPLYDEPOT       total:   1 alive:   1 dead:   0 
+2024-11-05 15:01:58.528 | [GameAnalyzerEnd] REFINERY          total:   1 alive:   1 dead:   0 
+2024-11-05 15:01:58.529 | [GameAnalyzerEnd] COMMANDCENTER     total:   1 alive:   1 dead:   0 
+2024-11-05 15:01:58.530 | [GameAnalyzerEnd] Minerals max 215 Average 77
+2024-11-05 15:01:58.530 | [GameAnalyzerEnd] Vespene max 36 Average 4
+2024-11-05 15:01:58.531 | INFO     | sc2.main:_play_game:228 - Result for player 1 - Bot LadderBot(Terran): Defeat
+2024-11-05 15:02:01.648 | INFO     | sc2.protocol:__request:48 - Cannot receive: Game has already ended.
+2024-11-05 15:02:01.649 | INFO     | sc2.sc2process:_close_connection:231 - Closing connection at 57813...
+2024-11-05 15:02:01.650 | INFO     | sc2.sc2process:kill_all:33 - kill_switch: Process cleanup for 1 processes
