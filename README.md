@@ -97,3 +97,10 @@ Licensed under the [GPLv3 license](LICENSE).
    - `git submodule init`
 3. To update the submodule to the latest version run:
    - `git submodule update`
+4. Compile the binaries for MontyBot
+   - `docker-compose -f ./bots/MontyBot/docker-compose.yml up --build`
+
+## Running the matches
+
+- Run the matches using this command in the root:
+  - `docker compose -f docker-compose-host-network.yml up`
