@@ -100,6 +100,10 @@ Licensed under the [GPLv3 license](LICENSE).
 4. Compile the binaries for MontyBot
    - `docker-compose -f ./bots/MontyBot/docker-compose.yml up --build`
 
+#### to update the submodule to the latest commit use:
+
+- `git submodule update --remote --merge`
+
 ## Running the matches
 
 - Run the matches using this command in the root:
